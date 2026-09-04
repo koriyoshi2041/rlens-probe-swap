@@ -1,0 +1,944 @@
+{"index": 0, "name": "amazon-language", "arm": "clamp_only", "delta_margin": 2.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.40594589710235596}
+{"index": 0, "name": "amazon-language", "arm": "attn_L17@final", "delta_margin": 2.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.39807939529418945}
+{"index": 0, "name": "amazon-language", "arm": "attn_L18@final", "delta_margin": 2.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.4061758816242218}
+{"index": 0, "name": "amazon-language", "arm": "attn_L19@final", "delta_margin": 2.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.4023871123790741}
+{"index": 0, "name": "amazon-language", "arm": "attn_L20@final", "delta_margin": 2.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.3480615019798279}
+{"index": 0, "name": "amazon-language", "arm": "attn_L21@final", "delta_margin": 2.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.4123329520225525}
+{"index": 0, "name": "amazon-language", "arm": "attn_L22@final", "delta_margin": 2.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.388648122549057}
+{"index": 0, "name": "amazon-language", "arm": "attn_L23@final", "delta_margin": 0.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.057182490825653076}
+{"index": 0, "name": "amazon-language", "arm": "attn_L24@final", "delta_margin": 0.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.031124316155910492}
+{"index": 0, "name": "amazon-language", "arm": "mlp_L24@final", "delta_margin": 1.9999998807907104, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.2759835720062256}
+{"index": 0, "name": "amazon-language", "arm": "mlp_L25@final", "delta_margin": 2.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.42262688279151917}
+{"index": 0, "name": "amazon-language", "arm": "mlp_L26@final", "delta_margin": 2.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.3651430010795593}
+{"index": 0, "name": "amazon-language", "arm": "mlp_L27@final", "delta_margin": 2.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.29898983240127563}
+{"index": 0, "name": "amazon-language", "arm": "mlp_L28@final", "delta_margin": 1.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.21843163669109344}
+{"index": 0, "name": "amazon-language", "arm": "mlp_L29@final", "delta_margin": 2.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Spanish", "kl": 0.2973649501800537}
+{"index": 0, "name": "amazon-language", "arm": "attn_17_24@final", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Portuguese", "kl": 0.0010214196518063545}
+{"index": 1, "name": "animal-cover-turtle", "arm": "clamp_only", "delta_margin": 3.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.1440439671278}
+{"index": 1, "name": "animal-cover-turtle", "arm": "attn_L17@final", "delta_margin": 3.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.11700281500816345}
+{"index": 1, "name": "animal-cover-turtle", "arm": "attn_L18@final", "delta_margin": 3.312499761581421, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.11299305409193039}
+{"index": 1, "name": "animal-cover-turtle", "arm": "attn_L19@final", "delta_margin": 3.312499761581421, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.10935380309820175}
+{"index": 1, "name": "animal-cover-turtle", "arm": "attn_L20@final", "delta_margin": 3.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.12087784707546234}
+{"index": 1, "name": "animal-cover-turtle", "arm": "attn_L21@final", "delta_margin": 3.500000238418579, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.14344091713428497}
+{"index": 1, "name": "animal-cover-turtle", "arm": "attn_L22@final", "delta_margin": 3.187500238418579, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.11470712721347809}
+{"index": 1, "name": "animal-cover-turtle", "arm": "attn_L23@final", "delta_margin": 2.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.06916255503892899}
+{"index": 1, "name": "animal-cover-turtle", "arm": "attn_L24@final", "delta_margin": 3.437500238418579, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.13066984713077545}
+{"index": 1, "name": "animal-cover-turtle", "arm": "mlp_L24@final", "delta_margin": 2.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.09015466272830963}
+{"index": 1, "name": "animal-cover-turtle", "arm": "mlp_L25@final", "delta_margin": 3.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.13546106219291687}
+{"index": 1, "name": "animal-cover-turtle", "arm": "mlp_L26@final", "delta_margin": 2.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.07014748454093933}
+{"index": 1, "name": "animal-cover-turtle", "arm": "mlp_L27@final", "delta_margin": 2.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.08372011035680771}
+{"index": 1, "name": "animal-cover-turtle", "arm": "mlp_L28@final", "delta_margin": 2.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.11876463890075684}
+{"index": 1, "name": "animal-cover-turtle", "arm": "mlp_L29@final", "delta_margin": 3.6875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.26136869192123413}
+{"index": 1, "name": "animal-cover-turtle", "arm": "attn_17_24@final", "delta_margin": 2.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " shell", "kl": 0.022959893569350243}
+{"index": 3, "name": "animal-nose-elephant", "arm": "clamp_only", "delta_margin": 1.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.09391683340072632}
+{"index": 3, "name": "animal-nose-elephant", "arm": "attn_L17@final", "delta_margin": 1.1249998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.06998506188392639}
+{"index": 3, "name": "animal-nose-elephant", "arm": "attn_L18@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.051392264664173126}
+{"index": 3, "name": "animal-nose-elephant", "arm": "attn_L19@final", "delta_margin": 1.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.058378368616104126}
+{"index": 3, "name": "animal-nose-elephant", "arm": "attn_L20@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.06712263822555542}
+{"index": 3, "name": "animal-nose-elephant", "arm": "attn_L21@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.06946314871311188}
+{"index": 3, "name": "animal-nose-elephant", "arm": "attn_L22@final", "delta_margin": 0.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.05076408386230469}
+{"index": 3, "name": "animal-nose-elephant", "arm": "attn_L23@final", "delta_margin": 0.6875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.027822047472000122}
+{"index": 3, "name": "animal-nose-elephant", "arm": "attn_L24@final", "delta_margin": 1.2500001192092896, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.08151145279407501}
+{"index": 3, "name": "animal-nose-elephant", "arm": "mlp_L24@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.08033907413482666}
+{"index": 3, "name": "animal-nose-elephant", "arm": "mlp_L25@final", "delta_margin": 0.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.04552052915096283}
+{"index": 3, "name": "animal-nose-elephant", "arm": "mlp_L26@final", "delta_margin": 0.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.034211039543151855}
+{"index": 3, "name": "animal-nose-elephant", "arm": "mlp_L27@final", "delta_margin": 1.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.09376128762960434}
+{"index": 3, "name": "animal-nose-elephant", "arm": "mlp_L28@final", "delta_margin": 1.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.08423805981874466}
+{"index": 3, "name": "animal-nose-elephant", "arm": "mlp_L29@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.07756403088569641}
+{"index": 3, "name": "animal-nose-elephant", "arm": "attn_17_24@final", "delta_margin": -0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " trunk", "kl": 0.0016657467931509018}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "clamp_only", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0023385591339319944}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "attn_L17@final", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0010302080772817135}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "attn_L18@final", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0010496843606233597}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "attn_L19@final", "delta_margin": 0.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0009448167402297258}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "attn_L20@final", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.002209385158494115}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "attn_L21@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.002477199537679553}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "attn_L22@final", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0009834356606006622}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "attn_L23@final", "delta_margin": -0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.00020179156854283065}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "attn_L24@final", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0023184458259493113}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "mlp_L24@final", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0021942369639873505}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "mlp_L25@final", "delta_margin": 0.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0021770077291876078}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "mlp_L26@final", "delta_margin": 0.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.00038162522832863033}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "mlp_L27@final", "delta_margin": -0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.00032624302548356354}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "mlp_L28@final", "delta_margin": 0.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.00025275576626881957}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "mlp_L29@final", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0009497551945969462}
+{"index": 10, "name": "birthstone-emerald-month", "arm": "attn_17_24@final", "delta_margin": -0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0003357613750267774}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "clamp_only", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.0023654482793062925}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "attn_L17@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.0023654692340642214}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "attn_L18@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.002617260906845331}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "attn_L19@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.0026026295963674784}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "attn_L20@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.0022886202204972506}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "attn_L21@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.002623853273689747}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "attn_L22@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.00096115842461586}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "attn_L23@final", "delta_margin": 0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.001813759678043425}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "attn_L24@final", "delta_margin": 0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.00147182063665241}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "mlp_L24@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.0009589606197550893}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "mlp_L25@final", "delta_margin": 0.3750002384185791, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.0012165876105427742}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "mlp_L26@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.0009200932108797133}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "mlp_L27@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.0009428942576050758}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "mlp_L28@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.0004032434371765703}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "mlp_L29@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.002310857642441988}
+{"index": 11, "name": "chem-atmosphere-Z", "arm": "attn_17_24@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "7", "kl": 0.0006282331887632608}
+{"index": 13, "name": "chem-organic-Z", "arm": "clamp_only", "delta_margin": 1.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.03368229418992996}
+{"index": 13, "name": "chem-organic-Z", "arm": "attn_L17@final", "delta_margin": 1.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.032326992601156235}
+{"index": 13, "name": "chem-organic-Z", "arm": "attn_L18@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.022633422166109085}
+{"index": 13, "name": "chem-organic-Z", "arm": "attn_L19@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.022574299946427345}
+{"index": 13, "name": "chem-organic-Z", "arm": "attn_L20@final", "delta_margin": 1.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.023793375119566917}
+{"index": 13, "name": "chem-organic-Z", "arm": "attn_L21@final", "delta_margin": 1.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.025253508239984512}
+{"index": 13, "name": "chem-organic-Z", "arm": "attn_L22@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.015052939765155315}
+{"index": 13, "name": "chem-organic-Z", "arm": "attn_L23@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.014135237783193588}
+{"index": 13, "name": "chem-organic-Z", "arm": "attn_L24@final", "delta_margin": 1.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.04433795064687729}
+{"index": 13, "name": "chem-organic-Z", "arm": "mlp_L24@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.021585868671536446}
+{"index": 13, "name": "chem-organic-Z", "arm": "mlp_L25@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.011112174019217491}
+{"index": 13, "name": "chem-organic-Z", "arm": "mlp_L26@final", "delta_margin": 0.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.007620526012033224}
+{"index": 13, "name": "chem-organic-Z", "arm": "mlp_L27@final", "delta_margin": 0.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.012420427985489368}
+{"index": 13, "name": "chem-organic-Z", "arm": "mlp_L28@final", "delta_margin": 0.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.007328064180910587}
+{"index": 13, "name": "chem-organic-Z", "arm": "mlp_L29@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.01347070187330246}
+{"index": 13, "name": "chem-organic-Z", "arm": "attn_17_24@final", "delta_margin": 0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "6", "kl": 0.006890479940921068}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "clamp_only", "delta_margin": 3.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 1.1171491146087646}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "attn_L17@final", "delta_margin": 3.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 1.1170432567596436}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "attn_L18@final", "delta_margin": 3.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 1.1170408725738525}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "attn_L19@final", "delta_margin": 3.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 0.9457032680511475}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "attn_L20@final", "delta_margin": 3.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 1.140004277229309}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "attn_L21@final", "delta_margin": 3.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 1.0973188877105713}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "attn_L22@final", "delta_margin": 3.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 1.1383662223815918}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "attn_L23@final", "delta_margin": 2.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 0.7029638290405273}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "attn_L24@final", "delta_margin": 3.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 1.1860902309417725}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "mlp_L24@final", "delta_margin": 2.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 0.6398563981056213}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "mlp_L25@final", "delta_margin": 3.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 0.9987733364105225}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "mlp_L26@final", "delta_margin": 1.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 0.23330478370189667}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "mlp_L27@final", "delta_margin": 2.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 0.37668922543525696}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "mlp_L28@final", "delta_margin": 1.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 0.297750324010849}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "mlp_L29@final", "delta_margin": 1.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 0.3807688355445862}
+{"index": 14, "name": "chem-photosynthesis-Z", "arm": "attn_17_24@final", "delta_margin": 2.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "7", "kl": 0.3733709454536438}
+{"index": 15, "name": "christmas-season", "arm": "clamp_only", "delta_margin": 8.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 2.0089142322540283}
+{"index": 15, "name": "christmas-season", "arm": "attn_L17@final", "delta_margin": 8.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 2.0154213905334473}
+{"index": 15, "name": "christmas-season", "arm": "attn_L18@final", "delta_margin": 8.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.9398175477981567}
+{"index": 15, "name": "christmas-season", "arm": "attn_L19@final", "delta_margin": 8.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.773781180381775}
+{"index": 15, "name": "christmas-season", "arm": "attn_L20@final", "delta_margin": 6.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.3581304550170898}
+{"index": 15, "name": "christmas-season", "arm": "attn_L21@final", "delta_margin": 8.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.9785807132720947}
+{"index": 15, "name": "christmas-season", "arm": "attn_L22@final", "delta_margin": 7.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.7140846252441406}
+{"index": 15, "name": "christmas-season", "arm": "attn_L23@final", "delta_margin": 7.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.7153266668319702}
+{"index": 15, "name": "christmas-season", "arm": "attn_L24@final", "delta_margin": 6.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.2169146537780762}
+{"index": 15, "name": "christmas-season", "arm": "mlp_L24@final", "delta_margin": 8.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.8726013898849487}
+{"index": 15, "name": "christmas-season", "arm": "mlp_L25@final", "delta_margin": 9.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 2.227830410003662}
+{"index": 15, "name": "christmas-season", "arm": "mlp_L26@final", "delta_margin": 7.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.5903654098510742}
+{"index": 15, "name": "christmas-season", "arm": "mlp_L27@final", "delta_margin": 7.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.649446725845337}
+{"index": 15, "name": "christmas-season", "arm": "mlp_L28@final", "delta_margin": 8.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.7568424940109253}
+{"index": 15, "name": "christmas-season", "arm": "mlp_L29@final", "delta_margin": 8.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " spring", "kl": 1.9727534055709839}
+{"index": 15, "name": "christmas-season", "arm": "attn_17_24@final", "delta_margin": 3.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " winter", "kl": 0.20992136001586914}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "clamp_only", "delta_margin": 6.3125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.6182550191879272}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "attn_L17@final", "delta_margin": 6.1875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.5920513868331909}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "attn_L18@final", "delta_margin": 6.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.624853253364563}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "attn_L19@final", "delta_margin": 6.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.6303701996803284}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "attn_L20@final", "delta_margin": 5.1875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.398892343044281}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "attn_L21@final", "delta_margin": 6.3125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.6113671064376831}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "attn_L22@final", "delta_margin": 6.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.5660326480865479}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "attn_L23@final", "delta_margin": 4.0, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.23232361674308777}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "attn_L24@final", "delta_margin": 4.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.2427276223897934}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "mlp_L24@final", "delta_margin": 3.5625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.21242928504943848}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "mlp_L25@final", "delta_margin": 5.875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.5078461766242981}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "mlp_L26@final", "delta_margin": 4.5625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.3217700719833374}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "mlp_L27@final", "delta_margin": 3.8125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.36286258697509766}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "mlp_L28@final", "delta_margin": 5.5625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.46588265895843506}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "mlp_L29@final", "delta_margin": 5.5, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.47070634365081787}
+{"index": 16, "name": "city-state-Philadelphia", "arm": "attn_17_24@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.019773069769144058}
+{"index": 18, "name": "element-color-gold2", "arm": "clamp_only", "delta_margin": -0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.006162507925182581}
+{"index": 18, "name": "element-color-gold2", "arm": "attn_L17@final", "delta_margin": -0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.006078994367271662}
+{"index": 18, "name": "element-color-gold2", "arm": "attn_L18@final", "delta_margin": -0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.0051635196432471275}
+{"index": 18, "name": "element-color-gold2", "arm": "attn_L19@final", "delta_margin": -0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.005598999559879303}
+{"index": 18, "name": "element-color-gold2", "arm": "attn_L20@final", "delta_margin": -0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.0015001068823039532}
+{"index": 18, "name": "element-color-gold2", "arm": "attn_L21@final", "delta_margin": -0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.0056325457990169525}
+{"index": 18, "name": "element-color-gold2", "arm": "attn_L22@final", "delta_margin": -0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.004521979484707117}
+{"index": 18, "name": "element-color-gold2", "arm": "attn_L23@final", "delta_margin": -0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.0017700414173305035}
+{"index": 18, "name": "element-color-gold2", "arm": "attn_L24@final", "delta_margin": -0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.006211067549884319}
+{"index": 18, "name": "element-color-gold2", "arm": "mlp_L24@final", "delta_margin": -0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.004114057403057814}
+{"index": 18, "name": "element-color-gold2", "arm": "mlp_L25@final", "delta_margin": -0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.004619563464075327}
+{"index": 18, "name": "element-color-gold2", "arm": "mlp_L26@final", "delta_margin": -0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.0045714592561125755}
+{"index": 18, "name": "element-color-gold2", "arm": "mlp_L27@final", "delta_margin": -0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.003842645790427923}
+{"index": 18, "name": "element-color-gold2", "arm": "mlp_L28@final", "delta_margin": -0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.00559662189334631}
+{"index": 18, "name": "element-color-gold2", "arm": "mlp_L29@final", "delta_margin": -0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.008001149632036686}
+{"index": 18, "name": "element-color-gold2", "arm": "attn_17_24@final", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " yellow", "kl": 0.003302545752376318}
+{"index": 19, "name": "etym-frigg-position", "arm": "clamp_only", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.008775887079536915}
+{"index": 19, "name": "etym-frigg-position", "arm": "attn_L17@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.008324659429490566}
+{"index": 19, "name": "etym-frigg-position", "arm": "attn_L18@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0093995351344347}
+{"index": 19, "name": "etym-frigg-position", "arm": "attn_L19@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.008892708458006382}
+{"index": 19, "name": "etym-frigg-position", "arm": "attn_L20@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.008666769601404667}
+{"index": 19, "name": "etym-frigg-position", "arm": "attn_L21@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.008842944167554379}
+{"index": 19, "name": "etym-frigg-position", "arm": "attn_L22@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.0072978707030415535}
+{"index": 19, "name": "etym-frigg-position", "arm": "attn_L23@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.007450178265571594}
+{"index": 19, "name": "etym-frigg-position", "arm": "attn_L24@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.008052092045545578}
+{"index": 19, "name": "etym-frigg-position", "arm": "mlp_L24@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.008921919390559196}
+{"index": 19, "name": "etym-frigg-position", "arm": "mlp_L25@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.007285207509994507}
+{"index": 19, "name": "etym-frigg-position", "arm": "mlp_L26@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.006079890765249729}
+{"index": 19, "name": "etym-frigg-position", "arm": "mlp_L27@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.003559446195140481}
+{"index": 19, "name": "etym-frigg-position", "arm": "mlp_L28@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.003620077623054385}
+{"index": 19, "name": "etym-frigg-position", "arm": "mlp_L29@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.006413591094315052}
+{"index": 19, "name": "etym-frigg-position", "arm": "attn_17_24@final", "delta_margin": 0.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "5", "kl": 0.005465697031468153}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "clamp_only", "delta_margin": 12.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Ottawa", "kl": 1.588691234588623}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "attn_L17@final", "delta_margin": 11.125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Buenos", "kl": 1.1331641674041748}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "attn_L18@final", "delta_margin": 12.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Ottawa", "kl": 1.515140175819397}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "attn_L19@final", "delta_margin": 12.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Ottawa", "kl": 1.517836093902588}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "attn_L20@final", "delta_margin": 7.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Madrid", "kl": 0.3718827962875366}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "attn_L21@final", "delta_margin": 12.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Ottawa", "kl": 1.6175541877746582}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "attn_L22@final", "delta_margin": 12.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Ottawa", "kl": 1.5490208864212036}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "attn_L23@final", "delta_margin": 6.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Madrid", "kl": 0.26316478848457336}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "attn_L24@final", "delta_margin": 5.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Madrid", "kl": 0.03686273470520973}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "mlp_L24@final", "delta_margin": 11.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Madrid", "kl": 0.9665575623512268}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "mlp_L25@final", "delta_margin": 8.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Madrid", "kl": 0.7743750810623169}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "mlp_L26@final", "delta_margin": 9.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Madrid", "kl": 0.6332095265388489}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "mlp_L27@final", "delta_margin": 10.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Madrid", "kl": 1.065539002418518}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "mlp_L28@final", "delta_margin": 11.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Madrid", "kl": 1.0649356842041016}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "mlp_L29@final", "delta_margin": 11.5625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.544907569885254}
+{"index": 22, "name": "ex-city-capital-Barcelona-Toronto", "arm": "attn_17_24@final", "delta_margin": 1.59375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Madrid", "kl": 0.004850211087614298}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "clamp_only", "delta_margin": 10.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 3.1524667739868164}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "attn_L17@final", "delta_margin": 10.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 3.015838623046875}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "attn_L18@final", "delta_margin": 10.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 3.1009767055511475}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "attn_L19@final", "delta_margin": 10.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 3.0542941093444824}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "attn_L20@final", "delta_margin": 8.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 1.7328495979309082}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "attn_L21@final", "delta_margin": 10.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 3.150041103363037}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "attn_L22@final", "delta_margin": 10.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 3.190713882446289}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "attn_L23@final", "delta_margin": 5.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Paris", "kl": 0.4404590129852295}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "attn_L24@final", "delta_margin": 6.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Paris", "kl": 0.5922842025756836}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "mlp_L24@final", "delta_margin": 10.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 3.0301096439361572}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "mlp_L25@final", "delta_margin": 9.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 2.504037380218506}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "mlp_L26@final", "delta_margin": 5.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Paris", "kl": 0.5009759664535522}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "mlp_L27@final", "delta_margin": 9.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 2.986546039581299}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "mlp_L28@final", "delta_margin": 9.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 2.60827898979187}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "mlp_L29@final", "delta_margin": 8.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Rome", "kl": 1.674942970275879}
+{"index": 23, "name": "ex-city-capital-Lyon-Naples", "arm": "attn_17_24@final", "delta_margin": 2.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Paris", "kl": 0.028923895210027695}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "clamp_only", "delta_margin": 4.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 1.0911098718643188}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "attn_L17@final", "delta_margin": 4.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 1.0248658657073975}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "attn_L18@final", "delta_margin": 4.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 1.0907000303268433}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "attn_L19@final", "delta_margin": 4.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 1.0590354204177856}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "attn_L20@final", "delta_margin": 3.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 0.48137715458869934}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "attn_L21@final", "delta_margin": 4.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 1.0605359077453613}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "attn_L22@final", "delta_margin": 4.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 1.0898258686065674}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "attn_L23@final", "delta_margin": 3.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 0.39764153957366943}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "attn_L24@final", "delta_margin": 2.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Rome", "kl": 0.16397340595722198}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "mlp_L24@final", "delta_margin": 4.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 0.9956885576248169}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "mlp_L25@final", "delta_margin": 3.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 0.6278636455535889}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "mlp_L26@final", "delta_margin": 2.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Rome", "kl": 0.2849825322628021}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "mlp_L27@final", "delta_margin": 3.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 0.7205997705459595}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "mlp_L28@final", "delta_margin": 4.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 0.9460265636444092}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "mlp_L29@final", "delta_margin": 4.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Madrid", "kl": 1.145999550819397}
+{"index": 24, "name": "ex-city-capital-Naples-Barcelona", "arm": "attn_17_24@final", "delta_margin": 0.6875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Rome", "kl": 0.011015933938324451}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "clamp_only", "delta_margin": 13.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 5.713004112243652}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "attn_L17@final", "delta_margin": 12.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 4.69739294052124}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "attn_L18@final", "delta_margin": 13.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 5.573848724365234}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "attn_L19@final", "delta_margin": 13.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 5.621583938598633}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "attn_L20@final", "delta_margin": 9.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 2.188135862350464}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "attn_L21@final", "delta_margin": 14.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 5.796503067016602}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "attn_L22@final", "delta_margin": 13.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 5.661548614501953}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "attn_L23@final", "delta_margin": 10.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 3.16510272026062}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "attn_L24@final", "delta_margin": 7.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 1.1567864418029785}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "mlp_L24@final", "delta_margin": 12.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 4.513370037078857}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "mlp_L25@final", "delta_margin": 9.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 2.513317108154297}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "mlp_L26@final", "delta_margin": 10.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 3.479170322418213}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "mlp_L27@final", "delta_margin": 13.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 5.009963512420654}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "mlp_L28@final", "delta_margin": 11.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 4.254556179046631}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "mlp_L29@final", "delta_margin": 13.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Paris", "kl": 5.128283500671387}
+{"index": 25, "name": "ex-city-capital-Toronto-Lyon", "arm": "attn_17_24@final", "delta_margin": 2.6875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Ottawa", "kl": 0.028595304116606712}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "clamp_only", "delta_margin": 5.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.8938015103340149}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "attn_L17@final", "delta_margin": 5.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.8821797966957092}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "attn_L18@final", "delta_margin": 5.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.8719654083251953}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "attn_L19@final", "delta_margin": 4.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.8295055031776428}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "attn_L20@final", "delta_margin": 4.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.5873896479606628}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "attn_L21@final", "delta_margin": 5.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.8848389983177185}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "attn_L22@final", "delta_margin": 4.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.8385612368583679}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "attn_L23@final", "delta_margin": 3.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.38698092103004456}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "attn_L24@final", "delta_margin": 3.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.4936595857143402}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "mlp_L24@final", "delta_margin": 4.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.5700828433036804}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "mlp_L25@final", "delta_margin": 4.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.70970219373703}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "mlp_L26@final", "delta_margin": 3.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.4527927041053772}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "mlp_L27@final", "delta_margin": 4.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.6225283145904541}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "mlp_L28@final", "delta_margin": 4.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.8457294702529907}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "mlp_L29@final", "delta_margin": 4.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Europe", "kl": 0.8117992877960205}
+{"index": 26, "name": "ex-city-continent-Toronto-Lyon", "arm": "attn_17_24@final", "delta_margin": 1.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " North", "kl": 0.032824549823999405}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "clamp_only", "delta_margin": 16.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Ren", "kl": 6.994485378265381}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "attn_L17@final", "delta_margin": 15.875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Ren", "kl": 6.590463161468506}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "attn_L18@final", "delta_margin": 16.25, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Ren", "kl": 6.919920444488525}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "attn_L19@final", "delta_margin": 16.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Ren", "kl": 6.995265960693359}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "attn_L20@final", "delta_margin": 15.125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Ren", "kl": 5.988338947296143}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "attn_L21@final", "delta_margin": 16.3125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Ren", "kl": 6.913057804107666}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "attn_L22@final", "delta_margin": 16.3125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Ren", "kl": 6.945093154907227}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "attn_L23@final", "delta_margin": 13.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Ren", "kl": 4.2270894050598145}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "attn_L24@final", "delta_margin": 12.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Chinese", "kl": 3.332987070083618}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "mlp_L24@final", "delta_margin": 15.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Ren", "kl": 6.1134257316589355}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "mlp_L25@final", "delta_margin": 11.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Chinese", "kl": 2.7805259227752686}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "mlp_L26@final", "delta_margin": 14.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Chinese", "kl": 5.488753318786621}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "mlp_L27@final", "delta_margin": 16.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Chinese", "kl": 6.449143409729004}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "mlp_L28@final", "delta_margin": 14.0, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " R", "kl": 4.877950668334961}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "mlp_L29@final", "delta_margin": 16.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Ren", "kl": 7.063372611999512}
+{"index": 27, "name": "ex-city-currency-Toronto-Beijing", "arm": "attn_17_24@final", "delta_margin": 6.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Canadian", "kl": 0.3183552324771881}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "clamp_only", "delta_margin": 10.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.654850721359253}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "attn_L17@final", "delta_margin": 9.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.609961748123169}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "attn_L18@final", "delta_margin": 10.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.65445876121521}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "attn_L19@final", "delta_margin": 10.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.653745412826538}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "attn_L20@final", "delta_margin": 9.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.215183973312378}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "attn_L21@final", "delta_margin": 10.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.6559407711029053}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "attn_L22@final", "delta_margin": 9.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.6088674068450928}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "attn_L23@final", "delta_margin": 6.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 0.5667390823364258}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "attn_L24@final", "delta_margin": 7.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 0.7874336838722229}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "mlp_L24@final", "delta_margin": 9.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.6038858890533447}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "mlp_L25@final", "delta_margin": 9.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.6163580417633057}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "mlp_L26@final", "delta_margin": 8.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 1.3118752241134644}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "mlp_L27@final", "delta_margin": 7.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 1.1428700685501099}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "mlp_L28@final", "delta_margin": 9.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.259783983230591}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "mlp_L29@final", "delta_margin": 9.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Italian", "kl": 2.286947011947632}
+{"index": 29, "name": "ex-city-language-Lyon-Naples", "arm": "attn_17_24@final", "delta_margin": 4.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " French", "kl": 0.08289885520935059}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "clamp_only", "delta_margin": 0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.008082548156380653}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "attn_L17@final", "delta_margin": 0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.004596470855176449}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "attn_L18@final", "delta_margin": 0.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.008827478624880314}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "attn_L19@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.007406412158161402}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "attn_L20@final", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.00843690987676382}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "attn_L21@final", "delta_margin": 0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.009546443819999695}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "attn_L22@final", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.011233145371079445}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "attn_L23@final", "delta_margin": 0.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.011174434795975685}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "attn_L24@final", "delta_margin": 0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.006492930464446545}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "mlp_L24@final", "delta_margin": 0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.00490261847153306}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "mlp_L25@final", "delta_margin": 0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.0043733553029596806}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "mlp_L26@final", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.00909407064318657}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "mlp_L27@final", "delta_margin": 0.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.006837878841906786}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "mlp_L28@final", "delta_margin": 0.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.00695633003488183}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "mlp_L29@final", "delta_margin": 0.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.017133619636297226}
+{"index": 30, "name": "ex-element-state-26-8", "arm": "attn_17_24@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.001961534144356847}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "clamp_only", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.07396230846643448}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "attn_L17@final", "delta_margin": 0.8750001192092896, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.0662984624505043}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "attn_L18@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.06979617476463318}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "attn_L19@final", "delta_margin": 0.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.06377750635147095}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "attn_L20@final", "delta_margin": 0.8750001192092896, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.06392737478017807}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "attn_L21@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.07268965244293213}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "attn_L22@final", "delta_margin": 0.7499998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.04910793527960777}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "attn_L23@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.06686490774154663}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "attn_L24@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.07272703945636749}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "mlp_L24@final", "delta_margin": 0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.04988813400268555}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "mlp_L25@final", "delta_margin": 1.0000001192092896, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.0649833008646965}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "mlp_L26@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.08012114465236664}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "mlp_L27@final", "delta_margin": 0.5000001192092896, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.03945997357368469}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "mlp_L28@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.07218039035797119}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "mlp_L29@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.1091536432504654}
+{"index": 31, "name": "ex-element-state-26-80", "arm": "attn_17_24@final", "delta_margin": 0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " solid", "kl": 0.024010999128222466}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "clamp_only", "delta_margin": 5.21875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.30901071429252625}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "attn_L17@final", "delta_margin": 5.03125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.2682655453681946}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "attn_L18@final", "delta_margin": 4.59375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.20271047949790955}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "attn_L19@final", "delta_margin": 4.90625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.2362871766090393}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "attn_L20@final", "delta_margin": 4.78125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.2531850337982178}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "attn_L21@final", "delta_margin": 5.21875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.31272515654563904}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "attn_L22@final", "delta_margin": 3.84375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.1279967725276947}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "attn_L23@final", "delta_margin": 2.53125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.053192079067230225}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "attn_L24@final", "delta_margin": 5.15625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.279875248670578}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "mlp_L24@final", "delta_margin": 5.03125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.1859971284866333}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "mlp_L25@final", "delta_margin": 4.156250476837158, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.08851802349090576}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "mlp_L26@final", "delta_margin": 2.65625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.06180373206734657}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "mlp_L27@final", "delta_margin": 4.90625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.21902379393577576}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "mlp_L28@final", "delta_margin": 4.59375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.22972391545772552}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "mlp_L29@final", "delta_margin": 4.28125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.17623454332351685}
+{"index": 35, "name": "ex-element-symbol-11-26", "arm": "attn_17_24@final", "delta_margin": 1.59375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Na", "kl": 0.012490402907133102}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "clamp_only", "delta_margin": 4.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.048193614929914474}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "attn_L17@final", "delta_margin": 4.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.03960205242037773}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "attn_L18@final", "delta_margin": 4.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.03486727550625801}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "attn_L19@final", "delta_margin": 4.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.03488387539982796}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "attn_L20@final", "delta_margin": 4.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.03616393357515335}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "attn_L21@final", "delta_margin": 4.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.04748919606208801}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "attn_L22@final", "delta_margin": 2.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.017881328240036964}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "attn_L23@final", "delta_margin": 2.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.016450639814138412}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "attn_L24@final", "delta_margin": 4.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.03129909187555313}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "mlp_L24@final", "delta_margin": 4.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.0373712033033371}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "mlp_L25@final", "delta_margin": 2.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.012738300487399101}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "mlp_L26@final", "delta_margin": 3.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.03670082986354828}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "mlp_L27@final", "delta_margin": 3.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.011174560524523258}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "mlp_L28@final", "delta_margin": 3.6875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.036204319447278976}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "mlp_L29@final", "delta_margin": 3.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.09348223358392715}
+{"index": 36, "name": "ex-element-symbol-26-79", "arm": "attn_17_24@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Fe", "kl": 0.005037929397076368}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "clamp_only", "delta_margin": 2.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.31148210167884827}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "attn_L17@final", "delta_margin": 2.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.28144514560699463}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "attn_L18@final", "delta_margin": 2.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.25279197096824646}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "attn_L19@final", "delta_margin": 2.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.23039990663528442}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "attn_L20@final", "delta_margin": 2.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.21036779880523682}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "attn_L21@final", "delta_margin": 2.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.3053697943687439}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "attn_L22@final", "delta_margin": 2.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.2715199291706085}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "attn_L23@final", "delta_margin": 2.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.21963119506835938}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "attn_L24@final", "delta_margin": 2.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.2176193743944168}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "mlp_L24@final", "delta_margin": 2.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.2364828735589981}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "mlp_L25@final", "delta_margin": 1.4375001192092896, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " blue", "kl": 0.125224307179451}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "mlp_L26@final", "delta_margin": 2.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.20406971871852875}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "mlp_L27@final", "delta_margin": 2.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.1829245239496231}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "mlp_L28@final", "delta_margin": 1.6875001192092896, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " blue", "kl": 0.13328278064727783}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "mlp_L29@final", "delta_margin": 2.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " red", "kl": 0.22800619900226593}
+{"index": 37, "name": "ex-planet-color-third-fourth", "arm": "attn_17_24@final", "delta_margin": 1.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " blue", "kl": 0.048732344061136246}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "clamp_only", "delta_margin": 14.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 4.236948490142822}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "attn_L17@final", "delta_margin": 14.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 3.7473220825195312}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "attn_L18@final", "delta_margin": 14.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 4.190168380737305}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "attn_L19@final", "delta_margin": 14.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 4.190562725067139}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "attn_L20@final", "delta_margin": 12.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 2.6439664363861084}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "attn_L21@final", "delta_margin": 14.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 4.194577693939209}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "attn_L22@final", "delta_margin": 14.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 4.193422317504883}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "attn_L23@final", "delta_margin": 8.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 0.5518617033958435}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "attn_L24@final", "delta_margin": 9.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 1.171400547027588}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "mlp_L24@final", "delta_margin": 12.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 2.935831069946289}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "mlp_L25@final", "delta_margin": 13.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 3.388918161392212}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "mlp_L26@final", "delta_margin": 12.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 3.01387619972229}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "mlp_L27@final", "delta_margin": 13.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 3.5444583892822266}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "mlp_L28@final", "delta_margin": 13.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 3.5338521003723145}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "mlp_L29@final", "delta_margin": 13.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Tokyo", "kl": 3.1283793449401855}
+{"index": 38, "name": "ex2-city-capital-Munich", "arm": "attn_17_24@final", "delta_margin": 4.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Berlin", "kl": 0.05556732788681984}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "clamp_only", "delta_margin": 13.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 4.322356224060059}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "attn_L17@final", "delta_margin": 13.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 4.136814594268799}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "attn_L18@final", "delta_margin": 13.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 4.387821197509766}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "attn_L19@final", "delta_margin": 13.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 4.3158745765686035}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "attn_L20@final", "delta_margin": 10.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 2.5311570167541504}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "attn_L21@final", "delta_margin": 13.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 4.36602258682251}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "attn_L22@final", "delta_margin": 13.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 4.394288063049316}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "attn_L23@final", "delta_margin": 10.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 2.3525097370147705}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "attn_L24@final", "delta_margin": 6.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 0.6185465455055237}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "mlp_L24@final", "delta_margin": 10.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 2.5824878215789795}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "mlp_L25@final", "delta_margin": 14.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 4.551025867462158}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "mlp_L26@final", "delta_margin": 11.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 3.1323390007019043}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "mlp_L27@final", "delta_margin": 13.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 4.036602973937988}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "mlp_L28@final", "delta_margin": 12.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 3.772954225540161}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "mlp_L29@final", "delta_margin": 13.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 4.499120235443115}
+{"index": 39, "name": "ex2-city-capital-Osaka", "arm": "attn_17_24@final", "delta_margin": 2.437499761581421, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Tokyo", "kl": 0.017363879829645157}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "clamp_only", "delta_margin": 4.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.5011194944381714}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "attn_L17@final", "delta_margin": 4.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.459555983543396}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "attn_L18@final", "delta_margin": 4.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.5014241337776184}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "attn_L19@final", "delta_margin": 4.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.45625483989715576}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "attn_L20@final", "delta_margin": 3.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " South", "kl": 0.1903996765613556}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "attn_L21@final", "delta_margin": 4.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.4620729982852936}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "attn_L22@final", "delta_margin": 4.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.42872169613838196}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "attn_L23@final", "delta_margin": 2.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " South", "kl": 0.09087414294481277}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "attn_L24@final", "delta_margin": 2.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " South", "kl": 0.11149828135967255}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "mlp_L24@final", "delta_margin": 4.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " South", "kl": 0.3844124674797058}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "mlp_L25@final", "delta_margin": 4.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.4746323823928833}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "mlp_L26@final", "delta_margin": 2.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " South", "kl": 0.12436845153570175}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "mlp_L27@final", "delta_margin": 3.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " South", "kl": 0.1762828528881073}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "mlp_L28@final", "delta_margin": 3.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " South", "kl": 0.3320868909358978}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "mlp_L29@final", "delta_margin": 3.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " South", "kl": 0.24048922955989838}
+{"index": 40, "name": "ex2-city-continent-Lima", "arm": "attn_17_24@final", "delta_margin": 0.6250002384185791, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " South", "kl": 0.00368921528570354}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "clamp_only", "delta_margin": 11.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 2.139939546585083}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "attn_L17@final", "delta_margin": 11.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 2.1166768074035645}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "attn_L18@final", "delta_margin": 11.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 2.1401333808898926}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "attn_L19@final", "delta_margin": 11.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 2.129220485687256}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "attn_L20@final", "delta_margin": 10.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 1.8355910778045654}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "attn_L21@final", "delta_margin": 11.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 2.133655071258545}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "attn_L22@final", "delta_margin": 11.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 2.093294620513916}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "attn_L23@final", "delta_margin": 8.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 1.4094102382659912}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "attn_L24@final", "delta_margin": 8.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 1.3105028867721558}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "mlp_L24@final", "delta_margin": 9.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 1.4966691732406616}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "mlp_L25@final", "delta_margin": 11.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 2.1701157093048096}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "mlp_L26@final", "delta_margin": 4.75, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.6429834365844727}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "mlp_L27@final", "delta_margin": 9.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " North", "kl": 1.7604585886001587}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "mlp_L28@final", "delta_margin": 11.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 2.1370584964752197}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "mlp_L29@final", "delta_margin": 10.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " South", "kl": 1.778337001800537}
+{"index": 41, "name": "ex2-city-continent-Sydney", "arm": "attn_17_24@final", "delta_margin": 2.5625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.13148415088653564}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "clamp_only", "delta_margin": 16.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 5.062000274658203}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "attn_L17@final", "delta_margin": 16.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 4.883638381958008}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "attn_L18@final", "delta_margin": 16.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 4.943999290466309}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "attn_L19@final", "delta_margin": 16.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 5.022561550140381}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "attn_L20@final", "delta_margin": 15.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 4.553232192993164}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "attn_L21@final", "delta_margin": 16.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 5.095464706420898}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "attn_L22@final", "delta_margin": 16.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 4.945199012756348}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "attn_L23@final", "delta_margin": 9.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 1.165933609008789}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "attn_L24@final", "delta_margin": 9.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 0.729381799697876}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "mlp_L24@final", "delta_margin": 14.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 3.974170207977295}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "mlp_L25@final", "delta_margin": 14.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 4.133727550506592}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "mlp_L26@final", "delta_margin": 15.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 4.558000087738037}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "mlp_L27@final", "delta_margin": 10.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 1.6790040731430054}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "mlp_L28@final", "delta_margin": 16.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 4.980179786682129}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "mlp_L29@final", "delta_margin": 16.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Russian", "kl": 5.350348949432373}
+{"index": 42, "name": "ex2-city-language-Cairo", "arm": "attn_17_24@final", "delta_margin": 4.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Arabic", "kl": 0.026231227442622185}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "clamp_only", "delta_margin": 15.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 4.628584384918213}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "attn_L17@final", "delta_margin": 15.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 4.5920562744140625}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "attn_L18@final", "delta_margin": 15.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 4.662555694580078}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "attn_L19@final", "delta_margin": 15.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 4.632359504699707}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "attn_L20@final", "delta_margin": 15.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 4.179862022399902}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "attn_L21@final", "delta_margin": 15.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 4.62424898147583}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "attn_L22@final", "delta_margin": 15.5, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 4.423034191131592}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "attn_L23@final", "delta_margin": 9.3125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 0.6719913482666016}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "attn_L24@final", "delta_margin": 7.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Russian", "kl": 0.3434818387031555}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "mlp_L24@final", "delta_margin": 13.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 3.137760639190674}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "mlp_L25@final", "delta_margin": 11.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 2.153458595275879}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "mlp_L26@final", "delta_margin": 15.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 4.573973178863525}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "mlp_L27@final", "delta_margin": 13.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 3.751274347305298}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "mlp_L28@final", "delta_margin": 15.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 4.277923107147217}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "mlp_L29@final", "delta_margin": 17.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Arabic", "kl": 5.4206109046936035}
+{"index": 43, "name": "ex2-city-language-Moscow", "arm": "attn_17_24@final", "delta_margin": 3.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Russian", "kl": 0.015183455310761929}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "clamp_only", "delta_margin": 12.96875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 3.0578453540802}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "attn_L17@final", "delta_margin": 12.34375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 2.5784006118774414}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "attn_L18@final", "delta_margin": 12.59375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 2.782459259033203}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "attn_L19@final", "delta_margin": 12.84375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 2.9640891551971436}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "attn_L20@final", "delta_margin": 9.40625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 0.7291820645332336}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "attn_L21@final", "delta_margin": 13.21875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 3.246217727661133}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "attn_L22@final", "delta_margin": 12.71875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 2.8621456623077393}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "attn_L23@final", "delta_margin": 6.90625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Athens", "kl": 0.17234867811203003}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "attn_L24@final", "delta_margin": 6.84375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Athens", "kl": 0.1381647139787674}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "mlp_L24@final", "delta_margin": 11.59375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 2.088557004928589}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "mlp_L25@final", "delta_margin": 12.09375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 2.382666826248169}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "mlp_L26@final", "delta_margin": 9.21875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Athens", "kl": 0.7324767112731934}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "mlp_L27@final", "delta_margin": 14.71875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 4.445406913757324}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "mlp_L28@final", "delta_margin": 12.59375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 2.742483139038086}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "mlp_L29@final", "delta_margin": 11.65625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Stockholm", "kl": 2.030949354171753}
+{"index": 44, "name": "ex2-language-capital-Greek", "arm": "attn_17_24@final", "delta_margin": 4.09375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Athens", "kl": 0.036304276436567307}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "clamp_only", "delta_margin": 3.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.03929772228002548}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "attn_L17@final", "delta_margin": 2.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.03826405480504036}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "attn_L18@final", "delta_margin": 2.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.03563213720917702}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "attn_L19@final", "delta_margin": 2.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.03797607496380806}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "attn_L20@final", "delta_margin": 1.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.013322100043296814}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "attn_L21@final", "delta_margin": 2.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.03602942079305649}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "attn_L22@final", "delta_margin": 3.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.040645260363817215}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "attn_L23@final", "delta_margin": 1.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.007264427840709686}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "attn_L24@final", "delta_margin": 1.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.007617481052875519}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "mlp_L24@final", "delta_margin": 3.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.07319728285074234}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "mlp_L25@final", "delta_margin": 3.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.04881242662668228}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "mlp_L26@final", "delta_margin": 2.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.038185425102710724}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "mlp_L27@final", "delta_margin": 2.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.02281263843178749}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "mlp_L28@final", "delta_margin": 2.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.029594818130135536}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "mlp_L29@final", "delta_margin": 2.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.0263691209256649}
+{"index": 45, "name": "ex2-language-capital-Hungarian", "arm": "attn_17_24@final", "delta_margin": 0.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Budapest", "kl": 0.004276641644537449}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "clamp_only", "delta_margin": 11.84375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 1.596571922302246}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "attn_L17@final", "delta_margin": 11.53125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 1.3810479640960693}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "attn_L18@final", "delta_margin": 11.59375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 1.4395536184310913}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "attn_L19@final", "delta_margin": 11.78125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 1.5465991497039795}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "attn_L20@final", "delta_margin": 8.71875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Warsaw", "kl": 0.177974134683609}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "attn_L21@final", "delta_margin": 11.59375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 1.4064252376556396}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "attn_L22@final", "delta_margin": 11.46875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 1.340454339981079}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "attn_L23@final", "delta_margin": 6.96875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Warsaw", "kl": 0.04397983476519585}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "attn_L24@final", "delta_margin": 6.65625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Warsaw", "kl": 0.05598548427224159}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "mlp_L24@final", "delta_margin": 12.65625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 2.287914991378784}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "mlp_L25@final", "delta_margin": 12.03125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 1.7624529600143433}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "mlp_L26@final", "delta_margin": 8.84375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Warsaw", "kl": 0.3329165577888489}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "mlp_L27@final", "delta_margin": 11.78125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 1.5772160291671753}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "mlp_L28@final", "delta_margin": 11.34375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 1.242706060409546}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "mlp_L29@final", "delta_margin": 10.71875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Athens", "kl": 0.9321492314338684}
+{"index": 46, "name": "ex2-language-capital-Polish", "arm": "attn_17_24@final", "delta_margin": 2.90625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Warsaw", "kl": 0.00260664033703506}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "clamp_only", "delta_margin": 19.90625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 8.564173698425293}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "attn_L17@final", "delta_margin": 19.71875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 8.399689674377441}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "attn_L18@final", "delta_margin": 19.71875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 8.420109748840332}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "attn_L19@final", "delta_margin": 19.875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 8.540689468383789}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "attn_L20@final", "delta_margin": 18.84375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 7.621255397796631}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "attn_L21@final", "delta_margin": 19.75, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 8.448322296142578}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "attn_L22@final", "delta_margin": 19.84375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 8.508374214172363}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "attn_L23@final", "delta_margin": 10.21875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Stockholm", "kl": 0.7921119928359985}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "attn_L24@final", "delta_margin": 9.53125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Stockholm", "kl": 0.7354871034622192}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "mlp_L24@final", "delta_margin": 17.65625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 6.539082050323486}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "mlp_L25@final", "delta_margin": 20.15625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 8.775256156921387}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "mlp_L26@final", "delta_margin": 13.53125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 3.50357985496521}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "mlp_L27@final", "delta_margin": 17.40625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 6.568582534790039}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "mlp_L28@final", "delta_margin": 19.59375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 8.308506965637207}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "mlp_L29@final", "delta_margin": 18.21875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Budapest", "kl": 7.060436248779297}
+{"index": 47, "name": "ex2-language-capital-Swedish", "arm": "attn_17_24@final", "delta_margin": 4.40625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Stockholm", "kl": 0.015259942039847374}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "clamp_only", "delta_margin": 6.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 1.09942626953125}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "attn_L17@final", "delta_margin": 5.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 0.8918852806091309}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "attn_L18@final", "delta_margin": 6.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 1.116904854774475}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "attn_L19@final", "delta_margin": 6.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 1.0689893960952759}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "attn_L20@final", "delta_margin": 4.6875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " London", "kl": 0.45862045884132385}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "attn_L21@final", "delta_margin": 6.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 1.1169148683547974}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "attn_L22@final", "delta_margin": 6.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 1.0408047437667847}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "attn_L23@final", "delta_margin": 4.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " London", "kl": 0.4302930235862732}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "attn_L24@final", "delta_margin": 4.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " London", "kl": 0.5811514258384705}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "mlp_L24@final", "delta_margin": 5.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 0.9197590947151184}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "mlp_L25@final", "delta_margin": 5.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 0.7583003044128418}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "mlp_L26@final", "delta_margin": 5.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 0.7387652397155762}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "mlp_L27@final", "delta_margin": 5.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 0.8087995052337646}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "mlp_L28@final", "delta_margin": 6.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 1.065015435218811}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "mlp_L29@final", "delta_margin": 6.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Berlin", "kl": 1.1163215637207031}
+{"index": 48, "name": "ex2-river-capital-Thames", "arm": "attn_17_24@final", "delta_margin": 2.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " London", "kl": 0.07171398401260376}
+{"index": 49, "name": "food-animal-butter", "arm": "clamp_only", "delta_margin": 2.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.04052409529685974}
+{"index": 49, "name": "food-animal-butter", "arm": "attn_L17@final", "delta_margin": 2.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.039706192910671234}
+{"index": 49, "name": "food-animal-butter", "arm": "attn_L18@final", "delta_margin": 2.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.03314847871661186}
+{"index": 49, "name": "food-animal-butter", "arm": "attn_L19@final", "delta_margin": 2.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.029478801414370537}
+{"index": 49, "name": "food-animal-butter", "arm": "attn_L20@final", "delta_margin": 2.125000238418579, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.03620029613375664}
+{"index": 49, "name": "food-animal-butter", "arm": "attn_L21@final", "delta_margin": 2.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.039072874933481216}
+{"index": 49, "name": "food-animal-butter", "arm": "attn_L22@final", "delta_margin": 1.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.031681690365076065}
+{"index": 49, "name": "food-animal-butter", "arm": "attn_L23@final", "delta_margin": 1.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.024042757228016853}
+{"index": 49, "name": "food-animal-butter", "arm": "attn_L24@final", "delta_margin": 2.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.0337270051240921}
+{"index": 49, "name": "food-animal-butter", "arm": "mlp_L24@final", "delta_margin": 2.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.02534995600581169}
+{"index": 49, "name": "food-animal-butter", "arm": "mlp_L25@final", "delta_margin": 2.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.030278578400611877}
+{"index": 49, "name": "food-animal-butter", "arm": "mlp_L26@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.013919156044721603}
+{"index": 49, "name": "food-animal-butter", "arm": "mlp_L27@final", "delta_margin": 2.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.03534780070185661}
+{"index": 49, "name": "food-animal-butter", "arm": "mlp_L28@final", "delta_margin": 2.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.03759777173399925}
+{"index": 49, "name": "food-animal-butter", "arm": "mlp_L29@final", "delta_margin": 2.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.08937273919582367}
+{"index": 49, "name": "food-animal-butter", "arm": "attn_17_24@final", "delta_margin": 0.6875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " cow", "kl": 0.0048085288144648075}
+{"index": 51, "name": "fruit-grows-grape", "arm": "clamp_only", "delta_margin": 1.1874996423721313, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.07286092638969421}
+{"index": 51, "name": "fruit-grows-grape", "arm": "attn_L17@final", "delta_margin": 1.249999761581421, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.07397899031639099}
+{"index": 51, "name": "fruit-grows-grape", "arm": "attn_L18@final", "delta_margin": 1.187499761581421, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.06858471035957336}
+{"index": 51, "name": "fruit-grows-grape", "arm": "attn_L19@final", "delta_margin": 1.2499998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.07459160685539246}
+{"index": 51, "name": "fruit-grows-grape", "arm": "attn_L20@final", "delta_margin": 1.187499761581421, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.06366723775863647}
+{"index": 51, "name": "fruit-grows-grape", "arm": "attn_L21@final", "delta_margin": 1.2499998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.0744481012225151}
+{"index": 51, "name": "fruit-grows-grape", "arm": "attn_L22@final", "delta_margin": 0.5624997615814209, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.03016887605190277}
+{"index": 51, "name": "fruit-grows-grape", "arm": "attn_L23@final", "delta_margin": 0.9374998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.04111236706376076}
+{"index": 51, "name": "fruit-grows-grape", "arm": "attn_L24@final", "delta_margin": 1.2499996423721313, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.07759110629558563}
+{"index": 51, "name": "fruit-grows-grape", "arm": "mlp_L24@final", "delta_margin": 0.8124997615814209, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.034182239323854446}
+{"index": 51, "name": "fruit-grows-grape", "arm": "mlp_L25@final", "delta_margin": 1.062499761581421, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.05157821998000145}
+{"index": 51, "name": "fruit-grows-grape", "arm": "mlp_L26@final", "delta_margin": 0.6249997615814209, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.025690145790576935}
+{"index": 51, "name": "fruit-grows-grape", "arm": "mlp_L27@final", "delta_margin": 1.1249996423721313, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.06544090062379837}
+{"index": 51, "name": "fruit-grows-grape", "arm": "mlp_L28@final", "delta_margin": 1.2499996423721313, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.06432826817035675}
+{"index": 51, "name": "fruit-grows-grape", "arm": "mlp_L29@final", "delta_margin": 1.374999761581421, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.07996459305286407}
+{"index": 51, "name": "fruit-grows-grape", "arm": "attn_17_24@final", "delta_margin": 0.1874997615814209, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " vine", "kl": 0.005806833505630493}
+{"index": 52, "name": "func-filters-count", "arm": "clamp_only", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.17317624390125275}
+{"index": 52, "name": "func-filters-count", "arm": "attn_L17@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.17312680184841156}
+{"index": 52, "name": "func-filters-count", "arm": "attn_L18@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.14066022634506226}
+{"index": 52, "name": "func-filters-count", "arm": "attn_L19@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.1406281739473343}
+{"index": 52, "name": "func-filters-count", "arm": "attn_L20@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.17318788170814514}
+{"index": 52, "name": "func-filters-count", "arm": "attn_L21@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.1733466386795044}
+{"index": 52, "name": "func-filters-count", "arm": "attn_L22@final", "delta_margin": 0.7499999403953552, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.04682188481092453}
+{"index": 52, "name": "func-filters-count", "arm": "attn_L23@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.1727602779865265}
+{"index": 52, "name": "func-filters-count", "arm": "attn_L24@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.17363201081752777}
+{"index": 52, "name": "func-filters-count", "arm": "mlp_L24@final", "delta_margin": 0.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.06602241843938828}
+{"index": 52, "name": "func-filters-count", "arm": "mlp_L25@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.17342516779899597}
+{"index": 52, "name": "func-filters-count", "arm": "mlp_L26@final", "delta_margin": 0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.03195378556847572}
+{"index": 52, "name": "func-filters-count", "arm": "mlp_L27@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.11178558319807053}
+{"index": 52, "name": "func-filters-count", "arm": "mlp_L28@final", "delta_margin": 0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.032344263046979904}
+{"index": 52, "name": "func-filters-count", "arm": "mlp_L29@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.08738062530755997}
+{"index": 52, "name": "func-filters-count", "arm": "attn_17_24@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "2", "kl": 0.004925531335175037}
+{"index": 53, "name": "func-pumps-chambers", "arm": "clamp_only", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.013362711295485497}
+{"index": 53, "name": "func-pumps-chambers", "arm": "attn_L17@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.010656238533556461}
+{"index": 53, "name": "func-pumps-chambers", "arm": "attn_L18@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.010581528767943382}
+{"index": 53, "name": "func-pumps-chambers", "arm": "attn_L19@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.010513769462704659}
+{"index": 53, "name": "func-pumps-chambers", "arm": "attn_L20@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.013417101465165615}
+{"index": 53, "name": "func-pumps-chambers", "arm": "attn_L21@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.01337312813848257}
+{"index": 53, "name": "func-pumps-chambers", "arm": "attn_L22@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.010560151189565659}
+{"index": 53, "name": "func-pumps-chambers", "arm": "attn_L23@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.013354635797441006}
+{"index": 53, "name": "func-pumps-chambers", "arm": "attn_L24@final", "delta_margin": 1.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.016640810295939445}
+{"index": 53, "name": "func-pumps-chambers", "arm": "mlp_L24@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.010615433566272259}
+{"index": 53, "name": "func-pumps-chambers", "arm": "mlp_L25@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.00827102642506361}
+{"index": 53, "name": "func-pumps-chambers", "arm": "mlp_L26@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.013296851888298988}
+{"index": 53, "name": "func-pumps-chambers", "arm": "mlp_L27@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.008158233016729355}
+{"index": 53, "name": "func-pumps-chambers", "arm": "mlp_L28@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.008211381733417511}
+{"index": 53, "name": "func-pumps-chambers", "arm": "mlp_L29@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.010637752711772919}
+{"index": 53, "name": "func-pumps-chambers", "arm": "attn_17_24@final", "delta_margin": 0.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.004577595740556717}
+{"index": 54, "name": "gem-color-ruby", "arm": "clamp_only", "delta_margin": 1.75, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " green", "kl": 0.12314990907907486}
+{"index": 54, "name": "gem-color-ruby", "arm": "attn_L17@final", "delta_margin": 1.75, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " green", "kl": 0.1209876537322998}
+{"index": 54, "name": "gem-color-ruby", "arm": "attn_L18@final", "delta_margin": 1.5625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " green", "kl": 0.0933823212981224}
+{"index": 54, "name": "gem-color-ruby", "arm": "attn_L19@final", "delta_margin": 1.6875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " blue", "kl": 0.1068410873413086}
+{"index": 54, "name": "gem-color-ruby", "arm": "attn_L20@final", "delta_margin": 1.3125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " blue", "kl": 0.0739751011133194}
+{"index": 54, "name": "gem-color-ruby", "arm": "attn_L21@final", "delta_margin": 1.8125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " blue", "kl": 0.12690967321395874}
+{"index": 54, "name": "gem-color-ruby", "arm": "attn_L22@final", "delta_margin": 1.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " green", "kl": 0.10184439271688461}
+{"index": 54, "name": "gem-color-ruby", "arm": "attn_L23@final", "delta_margin": 1.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " blue", "kl": 0.08081384748220444}
+{"index": 54, "name": "gem-color-ruby", "arm": "attn_L24@final", "delta_margin": 1.875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " green", "kl": 0.13075968623161316}
+{"index": 54, "name": "gem-color-ruby", "arm": "mlp_L24@final", "delta_margin": 1.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " blue", "kl": 0.11204692721366882}
+{"index": 54, "name": "gem-color-ruby", "arm": "mlp_L25@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " red", "kl": 0.044388800859451294}
+{"index": 54, "name": "gem-color-ruby", "arm": "mlp_L26@final", "delta_margin": 1.6875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " green", "kl": 0.10838352143764496}
+{"index": 54, "name": "gem-color-ruby", "arm": "mlp_L27@final", "delta_margin": 1.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " green", "kl": 0.10258451104164124}
+{"index": 54, "name": "gem-color-ruby", "arm": "mlp_L28@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " green", "kl": 0.06867717951536179}
+{"index": 54, "name": "gem-color-ruby", "arm": "mlp_L29@final", "delta_margin": 1.75, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " green", "kl": 0.12721936404705048}
+{"index": 54, "name": "gem-color-ruby", "arm": "attn_17_24@final", "delta_margin": 0.4374997615814209, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " red", "kl": 0.01067446917295456}
+{"index": 56, "name": "greatwall-ocean", "arm": "clamp_only", "delta_margin": 7.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 4.577589988708496}
+{"index": 56, "name": "greatwall-ocean", "arm": "attn_L17@final", "delta_margin": 7.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 4.478394031524658}
+{"index": 56, "name": "greatwall-ocean", "arm": "attn_L18@final", "delta_margin": 7.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 4.621154308319092}
+{"index": 56, "name": "greatwall-ocean", "arm": "attn_L19@final", "delta_margin": 7.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 4.471688270568848}
+{"index": 56, "name": "greatwall-ocean", "arm": "attn_L20@final", "delta_margin": 6.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 4.289600849151611}
+{"index": 56, "name": "greatwall-ocean", "arm": "attn_L21@final", "delta_margin": 7.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 4.545589923858643}
+{"index": 56, "name": "greatwall-ocean", "arm": "attn_L22@final", "delta_margin": 7.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 4.468277931213379}
+{"index": 56, "name": "greatwall-ocean", "arm": "attn_L23@final", "delta_margin": 6.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 3.8693933486938477}
+{"index": 56, "name": "greatwall-ocean", "arm": "attn_L24@final", "delta_margin": 5.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 3.0977141857147217}
+{"index": 56, "name": "greatwall-ocean", "arm": "mlp_L24@final", "delta_margin": 3.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 2.742666006088257}
+{"index": 56, "name": "greatwall-ocean", "arm": "mlp_L25@final", "delta_margin": 7.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 3.189138412475586}
+{"index": 56, "name": "greatwall-ocean", "arm": "mlp_L26@final", "delta_margin": 6.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 3.3425893783569336}
+{"index": 56, "name": "greatwall-ocean", "arm": "mlp_L27@final", "delta_margin": 5.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 3.398653030395508}
+{"index": 56, "name": "greatwall-ocean", "arm": "mlp_L28@final", "delta_margin": 7.1875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 3.1691365242004395}
+{"index": 56, "name": "greatwall-ocean", "arm": "mlp_L29@final", "delta_margin": 7.4375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Atlantic", "kl": 5.375351428985596}
+{"index": 56, "name": "greatwall-ocean", "arm": "attn_17_24@final", "delta_margin": 2.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Pacific", "kl": 0.4513431489467621}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "clamp_only", "delta_margin": 9.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 2.355898380279541}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "attn_L17@final", "delta_margin": 9.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 2.3751838207244873}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "attn_L18@final", "delta_margin": 9.375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 2.2188785076141357}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "attn_L19@final", "delta_margin": 8.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 1.9711471796035767}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "attn_L20@final", "delta_margin": 8.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 1.8866990804672241}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "attn_L21@final", "delta_margin": 9.6875, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 2.3579611778259277}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "attn_L22@final", "delta_margin": 9.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 2.0463571548461914}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "attn_L23@final", "delta_margin": 8.5625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 1.7515244483947754}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "attn_L24@final", "delta_margin": 7.125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.1121690273284912}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "mlp_L24@final", "delta_margin": 9.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 2.350109100341797}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "mlp_L25@final", "delta_margin": 10.125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 2.6503348350524902}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "mlp_L26@final", "delta_margin": 8.0, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 1.4292479753494263}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "mlp_L27@final", "delta_margin": 7.9375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.5690985918045044}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "mlp_L28@final", "delta_margin": 8.625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 1.7338519096374512}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "mlp_L29@final", "delta_margin": 8.8125, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " April", "kl": 1.8372955322265625}
+{"index": 57, "name": "holiday-month-christmas2", "arm": "attn_17_24@final", "delta_margin": 3.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " December", "kl": 0.18477419018745422}
+{"index": 61, "name": "month-3-godof", "arm": "clamp_only", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0020933826453983784}
+{"index": 61, "name": "month-3-godof", "arm": "attn_L17@final", "delta_margin": 0.3750004768371582, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0074138096533715725}
+{"index": 61, "name": "month-3-godof", "arm": "attn_L18@final", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0019451056141406298}
+{"index": 61, "name": "month-3-godof", "arm": "attn_L19@final", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0021459830459207296}
+{"index": 61, "name": "month-3-godof", "arm": "attn_L20@final", "delta_margin": 0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.006636657286435366}
+{"index": 61, "name": "month-3-godof", "arm": "attn_L21@final", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0023467261344194412}
+{"index": 61, "name": "month-3-godof", "arm": "attn_L22@final", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.002068784087896347}
+{"index": 61, "name": "month-3-godof", "arm": "attn_L23@final", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.006089836824685335}
+{"index": 61, "name": "month-3-godof", "arm": "attn_L24@final", "delta_margin": 0.3125004768371582, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.00574199203401804}
+{"index": 61, "name": "month-3-godof", "arm": "mlp_L24@final", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0016413002740591764}
+{"index": 61, "name": "month-3-godof", "arm": "mlp_L25@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.002037243451923132}
+{"index": 61, "name": "month-3-godof", "arm": "mlp_L26@final", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0016145205590873957}
+{"index": 61, "name": "month-3-godof", "arm": "mlp_L27@final", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0018160552717745304}
+{"index": 61, "name": "month-3-godof", "arm": "mlp_L28@final", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0019590272568166256}
+{"index": 61, "name": "month-3-godof", "arm": "mlp_L29@final", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0016085183015093207}
+{"index": 61, "name": "month-3-godof", "arm": "attn_17_24@final", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " war", "kl": 0.0014379809144884348}
+{"index": 63, "name": "organ-count-kidney2", "arm": "clamp_only", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.006874988786876202}
+{"index": 63, "name": "organ-count-kidney2", "arm": "attn_L17@final", "delta_margin": 0.2499997615814209, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.004827790893614292}
+{"index": 63, "name": "organ-count-kidney2", "arm": "attn_L18@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.0037150296848267317}
+{"index": 63, "name": "organ-count-kidney2", "arm": "attn_L19@final", "delta_margin": 0.2500002384185791, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.006138104014098644}
+{"index": 63, "name": "organ-count-kidney2", "arm": "attn_L20@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.004749660845845938}
+{"index": 63, "name": "organ-count-kidney2", "arm": "attn_L21@final", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.00586277712136507}
+{"index": 63, "name": "organ-count-kidney2", "arm": "attn_L22@final", "delta_margin": 0.4374997615814209, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.004520560149103403}
+{"index": 63, "name": "organ-count-kidney2", "arm": "attn_L23@final", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.006019956897944212}
+{"index": 63, "name": "organ-count-kidney2", "arm": "attn_L24@final", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.0061028324998915195}
+{"index": 63, "name": "organ-count-kidney2", "arm": "mlp_L24@final", "delta_margin": 0.2499997615814209, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.004415449686348438}
+{"index": 63, "name": "organ-count-kidney2", "arm": "mlp_L25@final", "delta_margin": 0.4375002384185791, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.005699425470083952}
+{"index": 63, "name": "organ-count-kidney2", "arm": "mlp_L26@final", "delta_margin": 0.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.003476217854768038}
+{"index": 63, "name": "organ-count-kidney2", "arm": "mlp_L27@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.005885439924895763}
+{"index": 63, "name": "organ-count-kidney2", "arm": "mlp_L28@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.0037346864119172096}
+{"index": 63, "name": "organ-count-kidney2", "arm": "mlp_L29@final", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.005403900519013405}
+{"index": 63, "name": "organ-count-kidney2", "arm": "attn_17_24@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " two", "kl": 0.002459266223013401}
+{"index": 67, "name": "paper-continent", "arm": "clamp_only", "delta_margin": 2.1875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.12433596700429916}
+{"index": 67, "name": "paper-continent", "arm": "attn_L17@final", "delta_margin": 2.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.11455562710762024}
+{"index": 67, "name": "paper-continent", "arm": "attn_L18@final", "delta_margin": 2.1875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.12327463924884796}
+{"index": 67, "name": "paper-continent", "arm": "attn_L19@final", "delta_margin": 2.1875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.12409225851297379}
+{"index": 67, "name": "paper-continent", "arm": "attn_L20@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.05681375041604042}
+{"index": 67, "name": "paper-continent", "arm": "attn_L21@final", "delta_margin": 2.1875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.1237165555357933}
+{"index": 67, "name": "paper-continent", "arm": "attn_L22@final", "delta_margin": 2.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.12319766730070114}
+{"index": 67, "name": "paper-continent", "arm": "attn_L23@final", "delta_margin": 1.8125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.0917312353849411}
+{"index": 67, "name": "paper-continent", "arm": "attn_L24@final", "delta_margin": 1.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.0583329014480114}
+{"index": 67, "name": "paper-continent", "arm": "mlp_L24@final", "delta_margin": 1.9375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.10101419687271118}
+{"index": 67, "name": "paper-continent", "arm": "mlp_L25@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.04798930510878563}
+{"index": 67, "name": "paper-continent", "arm": "mlp_L26@final", "delta_margin": 1.875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.08775928616523743}
+{"index": 67, "name": "paper-continent", "arm": "mlp_L27@final", "delta_margin": 2.0, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.11678896844387054}
+{"index": 67, "name": "paper-continent", "arm": "mlp_L28@final", "delta_margin": 2.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.11303102225065231}
+{"index": 67, "name": "paper-continent", "arm": "mlp_L29@final", "delta_margin": 2.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " Africa", "kl": 0.10287049412727356}
+{"index": 67, "name": "paper-continent", "arm": "attn_17_24@final", "delta_margin": 0.43750011920928955, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Asia", "kl": 0.005186724476516247}
+{"index": 69, "name": "person-country-napoleon", "arm": "clamp_only", "delta_margin": 4.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.2828318774700165}
+{"index": 69, "name": "person-country-napoleon", "arm": "attn_L17@final", "delta_margin": 4.125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.24664421379566193}
+{"index": 69, "name": "person-country-napoleon", "arm": "attn_L18@final", "delta_margin": 4.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.29078155755996704}
+{"index": 69, "name": "person-country-napoleon", "arm": "attn_L19@final", "delta_margin": 4.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.2731206715106964}
+{"index": 69, "name": "person-country-napoleon", "arm": "attn_L20@final", "delta_margin": 3.1875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.16939644515514374}
+{"index": 69, "name": "person-country-napoleon", "arm": "attn_L21@final", "delta_margin": 4.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.28324857354164124}
+{"index": 69, "name": "person-country-napoleon", "arm": "attn_L22@final", "delta_margin": 4.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.2843567430973053}
+{"index": 69, "name": "person-country-napoleon", "arm": "attn_L23@final", "delta_margin": 3.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.1571478545665741}
+{"index": 69, "name": "person-country-napoleon", "arm": "attn_L24@final", "delta_margin": 3.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.17028141021728516}
+{"index": 69, "name": "person-country-napoleon", "arm": "mlp_L24@final", "delta_margin": 4.125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.26713308691978455}
+{"index": 69, "name": "person-country-napoleon", "arm": "mlp_L25@final", "delta_margin": 3.875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.25294041633605957}
+{"index": 69, "name": "person-country-napoleon", "arm": "mlp_L26@final", "delta_margin": 3.812499761581421, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.1879020482301712}
+{"index": 69, "name": "person-country-napoleon", "arm": "mlp_L27@final", "delta_margin": 3.875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.20161134004592896}
+{"index": 69, "name": "person-country-napoleon", "arm": "mlp_L28@final", "delta_margin": 4.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.25749707221984863}
+{"index": 69, "name": "person-country-napoleon", "arm": "mlp_L29@final", "delta_margin": 4.3125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.31792396306991577}
+{"index": 69, "name": "person-country-napoleon", "arm": "attn_17_24@final", "delta_margin": 1.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.02454715222120285}
+{"index": 71, "name": "person-firstname-darwin", "arm": "clamp_only", "delta_margin": 1.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.023841992020606995}
+{"index": 71, "name": "person-firstname-darwin", "arm": "attn_L17@final", "delta_margin": 1.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.019155271351337433}
+{"index": 71, "name": "person-firstname-darwin", "arm": "attn_L18@final", "delta_margin": 1.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.018065810203552246}
+{"index": 71, "name": "person-firstname-darwin", "arm": "attn_L19@final", "delta_margin": 1.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.01861375756561756}
+{"index": 71, "name": "person-firstname-darwin", "arm": "attn_L20@final", "delta_margin": 1.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.010080907493829727}
+{"index": 71, "name": "person-firstname-darwin", "arm": "attn_L21@final", "delta_margin": 1.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.02364428900182247}
+{"index": 71, "name": "person-firstname-darwin", "arm": "attn_L22@final", "delta_margin": 1.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.02098388411104679}
+{"index": 71, "name": "person-firstname-darwin", "arm": "attn_L23@final", "delta_margin": 1.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.015049917623400688}
+{"index": 71, "name": "person-firstname-darwin", "arm": "attn_L24@final", "delta_margin": 1.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.016172898933291435}
+{"index": 71, "name": "person-firstname-darwin", "arm": "mlp_L24@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.015385309234261513}
+{"index": 71, "name": "person-firstname-darwin", "arm": "mlp_L25@final", "delta_margin": 1.6875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.016097508370876312}
+{"index": 71, "name": "person-firstname-darwin", "arm": "mlp_L26@final", "delta_margin": 1.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.013680807314813137}
+{"index": 71, "name": "person-firstname-darwin", "arm": "mlp_L27@final", "delta_margin": 1.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.020271293818950653}
+{"index": 71, "name": "person-firstname-darwin", "arm": "mlp_L28@final", "delta_margin": 1.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.022155562415719032}
+{"index": 71, "name": "person-firstname-darwin", "arm": "mlp_L29@final", "delta_margin": 1.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.015159271657466888}
+{"index": 71, "name": "person-firstname-darwin", "arm": "attn_17_24@final", "delta_margin": 0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Charles", "kl": 0.0015472816303372383}
+{"index": 72, "name": "person-firstname-einstein", "arm": "clamp_only", "delta_margin": 5.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.07024645805358887}
+{"index": 72, "name": "person-firstname-einstein", "arm": "attn_L17@final", "delta_margin": 4.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.0661127045750618}
+{"index": 72, "name": "person-firstname-einstein", "arm": "attn_L18@final", "delta_margin": 4.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.06708654016256332}
+{"index": 72, "name": "person-firstname-einstein", "arm": "attn_L19@final", "delta_margin": 4.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.05268947035074234}
+{"index": 72, "name": "person-firstname-einstein", "arm": "attn_L20@final", "delta_margin": 4.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.03910527005791664}
+{"index": 72, "name": "person-firstname-einstein", "arm": "attn_L21@final", "delta_margin": 4.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.06123199313879013}
+{"index": 72, "name": "person-firstname-einstein", "arm": "attn_L22@final", "delta_margin": 4.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.0431702695786953}
+{"index": 72, "name": "person-firstname-einstein", "arm": "attn_L23@final", "delta_margin": 3.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.018015719950199127}
+{"index": 72, "name": "person-firstname-einstein", "arm": "attn_L24@final", "delta_margin": 2.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.014859354123473167}
+{"index": 72, "name": "person-firstname-einstein", "arm": "mlp_L24@final", "delta_margin": 3.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.013429464772343636}
+{"index": 72, "name": "person-firstname-einstein", "arm": "mlp_L25@final", "delta_margin": 4.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.033914949744939804}
+{"index": 72, "name": "person-firstname-einstein", "arm": "mlp_L26@final", "delta_margin": 2.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.012498294934630394}
+{"index": 72, "name": "person-firstname-einstein", "arm": "mlp_L27@final", "delta_margin": 4.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.06684163957834244}
+{"index": 72, "name": "person-firstname-einstein", "arm": "mlp_L28@final", "delta_margin": 3.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.036260154098272324}
+{"index": 72, "name": "person-firstname-einstein", "arm": "mlp_L29@final", "delta_margin": 4.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.0726873055100441}
+{"index": 72, "name": "person-firstname-einstein", "arm": "attn_17_24@final", "delta_margin": 1.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Albert", "kl": 0.0027774940244853497}
+{"index": 73, "name": "person-firstname-mozart", "arm": "clamp_only", "delta_margin": 5.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.47013160586357117}
+{"index": 73, "name": "person-firstname-mozart", "arm": "attn_L17@final", "delta_margin": 4.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.47712475061416626}
+{"index": 73, "name": "person-firstname-mozart", "arm": "attn_L18@final", "delta_margin": 4.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.47740820050239563}
+{"index": 73, "name": "person-firstname-mozart", "arm": "attn_L19@final", "delta_margin": 4.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.3795091211795807}
+{"index": 73, "name": "person-firstname-mozart", "arm": "attn_L20@final", "delta_margin": 2.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.36369431018829346}
+{"index": 73, "name": "person-firstname-mozart", "arm": "attn_L21@final", "delta_margin": 5.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.48482921719551086}
+{"index": 73, "name": "person-firstname-mozart", "arm": "attn_L22@final", "delta_margin": 3.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.25872576236724854}
+{"index": 73, "name": "person-firstname-mozart", "arm": "attn_L23@final", "delta_margin": 2.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.208344966173172}
+{"index": 73, "name": "person-firstname-mozart", "arm": "attn_L24@final", "delta_margin": 2.562499523162842, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.23170270025730133}
+{"index": 73, "name": "person-firstname-mozart", "arm": "mlp_L24@final", "delta_margin": 4.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.5793321132659912}
+{"index": 73, "name": "person-firstname-mozart", "arm": "mlp_L25@final", "delta_margin": 3.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.30129608511924744}
+{"index": 73, "name": "person-firstname-mozart", "arm": "mlp_L26@final", "delta_margin": 4.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.45425623655319214}
+{"index": 73, "name": "person-firstname-mozart", "arm": "mlp_L27@final", "delta_margin": 5.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.47330570220947266}
+{"index": 73, "name": "person-firstname-mozart", "arm": "mlp_L28@final", "delta_margin": 3.6875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.5333704352378845}
+{"index": 73, "name": "person-firstname-mozart", "arm": "mlp_L29@final", "delta_margin": 5.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.24810141324996948}
+{"index": 73, "name": "person-firstname-mozart", "arm": "attn_17_24@final", "delta_margin": 0.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Wolfgang", "kl": 0.10786401480436325}
+{"index": 74, "name": "person-firstname-newton", "arm": "clamp_only", "delta_margin": 2.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.025536075234413147}
+{"index": 74, "name": "person-firstname-newton", "arm": "attn_L17@final", "delta_margin": 2.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.024815279990434647}
+{"index": 74, "name": "person-firstname-newton", "arm": "attn_L18@final", "delta_margin": 2.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.027545098215341568}
+{"index": 74, "name": "person-firstname-newton", "arm": "attn_L19@final", "delta_margin": 1.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.016271056607365608}
+{"index": 74, "name": "person-firstname-newton", "arm": "attn_L20@final", "delta_margin": 1.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.01766705885529518}
+{"index": 74, "name": "person-firstname-newton", "arm": "attn_L21@final", "delta_margin": 1.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.018375875428318977}
+{"index": 74, "name": "person-firstname-newton", "arm": "attn_L22@final", "delta_margin": 1.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.01455671712756157}
+{"index": 74, "name": "person-firstname-newton", "arm": "attn_L23@final", "delta_margin": 1.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.016127243638038635}
+{"index": 74, "name": "person-firstname-newton", "arm": "attn_L24@final", "delta_margin": 1.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.01198263093829155}
+{"index": 74, "name": "person-firstname-newton", "arm": "mlp_L24@final", "delta_margin": 1.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.017534464597702026}
+{"index": 74, "name": "person-firstname-newton", "arm": "mlp_L25@final", "delta_margin": 1.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.022542189806699753}
+{"index": 74, "name": "person-firstname-newton", "arm": "mlp_L26@final", "delta_margin": 0.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.01107802800834179}
+{"index": 74, "name": "person-firstname-newton", "arm": "mlp_L27@final", "delta_margin": 1.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.012765787541866302}
+{"index": 74, "name": "person-firstname-newton", "arm": "mlp_L28@final", "delta_margin": 1.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.024091552942991257}
+{"index": 74, "name": "person-firstname-newton", "arm": "mlp_L29@final", "delta_margin": 1.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.030072972178459167}
+{"index": 74, "name": "person-firstname-newton", "arm": "attn_17_24@final", "delta_margin": 0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Isaac", "kl": 0.0023306491784751415}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "clamp_only", "delta_margin": 10.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Wolfgang", "kl": 1.380311369895935}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "attn_L17@final", "delta_margin": 9.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 1.2154115438461304}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "attn_L18@final", "delta_margin": 9.9375, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Wolfgang", "kl": 1.3141701221466064}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "attn_L19@final", "delta_margin": 8.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.6376690864562988}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "attn_L20@final", "delta_margin": 8.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.5816159248352051}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "attn_L21@final", "delta_margin": 10.0625, "top1_is_swap": true, "top1_is_answer": false, "top1_str": " Wolfgang", "kl": 1.414373755455017}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "attn_L22@final", "delta_margin": 8.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.537484347820282}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "attn_L23@final", "delta_margin": 4.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.04288041964173317}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "attn_L24@final", "delta_margin": 5.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.09063249081373215}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "mlp_L24@final", "delta_margin": 8.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.6112843155860901}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "mlp_L25@final", "delta_margin": 7.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.3052988052368164}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "mlp_L26@final", "delta_margin": 5.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.07536623626947403}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "mlp_L27@final", "delta_margin": 7.9375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.5620521903038025}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "mlp_L28@final", "delta_margin": 7.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.3935055732727051}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "mlp_L29@final", "delta_margin": 9.1875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 1.3912361860275269}
+{"index": 75, "name": "person-firstname-shakespeare", "arm": "attn_17_24@final", "delta_margin": 1.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " William", "kl": 0.00503541249781847}
+{"index": 76, "name": "planet-3-moons", "arm": "clamp_only", "delta_margin": 1.3749998807907104, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "2", "kl": 0.16203321516513824}
+{"index": 76, "name": "planet-3-moons", "arm": "attn_L17@final", "delta_margin": 1.2499998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.13899044692516327}
+{"index": 76, "name": "planet-3-moons", "arm": "attn_L18@final", "delta_margin": 1.1249998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.1196490228176117}
+{"index": 76, "name": "planet-3-moons", "arm": "attn_L19@final", "delta_margin": 0.9999998211860657, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.08013424277305603}
+{"index": 76, "name": "planet-3-moons", "arm": "attn_L20@final", "delta_margin": 1.2499998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.13213804364204407}
+{"index": 76, "name": "planet-3-moons", "arm": "attn_L21@final", "delta_margin": 1.3749998807907104, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "2", "kl": 0.159236341714859}
+{"index": 76, "name": "planet-3-moons", "arm": "attn_L22@final", "delta_margin": 1.3749998807907104, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "2", "kl": 0.155728280544281}
+{"index": 76, "name": "planet-3-moons", "arm": "attn_L23@final", "delta_margin": 0.9999998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.08751680701971054}
+{"index": 76, "name": "planet-3-moons", "arm": "attn_L24@final", "delta_margin": 1.3749998807907104, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "2", "kl": 0.15418100357055664}
+{"index": 76, "name": "planet-3-moons", "arm": "mlp_L24@final", "delta_margin": 0.7499998211860657, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.06624589115381241}
+{"index": 76, "name": "planet-3-moons", "arm": "mlp_L25@final", "delta_margin": 0.9999998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.07906167954206467}
+{"index": 76, "name": "planet-3-moons", "arm": "mlp_L26@final", "delta_margin": 0.8749998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.06873644143342972}
+{"index": 76, "name": "planet-3-moons", "arm": "mlp_L27@final", "delta_margin": 0.6249999403953552, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.03744346648454666}
+{"index": 76, "name": "planet-3-moons", "arm": "mlp_L28@final", "delta_margin": 0.49999988079071045, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.02345564030110836}
+{"index": 76, "name": "planet-3-moons", "arm": "mlp_L29@final", "delta_margin": 0.9999998807907104, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.07604555040597916}
+{"index": 76, "name": "planet-3-moons", "arm": "attn_17_24@final", "delta_margin": 0.24999988079071045, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "1", "kl": 0.0069349887780845165}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "clamp_only", "delta_margin": -0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.02414148487150669}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "attn_L17@final", "delta_margin": -0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.024740956723690033}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "attn_L18@final", "delta_margin": -0.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.032767172902822495}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "attn_L19@final", "delta_margin": -0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.033665843307971954}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "attn_L20@final", "delta_margin": -0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.024035055190324783}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "attn_L21@final", "delta_margin": -0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.02403729222714901}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "attn_L22@final", "delta_margin": -0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.02445816621184349}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "attn_L23@final", "delta_margin": -0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.007430610712617636}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "attn_L24@final", "delta_margin": -0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.03125821426510811}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "mlp_L24@final", "delta_margin": -0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.007590443827211857}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "mlp_L25@final", "delta_margin": -0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.023240085691213608}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "mlp_L26@final", "delta_margin": -0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.012846214696764946}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "mlp_L27@final", "delta_margin": -0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.016096966341137886}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "mlp_L28@final", "delta_margin": -0.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.017124366015195847}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "mlp_L29@final", "delta_margin": -0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.02442033402621746}
+{"index": 77, "name": "planet-rings-saturn2", "arm": "attn_17_24@final", "delta_margin": -0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " rings", "kl": 0.008830375969409943}
+{"index": 81, "name": "season-next-winter", "arm": "clamp_only", "delta_margin": 0.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.08942046016454697}
+{"index": 81, "name": "season-next-winter", "arm": "attn_L17@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " spring", "kl": 0.07707350701093674}
+{"index": 81, "name": "season-next-winter", "arm": "attn_L18@final", "delta_margin": 0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " spring", "kl": 0.07407859712839127}
+{"index": 81, "name": "season-next-winter", "arm": "attn_L19@final", "delta_margin": -0.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " spring", "kl": 0.0739789679646492}
+{"index": 81, "name": "season-next-winter", "arm": "attn_L20@final", "delta_margin": 1.249999761581421, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.06577116250991821}
+{"index": 81, "name": "season-next-winter", "arm": "attn_L21@final", "delta_margin": 0.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.08950261026620865}
+{"index": 81, "name": "season-next-winter", "arm": "attn_L22@final", "delta_margin": 0.6875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.07728514075279236}
+{"index": 81, "name": "season-next-winter", "arm": "attn_L23@final", "delta_margin": -0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " spring", "kl": 0.08072049915790558}
+{"index": 81, "name": "season-next-winter", "arm": "attn_L24@final", "delta_margin": 1.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " spring", "kl": 0.07846322655677795}
+{"index": 81, "name": "season-next-winter", "arm": "mlp_L24@final", "delta_margin": 0.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " spring", "kl": 0.0703650638461113}
+{"index": 81, "name": "season-next-winter", "arm": "mlp_L25@final", "delta_margin": 0.5625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.1010105162858963}
+{"index": 81, "name": "season-next-winter", "arm": "mlp_L26@final", "delta_margin": -0.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " spring", "kl": 0.04695919528603554}
+{"index": 81, "name": "season-next-winter", "arm": "mlp_L27@final", "delta_margin": 0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " spring", "kl": 0.08777108788490295}
+{"index": 81, "name": "season-next-winter", "arm": "mlp_L28@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " spring", "kl": 0.07403942942619324}
+{"index": 81, "name": "season-next-winter", "arm": "mlp_L29@final", "delta_margin": 0.8125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.1328750103712082}
+{"index": 81, "name": "season-next-winter", "arm": "attn_17_24@final", "delta_margin": -0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " spring", "kl": 0.02144806459546089}
+{"index": 82, "name": "spaceneedle-border", "arm": "clamp_only", "delta_margin": 5.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.411492109298706}
+{"index": 82, "name": "spaceneedle-border", "arm": "attn_L17@final", "delta_margin": 5.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.3470475673675537}
+{"index": 82, "name": "spaceneedle-border", "arm": "attn_L18@final", "delta_margin": 5.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.3932998180389404}
+{"index": 82, "name": "spaceneedle-border", "arm": "attn_L19@final", "delta_margin": 5.75, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.4265292882919312}
+{"index": 82, "name": "spaceneedle-border", "arm": "attn_L20@final", "delta_margin": 4.9375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.9362375140190125}
+{"index": 82, "name": "spaceneedle-border", "arm": "attn_L21@final", "delta_margin": 5.625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.4001011848449707}
+{"index": 82, "name": "spaceneedle-border", "arm": "attn_L22@final", "delta_margin": 5.5, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.3935686349868774}
+{"index": 82, "name": "spaceneedle-border", "arm": "attn_L23@final", "delta_margin": 4.25, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.5494004487991333}
+{"index": 82, "name": "spaceneedle-border", "arm": "attn_L24@final", "delta_margin": 4.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.5008450150489807}
+{"index": 82, "name": "spaceneedle-border", "arm": "mlp_L24@final", "delta_margin": 5.5, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.5089747905731201}
+{"index": 82, "name": "spaceneedle-border", "arm": "mlp_L25@final", "delta_margin": 4.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.8714684844017029}
+{"index": 82, "name": "spaceneedle-border", "arm": "mlp_L26@final", "delta_margin": 5.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.9517536759376526}
+{"index": 82, "name": "spaceneedle-border", "arm": "mlp_L27@final", "delta_margin": 4.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 0.43588536977767944}
+{"index": 82, "name": "spaceneedle-border", "arm": "mlp_L28@final", "delta_margin": 4.875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.2563579082489014}
+{"index": 82, "name": "spaceneedle-border", "arm": "mlp_L29@final", "delta_margin": 4.8125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " the", "kl": 1.666384220123291}
+{"index": 82, "name": "spaceneedle-border", "arm": "attn_17_24@final", "delta_margin": 1.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Canada", "kl": 0.01663815602660179}
+{"index": 83, "name": "spider-legs", "arm": "clamp_only", "delta_margin": 3.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 1.1076380014419556}
+{"index": 83, "name": "spider-legs", "arm": "attn_L17@final", "delta_margin": 3.25, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 1.0279215574264526}
+{"index": 83, "name": "spider-legs", "arm": "attn_L18@final", "delta_margin": 3.0, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 0.8272222280502319}
+{"index": 83, "name": "spider-legs", "arm": "attn_L19@final", "delta_margin": 3.0, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 0.875361979007721}
+{"index": 83, "name": "spider-legs", "arm": "attn_L20@final", "delta_margin": 3.0, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 0.8762663006782532}
+{"index": 83, "name": "spider-legs", "arm": "attn_L21@final", "delta_margin": 3.5, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 1.084967851638794}
+{"index": 83, "name": "spider-legs", "arm": "attn_L22@final", "delta_margin": 2.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "8", "kl": 0.26357221603393555}
+{"index": 83, "name": "spider-legs", "arm": "attn_L23@final", "delta_margin": 2.375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 0.6270161867141724}
+{"index": 83, "name": "spider-legs", "arm": "attn_L24@final", "delta_margin": 3.25, "top1_is_swap": true, "top1_is_answer": false, "top1_str": "6", "kl": 0.6737751364707947}
+{"index": 83, "name": "spider-legs", "arm": "mlp_L24@final", "delta_margin": 0.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "8", "kl": 0.2242271453142166}
+{"index": 83, "name": "spider-legs", "arm": "mlp_L25@final", "delta_margin": 2.125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 0.7148364186286926}
+{"index": 83, "name": "spider-legs", "arm": "mlp_L26@final", "delta_margin": 2.125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 1.0465798377990723}
+{"index": 83, "name": "spider-legs", "arm": "mlp_L27@final", "delta_margin": 2.125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 0.3872024714946747}
+{"index": 83, "name": "spider-legs", "arm": "mlp_L28@final", "delta_margin": 1.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "8", "kl": 0.19928628206253052}
+{"index": 83, "name": "spider-legs", "arm": "mlp_L29@final", "delta_margin": 1.875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": "4", "kl": 0.4384797513484955}
+{"index": 83, "name": "spider-legs", "arm": "attn_17_24@final", "delta_margin": 0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "8", "kl": 0.011916098184883595}
+{"index": 85, "name": "super-populous-capital", "arm": "clamp_only", "delta_margin": 4.5, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 1.1878137588500977}
+{"index": 85, "name": "super-populous-capital", "arm": "attn_L17@final", "delta_margin": 4.5, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 1.1625325679779053}
+{"index": 85, "name": "super-populous-capital", "arm": "attn_L18@final", "delta_margin": 4.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 1.1781772375106812}
+{"index": 85, "name": "super-populous-capital", "arm": "attn_L19@final", "delta_margin": 4.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 1.1531463861465454}
+{"index": 85, "name": "super-populous-capital", "arm": "attn_L20@final", "delta_margin": 4.1875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 0.9830453395843506}
+{"index": 85, "name": "super-populous-capital", "arm": "attn_L21@final", "delta_margin": 4.5625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 1.216162919998169}
+{"index": 85, "name": "super-populous-capital", "arm": "attn_L22@final", "delta_margin": 4.4375, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 1.1144965887069702}
+{"index": 85, "name": "super-populous-capital", "arm": "attn_L23@final", "delta_margin": 3.5, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 0.6413955688476562}
+{"index": 85, "name": "super-populous-capital", "arm": "attn_L24@final", "delta_margin": 2.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Beijing", "kl": 0.22778435051441193}
+{"index": 85, "name": "super-populous-capital", "arm": "mlp_L24@final", "delta_margin": 4.0, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 0.8980445861816406}
+{"index": 85, "name": "super-populous-capital", "arm": "mlp_L25@final", "delta_margin": 4.125, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 0.7879925966262817}
+{"index": 85, "name": "super-populous-capital", "arm": "mlp_L26@final", "delta_margin": 4.0, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 0.8903710842132568}
+{"index": 85, "name": "super-populous-capital", "arm": "mlp_L27@final", "delta_margin": 4.6875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 1.0321307182312012}
+{"index": 85, "name": "super-populous-capital", "arm": "mlp_L28@final", "delta_margin": 3.6875, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 0.7481040358543396}
+{"index": 85, "name": "super-populous-capital", "arm": "mlp_L29@final", "delta_margin": 4.0625, "top1_is_swap": false, "top1_is_answer": false, "top1_str": " New", "kl": 1.0084456205368042}
+{"index": 85, "name": "super-populous-capital", "arm": "attn_17_24@final", "delta_margin": 1.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Beijing", "kl": 0.059628263115882874}
+{"index": 86, "name": "super-smallest-continent", "arm": "clamp_only", "delta_margin": -0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.010826562531292439}
+{"index": 86, "name": "super-smallest-continent", "arm": "attn_L17@final", "delta_margin": -0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.009151100181043148}
+{"index": 86, "name": "super-smallest-continent", "arm": "attn_L18@final", "delta_margin": -0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.010550390928983688}
+{"index": 86, "name": "super-smallest-continent", "arm": "attn_L19@final", "delta_margin": -0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.015032708644866943}
+{"index": 86, "name": "super-smallest-continent", "arm": "attn_L20@final", "delta_margin": -0.3750000596046448, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.01622992940247059}
+{"index": 86, "name": "super-smallest-continent", "arm": "attn_L21@final", "delta_margin": -0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.015352027490735054}
+{"index": 86, "name": "super-smallest-continent", "arm": "attn_L22@final", "delta_margin": -0.3750000596046448, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.01689639501273632}
+{"index": 86, "name": "super-smallest-continent", "arm": "attn_L23@final", "delta_margin": -0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.008713959716260433}
+{"index": 86, "name": "super-smallest-continent", "arm": "attn_L24@final", "delta_margin": -0.3750000596046448, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.010978291742503643}
+{"index": 86, "name": "super-smallest-continent", "arm": "mlp_L24@final", "delta_margin": -0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.00987254548817873}
+{"index": 86, "name": "super-smallest-continent", "arm": "mlp_L25@final", "delta_margin": 0.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.00465270783752203}
+{"index": 86, "name": "super-smallest-continent", "arm": "mlp_L26@final", "delta_margin": -0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.003132184036076069}
+{"index": 86, "name": "super-smallest-continent", "arm": "mlp_L27@final", "delta_margin": -0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.013099881820380688}
+{"index": 86, "name": "super-smallest-continent", "arm": "mlp_L28@final", "delta_margin": -0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.01300816610455513}
+{"index": 86, "name": "super-smallest-continent", "arm": "mlp_L29@final", "delta_margin": -0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.008071266114711761}
+{"index": 86, "name": "super-smallest-continent", "arm": "attn_17_24@final", "delta_margin": -0.3749999403953552, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " Europe", "kl": 0.013387237675487995}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "clamp_only", "delta_margin": 0.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.048626143485307693}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "attn_L17@final", "delta_margin": 0.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.04617892578244209}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "attn_L18@final", "delta_margin": 0.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.038604095578193665}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "attn_L19@final", "delta_margin": 0.75, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.03900368511676788}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "attn_L20@final", "delta_margin": 0.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.039600908756256104}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "attn_L21@final", "delta_margin": 0.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.040950529277324677}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "attn_L22@final", "delta_margin": 0.6875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.03083653375506401}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "attn_L23@final", "delta_margin": 0.625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.04244771599769592}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "attn_L24@final", "delta_margin": 0.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.029068809002637863}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "mlp_L24@final", "delta_margin": 0.3125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.033792197704315186}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "mlp_L25@final", "delta_margin": 0.4375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.03843078389763832}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "mlp_L26@final", "delta_margin": 0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.03882788121700287}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "mlp_L27@final", "delta_margin": 0.8125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.05030018463730812}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "mlp_L28@final", "delta_margin": 0.5625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.03544009476900101}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "mlp_L29@final", "delta_margin": 0.875, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.05031382292509079}
+{"index": 88, "name": "vehicle-power-bicycle", "arm": "attn_17_24@final", "delta_margin": 0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": " legs", "kl": 0.015813851729035378}
+{"index": 89, "name": "violin-strings", "arm": "clamp_only", "delta_margin": 0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.04419951140880585}
+{"index": 89, "name": "violin-strings", "arm": "attn_L17@final", "delta_margin": 0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.04357729107141495}
+{"index": 89, "name": "violin-strings", "arm": "attn_L18@final", "delta_margin": 0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.052863478660583496}
+{"index": 89, "name": "violin-strings", "arm": "attn_L19@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.02337871864438057}
+{"index": 89, "name": "violin-strings", "arm": "attn_L20@final", "delta_margin": 0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.043965164572000504}
+{"index": 89, "name": "violin-strings", "arm": "attn_L21@final", "delta_margin": 0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.04421214014291763}
+{"index": 89, "name": "violin-strings", "arm": "attn_L22@final", "delta_margin": 0.5, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.0442182756960392}
+{"index": 89, "name": "violin-strings", "arm": "attn_L23@final", "delta_margin": 0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.03221907466650009}
+{"index": 89, "name": "violin-strings", "arm": "attn_L24@final", "delta_margin": 0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.027841083705425262}
+{"index": 89, "name": "violin-strings", "arm": "mlp_L24@final", "delta_margin": 0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.02350643277168274}
+{"index": 89, "name": "violin-strings", "arm": "mlp_L25@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.023778114467859268}
+{"index": 89, "name": "violin-strings", "arm": "mlp_L26@final", "delta_margin": 0.375, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.018354063853621483}
+{"index": 89, "name": "violin-strings", "arm": "mlp_L27@final", "delta_margin": 0.125, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.012727150693535805}
+{"index": 89, "name": "violin-strings", "arm": "mlp_L28@final", "delta_margin": 0.0, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.01076231338083744}
+{"index": 89, "name": "violin-strings", "arm": "mlp_L29@final", "delta_margin": 0.0625, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.00995342805981636}
+{"index": 89, "name": "violin-strings", "arm": "attn_17_24@final", "delta_margin": 0.25, "top1_is_swap": false, "top1_is_answer": true, "top1_str": "4", "kl": 0.011271307244896889}

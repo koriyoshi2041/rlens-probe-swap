@@ -1,0 +1,588 @@
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 11869.05it/s]
+[4b] header: {
+ "model": {
+  "model_name": "/root/autodl-tmp/mats-r-lens/assets/Qwen3.5-4B",
+  "n_layers": 32,
+  "d_model": 2560,
+  "d_vocab": 248320,
+  "unembed_dtype": "torch.bfloat16",
+  "device": "cuda:0"
+ },
+ "lenses": {
+  "J": {
+   "d_model": 2560,
+   "n_prompts": 25,
+   "source_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+   ],
+   "metadata": {}
+  },
+  "R": {
+   "d_model": 2560,
+   "n_prompts": 25,
+   "source_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+   ],
+   "metadata": {}
+  }
+ }
+}
+[clean] summary: {
+ "as_is": {
+  "n_clean_correct": 51,
+  "n_eligible_strict": 45,
+  "median_p_answer_when_correct": 0.7145818471908569,
+  "median_rank_swap_answer_when_correct": 26,
+  "incorrect": [
+   {
+    "name": "amazon-language",
+    "top1": "9",
+    "answer": "Portuguese",
+    "rank_answer": 1759
+   },
+   {
+    "name": "animal-legs-buffalo2",
+    "top1": " ",
+    "answer": " four",
+    "rank_answer": 2
+   },
+   {
+    "name": "atomic-80-state",
+    "top1": "1",
+    "answer": "liquid",
+    "rank_answer": 18
+   },
+   {
+    "name": "basketball-players",
+    "top1": "1",
+    "answer": "5",
+    "rank_answer": 2
+   },
+   {
+    "name": "beverage-source-wine",
+    "top1": " same",
+    "answer": " grape",
+    "rank_answer": 3
+   },
+   {
+    "name": "bird-country-eagle",
+    "top1": " the",
+    "answer": " America",
+    "rank_answer": 34
+   },
+   {
+    "name": "bird-time-owl",
+    "top1": " the",
+    "answer": " night",
+    "rank_answer": 4
+   },
+   {
+    "name": "chem-atmosphere-Z",
+    "top1": "1",
+    "answer": "7",
+    "rank_answer": 3
+   },
+   {
+    "name": "chem-photosynthesis-Z",
+    "top1": "6",
+    "answer": "8",
+    "rank_answer": 2
+   },
+   {
+    "name": "christmas-season",
+    "top1": "2",
+    "answer": "winter",
+    "rank_answer": 268
+   },
+   {
+    "name": "city-state-Philadelphia",
+    "top1": " the",
+    "answer": " Pennsylvania",
+    "rank_answer": 17
+   },
+   {
+    "name": "colosseum-currency",
+    "top1": " euro",
+    "answer": "Euro",
+    "rank_answer": 23
+   },
+   {
+    "name": "element-color-gold2",
+    "top1": " gold",
+    "answer": " yellow",
+    "rank_answer": 2
+   },
+   {
+    "name": "etym-saturn-position",
+    "top1": "4",
+    "answer": "6",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-8-26",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-8-80",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-80-8",
+    "top1": " a",
+    "answer": " liquid",
+    "rank_answer": 1
+   },
+   {
+    "name": "food-animal-honey",
+    "top1": " honey",
+    "answer": " bee",
+    "rank_answer": 2
+   },
+   {
+    "name": "gem-source-pearl",
+    "top1": " pearl",
+    "answer": " oyster",
+    "rank_answer": 4
+   },
+   {
+    "name": "greatwall-ocean",
+    "top1": " Pacific",
+    "answer": "Pacific",
+    "rank_answer": 63
+   },
+   {
+    "name": "instr-hit-drums",
+    "top1": " a",
+    "answer": " sticks",
+    "rank_answer": 23
+   },
+   {
+    "name": "mars-color",
+    "top1": "1",
+    "answer": "red",
+    "rank_answer": 6705
+   },
+   {
+    "name": "month-3-godof",
+    "top1": " war",
+    "answer": "war",
+    "rank_answer": 140
+   },
+   {
+    "name": "organ-acid-stomach",
+    "top1": " stomach",
+    "answer": " acid",
+    "rank_answer": 5
+   },
+   {
+    "name": "organ-count-kidney2",
+    "top1": " ",
+    "answer": " two",
+    "rank_answer": 2
+   },
+   {
+    "name": "organ-location-heart",
+    "top1": " heart",
+    "answer": " chest",
+    "rank_answer": 2
+   },
+   {
+    "name": "osu-rival-mascot",
+    "top1": "1",
+    "answer": "wolverine",
+    "rank_answer": 142302
+   },
+   {
+    "name": "paper-continent",
+    "top1": "1",
+    "answer": "Asia",
+    "rank_answer": 193
+   },
+   {
+    "name": "person-country-shakespeare",
+    "top1": " the",
+    "answer": " England",
+    "rank_answer": 12
+   },
+   {
+    "name": "person-firstname-mozart",
+    "top1": " Mozart",
+    "answer": " Wolfgang",
+    "rank_answer": 2
+   },
+   {
+    "name": "planet-3-moons",
+    "top1": "2",
+    "answer": "1",
+    "rank_answer": 2
+   },
+   {
+    "name": "rhyme-chair-flag",
+    "top1": "1",
+    "answer": "California",
+    "rank_answer": 386
+   },
+   {
+    "name": "rhyme-rain-neighbor",
+    "top1": "1",
+    "answer": "Portugal",
+    "rank_answer": 9178
+   },
+   {
+    "name": "rhyme-spoon-orbit",
+    "top1": " Jupiter",
+    "answer": "Earth",
+    "rank_answer": 902
+   },
+   {
+    "name": "season-next-winter",
+    "top1": " the",
+    "answer": " spring",
+    "rank_answer": 2
+   },
+   {
+    "name": "spaceneedle-border",
+    "top1": "2",
+    "answer": "Canada",
+    "rank_answer": 117
+   },
+   {
+    "name": "super-populous-capital",
+    "top1": "1",
+    "answer": "Beijing",
+    "rank_answer": 20332
+   },
+   {
+    "name": "super-smallest-continent",
+    "top1": " Asia",
+    "answer": "Europe",
+    "rank_answer": 88
+   },
+   {
+    "name": "vehicle-power-bicycle",
+    "top1": " muscles",
+    "answer": " legs",
+    "rank_answer": 2
+   }
+  ]
+ },
+ "rstrip": {
+  "n_clean_correct": 63,
+  "n_eligible_strict": 44,
+  "median_p_answer_when_correct": 0.6787154674530029,
+  "median_rank_swap_answer_when_correct": 16,
+  "incorrect": [
+   {
+    "name": "animal-legs-buffalo2",
+    "top1": " ",
+    "answer": " four",
+    "rank_answer": 2
+   },
+   {
+    "name": "atomic-80-state",
+    "top1": " a",
+    "answer": " liquid",
+    "rank_answer": 1
+   },
+   {
+    "name": "beverage-source-wine",
+    "top1": " same",
+    "answer": " grape",
+    "rank_answer": 3
+   },
+   {
+    "name": "bird-country-eagle",
+    "top1": " the",
+    "answer": " America",
+    "rank_answer": 34
+   },
+   {
+    "name": "bird-time-owl",
+    "top1": " the",
+    "answer": " night",
+    "rank_answer": 4
+   },
+   {
+    "name": "christmas-season",
+    "top1": " the",
+    "answer": " winter",
+    "rank_answer": 2
+   },
+   {
+    "name": "city-state-Philadelphia",
+    "top1": " the",
+    "answer": " Pennsylvania",
+    "rank_answer": 17
+   },
+   {
+    "name": "element-color-gold2",
+    "top1": " gold",
+    "answer": " yellow",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex-element-state-8-26",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-8-80",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-80-8",
+    "top1": " a",
+    "answer": " liquid",
+    "rank_answer": 1
+   },
+   {
+    "name": "food-animal-honey",
+    "top1": " honey",
+    "answer": " bee",
+    "rank_answer": 2
+   },
+   {
+    "name": "gem-source-pearl",
+    "top1": " pearl",
+    "answer": " oyster",
+    "rank_answer": 4
+   },
+   {
+    "name": "instr-hit-drums",
+    "top1": " a",
+    "answer": " sticks",
+    "rank_answer": 23
+   },
+   {
+    "name": "mars-color",
+    "top1": " blue",
+    "answer": " red",
+    "rank_answer": 2
+   },
+   {
+    "name": "organ-acid-stomach",
+    "top1": " stomach",
+    "answer": " acid",
+    "rank_answer": 5
+   },
+   {
+    "name": "organ-count-kidney2",
+    "top1": " ",
+    "answer": " two",
+    "rank_answer": 2
+   },
+   {
+    "name": "organ-location-heart",
+    "top1": " heart",
+    "answer": " chest",
+    "rank_answer": 2
+   },
+   {
+    "name": "osu-rival-mascot",
+    "top1": " bear",
+    "answer": " wolverine",
+    "rank_answer": 78
+   },
+   {
+    "name": "person-country-shakespeare",
+    "top1": " the",
+    "answer": " England",
+    "rank_answer": 12
+   },
+   {
+    "name": "person-firstname-mozart",
+    "top1": " Mozart",
+    "answer": " Wolfgang",
+    "rank_answer": 2
+   },
+   {
+    "name": "rhyme-rain-neighbor",
+    "top1": " the",
+    "answer": " Portugal",
+    "rank_answer": 6
+   },
+   {
+    "name": "rhyme-spoon-orbit",
+    "top1": " '",
+    "answer": " Earth",
+    "rank_answer": 3
+   },
+   {
+    "name": "season-next-winter",
+    "top1": " the",
+    "answer": " spring",
+    "rank_answer": 2
+   },
+   {
+    "name": "super-populous-capital",
+    "top1": " Tokyo",
+    "answer": " Beijing",
+    "rank_answer": 3
+   },
+   {
+    "name": "super-smallest-continent",
+    "top1": " Asia",
+    "answer": " Europe",
+    "rank_answer": 2
+   },
+   {
+    "name": "vehicle-power-bicycle",
+    "top1": " muscles",
+    "answer": " legs",
+    "rank_answer": 2
+   }
+  ]
+ }
+}
+[readout] 1/44 items done
+[readout] 11/44 items done
+[readout] 21/44 items done
+[readout] 31/44 items done
+[readout] 41/44 items done
+[readout] token=intermediate: per layer, fraction of items with rank-1 hit at any position (J / R / logit), and rank<=10 at any position
+  L00  J: r1=0.00 r10=0.00 med=3316 | R: r1=0.00 r10=0.00 med=15881 | logit: r1=0.00 r10=0.16 med=76
+  L01  J: r1=0.00 r10=0.00 med=4504 | R: r1=0.00 r10=0.00 med=11380 | logit: r1=0.00 r10=0.14 med=572
+  L02  J: r1=0.00 r10=0.00 med=5748 | R: r1=0.00 r10=0.00 med=4179 | logit: r1=0.00 r10=0.09 med=440
+  L03  J: r1=0.00 r10=0.00 med=607 | R: r1=0.00 r10=0.02 med=1082 | logit: r1=0.00 r10=0.11 med=427
+  L04  J: r1=0.00 r10=0.02 med=1330 | R: r1=0.00 r10=0.02 med=1028 | logit: r1=0.00 r10=0.05 med=1558
+  L05  J: r1=0.00 r10=0.07 med=424 | R: r1=0.00 r10=0.11 med=188 | logit: r1=0.00 r10=0.07 med=1286
+  L06  J: r1=0.00 r10=0.18 med=82 | R: r1=0.00 r10=0.34 med=50 | logit: r1=0.02 r10=0.07 med=2098
+  L07  J: r1=0.00 r10=0.25 med=32 | R: r1=0.02 r10=0.39 med=20 | logit: r1=0.00 r10=0.05 med=1150
+  L08  J: r1=0.00 r10=0.34 med=16 | R: r1=0.07 r10=0.50 med=10 | logit: r1=0.00 r10=0.05 med=3620
+  L09  J: r1=0.09 r10=0.48 med=11 | R: r1=0.07 r10=0.61 med=7 | logit: r1=0.00 r10=0.05 med=1844
+  L10  J: r1=0.07 r10=0.50 med=10 | R: r1=0.07 r10=0.64 med=6 | logit: r1=0.00 r10=0.00 med=5490
+  L11  J: r1=0.07 r10=0.52 med=10 | R: r1=0.05 r10=0.55 med=8 | logit: r1=0.00 r10=0.00 med=11812
+  L12  J: r1=0.07 r10=0.55 med=10 | R: r1=0.05 r10=0.55 med=8 | logit: r1=0.00 r10=0.00 med=9362
+  L13  J: r1=0.07 r10=0.50 med=10 | R: r1=0.07 r10=0.50 med=10 | logit: r1=0.00 r10=0.00 med=10239
+  L14  J: r1=0.05 r10=0.52 med=10 | R: r1=0.07 r10=0.57 med=8 | logit: r1=0.00 r10=0.00 med=10984
+  L15  J: r1=0.05 r10=0.48 med=12 | R: r1=0.07 r10=0.52 med=9 | logit: r1=0.00 r10=0.00 med=7090
+  L16  J: r1=0.02 r10=0.50 med=10 | R: r1=0.07 r10=0.55 med=6 | logit: r1=0.00 r10=0.00 med=8154
+  L17  J: r1=0.02 r10=0.45 med=12 | R: r1=0.09 r10=0.55 med=8 | logit: r1=0.00 r10=0.02 med=11470
+  L18  J: r1=0.02 r10=0.34 med=17 | R: r1=0.07 r10=0.55 med=10 | logit: r1=0.00 r10=0.00 med=10466
+  L19  J: r1=0.05 r10=0.43 med=16 | R: r1=0.09 r10=0.50 med=10 | logit: r1=0.02 r10=0.02 med=6164
+  L20  J: r1=0.05 r10=0.43 med=13 | R: r1=0.07 r10=0.50 med=10 | logit: r1=0.02 r10=0.02 med=4764
+  L21  J: r1=0.05 r10=0.48 med=13 | R: r1=0.07 r10=0.52 med=10 | logit: r1=0.00 r10=0.02 med=6848
+  L22  J: r1=0.05 r10=0.36 med=23 | R: r1=0.09 r10=0.41 med=18 | logit: r1=0.00 r10=0.07 med=3796
+  L23  J: r1=0.11 r10=0.50 med=11 | R: r1=0.14 r10=0.45 med=13 | logit: r1=0.02 r10=0.16 med=677
+  L24  J: r1=0.23 r10=0.77 med=3 | R: r1=0.23 r10=0.77 med=3 | logit: r1=0.14 r10=0.30 med=56
+  L25  J: r1=0.20 r10=0.77 med=3 | R: r1=0.23 r10=0.77 med=3 | logit: r1=0.14 r10=0.43 med=16
+  L26  J: r1=0.16 r10=0.84 med=3 | R: r1=0.27 r10=0.84 med=4 | logit: r1=0.14 r10=0.50 med=10
+  L27  J: r1=0.41 r10=0.82 med=2 | R: r1=0.41 r10=0.80 med=2 | logit: r1=0.11 r10=0.52 med=10
+  L28  J: r1=0.36 r10=0.80 med=2 | R: r1=0.41 r10=0.77 med=2 | logit: r1=0.09 r10=0.52 med=9
+  L29  J: r1=0.18 r10=0.68 med=6 | R: r1=0.18 r10=0.73 med=6 | logit: r1=0.18 r10=0.66 med=8
+  L30  J: r1=0.02 r10=0.59 med=6 | R: r1=0.02 r10=0.59 med=6 | logit: r1=0.02 r10=0.59 med=6
+  L31  J: r1=0.05 r10=0.84 med=6 | R: r1=0.05 r10=0.84 med=6 | logit: r1=0.05 r10=0.84 med=6
+[readout] token=answer: per layer, fraction of items with rank-1 hit at any position (J / R / logit), and rank<=10 at any position
+  L00  J: r1=0.00 r10=0.00 med=10236 | R: r1=0.00 r10=0.00 med=25702 | logit: r1=0.00 r10=0.09 med=607
+  L01  J: r1=0.00 r10=0.00 med=9688 | R: r1=0.00 r10=0.00 med=12644 | logit: r1=0.00 r10=0.11 med=1649
+  L02  J: r1=0.00 r10=0.00 med=7822 | R: r1=0.00 r10=0.02 med=6426 | logit: r1=0.00 r10=0.02 med=1712
+  L03  J: r1=0.00 r10=0.05 med=3562 | R: r1=0.00 r10=0.05 med=4714 | logit: r1=0.00 r10=0.05 med=1586
+  L04  J: r1=0.00 r10=0.02 med=2564 | R: r1=0.00 r10=0.02 med=3377 | logit: r1=0.00 r10=0.02 med=2474
+  L05  J: r1=0.00 r10=0.05 med=1228 | R: r1=0.00 r10=0.02 med=1361 | logit: r1=0.00 r10=0.02 med=4500
+  L06  J: r1=0.00 r10=0.07 med=468 | R: r1=0.00 r10=0.09 med=284 | logit: r1=0.00 r10=0.05 med=7300
+  L07  J: r1=0.00 r10=0.11 med=257 | R: r1=0.00 r10=0.16 med=162 | logit: r1=0.00 r10=0.02 med=3649
+  L08  J: r1=0.00 r10=0.14 med=176 | R: r1=0.00 r10=0.20 med=117 | logit: r1=0.00 r10=0.00 med=6092
+  L09  J: r1=0.00 r10=0.14 med=117 | R: r1=0.00 r10=0.20 med=122 | logit: r1=0.00 r10=0.00 med=4101
+  L10  J: r1=0.00 r10=0.14 med=114 | R: r1=0.00 r10=0.16 med=97 | logit: r1=0.00 r10=0.00 med=6058
+  L11  J: r1=0.00 r10=0.09 med=162 | R: r1=0.02 r10=0.18 med=155 | logit: r1=0.00 r10=0.00 med=16106
+  L12  J: r1=0.00 r10=0.11 med=205 | R: r1=0.00 r10=0.18 med=202 | logit: r1=0.00 r10=0.00 med=9659
+  L13  J: r1=0.00 r10=0.14 med=142 | R: r1=0.02 r10=0.18 med=154 | logit: r1=0.00 r10=0.00 med=15516
+  L14  J: r1=0.00 r10=0.11 med=132 | R: r1=0.00 r10=0.16 med=143 | logit: r1=0.00 r10=0.00 med=18477
+  L15  J: r1=0.00 r10=0.09 med=176 | R: r1=0.00 r10=0.16 med=169 | logit: r1=0.00 r10=0.00 med=13463
+  L16  J: r1=0.00 r10=0.09 med=164 | R: r1=0.02 r10=0.16 med=186 | logit: r1=0.00 r10=0.00 med=12824
+  L17  J: r1=0.00 r10=0.07 med=152 | R: r1=0.02 r10=0.14 med=166 | logit: r1=0.00 r10=0.00 med=15050
+  L18  J: r1=0.00 r10=0.07 med=168 | R: r1=0.00 r10=0.11 med=130 | logit: r1=0.00 r10=0.00 med=14741
+  L19  J: r1=0.00 r10=0.11 med=78 | R: r1=0.00 r10=0.20 med=66 | logit: r1=0.00 r10=0.00 med=16226
+  L20  J: r1=0.00 r10=0.16 med=62 | R: r1=0.02 r10=0.18 med=48 | logit: r1=0.00 r10=0.00 med=17652
+  L21  J: r1=0.00 r10=0.18 med=50 | R: r1=0.07 r10=0.18 med=42 | logit: r1=0.00 r10=0.00 med=12720
+  L22  J: r1=0.00 r10=0.20 med=44 | R: r1=0.09 r10=0.23 med=32 | logit: r1=0.00 r10=0.00 med=4852
+  L23  J: r1=0.09 r10=0.43 med=12 | R: r1=0.09 r10=0.52 med=10 | logit: r1=0.00 r10=0.07 med=671
+  L24  J: r1=0.30 r10=0.66 med=4 | R: r1=0.27 r10=0.66 med=3 | logit: r1=0.07 r10=0.39 med=40
+  L25  J: r1=0.39 r10=0.86 med=2 | R: r1=0.50 r10=0.89 med=2 | logit: r1=0.18 r10=0.68 med=4
+  L26  J: r1=0.52 r10=0.95 med=1 | R: r1=0.59 r10=0.98 med=1 | logit: r1=0.36 r10=0.77 med=2
+  L27  J: r1=0.70 r10=0.98 med=1 | R: r1=0.68 r10=0.98 med=1 | logit: r1=0.48 r10=0.86 med=2
+  L28  J: r1=0.70 r10=1.00 med=1 | R: r1=0.73 r10=1.00 med=1 | logit: r1=0.57 r10=0.91 med=1
+  L29  J: r1=0.64 r10=0.98 med=1 | R: r1=0.59 r10=0.98 med=1 | logit: r1=0.59 r10=0.93 med=1
+  L30  J: r1=0.68 r10=1.00 med=1 | R: r1=0.68 r10=1.00 med=1 | logit: r1=0.68 r10=1.00 med=1
+  L31  J: r1=1.00 r10=1.00 med=1 | R: r1=1.00 r10=1.00 med=1 | logit: r1=1.00 r10=1.00 med=1
+[4b] band=[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] eligible=52
+[4b] 1/52 elapsed=107s
+[4b] 6/52 elapsed=212s
+[4b] 11/52 elapsed=295s
+[4b] 16/52 elapsed=361s
+[4b] 21/52 elapsed=426s
+[4b] 26/52 elapsed=500s
+[4b] 31/52 elapsed=605s
+[4b] 36/52 elapsed=704s
+[4b] 41/52 elapsed=783s
+[4b] 46/52 elapsed=869s
+[4b] 51/52 elapsed=947s
+[block27] done
+exit=0

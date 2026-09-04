@@ -1,0 +1,32 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 11914.83it/s]
+[probe] 1/59 amazon-language
+[probe] 2/59 animal-cover-turtle
+[probe] 3/59 animal-nose-elephant
+[probe] 4/59 birthstone-emerald-month
+[probe] 5/59 chem-atmosphere-Z
+[probe] 6/59 chem-organic-Z
+[probe] 7/59 chem-photosynthesis-Z
+[probe] 8/59 christmas-season
+[probe] 9/59 city-state-Philadelphia
+[probe] 10/59 element-color-gold2
+[probe] 11/59 etym-frigg-position
+[probe] 12/59 ex-city-capital-Barcelona-Toronto
+[probe] 13/59 ex-city-capital-Lyon-Naples
+[probe] 14/59 ex-city-capital-Naples-Barcelona
+[probe] 15/59 ex-city-capital-Toronto-Lyon
+[probe] 16/59 ex-city-continent-Toronto-Lyon
+[probe] 17/59 ex-city-currency-Toronto-Beijing
+[probe] 18/59 ex-city-language-Lyon-Naples
+[probe] 19/59 ex-element-state-26-8
+[probe] 20/59 ex-element-state-26-80
+[probe] 21/59 ex-element-symbol-11-26
+[probe] 22/59 ex-element-symbol-26-79
+[probe] 23/59 ex-planet-color-third-fourth
+[probe] 24/59 ex2-city-capital-Munich
+[probe] 25/59 ex2-city-capital-Osaka
+[probe] 26/59 ex2-city-continent-Lima
+[probe] 27/59 ex2-city-continent-Sydney
+[probe] 28/59 ex2-city-language-Cairo
+[probe] 29/59 ex2-city-language-Moscow
+[probe] 30/59 ex2-language-capital-Greek
+[probe] 31/59 ex2-language-capital-Hungarian

@@ -1,0 +1,10 @@
+{
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-4.19.90-2107.6.0.0192.8.oe1.bclinux.x86_64-x86_64-with-glibc2.35",
+  "torch": "2.8.0+cu128",
+  "torch_cuda": "12.8",
+  "transformers": "5.9.0",
+  "transformer_lens_file": "/root/autodl-tmp/mats-r-lens/src/TransformerLens/transformer_lens/__init__.py",
+  "gpu": "NVIDIA A800 80GB PCIe",
+  "transformer_lens_commit": "c03d51037e32ae5e34b3e23d63f63d0e6e16bd1b"
+}

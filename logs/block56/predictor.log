@@ -1,0 +1,11 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 13005.91it/s]
+[q61] n=28
+  Spearman(h8_attn_to_bridge         , ΔM) = +0.50   (flip) = +0.03
+  Spearman(h9_attn_to_bridge         , ΔM) = +0.10   (flip) = +0.10
+  Spearman(all_heads_attn_to_bridge  , ΔM) = -0.21   (flip) = +0.00
+  Spearman(best_rank_intermediate    , ΔM) = -0.62   (flip) = -0.12
+  Spearman(coord_gap_mean            , ΔM) = +0.71   (flip) = +0.22
+  Spearman(cos                       , ΔM) = +0.40   (flip) = -0.07
+  Spearman(hits                      , ΔM) = +0.57   (flip) = +0.38
+[block56] done
+exit=0

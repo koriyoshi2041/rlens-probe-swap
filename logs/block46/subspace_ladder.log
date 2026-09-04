@@ -1,0 +1,22 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12228.71it/s]
+[q51] L8 singular values: top 10.37, #16 4.98, #256 1.902, #1024 0.4472, last 2.57e-06
+[q51] L9 singular values: top 10.22, #16 5.03, #256 2.055, #1024 0.4912, last 5.06e-06
+[q51] L10 singular values: top 9.64, #16 4.98, #256 2.126, #1024 0.5454, last 9.90e-06
+[q51] L11 singular values: top 9.96, #16 5.03, #256 2.266, #1024 0.6412, last 1.96e-06
+[q51] L12 singular values: top 9.87, #16 4.90, #256 2.313, #1024 0.7360, last 2.09e-06
+[q51] L13 singular values: top 10.10, #16 4.96, #256 2.386, #1024 0.8321, last 6.62e-05
+[q51] L14 singular values: top 10.35, #16 4.93, #256 2.419, #1024 0.9151, last 1.94e-05
+[q51] L15 singular values: top 10.75, #16 5.07, #256 2.467, #1024 0.9911, last 1.01e-05
+[q51] L16 singular values: top 10.03, #16 4.64, #256 2.422, #1024 1.0669, last 3.35e-04
+[q51] L17 singular values: top 9.43, #16 4.40, #256 2.397, #1024 1.1542, last 5.69e-05
+[q51] L18 singular values: top 8.70, #16 3.48, #256 2.137, #1024 1.1821, last 4.30e-04
+[q51] L19 singular values: top 7.89, #16 2.82, #256 1.917, #1024 1.2354, last 6.03e-05
+[q51] L20 singular values: top 7.50, #16 2.62, #256 1.910, #1024 1.2988, last 2.91e-05
+[q51] 1/59
+[q51] 11/59
+[q51] 21/59
+[q51] 31/59
+[q51] 41/59
+[q51] 51/59
+[block46] done
+exit=0

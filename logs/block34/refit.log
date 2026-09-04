@@ -1,0 +1,8 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12406.72it/s]
+[refit] 400 pile-10k docs loaded; skip_first=4, t_max=128
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:829: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:179.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[refit] n=25 saved (9.9s/doc)
+[refit] n=100 saved (8.0s/doc)
+[block34] done
+exit=0

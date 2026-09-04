@@ -1,0 +1,119 @@
+### young-cow-sheep  [cow -> sheep]  expect calf -> lamb  cos=+0.21  eligible=True (clean top1 ' calf')
+    clean : ' calf.\nQuestion: What is the young of the animal'
+    Jclamp: ' calf.\nQuestion: What is the young of the animal'   flip=False  paste_full=False
+
+### young-dog-cat  [dog -> cat]  expect puppy -> kitten  cos=+0.37  eligible=True (clean top1 ' puppy')
+    clean : ' puppy.\nQuestion: What is the young of the animal'
+    Jclamp: ' kitten.\nQuestion: What is the young of the animal'   flip=True  paste_full=True
+
+### home-bee-bird  [bee -> bird]  expect hive -> nest  cos=+0.18  eligible=True (clean top1 ' hive')
+    clean : ' hive.\nQuestion: What is the home of a bee'
+    Jclamp: ' nest.\nQuestion: What is the home of a bird'   flip=True  paste_full=True
+
+### home-bird-spider  [bird -> spider]  expect nest -> web  cos=+0.07  eligible=True (clean top1 ' nest')
+    clean : ' nest.\nQuestion: What is the home of a bird'
+    Jclamp: ' nest.\nQuestion: What is the home of a spider'   flip=False  paste_full=True
+
+### habitat-whale-camel  [whale -> camel]  expect ocean -> desert  cos=+0.12  eligible=True (clean top1 ' ocean')
+    clean : ' ocean.\nQuestion: What is the largest mammal on'
+    Jclamp: ' savanna.\nQuestion: What is the largest mammal'   flip=False  paste_full=True
+
+### diet-lion-cow  [lion -> cow]  expect meat -> grass  cos=+0.02  eligible=True (clean top1 ' meat')
+    clean : ' meat.\nHypothesis: The big cat known as'
+    Jclamp: ' meat.\nQuestion: What is the big cat known as'   flip=False  paste_full=False
+
+### food-panda-koala  [panda -> cow]  expect bamboo -> grass  cos=+0.10  eligible=True (clean top1 ' bamboo')
+    clean : ' bamboo.\nQuestion: What is the black-and-white bear'
+    Jclamp: ' plants.\nHypothesis: The black-and-white bear'   flip=False  paste_full=True
+
+### month-valentine-december  [February -> December]  expect March -> January  cos=+0.12  eligible=True (clean top1 ' March')
+    clean : ' March.\nQuestion: What is the month that comes right'
+    Jclamp: ' March.\nQuestion: What is the month that comes right'   flip=False  paste_full=False
+
+### month-halloween-christmas  [Halloween -> Christmas]  expect October -> December  cos=+0.30  eligible=True (clean top1 ' October')
+    clean : ' October.\nQuestion: What is the holiday?\nAnswer'
+    Jclamp: ' November.\nQuestion: What is the holiday?\nAnswer'   flip=False  paste_full=True
+
+### season-halloween-easter-v2  [Halloween -> Easter]  expect autumn -> spring  cos=+0.18  eligible=True (clean top1 ' autumn')
+    clean : ' autumn.\nQuestion: What is the holiday?\nAnswer'
+    Jclamp: ' spring.\nQuestion: Is the following statement true, false'   flip=True  paste_full=True
+
+### day-saturday-monday-v2  [Saturday -> Monday]  expect Sunday -> Tuesday  cos=+0.20  eligible=False (clean top1 ' Monday')
+
+### season-opposite-summer-spring-v2  [summer -> spring]  expect winter -> autumn  cos=+0.10  eligible=True (clean top1 ' winter')
+    clean : ' winter.\nQuestion: What is the season on the opposite'
+    Jclamp: ' the coldest season.\nQuestion: What is the col'   flip=False  paste_full=False
+
+### direction-east-north-v2  [east -> north]  expect west -> south  cos=+0.31  eligible=False (clean top1 ' the')
+
+### color-mix-yellow-red-v2  [yellow -> red]  expect green -> purple  cos=-0.01  eligible=False (clean top1 ' of')
+
+### color-mix-blue-red-v2  [blue -> red]  expect green -> orange  cos=+0.04  eligible=False (clean top1 ' of')
+
+### fruit-color-apple-banana  [apple -> banana]  expect red -> yellow  cos=+0.04  eligible=True (clean top1 ' red')
+    clean : ' red.\nQuestion: What is the color of the fruit'
+    Jclamp: ' yellow.\nQuestion: What is the color of the fruit'   flip=True  paste_full=False
+
+### vegetable-color-carrot-spinach-v2  [carrot -> spinach]  expect orange -> green  cos=+0.10  eligible=True (clean top1 ' orange')
+    clean : ' orange.\nQuestion: What is the color of the long'
+    Jclamp: ' orange.\nQuestion: What is the color of the long'   flip=False  paste_full=False
+
+### flame-sodium-copper  [sodium -> copper]  expect yellow -> green  cos=-0.00  eligible=True (clean top1 ' yellow')
+    clean : ' yellow.\nQuestion: What is the color of the flame'
+    Jclamp: ' green.\nQuestion: What is the color of the flame'   flip=True  paste_full=True
+
+### state-mercury-iron  [mercury -> iron]  expect liquid -> solid  cos=+0.08  eligible=True (clean top1 ' liquid')
+    clean : ' liquid.\nQuestion: What is the state of matter at'
+    Jclamp: ' liquid.\nQuestion: What is the state of matter at'   flip=False  paste_full=False
+
+### bone-heart-brain-v2  [heart -> brain]  expect ribs -> skull  cos=+0.11  eligible=True (clean top1 ' ribs')
+    clean : ' ribs.\nQuestion: What is the organ that pumps blood'
+    Jclamp: ' ribs.\nQuestion: What is the organ that pumps blood'   flip=False  paste_full=False
+
+### tool-screw-nail-v2  [nail -> bolt]  expect hammer -> wrench  cos=+0.05  eligible=True (clean top1 ' hammer')
+    clean : ' hammer.\nQuestion: What is the tool used to drive'
+    Jclamp: ' hammer.\nQuestion: What is the tool used to drive'   flip=False  paste_full=False
+
+### sport-equipment-baseball-hockey  [baseball -> hockey]  expect bat -> stick  cos=+0.05  eligible=True (clean top1 ' bat')
+    clean : ' bat.\nQuestion: What sport is this?\nOptions'
+    Jclamp: ' stick.\nQuestion: What sport is this?\nOptions'   flip=True  paste_full=True
+
+### plant-grape-apple  [grape -> apple]  expect vine -> tree  cos=+0.14  eligible=True (clean top1 ' vine')
+    clean : ' vine.\nQuestion: What kind of plant is the small'
+    Jclamp: ' vine.\nQuestion: What kind of plant is the small'   flip=False  paste_full=False
+
+### material-window-ring-v2  [window -> ring]  expect glass -> gold  cos=+0.05  eligible=True (clean top1 ' glass')
+    clean : ' glass.\nQuestion: What is the transparent material used to'
+    Jclamp: ' glass.\nQuestion: What is the transparent material used to'   flip=False  paste_full=False
+
+### young-cat-dog  [cat -> dog]  expect kitten -> puppy  cos=+0.37  eligible=True (clean top1 ' kitten')
+    clean : ' kitten.\nQuestion: What is the young of the animal'
+    Jclamp: ' kitten.\nQuestion: What is the young of the animal'   flip=False  paste_full=False
+
+### home-spider-bee  [spider -> bee]  expect web -> hive  cos=+0.18  eligible=True (clean top1 ' web')
+    clean : ' web.\nQuestion: What is the home spun by the'
+    Jclamp: ' beehive.\nQuestion: What is the home of'   flip=False  paste_full=True
+
+### flame-copper-sodium  [copper -> sodium]  expect green -> yellow  cos=-0.00  eligible=True (clean top1 ' green')
+    clean : ' green.\nQuestion: What is the flame color of the'
+    Jclamp: ' green.\nQuestion: What is the color of the flame'   flip=False  paste_full=True
+
+### equipment-hockey-baseball  [hockey -> baseball]  expect stick -> bat  cos=+0.05  eligible=True (clean top1 ' stick')
+    clean : ' stick.\nQuestion: What is the sport?\nOptions'
+    Jclamp: ' stick.\nQuestion: What is the sport?\nOptions'   flip=False  paste_full=False
+
+### fruit-color-banana-apple  [banana -> apple]  expect yellow -> red  cos=+0.04  eligible=True (clean top1 ' yellow')
+    clean : ' yellow.\nQuestion: What is the color of the long'
+    Jclamp: ' red.\nQuestion: What is the color of the long'   flip=True  paste_full=False
+
+### habitat-camel-whale  [camel -> whale]  expect desert -> ocean  cos=+0.12  eligible=True (clean top1 ' desert')
+    clean : ' desert.\nQuestion: What is the humped animal that'
+    Jclamp: ' desert.\nQuestion: What is the humped animal that'   flip=False  paste_full=False
+
+### month-christmas-halloween  [Christmas -> Halloween]  expect December -> October  cos=+0.30  eligible=True (clean top1 ' December')
+    clean : ' December.\nQuestion: What is the holiday?\nAnswer'
+    Jclamp: ' October.\nQuestion: What is the holiday?\nAnswer'   flip=True  paste_full=True
+
+### diet-cow-lion  [cow -> lion]  expect grass -> meat  cos=+0.02  eligible=True (clean top1 ' grass')
+    clean : ' grass.\nQuestion: What is the main food of the'
+    Jclamp: ' grass.\nQuestion: What is the farm animal that gives'   flip=False  paste_full=False

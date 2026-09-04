@@ -1,0 +1,8 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12641.61it/s]
+[eval] lenses: ['published_J', 'pile_n100', 'pile_n25', 'wiki_n25_skip16']
+[eval] 1/59
+[eval] 16/59
+[eval] 31/59
+[eval] 46/59
+[block34b] done
+exit=0

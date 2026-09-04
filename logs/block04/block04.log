@@ -1,0 +1,175 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12564.38it/s]
+
+=== band width vs alpha: median per-layer energy growth (last/first) ===
+ width a=0.5    a=1.0    a=1.25   a=1.5    a=2.0   
+     1        1        1        1        1        1
+theory        1        1        1        1        1
+     2    0.151    0.555     1.38     2.67     6.48
+theory        0        1     2.25        4        9
+     4   0.0367    0.846     7.58     38.4      448
+theory        0        1     11.4       64      729
+     8   0.0724    0.882      141 7.62e+03 2.29e+06
+theory        0        1      292 1.64e+04 4.78e+06
+    13    0.364     3.24 6.38e+03 5.34e+06 8.41e+10
+theory        0        1 1.68e+04 1.68e+07 2.82e+11
+[knowledge] {
+ "intermediate": {
+  "n": 59,
+  "n_correct": 52,
+  "n_rank_le5": 55,
+  "failures": [
+   [
+    "christmas-season",
+    " the",
+    " winter",
+    2
+   ],
+   [
+    "ex-city-continent-Toronto-Lyon",
+    " the",
+    " North",
+    20
+   ],
+   [
+    "ex2-city-continent-Lima",
+    " located",
+    " South",
+    9
+   ],
+   [
+    "ex2-city-continent-Sydney",
+    " the",
+    " Australia",
+    54
+   ],
+   [
+    "organ-count-kidney2",
+    "\n",
+    " two",
+    3
+   ],
+   [
+    "paper-continent",
+    " the",
+    " Asia",
+    28
+   ],
+   [
+    "vehicle-power-bicycle",
+    " rider",
+    " legs",
+    5
+   ]
+  ]
+ },
+ "swap_to": {
+  "n": 59,
+  "n_correct": 44,
+  "n_rank_le5": 52,
+  "failures": [
+   [
+    "animal-cover-turtle",
+    " shell",
+    " scale",
+    2
+   ],
+   [
+    "christmas-season",
+    " the",
+    " spring",
+    3
+   ],
+   [
+    "element-color-gold2",
+    " white",
+    " gray",
+    3
+   ],
+   [
+    "ex-city-continent-Toronto-Lyon",
+    " located",
+    " Europe",
+    27
+   ],
+   [
+    "ex-city-currency-Toronto-Beijing",
+    " Ren",
+    " yuan",
+    1
+   ],
+   [
+    "ex-element-state-26-8",
+    " a",
+    " gas",
+    2
+   ],
+   [
+    "ex2-city-continent-Lima",
+    " located",
+    " Africa",
+    11
+   ],
+   [
+    "ex2-city-continent-Sydney",
+    " located",
+    " South",
+    9
+   ],
+   [
+    "holiday-month-christmas2",
+    " always",
+    " April",
+    8
+   ],
+   [
+    "organ-count-kidney2",
+    "\n",
+    " one",
+    3
+   ],
+   [
+    "paper-continent",
+    " located",
+    " Europe",
+    27
+   ],
+   [
+    "person-country-napoleon",
+    " the",
+    " America",
+    7
+   ],
+   [
+    "planet-rings-saturn2",
+    " Great",
+    " spot",
+    31
+   ],
+   [
+    "spaceneedle-border",
+    " the",
+    " New",
+    2
+   ],
+   [
+    "super-populous-capital",
+    " New",
+    " Delhi",
+    2
+   ]
+  ]
+ }
+}
+[layer_profile] 1/59 elapsed=14s
+[layer_profile] 11/59 elapsed=151s
+[layer_profile] 21/59 elapsed=286s
+[layer_profile] 31/59 elapsed=421s
+[layer_profile] 41/59 elapsed=556s
+[layer_profile] 51/59 elapsed=692s
+[cross_readout] 1/59 elapsed=3s
+[cross_readout] 11/59 elapsed=28s
+[cross_readout] 21/59 elapsed=54s
+[cross_readout] 31/59 elapsed=79s
+[cross_readout] 41/59 elapsed=104s
+[cross_readout] 51/59 elapsed=130s
+[block04] done

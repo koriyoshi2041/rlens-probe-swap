@@ -1,0 +1,17 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 11581.34it/s]
+[q52] pair 1/14 ex-city-capital-Barcelona-Toronto
+[q52] pair 2/14 ex-city-capital-Lyon-Naples
+[q52] pair 3/14 ex-city-capital-Naples-Barcelona
+[q52] pair 4/14 ex-city-capital-Toronto-Lyon
+[q52] pair 5/14 ex-element-symbol-11-26
+[q52] pair 6/14 ex2-city-capital-Munich
+[q52] pair 7/14 ex2-city-capital-Osaka
+[q52] pair 8/14 ex2-city-continent-Sydney
+[q52] pair 9/14 ex2-city-language-Cairo
+[q52] pair 10/14 ex2-city-language-Moscow
+[q52] pair 11/14 ex2-language-capital-Greek
+[q52] pair 12/14 ex2-language-capital-Hungarian
+[q52] pair 13/14 ex2-language-capital-Polish
+[q52] pair 14/14 ex2-language-capital-Swedish
+[block47] done
+exit=0

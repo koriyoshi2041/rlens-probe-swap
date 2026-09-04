@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /root/autodl-tmp/mats-r-lens/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /root/autodl-tmp/mats-r-lens/work/code
+configfile: pytest.ini
+plugins: typeguard-4.6.0, jaxtyping-0.3.11, anyio-4.10.0
+collecting ... collected 8 items
+
+tests/test_interventions.py::test_gram_matched_random_basis_has_same_gram PASSED [ 12%]
+tests/test_interventions.py::test_unit_basis_rows_have_unit_norm PASSED  [ 25%]
+tests/test_interventions.py::test_own_swap_matches_library[None-J] PASSED [ 37%]
+tests/test_interventions.py::test_own_swap_matches_library[None-R] PASSED [ 50%]
+tests/test_interventions.py::test_own_swap_matches_library[positions1-J] PASSED [ 62%]
+tests/test_interventions.py::test_own_swap_matches_library[positions1-R] PASSED [ 75%]
+tests/test_interventions.py::test_own_ablation_matches_library PASSED    [ 87%]
+tests/test_interventions.py::test_swap_energy_is_alpha_scaled PASSED     [100%]
+
+============================== 8 passed in 13.94s ==============================

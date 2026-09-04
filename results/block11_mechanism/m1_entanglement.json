@@ -1,0 +1,74 @@
+[
+ {
+  "lens": "J",
+  "layer": 6,
+  "real_before": 0.14334294199943542,
+  "real_after": 0.28025245666503906,
+  "shuffled_before": 0.01623127982020378,
+  "shuffled_after": 0.05813746154308319,
+  "random_before": 0.013820488937199116,
+  "random_after": 0.06739983335137367,
+  "real_before_signed": 0.14334294199943542,
+  "real_after_signed": 0.28025245666503906
+ },
+ {
+  "lens": "J",
+  "layer": 12,
+  "real_before": 0.14334294199943542,
+  "real_after": 0.2829405963420868,
+  "shuffled_before": 0.01623127982020378,
+  "shuffled_after": 0.05919964611530304,
+  "random_before": 0.013820488937199116,
+  "random_after": 0.04562242515385151,
+  "real_before_signed": 0.14334294199943542,
+  "real_after_signed": 0.2829405963420868
+ },
+ {
+  "lens": "J",
+  "layer": 18,
+  "real_before": 0.14334294199943542,
+  "real_after": 0.24674852192401886,
+  "shuffled_before": 0.01623127982020378,
+  "shuffled_after": 0.03607994690537453,
+  "random_before": 0.013820488937199116,
+  "random_after": 0.027282726019620895,
+  "real_before_signed": 0.14334294199943542,
+  "real_after_signed": 0.24674852192401886
+ },
+ {
+  "lens": "R",
+  "layer": 6,
+  "real_before": 0.14334294199943542,
+  "real_after": 0.2882992625236511,
+  "shuffled_before": 0.01623127982020378,
+  "shuffled_after": 0.06805124878883362,
+  "random_before": 0.013820488937199116,
+  "random_after": 0.06487725675106049,
+  "real_before_signed": 0.14334294199943542,
+  "real_after_signed": 0.2882992625236511
+ },
+ {
+  "lens": "R",
+  "layer": 12,
+  "real_before": 0.14334294199943542,
+  "real_after": 0.2822765111923218,
+  "shuffled_before": 0.01623127982020378,
+  "shuffled_after": 0.04590637981891632,
+  "random_before": 0.013820488937199116,
+  "random_after": 0.0394662506878376,
+  "real_before_signed": 0.14334294199943542,
+  "real_after_signed": 0.2822765111923218
+ },
+ {
+  "lens": "R",
+  "layer": 18,
+  "real_before": 0.14334294199943542,
+  "real_after": 0.24752774834632874,
+  "shuffled_before": 0.01623127982020378,
+  "shuffled_after": 0.030105821788311005,
+  "random_before": 0.013820488937199116,
+  "random_after": 0.027513280510902405,
+  "real_before_signed": 0.14334294199943542,
+  "real_after_signed": 0.24752774834632874
+ }
+]

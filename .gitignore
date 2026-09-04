@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+workspace/
+*.pt
+*.pkl
+*.safetensors
+.DS_Store
+.deepeval/

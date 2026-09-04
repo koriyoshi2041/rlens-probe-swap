@@ -1,0 +1,58 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12895.42it/s]
+[S1] pair 1/14
+[S1] pair 2/14
+[S1] pair 3/14
+[S1] pair 4/14
+[S1] pair 5/14
+[S1] pair 6/14
+[S1] pair 7/14
+[S1] pair 8/14
+[S1] pair 9/14
+[S1] pair 10/14
+[S1] pair 11/14
+[S1] pair 12/14
+[S1] pair 13/14
+[S1] pair 14/14
+[S2] amazon-language              clean -> ' Portuguese.\nQuestion: What is the language spoken in the country where the Amazon River ends?\nOptions:\nA'
+[S2] amazon-language              J     -> ' Spanish.\nQuestion: What is the name of the country where the Amazon River ends?\nAnswer:\n\n<think>\n'
+[S2] amazon-language              R     -> ' Spanish.\nQuestion: What is the name of the country where the Amazon River ends?\nAnswer: Peru.\n\n'
+[S2] animal-nose-elephant         clean -> ' trunk.\nQuestion: What is the name of the long flexible body part that the largest land animal uses to pick things'
+[S2] animal-nose-elephant         J     -> ' trunk.\nQuestion: What is the name of the long flexible body part that the largest land animal uses to pick things'
+[S2] animal-nose-elephant         R     -> ' trunk.\nQuestion: What is the name of the long flexible body part that the largest land animal uses to pick things'
+[S2] chem-atmosphere-Z            clean -> '7.\nQuestion: What is the atomic number of the gas that makes up about 78 percent of the atmosphere'
+[S2] chem-atmosphere-Z            J     -> '7.\nQuestion: What is the atomic number of the gas that makes up about 78 percent of the atmosphere'
+[S2] chem-atmosphere-Z            R     -> '7.\nQuestion: What is the atomic number of the gas that makes up about 78 percent of the atmosphere'
+[S2] element-color-gold2          clean -> ' yellow.\nQuestion: What is the color of the precious metal with atomic number 79?\nOptions:\n'
+[S2] element-color-gold2          J     -> ' yellow.\nQuestion: What is the color of the precious metal with atomic number 79?\nOptions:\n'
+[S2] element-color-gold2          R     -> ' yellow.\nQuestion: What is the color of the precious metal with atomic number 79?\nOptions:\n'
+[S2] ex-city-capital-Naples-Barcelona clean -> ' Rome.\nQuestion: What is the capital of the country where Naples is located?\nOptions:\n(A) London'
+[S2] ex-city-capital-Naples-Barcelona J     -> ' Madrid.\nQuestion: What is the capital of the country where Naples is located?\nOptions:\n(A) Madrid'
+[S2] ex-city-capital-Naples-Barcelona R     -> ' Madrid.\nQuestion: What is the capital of the country where Naples is located?\nOptions:\n(A) Madrid'
+[S2] ex-city-currency-Toronto-Beijing clean -> ' Canadian dollar.\nQuestion: What is the currency used in the country where Toronto is located?\nOptions:\n(A'
+[S2] ex-city-currency-Toronto-Beijing J     -> ' Renminbi.\nQuestion: What is the currency used in the country where Toronto is located?\nOptions:\n'
+[S2] ex-city-currency-Toronto-Beijing R     -> ' Renminbi.\nQuestion: What is the currency used in the country where Toronto is located?\nOptions:\n'
+[S2] ex2-city-continent-Lima      clean -> ' South America.\nHypothesis: The continent of the country where Lima is located is North America.\nIs the'
+[S2] ex2-city-continent-Lima      J     -> ' Africa.\nQuestion: What continent is the country where Lima is located in?\nOptions:\n1. Africa\n'
+[S2] ex2-city-continent-Lima      R     -> ' Africa.\nQuestion: What continent is the country where Lima is located in?\nOptions:\n1. Africa\n'
+[S2] ex2-language-capital-Polish  clean -> ' Warsaw.\nQuestion: What is the capital of the country where Polish is the primary language?\nOptions:\nA'
+[S2] ex2-language-capital-Polish  J     -> ' Athens.\nQuestion: Is the following statement true, false, or uncertain?\nStatement: The capital of the country'
+[S2] ex2-language-capital-Polish  R     -> ' Athens.\nQuestion: Is the following statement true, false, or uncertain?\nStatement: The capital of the country'
+[S2] func-pumps-chambers          clean -> '4.\nQuestion: How many chambers does the heart have?\nOptions:\nA. 2\nB.'
+[S2] func-pumps-chambers          J     -> '4.\nQuestion: How many chambers does the organ that pumps blood through the body have?\nOptions:\nA'
+[S2] func-pumps-chambers          R     -> '4.\nQuestion: How many chambers does the organ that pumps blood through the body have?\nOptions:\n(A'
+[S2] holiday-month-christmas2     clean -> ' December.\nQuestion: What is the name of the holiday celebrated with a decorated evergreen tree and gift-giving?'
+[S2] holiday-month-christmas2     J     -> ' April.\nQuestion: What is the name of the holiday celebrated with a decorated evergreen tree and gift-giving?'
+[S2] holiday-month-christmas2     R     -> ' the 12th month of the year.\nQuestion: What is the name of the holiday celebrated with a decorated'
+[S2] person-firstname-einstein    clean -> ' Albert.\nQuestion: What is the first name of the physicist who developed the theory of general relativity?\nOptions'
+[S2] person-firstname-einstein    J     -> ' Albert.\nQuestion: What is the first name of the physicist who developed the theory of general relativity?\nOptions'
+[S2] person-firstname-einstein    R     -> ' Albert.\nQuestion: What is the first name of the physicist who developed the theory of general relativity?\nOptions'
+[S2] spaceneedle-border           clean -> ' Canada.\nQuestion: What is the name of the US state where the Space Needle is located?\nAnswer:\n\n'
+[S2] spaceneedle-border           J     -> ' the state where the Empire State Building is located.\nQuestion: What is the name of the US state where the Space'
+[S2] spaceneedle-border           R     -> ' the state where the Empire State Building is located.\nQuestion: What is the name of the US state where the Space'
+[S3] 1/59
+[S3] 11/59
+[S3] 21/59
+[S3] 31/59
+[S3] 41/59
+[S3] 51/59
+[block20] done

@@ -1,0 +1,2042 @@
+[
+ {
+  "index": 3,
+  "name": "animal-nose-elephant",
+  "prompt": "Fact: The long flexible body part that the largest land animal uses to pick things up is called a",
+  "condition": "clean",
+  "answer": " trunk",
+  "swap_answer": " tongue",
+  "top10": [
+   [
+    " trunk",
+    0.6977
+   ],
+   [
+    " tongue",
+    0.0347
+   ],
+   [
+    " nose",
+    0.0307
+   ],
+   [
+    " __",
+    0.0288
+   ],
+   [
+    " **",
+    0.0254
+   ],
+   [
+    " tail",
+    0.0186
+   ],
+   [
+    " ______",
+    0.0186
+   ],
+   [
+    "\n",
+    0.0154
+   ],
+   [
+    " sn",
+    0.0145
+   ],
+   [
+    " tr",
+    0.0093
+   ]
+  ],
+  "continuation": " trunk.\nQuestion: What is the"
+ },
+ {
+  "index": 3,
+  "name": "animal-nose-elephant",
+  "prompt": "Fact: The long flexible body part that the largest land animal uses to pick things up is called a",
+  "condition": "J_primary_L8_20",
+  "answer": " trunk",
+  "swap_answer": " tongue",
+  "top10": [
+   [
+    " trunk",
+    0.6214
+   ],
+   [
+    " tongue",
+    0.0578
+   ],
+   [
+    " __",
+    0.0329
+   ],
+   [
+    " **",
+    0.0329
+   ],
+   [
+    " tail",
+    0.0309
+   ],
+   [
+    " nose",
+    0.0291
+   ],
+   [
+    " ______",
+    0.0226
+   ],
+   [
+    "\n",
+    0.02
+   ],
+   [
+    " sn",
+    0.0166
+   ],
+   [
+    " tr",
+    0.0114
+   ]
+  ],
+  "continuation": " trunk.\nQuestion: What is the"
+ },
+ {
+  "index": 3,
+  "name": "animal-nose-elephant",
+  "prompt": "Fact: The long flexible body part that the largest land animal uses to pick things up is called a",
+  "condition": "R_primary_L8_20",
+  "answer": " trunk",
+  "swap_answer": " tongue",
+  "top10": [
+   [
+    " trunk",
+    0.6262
+   ],
+   [
+    " tongue",
+    0.0582
+   ],
+   [
+    " tail",
+    0.0454
+   ],
+   [
+    " __",
+    0.0312
+   ],
+   [
+    " **",
+    0.0293
+   ],
+   [
+    " nose",
+    0.0258
+   ],
+   [
+    " ______",
+    0.0214
+   ],
+   [
+    "\n",
+    0.0189
+   ],
+   [
+    " sn",
+    0.0138
+   ],
+   [
+    " tr",
+    0.0115
+   ]
+  ],
+  "continuation": " trunk.\nQuestion: What is the"
+ },
+ {
+  "index": 3,
+  "name": "animal-nose-elephant",
+  "prompt": "Fact: The long flexible body part that the largest land animal uses to pick things up is called a",
+  "condition": "J_early_L3_8",
+  "answer": " trunk",
+  "swap_answer": " tongue",
+  "top10": [
+   [
+    " trunk",
+    0.6337
+   ],
+   [
+    " tongue",
+    0.0627
+   ],
+   [
+    " tail",
+    0.0459
+   ],
+   [
+    " **",
+    0.0336
+   ],
+   [
+    " __",
+    0.0278
+   ],
+   [
+    " nose",
+    0.0217
+   ],
+   [
+    " ______",
+    0.0191
+   ],
+   [
+    "\n",
+    0.0191
+   ],
+   [
+    " sn",
+    0.0159
+   ],
+   [
+    " tr",
+    0.0102
+   ]
+  ],
+  "continuation": " trunk.\nQuestion: What is the"
+ },
+ {
+  "index": 3,
+  "name": "animal-nose-elephant",
+  "prompt": "Fact: The long flexible body part that the largest land animal uses to pick things up is called a",
+  "condition": "R_early_L3_8",
+  "answer": " trunk",
+  "swap_answer": " tongue",
+  "top10": [
+   [
+    " trunk",
+    0.5643
+   ],
+   [
+    " tongue",
+    0.0813
+   ],
+   [
+    " __",
+    0.0361
+   ],
+   [
+    " **",
+    0.0318
+   ],
+   [
+    " tail",
+    0.0318
+   ],
+   [
+    " nose",
+    0.0299
+   ],
+   [
+    " sn",
+    0.0281
+   ],
+   [
+    " ______",
+    0.0248
+   ],
+   [
+    "\n",
+    0.0219
+   ],
+   [
+    " tr",
+    0.0117
+   ]
+  ],
+  "continuation": " trunk.\nQuestion: What is the"
+ },
+ {
+  "index": 27,
+  "name": "ex-city-currency-Toronto-Beijing",
+  "prompt": "Fact: The currency used in the country where Toronto is located is the",
+  "condition": "clean",
+  "answer": " Canadian",
+  "swap_answer": " yuan",
+  "top10": [
+   [
+    " Canadian",
+    0.8367
+   ],
+   [
+    " US",
+    0.0223
+   ],
+   [
+    " dollar",
+    0.0197
+   ],
+   [
+    " **",
+    0.0163
+   ],
+   [
+    " CAD",
+    0.0135
+   ],
+   [
+    "\n",
+    0.0105
+   ],
+   [
+    " __",
+    0.0077
+   ],
+   [
+    " United",
+    0.0047
+   ],
+   [
+    " USD",
+    0.0041
+   ],
+   [
+    " CAN",
+    0.0036
+   ]
+  ],
+  "continuation": " Canadian dollar.\nQuestion: What is"
+ },
+ {
+  "index": 27,
+  "name": "ex-city-currency-Toronto-Beijing",
+  "prompt": "Fact: The currency used in the country where Toronto is located is the",
+  "condition": "J_primary_L8_20",
+  "answer": " Canadian",
+  "swap_answer": " yuan",
+  "top10": [
+   [
+    " Canadian",
+    0.2786
+   ],
+   [
+    " Chinese",
+    0.1316
+   ],
+   [
+    " yuan",
+    0.0704
+   ],
+   [
+    " Ren",
+    0.0662
+   ],
+   [
+    " R",
+    0.0622
+   ],
+   [
+    " US",
+    0.0427
+   ],
+   [
+    " **",
+    0.0354
+   ],
+   [
+    "\n",
+    0.0313
+   ],
+   [
+    " Yuan",
+    0.0313
+   ],
+   [
+    " C",
+    0.0294
+   ]
+  ],
+  "continuation": " Canadian dollar.\nQuestion: What is"
+ },
+ {
+  "index": 27,
+  "name": "ex-city-currency-Toronto-Beijing",
+  "prompt": "Fact: The currency used in the country where Toronto is located is the",
+  "condition": "R_primary_L8_20",
+  "answer": " Canadian",
+  "swap_answer": " yuan",
+  "top10": [
+   [
+    " Canadian",
+    0.4908
+   ],
+   [
+    " Chinese",
+    0.0853
+   ],
+   [
+    " US",
+    0.0486
+   ],
+   [
+    " yuan",
+    0.0403
+   ],
+   [
+    " **",
+    0.0334
+   ],
+   [
+    " R",
+    0.0295
+   ],
+   [
+    "\n",
+    0.026
+   ],
+   [
+    " Ren",
+    0.023
+   ],
+   [
+    " C",
+    0.0216
+   ],
+   [
+    " Yuan",
+    0.0179
+   ]
+  ],
+  "continuation": " Canadian dollar.\nQuestion: What is"
+ },
+ {
+  "index": 27,
+  "name": "ex-city-currency-Toronto-Beijing",
+  "prompt": "Fact: The currency used in the country where Toronto is located is the",
+  "condition": "J_early_L3_8",
+  "answer": " Canadian",
+  "swap_answer": " yuan",
+  "top10": [
+   [
+    " Canadian",
+    0.7848
+   ],
+   [
+    " US",
+    0.0416
+   ],
+   [
+    " dollar",
+    0.0223
+   ],
+   [
+    " **",
+    0.0209
+   ],
+   [
+    " CAD",
+    0.0135
+   ],
+   [
+    "\n",
+    0.0127
+   ],
+   [
+    " United",
+    0.0093
+   ],
+   [
+    " __",
+    0.0093
+   ],
+   [
+    " USD",
+    0.0077
+   ],
+   [
+    " U",
+    0.0047
+   ]
+  ],
+  "continuation": " Canadian dollar.\nQuestion: What is"
+ },
+ {
+  "index": 27,
+  "name": "ex-city-currency-Toronto-Beijing",
+  "prompt": "Fact: The currency used in the country where Toronto is located is the",
+  "condition": "R_early_L3_8",
+  "answer": " Canadian",
+  "swap_answer": " yuan",
+  "top10": [
+   [
+    " Canadian",
+    0.7773
+   ],
+   [
+    " US",
+    0.0529
+   ],
+   [
+    " dollar",
+    0.0235
+   ],
+   [
+    " **",
+    0.0172
+   ],
+   [
+    " United",
+    0.0142
+   ],
+   [
+    " CAD",
+    0.0118
+   ],
+   [
+    "\n",
+    0.0118
+   ],
+   [
+    " USD",
+    0.0092
+   ],
+   [
+    " __",
+    0.0081
+   ],
+   [
+    " U",
+    0.0063
+   ]
+  ],
+  "continuation": " Canadian dollar.\nQuestion: What is"
+ },
+ {
+  "index": 39,
+  "name": "ex2-city-capital-Osaka",
+  "prompt": "Fact: The capital of the country where Osaka is located is",
+  "condition": "clean",
+  "answer": " Tokyo",
+  "swap_answer": " Berlin",
+  "top10": [
+   [
+    " Tokyo",
+    0.4118
+   ],
+   [
+    " Kyoto",
+    0.1337
+   ],
+   [
+    " not",
+    0.0492
+   ],
+   [
+    " the",
+    0.0434
+   ],
+   [
+    " also",
+    0.0298
+   ],
+   [
+    " located",
+    0.0263
+   ],
+   [
+    " a",
+    0.0193
+   ],
+   [
+    " in",
+    0.0181
+   ],
+   [
+    " Seoul",
+    0.0181
+   ],
+   [
+    "\n",
+    0.0141
+   ]
+  ],
+  "continuation": " Tokyo.\nQuestion: What is the"
+ },
+ {
+  "index": 39,
+  "name": "ex2-city-capital-Osaka",
+  "prompt": "Fact: The capital of the country where Osaka is located is",
+  "condition": "J_primary_L8_20",
+  "answer": " Tokyo",
+  "swap_answer": " Berlin",
+  "top10": [
+   [
+    " Berlin",
+    0.2709
+   ],
+   [
+    " Tokyo",
+    0.1749
+   ],
+   [
+    " Vienna",
+    0.0533
+   ],
+   [
+    " the",
+    0.0471
+   ],
+   [
+    " not",
+    0.039
+   ],
+   [
+    " Kyoto",
+    0.0367
+   ],
+   [
+    " located",
+    0.0304
+   ],
+   [
+    " also",
+    0.0286
+   ],
+   [
+    " a",
+    0.0173
+   ],
+   [
+    " in",
+    0.0173
+   ]
+  ],
+  "continuation": " Berlin.\nQuestion: What is the"
+ },
+ {
+  "index": 39,
+  "name": "ex2-city-capital-Osaka",
+  "prompt": "Fact: The capital of the country where Osaka is located is",
+  "condition": "R_primary_L8_20",
+  "answer": " Tokyo",
+  "swap_answer": " Berlin",
+  "top10": [
+   [
+    " Berlin",
+    0.3746
+   ],
+   [
+    " Vienna",
+    0.0651
+   ],
+   [
+    " Tokyo",
+    0.0611
+   ],
+   [
+    " the",
+    0.0476
+   ],
+   [
+    " not",
+    0.0371
+   ],
+   [
+    " located",
+    0.0307
+   ],
+   [
+    " also",
+    0.0289
+   ],
+   [
+    " Bonn",
+    0.0211
+   ],
+   [
+    " in",
+    0.0186
+   ],
+   [
+    " a",
+    0.0175
+   ]
+  ],
+  "continuation": " Berlin.\nQuestion: What is the"
+ },
+ {
+  "index": 39,
+  "name": "ex2-city-capital-Osaka",
+  "prompt": "Fact: The capital of the country where Osaka is located is",
+  "condition": "J_early_L3_8",
+  "answer": " Tokyo",
+  "swap_answer": " Berlin",
+  "top10": [
+   [
+    " Tokyo",
+    0.3951
+   ],
+   [
+    " Kyoto",
+    0.1366
+   ],
+   [
+    " the",
+    0.0472
+   ],
+   [
+    " not",
+    0.0472
+   ],
+   [
+    " also",
+    0.0305
+   ],
+   [
+    " located",
+    0.0253
+   ],
+   [
+    " Seoul",
+    0.0223
+   ],
+   [
+    " a",
+    0.0209
+   ],
+   [
+    " in",
+    0.0153
+   ],
+   [
+    "\n",
+    0.0144
+   ]
+  ],
+  "continuation": " Tokyo.\nQuestion: What is the"
+ },
+ {
+  "index": 39,
+  "name": "ex2-city-capital-Osaka",
+  "prompt": "Fact: The capital of the country where Osaka is located is",
+  "condition": "R_early_L3_8",
+  "answer": " Tokyo",
+  "swap_answer": " Berlin",
+  "top10": [
+   [
+    " Tokyo",
+    0.4005
+   ],
+   [
+    " Kyoto",
+    0.13
+   ],
+   [
+    " the",
+    0.0478
+   ],
+   [
+    " not",
+    0.0478
+   ],
+   [
+    " also",
+    0.0309
+   ],
+   [
+    " located",
+    0.024
+   ],
+   [
+    " Seoul",
+    0.0212
+   ],
+   [
+    " a",
+    0.0212
+   ],
+   [
+    " in",
+    0.0155
+   ],
+   [
+    " Beijing",
+    0.0137
+   ]
+  ],
+  "continuation": " Tokyo.\nQuestion: What is the"
+ },
+ {
+  "index": 41,
+  "name": "ex2-city-continent-Sydney",
+  "prompt": "Fact: The continent of the country where Sydney is located is",
+  "condition": "clean",
+  "answer": " Australia",
+  "swap_answer": " South",
+  "top10": [
+   [
+    " Australia",
+    0.2306
+   ],
+   [
+    " the",
+    0.1234
+   ],
+   [
+    " called",
+    0.0583
+   ],
+   [
+    " also",
+    0.0454
+   ],
+   [
+    " in",
+    0.0454
+   ],
+   [
+    " known",
+    0.0332
+   ],
+   [
+    "\n",
+    0.0228
+   ],
+   [
+    " Asia",
+    0.0228
+   ],
+   [
+    " Africa",
+    0.0189
+   ],
+   [
+    " a",
+    0.0147
+   ]
+  ],
+  "continuation": " Australia.\nQuestion: What continent is"
+ },
+ {
+  "index": 41,
+  "name": "ex2-city-continent-Sydney",
+  "prompt": "Fact: The continent of the country where Sydney is located is",
+  "condition": "J_primary_L8_20",
+  "answer": " Australia",
+  "swap_answer": " South",
+  "top10": [
+   [
+    " South",
+    0.1375
+   ],
+   [
+    " North",
+    0.1375
+   ],
+   [
+    " the",
+    0.1213
+   ],
+   [
+    " in",
+    0.0691
+   ],
+   [
+    " Africa",
+    0.0506
+   ],
+   [
+    " called",
+    0.0446
+   ],
+   [
+    " also",
+    0.0348
+   ],
+   [
+    " known",
+    0.0327
+   ],
+   [
+    "\n",
+    0.0239
+   ],
+   [
+    " Asia",
+    0.0211
+   ]
+  ],
+  "continuation": " North America.\nQuestion: What continent"
+ },
+ {
+  "index": 41,
+  "name": "ex2-city-continent-Sydney",
+  "prompt": "Fact: The continent of the country where Sydney is located is",
+  "condition": "R_primary_L8_20",
+  "answer": " Australia",
+  "swap_answer": " South",
+  "top10": [
+   [
+    " North",
+    0.1808
+   ],
+   [
+    " South",
+    0.1097
+   ],
+   [
+    " the",
+    0.1097
+   ],
+   [
+    " in",
+    0.0754
+   ],
+   [
+    " Africa",
+    0.0551
+   ],
+   [
+    " called",
+    0.0429
+   ],
+   [
+    " known",
+    0.0334
+   ],
+   [
+    " also",
+    0.0314
+   ],
+   [
+    "\n",
+    0.0245
+   ],
+   [
+    " Asia",
+    0.0179
+   ]
+  ],
+  "continuation": " North America.\nQuestion: What continent"
+ },
+ {
+  "index": 41,
+  "name": "ex2-city-continent-Sydney",
+  "prompt": "Fact: The continent of the country where Sydney is located is",
+  "condition": "J_early_L3_8",
+  "answer": " Australia",
+  "swap_answer": " South",
+  "top10": [
+   [
+    " Australia",
+    0.2
+   ],
+   [
+    " the",
+    0.1213
+   ],
+   [
+    " in",
+    0.0573
+   ],
+   [
+    " called",
+    0.0506
+   ],
+   [
+    " also",
+    0.0419
+   ],
+   [
+    " Africa",
+    0.037
+   ],
+   [
+    " known",
+    0.0307
+   ],
+   [
+    " Asia",
+    0.0239
+   ],
+   [
+    "\n",
+    0.0198
+   ],
+   [
+    " Europe",
+    0.0186
+   ]
+  ],
+  "continuation": " Australia.\nQuestion: What continent is"
+ },
+ {
+  "index": 41,
+  "name": "ex2-city-continent-Sydney",
+  "prompt": "Fact: The continent of the country where Sydney is located is",
+  "condition": "R_early_L3_8",
+  "answer": " Australia",
+  "swap_answer": " South",
+  "top10": [
+   [
+    " Australia",
+    0.1141
+   ],
+   [
+    " the",
+    0.1141
+   ],
+   [
+    " North",
+    0.0784
+   ],
+   [
+    " in",
+    0.0737
+   ],
+   [
+    " Africa",
+    0.0574
+   ],
+   [
+    " Europe",
+    0.0476
+   ],
+   [
+    " South",
+    0.042
+   ],
+   [
+    " also",
+    0.037
+   ],
+   [
+    " called",
+    0.0348
+   ],
+   [
+    "\n",
+    0.0211
+   ]
+  ],
+  "continuation": " the same continent as the country where the"
+ },
+ {
+  "index": 46,
+  "name": "ex2-language-capital-Polish",
+  "prompt": "Fact: The capital of the country where Polish is the primary language is",
+  "condition": "clean",
+  "answer": " Warsaw",
+  "swap_answer": " Athens",
+  "top10": [
+   [
+    " Warsaw",
+    0.8849
+   ],
+   [
+    " Krak",
+    0.0077
+   ],
+   [
+    " located",
+    0.0072
+   ],
+   [
+    " the",
+    0.0068
+   ],
+   [
+    " Warszawa",
+    0.0044
+   ],
+   [
+    " a",
+    0.0041
+   ],
+   [
+    " in",
+    0.0036
+   ],
+   [
+    " __",
+    0.0036
+   ],
+   [
+    " known",
+    0.0034
+   ],
+   [
+    " Poland",
+    0.0034
+   ]
+  ],
+  "continuation": " Warsaw.\nQuestion: What is the"
+ },
+ {
+  "index": 46,
+  "name": "ex2-language-capital-Polish",
+  "prompt": "Fact: The capital of the country where Polish is the primary language is",
+  "condition": "J_primary_L8_20",
+  "answer": " Warsaw",
+  "swap_answer": " Athens",
+  "top10": [
+   [
+    " Warsaw",
+    0.8725
+   ],
+   [
+    " located",
+    0.0075
+   ],
+   [
+    " the",
+    0.0071
+   ],
+   [
+    " Krak",
+    0.0067
+   ],
+   [
+    " a",
+    0.0049
+   ],
+   [
+    " in",
+    0.0043
+   ],
+   [
+    " __",
+    0.0038
+   ],
+   [
+    " Warszawa",
+    0.0036
+   ],
+   [
+    "\n",
+    0.0033
+   ],
+   [
+    " **",
+    0.0033
+   ]
+  ],
+  "continuation": " Warsaw.\nQuestion: What is the"
+ },
+ {
+  "index": 46,
+  "name": "ex2-language-capital-Polish",
+  "prompt": "Fact: The capital of the country where Polish is the primary language is",
+  "condition": "R_primary_L8_20",
+  "answer": " Warsaw",
+  "swap_answer": " Athens",
+  "top10": [
+   [
+    " Warsaw",
+    0.8751
+   ],
+   [
+    " Krak",
+    0.0076
+   ],
+   [
+    " located",
+    0.0067
+   ],
+   [
+    " the",
+    0.0067
+   ],
+   [
+    " a",
+    0.0046
+   ],
+   [
+    " in",
+    0.0041
+   ],
+   [
+    " __",
+    0.0036
+   ],
+   [
+    " Warszawa",
+    0.0036
+   ],
+   [
+    " known",
+    0.0034
+   ],
+   [
+    "\n",
+    0.0032
+   ]
+  ],
+  "continuation": " Warsaw.\nQuestion: What is the"
+ },
+ {
+  "index": 46,
+  "name": "ex2-language-capital-Polish",
+  "prompt": "Fact: The capital of the country where Polish is the primary language is",
+  "condition": "J_early_L3_8",
+  "answer": " Warsaw",
+  "swap_answer": " Athens",
+  "top10": [
+   [
+    " Warsaw",
+    0.893
+   ],
+   [
+    " located",
+    0.0073
+   ],
+   [
+    " Krak",
+    0.0068
+   ],
+   [
+    " the",
+    0.0064
+   ],
+   [
+    " a",
+    0.0039
+   ],
+   [
+    " Poland",
+    0.0039
+   ],
+   [
+    " Warszawa",
+    0.0039
+   ],
+   [
+    " in",
+    0.0034
+   ],
+   [
+    " __",
+    0.0032
+   ],
+   [
+    " known",
+    0.003
+   ]
+  ],
+  "continuation": " Warsaw.\nQuestion: What is the"
+ },
+ {
+  "index": 46,
+  "name": "ex2-language-capital-Polish",
+  "prompt": "Fact: The capital of the country where Polish is the primary language is",
+  "condition": "R_early_L3_8",
+  "answer": " Warsaw",
+  "swap_answer": " Athens",
+  "top10": [
+   [
+    " Warsaw",
+    0.887
+   ],
+   [
+    " Krak",
+    0.0072
+   ],
+   [
+    " located",
+    0.0072
+   ],
+   [
+    " the",
+    0.0064
+   ],
+   [
+    " Warszawa",
+    0.0044
+   ],
+   [
+    " Poland",
+    0.0039
+   ],
+   [
+    " a",
+    0.0036
+   ],
+   [
+    " in",
+    0.0036
+   ],
+   [
+    " __",
+    0.0034
+   ],
+   [
+    " known",
+    0.0032
+   ]
+  ],
+  "continuation": " Warsaw.\nQuestion: What is the"
+ },
+ {
+  "index": 47,
+  "name": "ex2-language-capital-Swedish",
+  "prompt": "Fact: The capital of the country where Swedish is the primary language is",
+  "condition": "clean",
+  "answer": " Stockholm",
+  "swap_answer": " Budapest",
+  "top10": [
+   [
+    " Stockholm",
+    0.88
+   ],
+   [
+    " located",
+    0.0111
+   ],
+   [
+    " the",
+    0.0098
+   ],
+   [
+    " in",
+    0.0067
+   ],
+   [
+    " a",
+    0.0052
+   ],
+   [
+    " Sweden",
+    0.0052
+   ],
+   [
+    " called",
+    0.0046
+   ],
+   [
+    " not",
+    0.0032
+   ],
+   [
+    "\n",
+    0.003
+   ],
+   [
+    " __",
+    0.0026
+   ]
+  ],
+  "continuation": " Stockholm.\nQuestion: What is the"
+ },
+ {
+  "index": 47,
+  "name": "ex2-language-capital-Swedish",
+  "prompt": "Fact: The capital of the country where Swedish is the primary language is",
+  "condition": "J_primary_L8_20",
+  "answer": " Stockholm",
+  "swap_answer": " Budapest",
+  "top10": [
+   [
+    " Stockholm",
+    0.4247
+   ],
+   [
+    " Budapest",
+    0.2006
+   ],
+   [
+    " Buch",
+    0.0327
+   ],
+   [
+    " the",
+    0.0255
+   ],
+   [
+    " located",
+    0.024
+   ],
+   [
+    " Vienna",
+    0.0187
+   ],
+   [
+    " Warsaw",
+    0.0175
+   ],
+   [
+    " a",
+    0.0155
+   ],
+   [
+    " in",
+    0.0145
+   ],
+   [
+    " Berlin",
+    0.0145
+   ]
+  ],
+  "continuation": " Stockholm.\nQuestion: What is the"
+ },
+ {
+  "index": 47,
+  "name": "ex2-language-capital-Swedish",
+  "prompt": "Fact: The capital of the country where Swedish is the primary language is",
+  "condition": "R_primary_L8_20",
+  "answer": " Stockholm",
+  "swap_answer": " Budapest",
+  "top10": [
+   [
+    " Stockholm",
+    0.5766
+   ],
+   [
+    " Budapest",
+    0.1135
+   ],
+   [
+    " Buch",
+    0.0224
+   ],
+   [
+    " the",
+    0.021
+   ],
+   [
+    " Berlin",
+    0.0185
+   ],
+   [
+    " located",
+    0.0185
+   ],
+   [
+    " Warsaw",
+    0.0164
+   ],
+   [
+    " Vienna",
+    0.0144
+   ],
+   [
+    " a",
+    0.0127
+   ],
+   [
+    " Helsinki",
+    0.0112
+   ]
+  ],
+  "continuation": " Stockholm.\nQuestion: What is the"
+ },
+ {
+  "index": 47,
+  "name": "ex2-language-capital-Swedish",
+  "prompt": "Fact: The capital of the country where Swedish is the primary language is",
+  "condition": "J_early_L3_8",
+  "answer": " Stockholm",
+  "swap_answer": " Budapest",
+  "top10": [
+   [
+    " Stockholm",
+    0.878
+   ],
+   [
+    " located",
+    0.0104
+   ],
+   [
+    " the",
+    0.0092
+   ],
+   [
+    " in",
+    0.0063
+   ],
+   [
+    " Sweden",
+    0.0056
+   ],
+   [
+    " a",
+    0.0049
+   ],
+   [
+    " called",
+    0.0043
+   ],
+   [
+    " Oslo",
+    0.003
+   ],
+   [
+    "\n",
+    0.003
+   ],
+   [
+    " not",
+    0.0028
+   ]
+  ],
+  "continuation": " Stockholm.\nQuestion: What is the"
+ },
+ {
+  "index": 47,
+  "name": "ex2-language-capital-Swedish",
+  "prompt": "Fact: The capital of the country where Swedish is the primary language is",
+  "condition": "R_early_L3_8",
+  "answer": " Stockholm",
+  "swap_answer": " Budapest",
+  "top10": [
+   [
+    " Stockholm",
+    0.8724
+   ],
+   [
+    " located",
+    0.0097
+   ],
+   [
+    " the",
+    0.0097
+   ],
+   [
+    " in",
+    0.0063
+   ],
+   [
+    " Sweden",
+    0.0055
+   ],
+   [
+    " a",
+    0.0052
+   ],
+   [
+    " Oslo",
+    0.0049
+   ],
+   [
+    " called",
+    0.0046
+   ],
+   [
+    " not",
+    0.003
+   ],
+   [
+    "\n",
+    0.0028
+   ]
+  ],
+  "continuation": " Stockholm.\nQuestion: What is the"
+ },
+ {
+  "index": 74,
+  "name": "person-firstname-newton",
+  "prompt": "Fact: The first name of the scientist on whose head an apple is said to have fallen was",
+  "condition": "clean",
+  "answer": " Isaac",
+  "swap_answer": " William",
+  "top10": [
+   [
+    " Isaac",
+    0.8293
+   ],
+   [
+    " Newton",
+    0.0342
+   ],
+   [
+    " not",
+    0.0143
+   ],
+   [
+    " Is",
+    0.0126
+   ],
+   [
+    " **",
+    0.0118
+   ],
+   [
+    " Sir",
+    0.0104
+   ],
+   [
+    " Albert",
+    0.0067
+   ],
+   [
+    " Iss",
+    0.0041
+   ],
+   [
+    " '",
+    0.0036
+   ],
+   [
+    "\n",
+    0.0025
+   ]
+  ],
+  "continuation": " Isaac.\nQuestion: What is the"
+ },
+ {
+  "index": 74,
+  "name": "person-firstname-newton",
+  "prompt": "Fact: The first name of the scientist on whose head an apple is said to have fallen was",
+  "condition": "J_primary_L8_20",
+  "answer": " Isaac",
+  "swap_answer": " William",
+  "top10": [
+   [
+    " Isaac",
+    0.8036
+   ],
+   [
+    " Newton",
+    0.0312
+   ],
+   [
+    " not",
+    0.0201
+   ],
+   [
+    " Is",
+    0.013
+   ],
+   [
+    " **",
+    0.0122
+   ],
+   [
+    " Albert",
+    0.0084
+   ],
+   [
+    " Sir",
+    0.007
+   ],
+   [
+    " '",
+    0.0045
+   ],
+   [
+    "\n",
+    0.0033
+   ],
+   [
+    " Iss",
+    0.0029
+   ]
+  ],
+  "continuation": " Isaac.\nQuestion: What is the"
+ },
+ {
+  "index": 74,
+  "name": "person-firstname-newton",
+  "prompt": "Fact: The first name of the scientist on whose head an apple is said to have fallen was",
+  "condition": "R_primary_L8_20",
+  "answer": " Isaac",
+  "swap_answer": " William",
+  "top10": [
+   [
+    " Isaac",
+    0.7804
+   ],
+   [
+    " Newton",
+    0.0343
+   ],
+   [
+    " not",
+    0.0236
+   ],
+   [
+    " Is",
+    0.0143
+   ],
+   [
+    " **",
+    0.0143
+   ],
+   [
+    " Albert",
+    0.0092
+   ],
+   [
+    " Sir",
+    0.0081
+   ],
+   [
+    " '",
+    0.0046
+   ],
+   [
+    "\n",
+    0.0036
+   ],
+   [
+    " __",
+    0.0032
+   ]
+  ],
+  "continuation": " Isaac.\nQuestion: What is the"
+ },
+ {
+  "index": 74,
+  "name": "person-firstname-newton",
+  "prompt": "Fact: The first name of the scientist on whose head an apple is said to have fallen was",
+  "condition": "J_early_L3_8",
+  "answer": " Isaac",
+  "swap_answer": " William",
+  "top10": [
+   [
+    " Isaac",
+    0.828
+   ],
+   [
+    " Newton",
+    0.0342
+   ],
+   [
+    " not",
+    0.0142
+   ],
+   [
+    " **",
+    0.0118
+   ],
+   [
+    " Is",
+    0.0118
+   ],
+   [
+    " Sir",
+    0.0086
+   ],
+   [
+    " Albert",
+    0.0076
+   ],
+   [
+    " '",
+    0.0036
+   ],
+   [
+    " Iss",
+    0.0034
+   ],
+   [
+    "\n",
+    0.0026
+   ]
+  ],
+  "continuation": " Isaac.\nQuestion: What is the"
+ },
+ {
+  "index": 74,
+  "name": "person-firstname-newton",
+  "prompt": "Fact: The first name of the scientist on whose head an apple is said to have fallen was",
+  "condition": "R_early_L3_8",
+  "answer": " Isaac",
+  "swap_answer": " William",
+  "top10": [
+   [
+    " Isaac",
+    0.8128
+   ],
+   [
+    " Newton",
+    0.038
+   ],
+   [
+    " not",
+    0.0169
+   ],
+   [
+    " **",
+    0.0123
+   ],
+   [
+    " Is",
+    0.0123
+   ],
+   [
+    " Sir",
+    0.0096
+   ],
+   [
+    " Albert",
+    0.0075
+   ],
+   [
+    " '",
+    0.004
+   ],
+   [
+    " Iss",
+    0.0035
+   ],
+   [
+    "\n",
+    0.0026
+   ]
+  ],
+  "continuation": " Isaac.\nQuestion: What is the"
+ },
+ {
+  "index": 83,
+  "name": "spider-legs",
+  "prompt": "Fact: The number of legs on the animal that spins webs is ",
+  "condition": "clean",
+  "answer": "8",
+  "swap_answer": "6",
+  "top10": [
+   [
+    "8",
+    0.7782
+   ],
+   [
+    "4",
+    0.1053
+   ],
+   [
+    "6",
+    0.0498
+   ],
+   [
+    "0",
+    0.0183
+   ],
+   [
+    "2",
+    0.0143
+   ],
+   [
+    "1",
+    0.0126
+   ],
+   [
+    "3",
+    0.0052
+   ],
+   [
+    "5",
+    0.0038
+   ],
+   [
+    "7",
+    0.0038
+   ],
+   [
+    " ",
+    0.003
+   ]
+  ],
+  "continuation": "8.\nQuestion: How many legs"
+ },
+ {
+  "index": 83,
+  "name": "spider-legs",
+  "prompt": "Fact: The number of legs on the animal that spins webs is ",
+  "condition": "J_primary_L8_20",
+  "answer": "8",
+  "swap_answer": "6",
+  "top10": [
+   [
+    "8",
+    0.4185
+   ],
+   [
+    "4",
+    0.3259
+   ],
+   [
+    "6",
+    0.1745
+   ],
+   [
+    "0",
+    0.0268
+   ],
+   [
+    "2",
+    0.0184
+   ],
+   [
+    "1",
+    0.0162
+   ],
+   [
+    "3",
+    0.006
+   ],
+   [
+    "5",
+    0.0049
+   ],
+   [
+    "7",
+    0.003
+   ],
+   [
+    " ",
+    0.0016
+   ]
+  ],
+  "continuation": "8.\nQuestion: How many legs"
+ },
+ {
+  "index": 83,
+  "name": "spider-legs",
+  "prompt": "Fact: The number of legs on the animal that spins webs is ",
+  "condition": "R_primary_L8_20",
+  "answer": "8",
+  "swap_answer": "6",
+  "top10": [
+   [
+    "8",
+    0.5728
+   ],
+   [
+    "4",
+    0.2388
+   ],
+   [
+    "6",
+    0.1128
+   ],
+   [
+    "0",
+    0.0252
+   ],
+   [
+    "1",
+    0.0153
+   ],
+   [
+    "2",
+    0.0153
+   ],
+   [
+    "3",
+    0.0056
+   ],
+   [
+    "5",
+    0.0047
+   ],
+   [
+    "7",
+    0.0034
+   ],
+   [
+    " ",
+    0.0019
+   ]
+  ],
+  "continuation": "8.\nQuestion: How many legs"
+ },
+ {
+  "index": 83,
+  "name": "spider-legs",
+  "prompt": "Fact: The number of legs on the animal that spins webs is ",
+  "condition": "J_early_L3_8",
+  "answer": "8",
+  "swap_answer": "6",
+  "top10": [
+   [
+    "8",
+    0.743
+   ],
+   [
+    "4",
+    0.1291
+   ],
+   [
+    "6",
+    0.061
+   ],
+   [
+    "0",
+    0.0198
+   ],
+   [
+    "1",
+    0.0136
+   ],
+   [
+    "2",
+    0.0136
+   ],
+   [
+    "3",
+    0.0047
+   ],
+   [
+    "5",
+    0.0039
+   ],
+   [
+    "7",
+    0.0034
+   ],
+   [
+    " ",
+    0.0027
+   ]
+  ],
+  "continuation": "8.\nQuestion: How many legs"
+ },
+ {
+  "index": 83,
+  "name": "spider-legs",
+  "prompt": "Fact: The number of legs on the animal that spins webs is ",
+  "condition": "R_early_L3_8",
+  "answer": "8",
+  "swap_answer": "6",
+  "top10": [
+   [
+    "8",
+    0.7821
+   ],
+   [
+    "4",
+    0.1058
+   ],
+   [
+    "6",
+    0.0441
+   ],
+   [
+    "0",
+    0.0184
+   ],
+   [
+    "2",
+    0.0162
+   ],
+   [
+    "1",
+    0.0126
+   ],
+   [
+    "3",
+    0.0053
+   ],
+   [
+    "5",
+    0.0039
+   ],
+   [
+    "7",
+    0.0039
+   ],
+   [
+    " ",
+    0.0025
+   ]
+  ],
+  "continuation": "8.\nQuestion: How many legs"
+ }
+]

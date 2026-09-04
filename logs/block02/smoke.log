@@ -1,0 +1,37 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 11663.55it/s]
+[knowledge] {
+ "intermediate": {
+  "n": 2,
+  "n_correct": 2,
+  "n_rank_le5": 2,
+  "failures": []
+ },
+ "swap_to": {
+  "n": 2,
+  "n_correct": 1,
+  "n_rank_le5": 2,
+  "failures": [
+   [
+    "animal-cover-turtle",
+    " shell",
+    " scale",
+    2
+   ]
+  ]
+ }
+}
+[mainrun] item 1/2 (amazon-language) done; records=119; elapsed=24s
+[mainrun] item 2/2 (animal-cover-turtle) done; records=238; elapsed=48s
+Traceback (most recent call last):
+  File "/root/autodl-tmp/mats-r-lens/work/code/q03_block02_main.py", line 79, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/work/code/q03_block02_main.py", line 69, in main
+    qualitative.run(model, lenses, items, clean_rows, eligible[: args.limit] if args.limit else eligible, out_dir)
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/work/code/rlens/stages/qualitative.py", line 54, in run
+    "top10": [[tokenizer.decode([i]), round(float(torch.exp(v)), 4)] for v, i in zip(top.values.tolist(), top.indices.tolist())],
+                                                  ^^^^^^^^^^^^
+TypeError: exp(): argument 'input' (position 1) must be Tensor, not float

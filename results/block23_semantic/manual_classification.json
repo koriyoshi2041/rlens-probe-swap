@@ -1,0 +1,31 @@
+{
+ "_method": "Claude read all 59 clean/J continuations and entity probes in block23_semantic/semantic.json and classified each by hand on 2026-09-03. No LLM judge. Categories are mutually exclusive. 'strict_flip' is the token-level metric from block12 for reference.",
+ "_categories": {
+  "rewrite_strict": "next token equals swap_answer",
+  "rewrite_semantic_only": "next token differs from swap_answer but the continuation states the intended replacement answer",
+  "damaged": "answer changed to something that is neither the original nor the intended replacement",
+  "unchanged": "continuation is the original answer, or a paraphrase of it"
+ },
+ "rewrite_semantic_only": [
+  {"name": "ex-city-currency-Toronto-Beijing", "expected_token": " yuan", "model_said": "Renminbi", "note": "Renminbi is the Chinese currency; a synonym of yuan"},
+  {"name": "super-populous-capital", "expected_token": " Delhi", "model_said": "New Delhi", "note": "correct city, tokenised as ' New' first"},
+  {"name": "spaceneedle-border", "expected_token": " New", "model_said": "the state where the Empire State Building is located", "note": "a definite description of New York"}
+ ],
+ "damaged": [
+  {"name": "paper-continent", "clean": "Asia", "expected": "Europe", "model_said": "Africa"},
+  {"name": "gem-color-ruby", "clean": "red", "expected": "white", "model_said": "green"},
+  {"name": "spider-legs", "clean": "8", "expected": "6", "model_said": "4"},
+  {"name": "person-country-napoleon", "clean": "France", "expected": "America", "model_said": "the United Kingdom"},
+  {"name": "city-state-Philadelphia", "clean": "Pennsylvania", "expected": "Washington", "model_said": "the 43rd largest state by area"}
+ ],
+ "unchanged_but_prompt_echo_shifted": [
+  {"name": "func-pumps-chambers", "note": "answer stays 4, but the self-generated follow-up stops naming the heart and says 'the organ that pumps blood through the body'"},
+  {"name": "organ-count-kidney2", "note": "answer stays two, follow-up rephrases away from 'kidneys'"},
+  {"name": "season-next-winter", "note": "answers with a description of spring, the original answer, not autumn"}
+ ],
+ "entity_probe_dissociation": {
+  "_what": "With the clamp held only on the original prompt positions, the probe asks the model to name the bridge entity at new, unclamped positions.",
+  "answer_and_entity_both_change": ["ex2-city-continent-Lima (Peru->Egypt)", "ex2-city-language-Cairo (Egypt->Russia)", "ex2-city-language-Moscow (Russia->Egypt)", "ex-city-continent-Toronto-Lyon (Canada->France)", "ex-city-capital-Naples-Barcelona (Italy->Spain)"],
+  "answer_changes_entity_does_not": ["ex-city-capital-Lyon-Naples (answer Paris->Rome, entity still France)", "ex2-city-capital-Munich (answer Berlin->Tokyo, entity still Germany)", "ex2-city-capital-Osaka (answer Tokyo->Berlin, entity still Japan)", "ex2-language-capital-Polish (answer Warsaw->Athens, entity still Poland)", "ex2-language-capital-Swedish (answer Stockholm->Budapest, entity still Sweden)"]
+ }
+}

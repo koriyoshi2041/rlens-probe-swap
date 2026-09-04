@@ -1,0 +1,8 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 11584.16it/s]
+[clamp_controls] 1/59 elapsed=7s
+[clamp_controls] 11/59 elapsed=74s
+[clamp_controls] 21/59 elapsed=141s
+[clamp_controls] 31/59 elapsed=208s
+[clamp_controls] 41/59 elapsed=274s
+[clamp_controls] 51/59 elapsed=340s
+[clamp_controls] done

@@ -1,0 +1,414 @@
+{
+ "as_is": {
+  "n_clean_correct": 51,
+  "n_eligible_strict": 45,
+  "median_p_answer_when_correct": 0.7145818471908569,
+  "median_rank_swap_answer_when_correct": 26,
+  "incorrect": [
+   {
+    "name": "amazon-language",
+    "top1": "9",
+    "answer": "Portuguese",
+    "rank_answer": 1759
+   },
+   {
+    "name": "animal-legs-buffalo2",
+    "top1": " ",
+    "answer": " four",
+    "rank_answer": 2
+   },
+   {
+    "name": "atomic-80-state",
+    "top1": "1",
+    "answer": "liquid",
+    "rank_answer": 18
+   },
+   {
+    "name": "basketball-players",
+    "top1": "1",
+    "answer": "5",
+    "rank_answer": 2
+   },
+   {
+    "name": "beverage-source-wine",
+    "top1": " same",
+    "answer": " grape",
+    "rank_answer": 3
+   },
+   {
+    "name": "bird-country-eagle",
+    "top1": " the",
+    "answer": " America",
+    "rank_answer": 34
+   },
+   {
+    "name": "bird-time-owl",
+    "top1": " the",
+    "answer": " night",
+    "rank_answer": 4
+   },
+   {
+    "name": "chem-atmosphere-Z",
+    "top1": "1",
+    "answer": "7",
+    "rank_answer": 3
+   },
+   {
+    "name": "chem-photosynthesis-Z",
+    "top1": "6",
+    "answer": "8",
+    "rank_answer": 2
+   },
+   {
+    "name": "christmas-season",
+    "top1": "2",
+    "answer": "winter",
+    "rank_answer": 268
+   },
+   {
+    "name": "city-state-Philadelphia",
+    "top1": " the",
+    "answer": " Pennsylvania",
+    "rank_answer": 17
+   },
+   {
+    "name": "colosseum-currency",
+    "top1": " euro",
+    "answer": "Euro",
+    "rank_answer": 23
+   },
+   {
+    "name": "element-color-gold2",
+    "top1": " gold",
+    "answer": " yellow",
+    "rank_answer": 2
+   },
+   {
+    "name": "etym-saturn-position",
+    "top1": "4",
+    "answer": "6",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-8-26",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-8-80",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-80-8",
+    "top1": " a",
+    "answer": " liquid",
+    "rank_answer": 1
+   },
+   {
+    "name": "food-animal-honey",
+    "top1": " honey",
+    "answer": " bee",
+    "rank_answer": 2
+   },
+   {
+    "name": "gem-source-pearl",
+    "top1": " pearl",
+    "answer": " oyster",
+    "rank_answer": 4
+   },
+   {
+    "name": "greatwall-ocean",
+    "top1": " Pacific",
+    "answer": "Pacific",
+    "rank_answer": 63
+   },
+   {
+    "name": "instr-hit-drums",
+    "top1": " a",
+    "answer": " sticks",
+    "rank_answer": 23
+   },
+   {
+    "name": "mars-color",
+    "top1": "1",
+    "answer": "red",
+    "rank_answer": 6705
+   },
+   {
+    "name": "month-3-godof",
+    "top1": " war",
+    "answer": "war",
+    "rank_answer": 140
+   },
+   {
+    "name": "organ-acid-stomach",
+    "top1": " stomach",
+    "answer": " acid",
+    "rank_answer": 5
+   },
+   {
+    "name": "organ-count-kidney2",
+    "top1": " ",
+    "answer": " two",
+    "rank_answer": 2
+   },
+   {
+    "name": "organ-location-heart",
+    "top1": " heart",
+    "answer": " chest",
+    "rank_answer": 2
+   },
+   {
+    "name": "osu-rival-mascot",
+    "top1": "1",
+    "answer": "wolverine",
+    "rank_answer": 142302
+   },
+   {
+    "name": "paper-continent",
+    "top1": "1",
+    "answer": "Asia",
+    "rank_answer": 193
+   },
+   {
+    "name": "person-country-shakespeare",
+    "top1": " the",
+    "answer": " England",
+    "rank_answer": 12
+   },
+   {
+    "name": "person-firstname-mozart",
+    "top1": " Mozart",
+    "answer": " Wolfgang",
+    "rank_answer": 2
+   },
+   {
+    "name": "planet-3-moons",
+    "top1": "2",
+    "answer": "1",
+    "rank_answer": 2
+   },
+   {
+    "name": "rhyme-chair-flag",
+    "top1": "1",
+    "answer": "California",
+    "rank_answer": 386
+   },
+   {
+    "name": "rhyme-rain-neighbor",
+    "top1": "1",
+    "answer": "Portugal",
+    "rank_answer": 9178
+   },
+   {
+    "name": "rhyme-spoon-orbit",
+    "top1": " Jupiter",
+    "answer": "Earth",
+    "rank_answer": 902
+   },
+   {
+    "name": "season-next-winter",
+    "top1": " the",
+    "answer": " spring",
+    "rank_answer": 2
+   },
+   {
+    "name": "spaceneedle-border",
+    "top1": "2",
+    "answer": "Canada",
+    "rank_answer": 117
+   },
+   {
+    "name": "super-populous-capital",
+    "top1": "1",
+    "answer": "Beijing",
+    "rank_answer": 20332
+   },
+   {
+    "name": "super-smallest-continent",
+    "top1": " Asia",
+    "answer": "Europe",
+    "rank_answer": 88
+   },
+   {
+    "name": "vehicle-power-bicycle",
+    "top1": " muscles",
+    "answer": " legs",
+    "rank_answer": 2
+   }
+  ]
+ },
+ "rstrip": {
+  "n_clean_correct": 63,
+  "n_eligible_strict": 44,
+  "median_p_answer_when_correct": 0.6787154674530029,
+  "median_rank_swap_answer_when_correct": 16,
+  "incorrect": [
+   {
+    "name": "animal-legs-buffalo2",
+    "top1": " ",
+    "answer": " four",
+    "rank_answer": 2
+   },
+   {
+    "name": "atomic-80-state",
+    "top1": " a",
+    "answer": " liquid",
+    "rank_answer": 1
+   },
+   {
+    "name": "beverage-source-wine",
+    "top1": " same",
+    "answer": " grape",
+    "rank_answer": 3
+   },
+   {
+    "name": "bird-country-eagle",
+    "top1": " the",
+    "answer": " America",
+    "rank_answer": 34
+   },
+   {
+    "name": "bird-time-owl",
+    "top1": " the",
+    "answer": " night",
+    "rank_answer": 4
+   },
+   {
+    "name": "christmas-season",
+    "top1": " the",
+    "answer": " winter",
+    "rank_answer": 2
+   },
+   {
+    "name": "city-state-Philadelphia",
+    "top1": " the",
+    "answer": " Pennsylvania",
+    "rank_answer": 17
+   },
+   {
+    "name": "element-color-gold2",
+    "top1": " gold",
+    "answer": " yellow",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex-element-state-8-26",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-8-80",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-80-8",
+    "top1": " a",
+    "answer": " liquid",
+    "rank_answer": 1
+   },
+   {
+    "name": "food-animal-honey",
+    "top1": " honey",
+    "answer": " bee",
+    "rank_answer": 2
+   },
+   {
+    "name": "gem-source-pearl",
+    "top1": " pearl",
+    "answer": " oyster",
+    "rank_answer": 4
+   },
+   {
+    "name": "instr-hit-drums",
+    "top1": " a",
+    "answer": " sticks",
+    "rank_answer": 23
+   },
+   {
+    "name": "mars-color",
+    "top1": " blue",
+    "answer": " red",
+    "rank_answer": 2
+   },
+   {
+    "name": "organ-acid-stomach",
+    "top1": " stomach",
+    "answer": " acid",
+    "rank_answer": 5
+   },
+   {
+    "name": "organ-count-kidney2",
+    "top1": " ",
+    "answer": " two",
+    "rank_answer": 2
+   },
+   {
+    "name": "organ-location-heart",
+    "top1": " heart",
+    "answer": " chest",
+    "rank_answer": 2
+   },
+   {
+    "name": "osu-rival-mascot",
+    "top1": " bear",
+    "answer": " wolverine",
+    "rank_answer": 78
+   },
+   {
+    "name": "person-country-shakespeare",
+    "top1": " the",
+    "answer": " England",
+    "rank_answer": 12
+   },
+   {
+    "name": "person-firstname-mozart",
+    "top1": " Mozart",
+    "answer": " Wolfgang",
+    "rank_answer": 2
+   },
+   {
+    "name": "rhyme-rain-neighbor",
+    "top1": " the",
+    "answer": " Portugal",
+    "rank_answer": 6
+   },
+   {
+    "name": "rhyme-spoon-orbit",
+    "top1": " '",
+    "answer": " Earth",
+    "rank_answer": 3
+   },
+   {
+    "name": "season-next-winter",
+    "top1": " the",
+    "answer": " spring",
+    "rank_answer": 2
+   },
+   {
+    "name": "super-populous-capital",
+    "top1": " Tokyo",
+    "answer": " Beijing",
+    "rank_answer": 3
+   },
+   {
+    "name": "super-smallest-continent",
+    "top1": " Asia",
+    "answer": " Europe",
+    "rank_answer": 2
+   },
+   {
+    "name": "vehicle-power-bicycle",
+    "top1": " muscles",
+    "answer": " legs",
+    "rank_answer": 2
+   }
+  ]
+ }
+}

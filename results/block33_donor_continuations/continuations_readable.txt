@@ -1,0 +1,145 @@
+# rescued (band clamp never flips, donor paste flips): 16 items; plus 8 random others (seed 0)
+
+### [rescued] chem-atmosphere-Z  [nitrogen -> oxygen]  expect 7 -> 8  (paste at pos 14 = '8')
+    prompt: Fact: The atomic number of the gas that makes up about 78 percent of the atmosphere is 
+    clean     : '7.\nQuestion: What is the atomic number of the gas that makes up'
+    clamp2d   : '7.\nQuestion: What is the atomic number of the gas that makes up'
+    paste_full: '8.\nQuestion: What is the atomic number of the gas that makes up'
+
+### [rescued] chem-organic-Z  [carbon -> oxygen]  expect 6 -> 8  (paste at pos 11 = ' organic')
+    prompt: Fact: The atomic number of the element present in all organic compounds by definition is 
+    clean     : '6.\nQuestion: What is the atomic number of the element present in all'
+    clamp2d   : '6.\nQuestion: What is the atomic number of the element present in all'
+    paste_full: '8.\nQuestion: What is the atomic number of the element present in all'
+
+### [rescued] city-state-Philadelphia  [Philadelphia -> Seattle]  expect Pennsylvania -> Washington  (paste at pos 12 = ' Bell')
+    prompt: Fact: The US state where the city famous for the Liberty Bell is located is
+    clean     : ' Pennsylvania.\nQuestion: What is the name of the city famous for the Liberty'
+    clamp2d   : ' the 43rd largest state by area.\nQuestion: What is the'
+    paste_full: ' Washington.\nQuestion: What is the capital of the US state where the city'
+
+### [rescued] etym-frigg-position  [Friday -> Thursday]  expect 5 -> 4  (paste at pos 14 = ' week')
+    prompt: Fact: Counting Monday as day 1, the day of the week named after the Norse goddess Frigg is day number 
+    clean     : '5.\nQuestion: What is the day of the week named after the Norse'
+    clamp2d   : '5.\nQuestion: What is the day of the week named after the Norse'
+    paste_full: '4.\nQuestion: What is the name of the day of the week named'
+
+### [rescued] ex-element-symbol-11-26  [sodium -> iron]  expect Na -> Fe  (paste at pos 13 = '1')
+    prompt: Fact: The chemical symbol for the element with atomic number 11 is
+    clean     : ' Na.\nQuestion: What is the chemical symbol for the element with atomic number'
+    clamp2d   : ' Na.\nQuestion: What is the chemical symbol for the element with atomic number'
+    paste_full: ' Fe.\nQuestion: What is the chemical symbol for the element with atomic number'
+
+### [rescued] ex-element-symbol-26-79  [iron -> gold]  expect Fe -> Au  (paste at pos 13 = '6')
+    prompt: Fact: The chemical symbol for the element with atomic number 26 is
+    clean     : ' Fe.\nQuestion: What is the chemical symbol for the element with atomic number'
+    clamp2d   : ' Fe.\nQuestion: What is the chemical symbol for the element with atomic number'
+    paste_full: ' Au.\nQuestion: What is the chemical symbol for the element with atomic number'
+
+### [rescued] ex2-language-capital-Hungarian  [Hungary -> Poland]  expect Budapest -> Warsaw  (paste at pos 8 = ' Hungarian')
+    prompt: Fact: The capital of the country where Hungarian is the primary language is
+    clean     : ' Budapest.\nQuestion: What is the capital of the country where Hungarian is the'
+    clamp2d   : ' Budapest.\nQuestion: What is the capital of the country where Hungarian is the'
+    paste_full: ' Warsaw.\nQuestion: What is the capital of the country where Polish is the'
+
+### [rescued] food-animal-butter  [butter -> honey]  expect cow -> bee  (paste at pos 9 = ' spread')
+    prompt: Fact: The animal that produces the yellow dairy spread used on bread is the
+    clean     : ' cow.\nQuestion: What is the yellow dairy spread used on bread?\n'
+    clamp2d   : ' cow.\nQuestion: What is the yellow dairy spread used on bread?\n'
+    paste_full: ' bee.\nQuestion: What is the animal that produces the yellow dairy used on'
+
+### [rescued] func-filters-count  [kidney -> liver]  expect 2 -> 1  (paste at pos 14 = ' urine')
+    prompt: Fact: In humans, the number of organs that filter blood to make urine is 
+    clean     : '2.\nQuestion: How many organs in humans filter blood to make urine?'
+    clamp2d   : '1.\nQuestion: How many organs in humans filter blood to make urine?'
+    paste_full: '1.\nQuestion: How many organs in humans filter blood to make urine?'
+
+### [rescued] gem-color-ruby  [ruby -> pearl]  expect red -> white  (paste at pos 6 = ' gem')
+    prompt: Fact: The color of the gemstone that is the traditional birthstone for July is
+    clean     : ' red.\nQuestion: What is the traditional birthstone for July?\nOptions'
+    clamp2d   : ' red.\nQuestion: What is the traditional birthstone for July?\nOptions'
+    paste_full: ' white.\nQuestion: What is the traditional birthstone for July?\nOptions'
+
+### [rescued] person-firstname-einstein  [Einstein -> Newton]  expect Albert -> Isaac  (paste at pos 14 = ' rel')
+    prompt: Fact: The first name of the physicist who developed the theory of general relativity was
+    clean     : ' Albert.\nQuestion: What is the first name of the physicist who developed the'
+    clamp2d   : ' Albert.\nQuestion: What is the first name of the physicist who developed the'
+    paste_full: ' Isaac.\nQuestion: What is the first name of the physicist who developed the'
+
+### [rescued] person-firstname-mozart  [Mozart -> Darwin]  expect Wolfgang -> Charles  (paste at pos 19 = 'ute')
+    prompt: Fact: The first name of the child-prodigy composer from Salzburg who wrote The Magic Flute was
+    clean     : ' Wolfgang.\nHypothesis: The child-prodigy composer from Salzburg who'
+    clamp2d   : ' Wolfgang.\nHypothesis: The child-prodigy composer from Salzburg who'
+    paste_full: ' Charles.\nHypothesis: The child-prodigy composer from Salzburg who'
+
+### [rescued] person-firstname-newton  [Newton -> Shakespeare]  expect Isaac -> William  (paste at pos 17 = ' fallen')
+    prompt: Fact: The first name of the scientist on whose head an apple is said to have fallen was
+    clean     : ' Isaac.\nQuestion: What is the first name of the scientist on whose head'
+    clamp2d   : ' Isaac.\nQuestion: What is the first name of the scientist on whose head'
+    paste_full: ' William.\nQuestion: What is the first name of the scientist on whose head'
+
+### [rescued] season-next-winter  [winter -> summer]  expect spring -> autumn  (paste at pos 13 = ' the')
+    prompt: Fact: The season that comes immediately after the coldest season of the year is
+    clean     : ' spring.\nQuestion: What season comes after winter?\nAnswer:\n\n<think>'
+    clamp2d   : ' spring.\nQuestion: What season comes after winter?\nAnswer:\n\n<think>'
+    paste_full: ' autumn.\nQuestion: What season comes after the coldest season?\nOptions'
+
+### [rescued] spider-legs  [spider -> ant]  expect 8 -> 6  (paste at pos 11 = ' webs')
+    prompt: Fact: The number of legs on the animal that spins webs is 
+    clean     : '8.\nQuestion: How many legs does the animal that spins webs have?'
+    clamp2d   : '4.\nQuestion: How many legs does the animal that spins webs have?'
+    paste_full: '6.\nQuestion: How many legs does the animal that spins webs have?'
+
+### [rescued] violin-strings  [violin -> guitar]  expect 4 -> 6  (paste at pos 11 = 'idd')
+    prompt: Fact: The number of strings on the instrument that fiddlers play is 
+    clean     : '4.\nQuestion: How many strings does the instrument that fiddlers play'
+    clamp2d   : '4.\nQuestion: How many strings does a fiddle have?\nAnswer'
+    paste_full: '6.\nQuestion: How many strings does a guitar have?\nOptions:'
+
+### [random_other] amazon-language  [Brazil -> Mexico]  expect Portuguese -> Spanish  (paste at pos 10 = ' Amazon')
+    prompt: Fact: The language spoken in the country where the Amazon River ends is
+    clean     : ' Portuguese.\nQuestion: What is the language spoken in the country where the Amazon'
+    clamp2d   : ' Spanish.\nQuestion: What is the name of the country where the Amazon River'
+    paste_full: ' Spanish.\nQuestion: What is the language spoken in the country where the Mexico'
+
+### [random_other] animal-cover-turtle  [turtle -> snake]  expect shell -> scale  (paste at pos 11 = ' rept')
+    prompt: Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a
+    clean     : ' shell.\nQuestion: What is the hard covering on the back of the slow'
+    clamp2d   : ' shell.\nQuestion: What is the hard covering on the back of the slow'
+    paste_full: ' shell.\nQuestion: What is the hard covering on the back of the slow'
+
+### [random_other] birthstone-emerald-month  [May -> July]  expect 5 -> 7  (paste at pos 10 = ' ')
+    prompt: Fact: Emerald is the birthstone for month number 
+    clean     : '5.\nQuestion: What is the birthstone for the month of May?'
+    clamp2d   : '5.\nQuestion: What is the birthstone for the month of May?'
+    paste_full: ' is the 7th month of the year.\nQuestion: What is the'
+
+### [random_other] ex-city-capital-Toronto-Lyon  [Canada -> France]  expect Ottawa -> Paris  (paste at pos 8 = ' Toronto')
+    prompt: Fact: The capital of the country where Toronto is located is
+    clean     : ' Ottawa.\nQuestion: What is the capital of the country where Toronto is located'
+    clamp2d   : ' Paris.\nQuestion: Is the following statement true or false?\nThe capital'
+    paste_full: ' Paris.\nQuestion: What is the capital of the country where France is located'
+
+### [random_other] ex-city-currency-Toronto-Beijing  [Canada -> China]  expect Canadian -> yuan  (paste at pos 13 = ' the')
+    prompt: Fact: The currency used in the country where Toronto is located is the
+    clean     : ' Canadian dollar.\nQuestion: What is the currency used in the country where Toronto'
+    clamp2d   : ' Canadian dollar.\nQuestion: What is the currency used in the country where Toronto'
+    paste_full: ' is the Renminbi.\nQuestion: What is the currency used in the'
+
+### [random_other] ex2-city-continent-Lima  [Peru -> Egypt]  expect South -> Africa  (paste at pos 8 = ' Lima')
+    prompt: Fact: The continent of the country where Lima is located is
+    clean     : ' South America.\nHypothesis: The continent of the country where Lima is'
+    clamp2d   : ' Africa.\nQuestion: What continent is the country where Lima is located in?'
+    paste_full: ' Africa.\nQuestion: What continent is the country where Egypt is located in?'
+
+### [random_other] ex2-language-capital-Greek  [Greece -> Sweden]  expect Athens -> Stockholm  (paste at pos 8 = ' Greek')
+    prompt: Fact: The capital of the country where Greek is the primary language is
+    clean     : ' Athens.\nQuestion: What is the capital of the country where Greek is the'
+    clamp2d   : ' Stockholm.\nQuestion: Is the following statement true or false?\nThe capital'
+    paste_full: ' Stockholm.\nQuestion: What is the capital of the country where Swedish is the'
+
+### [random_other] holiday-month-christmas2  [Christmas -> Easter]  expect December -> April  (paste at pos 13 = ' tree')
+    prompt: Fact: The month of the holiday celebrated with a decorated evergreen tree and gift-giving is
+    clean     : ' December.\nQuestion: What is the name of the holiday celebrated with a decorated'
+    clamp2d   : ' December.\nQuestion: What is the name of the holiday celebrated with a decorated'
+    paste_full: ' April.\nQuestion: What is the name of the holiday celebrated with a decorated'

@@ -1,0 +1,11072 @@
+[
+ {
+  "group": "damaged",
+  "index": 67,
+  "name": "paper-continent",
+  "prompt": "Fact: The continent where the country that invented paper is located is",
+  "best_pos": 12,
+  "pos_token": " is",
+  "intermediate": "China",
+  "swap_to": "France",
+  "answer": "Asia",
+  "swap_answer": "Europe",
+  "final_top5_clean": [
+   [
+    " Asia",
+    -1.8
+   ],
+   [
+    " the",
+    -2.05
+   ],
+   [
+    " Africa",
+    -2.18
+   ],
+   [
+    " also",
+    -2.68
+   ],
+   [
+    " called",
+    -3.05
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " Africa",
+    -1.75
+   ],
+   [
+    " Europe",
+    -2.13
+   ],
+   [
+    " the",
+    -2.13
+   ],
+   [
+    " Asia",
+    -2.81
+   ],
+   [
+    " also",
+    -2.81
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " continents",
+     11.88
+    ],
+    [
+     " continent",
+     11.31
+    ],
+    [
+     " countries",
+     9.69
+    ],
+    [
+     "continent",
+     9.12
+    ],
+    [
+     "洲",
+     8.44
+    ],
+    [
+     "地理",
+     8.38
+    ],
+    [
+     " Africa",
+     8.12
+    ],
+    [
+     " Countries",
+     8.06
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     " continents",
+     11.88
+    ],
+    [
+     " continent",
+     11.31
+    ],
+    [
+     " countries",
+     9.69
+    ],
+    [
+     "continent",
+     9.12
+    ],
+    [
+     "洲",
+     8.44
+    ],
+    [
+     "地理",
+     8.38
+    ],
+    [
+     " Africa",
+     8.12
+    ],
+    [
+     " Countries",
+     8.06
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     " continents",
+     11.88
+    ],
+    [
+     " continent",
+     11.25
+    ],
+    [
+     " countries",
+     9.69
+    ],
+    [
+     "continent",
+     9.12
+    ],
+    [
+     "洲",
+     8.44
+    ],
+    [
+     "地理",
+     8.38
+    ],
+    [
+     " Africa",
+     8.12
+    ],
+    [
+     " Countries",
+     8.06
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     " continents",
+     11.88
+    ],
+    [
+     " continent",
+     11.25
+    ],
+    [
+     " countries",
+     9.69
+    ],
+    [
+     "continent",
+     9.12
+    ],
+    [
+     "洲",
+     8.44
+    ],
+    [
+     "地理",
+     8.38
+    ],
+    [
+     " Africa",
+     8.12
+    ],
+    [
+     " Countries",
+     8.06
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " continents",
+     11.81
+    ],
+    [
+     " continent",
+     10.62
+    ],
+    [
+     "地理",
+     10.0
+    ],
+    [
+     " countries",
+     9.62
+    ],
+    [
+     " geography",
+     8.75
+    ],
+    [
+     " geographic",
+     8.31
+    ],
+    [
+     "continent",
+     8.25
+    ],
+    [
+     " planet",
+     8.19
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " continents",
+     11.81
+    ],
+    [
+     " continent",
+     10.62
+    ],
+    [
+     "地理",
+     10.0
+    ],
+    [
+     " countries",
+     9.62
+    ],
+    [
+     " geography",
+     8.75
+    ],
+    [
+     " geographic",
+     8.31
+    ],
+    [
+     "continent",
+     8.25
+    ],
+    [
+     " planet",
+     8.19
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " continents",
+     11.81
+    ],
+    [
+     " continent",
+     10.62
+    ],
+    [
+     "地理",
+     10.06
+    ],
+    [
+     " countries",
+     9.62
+    ],
+    [
+     " geography",
+     8.81
+    ],
+    [
+     " geographic",
+     8.38
+    ],
+    [
+     "continent",
+     8.31
+    ],
+    [
+     " geographical",
+     8.31
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " continents",
+     11.81
+    ],
+    [
+     " continent",
+     10.62
+    ],
+    [
+     "地理",
+     10.06
+    ],
+    [
+     " countries",
+     9.62
+    ],
+    [
+     " geography",
+     8.81
+    ],
+    [
+     " geographic",
+     8.38
+    ],
+    [
+     "continent",
+     8.31
+    ],
+    [
+     " geographical",
+     8.31
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     "____",
+     9.81
+    ],
+    [
+     " ____",
+     9.31
+    ],
+    [
+     " continents",
+     9.25
+    ],
+    [
+     " countries",
+     9.12
+    ],
+    [
+     "___",
+     8.56
+    ],
+    [
+     " __",
+     8.38
+    ],
+    [
+     " ______",
+     8.25
+    ],
+    [
+     " continent",
+     8.25
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "____",
+     9.81
+    ],
+    [
+     " ____",
+     9.31
+    ],
+    [
+     " continents",
+     9.25
+    ],
+    [
+     " countries",
+     9.12
+    ],
+    [
+     "___",
+     8.56
+    ],
+    [
+     " __",
+     8.38
+    ],
+    [
+     " ______",
+     8.25
+    ],
+    [
+     " continent",
+     8.25
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     "____",
+     9.88
+    ],
+    [
+     " ____",
+     9.38
+    ],
+    [
+     " continents",
+     9.31
+    ],
+    [
+     " countries",
+     9.19
+    ],
+    [
+     "___",
+     8.62
+    ],
+    [
+     " __",
+     8.44
+    ],
+    [
+     "叫做",
+     8.31
+    ],
+    [
+     " continent",
+     8.25
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "____",
+     9.88
+    ],
+    [
+     " ____",
+     9.38
+    ],
+    [
+     " continents",
+     9.31
+    ],
+    [
+     " countries",
+     9.19
+    ],
+    [
+     "___",
+     8.62
+    ],
+    [
+     " __",
+     8.44
+    ],
+    [
+     "叫做",
+     8.31
+    ],
+    [
+     " continent",
+     8.25
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     "____",
+     9.25
+    ],
+    [
+     "叫做",
+     9.0
+    ],
+    [
+     " continents",
+     9.0
+    ],
+    [
+     " called",
+     8.81
+    ],
+    [
+     " named",
+     8.56
+    ],
+    [
+     "___",
+     8.56
+    ],
+    [
+     " __",
+     8.5
+    ],
+    [
+     " continent",
+     8.44
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     "____",
+     9.25
+    ],
+    [
+     "叫做",
+     9.0
+    ],
+    [
+     " continents",
+     9.0
+    ],
+    [
+     " called",
+     8.81
+    ],
+    [
+     " named",
+     8.56
+    ],
+    [
+     "___",
+     8.56
+    ],
+    [
+     " __",
+     8.5
+    ],
+    [
+     " continent",
+     8.44
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     " continents",
+     9.19
+    ],
+    [
+     "叫做",
+     9.19
+    ],
+    [
+     "____",
+     9.12
+    ],
+    [
+     " called",
+     9.0
+    ],
+    [
+     " named",
+     8.81
+    ],
+    [
+     " continent",
+     8.62
+    ],
+    [
+     "___",
+     8.38
+    ],
+    [
+     " __",
+     8.38
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     " continents",
+     9.19
+    ],
+    [
+     "叫做",
+     9.19
+    ],
+    [
+     "____",
+     9.12
+    ],
+    [
+     " called",
+     9.0
+    ],
+    [
+     " named",
+     8.81
+    ],
+    [
+     " continent",
+     8.62
+    ],
+    [
+     "___",
+     8.38
+    ],
+    [
+     " __",
+     8.38
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " Asia",
+     13.75
+    ],
+    [
+     " continent",
+     13.25
+    ],
+    [
+     "Asia",
+     12.81
+    ],
+    [
+     " continents",
+     12.81
+    ],
+    [
+     " Africa",
+     12.75
+    ],
+    [
+     "亚洲",
+     12.5
+    ],
+    [
+     " called",
+     12.0
+    ],
+    [
+     " Euras",
+     10.88
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " Asia",
+     13.75
+    ],
+    [
+     " continent",
+     13.25
+    ],
+    [
+     "Asia",
+     12.81
+    ],
+    [
+     " continents",
+     12.81
+    ],
+    [
+     " Africa",
+     12.75
+    ],
+    [
+     "亚洲",
+     12.5
+    ],
+    [
+     " called",
+     12.0
+    ],
+    [
+     " Euras",
+     10.88
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " continent",
+     13.62
+    ],
+    [
+     " Africa",
+     13.25
+    ],
+    [
+     " continents",
+     13.12
+    ],
+    [
+     " called",
+     12.31
+    ],
+    [
+     " Europe",
+     12.12
+    ],
+    [
+     " Asia",
+     12.06
+    ],
+    [
+     "Asia",
+     11.25
+    ],
+    [
+     "非洲",
+     11.06
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " continent",
+     13.62
+    ],
+    [
+     " Africa",
+     13.25
+    ],
+    [
+     " continents",
+     13.12
+    ],
+    [
+     " called",
+     12.31
+    ],
+    [
+     " Europe",
+     12.12
+    ],
+    [
+     " Asia",
+     12.06
+    ],
+    [
+     "Asia",
+     11.25
+    ],
+    [
+     "非洲",
+     11.06
+    ]
+   ]
+  }
+ },
+ {
+  "group": "damaged",
+  "index": 54,
+  "name": "gem-color-ruby",
+  "prompt": "Fact: The color of the gemstone that is the traditional birthstone for July is",
+  "best_pos": 6,
+  "pos_token": " gem",
+  "intermediate": "ruby",
+  "swap_to": "pearl",
+  "answer": "red",
+  "swap_answer": "white",
+  "final_top5_clean": [
+   [
+    " red",
+    -1.95
+   ],
+   [
+    " green",
+    -2.58
+   ],
+   [
+    " blue",
+    -2.7
+   ],
+   [
+    " pink",
+    -2.77
+   ],
+   [
+    " a",
+    -3.33
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " green",
+    -2.21
+   ],
+   [
+    " blue",
+    -2.21
+   ],
+   [
+    " red",
+    -2.84
+   ],
+   [
+    " aqu",
+    -2.96
+   ],
+   [
+    " pink",
+    -3.09
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     "宝石",
+     15.69
+    ],
+    [
+     "stone",
+     14.19
+    ],
+    [
+     " gem",
+     12.75
+    ],
+    [
+     " jewel",
+     12.19
+    ],
+    [
+     "gem",
+     11.75
+    ],
+    [
+     "shine",
+     11.56
+    ],
+    [
+     " ruby",
+     11.5
+    ],
+    [
+     " jewelry",
+     11.5
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     "otope",
+     8.44
+    ],
+    [
+     "名叫",
+     7.16
+    ],
+    [
+     "mert",
+     7.03
+    ],
+    [
+     " Colors",
+     6.97
+    ],
+    [
+     "蕊",
+     6.91
+    ],
+    [
+     " colors",
+     6.84
+    ],
+    [
+     "color",
+     6.72
+    ],
+    [
+     "什么呢",
+     6.59
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     "宝石",
+     14.38
+    ],
+    [
+     "stone",
+     13.56
+    ],
+    [
+     " gem",
+     11.5
+    ],
+    [
+     " jewel",
+     11.44
+    ],
+    [
+     "shine",
+     11.38
+    ],
+    [
+     " jewelry",
+     11.31
+    ],
+    [
+     "stones",
+     10.69
+    ],
+    [
+     " jewels",
+     10.56
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     "otope",
+     8.38
+    ],
+    [
+     "名叫",
+     7.12
+    ],
+    [
+     "mert",
+     7.06
+    ],
+    [
+     "蕊",
+     6.91
+    ],
+    [
+     " Colors",
+     6.91
+    ],
+    [
+     " colors",
+     6.75
+    ],
+    [
+     "color",
+     6.59
+    ],
+    [
+     "什么呢",
+     6.53
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     "宝石",
+     12.62
+    ],
+    [
+     "stone",
+     12.31
+    ],
+    [
+     " crystals",
+     12.06
+    ],
+    [
+     " jewelry",
+     11.19
+    ],
+    [
+     " jewel",
+     11.12
+    ],
+    [
+     " jewels",
+     10.62
+    ],
+    [
+     " gem",
+     10.56
+    ],
+    [
+     " ruby",
+     10.12
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     "____",
+     7.19
+    ],
+    [
+     "color",
+     7.0
+    ],
+    [
+     " ____",
+     6.97
+    ],
+    [
+     "名叫",
+     6.88
+    ],
+    [
+     "_____",
+     6.88
+    ],
+    [
+     "___",
+     6.66
+    ],
+    [
+     "________",
+     6.28
+    ],
+    [
+     "叫做",
+     6.25
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     "stone",
+     11.81
+    ],
+    [
+     "宝石",
+     11.5
+    ],
+    [
+     " crystals",
+     11.5
+    ],
+    [
+     " jewelry",
+     11.19
+    ],
+    [
+     " jewel",
+     10.56
+    ],
+    [
+     " jewels",
+     10.12
+    ],
+    [
+     " Jewelry",
+     9.75
+    ],
+    [
+     " gem",
+     9.44
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     "color",
+     7.5
+    ],
+    [
+     "____",
+     7.0
+    ],
+    [
+     "名叫",
+     6.97
+    ],
+    [
+     " ____",
+     6.88
+    ],
+    [
+     "_____",
+     6.78
+    ],
+    [
+     "___",
+     6.66
+    ],
+    [
+     " color",
+     6.53
+    ],
+    [
+     " colors",
+     6.44
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     "stone",
+     9.94
+    ],
+    [
+     " crystals",
+     9.44
+    ],
+    [
+     "宝石",
+     9.12
+    ],
+    [
+     " color",
+     8.5
+    ],
+    [
+     " colors",
+     8.44
+    ],
+    [
+     " gem",
+     8.25
+    ],
+    [
+     " jewel",
+     8.12
+    ],
+    [
+     " jewelry",
+     8.12
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "____",
+     9.88
+    ],
+    [
+     " ____",
+     9.5
+    ],
+    [
+     "___",
+     9.44
+    ],
+    [
+     " ___",
+     9.25
+    ],
+    [
+     "_____",
+     8.81
+    ],
+    [
+     " ______",
+     8.38
+    ],
+    [
+     " _____",
+     8.25
+    ],
+    [
+     "________",
+     8.19
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     "stone",
+     9.75
+    ],
+    [
+     " crystals",
+     9.19
+    ],
+    [
+     "宝石",
+     8.38
+    ],
+    [
+     " jewelry",
+     8.31
+    ],
+    [
+     " colors",
+     8.06
+    ],
+    [
+     " color",
+     8.0
+    ],
+    [
+     " jewel",
+     7.88
+    ],
+    [
+     " jewels",
+     7.75
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "____",
+     9.81
+    ],
+    [
+     " ____",
+     9.56
+    ],
+    [
+     "___",
+     9.5
+    ],
+    [
+     " ___",
+     9.25
+    ],
+    [
+     "_____",
+     8.81
+    ],
+    [
+     " ______",
+     8.38
+    ],
+    [
+     " _____",
+     8.31
+    ],
+    [
+     "________",
+     8.19
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     "stone",
+     7.94
+    ],
+    [
+     "宝石",
+     7.81
+    ],
+    [
+     "Color",
+     6.88
+    ],
+    [
+     "stones",
+     6.81
+    ],
+    [
+     " gem",
+     6.72
+    ],
+    [
+     " color",
+     6.62
+    ],
+    [
+     " symbol",
+     6.53
+    ],
+    [
+     " colors",
+     6.47
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     " color",
+     8.88
+    ],
+    [
+     "____",
+     8.62
+    ],
+    [
+     " colors",
+     8.56
+    ],
+    [
+     "___",
+     8.31
+    ],
+    [
+     "_____",
+     8.06
+    ],
+    [
+     "color",
+     7.84
+    ],
+    [
+     "colors",
+     7.78
+    ],
+    [
+     "Color",
+     7.56
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     "stone",
+     7.78
+    ],
+    [
+     "宝石",
+     7.53
+    ],
+    [
+     "Color",
+     6.78
+    ],
+    [
+     "stones",
+     6.69
+    ],
+    [
+     " symbol",
+     6.62
+    ],
+    [
+     " color",
+     6.44
+    ],
+    [
+     " gem",
+     6.38
+    ],
+    [
+     " colors",
+     6.28
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     " color",
+     8.62
+    ],
+    [
+     "____",
+     8.5
+    ],
+    [
+     " colors",
+     8.44
+    ],
+    [
+     "___",
+     8.25
+    ],
+    [
+     "_____",
+     7.97
+    ],
+    [
+     "colors",
+     7.66
+    ],
+    [
+     "color",
+     7.59
+    ],
+    [
+     " ______",
+     7.41
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " gem",
+     15.62
+    ],
+    [
+     "gem",
+     14.25
+    ],
+    [
+     "宝石",
+     14.0
+    ],
+    [
+     "Gem",
+     13.31
+    ],
+    [
+     " Gem",
+     13.19
+    ],
+    [
+     "stone",
+     13.0
+    ],
+    [
+     " gems",
+     12.38
+    ],
+    [
+     "stones",
+     12.12
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " gem",
+     11.94
+    ],
+    [
+     " color",
+     11.81
+    ],
+    [
+     "宝石",
+     11.75
+    ],
+    [
+     " green",
+     11.5
+    ],
+    [
+     "绿色",
+     11.19
+    ],
+    [
+     "红色",
+     10.94
+    ],
+    [
+     "颜色",
+     10.56
+    ],
+    [
+     " Color",
+     10.56
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " gem",
+     15.12
+    ],
+    [
+     "宝石",
+     13.75
+    ],
+    [
+     "gem",
+     13.44
+    ],
+    [
+     "stone",
+     12.81
+    ],
+    [
+     "Gem",
+     12.75
+    ],
+    [
+     " Gem",
+     12.62
+    ],
+    [
+     " gems",
+     11.94
+    ],
+    [
+     "stones",
+     11.94
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " green",
+     11.88
+    ],
+    [
+     " gem",
+     11.88
+    ],
+    [
+     "宝石",
+     11.62
+    ],
+    [
+     " color",
+     11.44
+    ],
+    [
+     "绿色",
+     11.44
+    ],
+    [
+     "红色",
+     10.38
+    ],
+    [
+     "颜色",
+     10.25
+    ],
+    [
+     " Color",
+     10.19
+    ]
+   ]
+  }
+ },
+ {
+  "group": "damaged",
+  "index": 16,
+  "name": "city-state-Philadelphia",
+  "prompt": "Fact: The US state where the city famous for the Liberty Bell is located is",
+  "best_pos": 12,
+  "pos_token": " Bell",
+  "intermediate": "Philadelphia",
+  "swap_to": "Seattle",
+  "answer": "Pennsylvania",
+  "swap_answer": "Washington",
+  "final_top5_clean": [
+   [
+    " Pennsylvania",
+    -1.96
+   ],
+   [
+    " the",
+    -2.21
+   ],
+   [
+    " Delaware",
+    -2.58
+   ],
+   [
+    " also",
+    -2.83
+   ],
+   [
+    " called",
+    -2.9
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " the",
+    -2.21
+   ],
+   [
+    " Washington",
+    -2.33
+   ],
+   [
+    " called",
+    -2.64
+   ],
+   [
+    " named",
+    -2.83
+   ],
+   [
+    " also",
+    -2.83
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     "铛",
+     12.62
+    ],
+    [
+     " patriot",
+     11.0
+    ],
+    [
+     "Philadelphia",
+     10.5
+    ],
+    [
+     " Philadelphia",
+     9.44
+    ],
+    [
+     " commemorate",
+     9.06
+    ],
+    [
+     " bells",
+     9.0
+    ],
+    [
+     "震",
+     9.0
+    ],
+    [
+     " rung",
+     8.94
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     "otope",
+     7.69
+    ],
+    [
+     " colours",
+     7.19
+    ],
+    [
+     "/is",
+     7.16
+    ],
+    [
+     "nam",
+     7.06
+    ],
+    [
+     " organisation",
+     6.81
+    ],
+    [
+     " organisations",
+     6.78
+    ],
+    [
+     "名叫",
+     6.75
+    ],
+    [
+     " ...",
+     6.66
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     "铛",
+     12.88
+    ],
+    [
+     " Seattle",
+     11.31
+    ],
+    [
+     " patriot",
+     10.62
+    ],
+    [
+     "Oregon",
+     10.12
+    ],
+    [
+     "Seattle",
+     10.0
+    ],
+    [
+     " Oregon",
+     9.38
+    ],
+    [
+     " bells",
+     9.0
+    ],
+    [
+     " Smithsonian",
+     8.81
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     "otope",
+     7.66
+    ],
+    [
+     "nam",
+     7.28
+    ],
+    [
+     " colours",
+     7.22
+    ],
+    [
+     "/is",
+     7.16
+    ],
+    [
+     " organisation",
+     6.78
+    ],
+    [
+     "名叫",
+     6.72
+    ],
+    [
+     " organisations",
+     6.69
+    ],
+    [
+     " ...",
+     6.66
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " commemorate",
+     10.62
+    ],
+    [
+     "铛",
+     10.06
+    ],
+    [
+     "Philadelphia",
+     10.06
+    ],
+    [
+     " commemor",
+     10.0
+    ],
+    [
+     " Smithsonian",
+     9.44
+    ],
+    [
+     " commem",
+     9.38
+    ],
+    [
+     " Philadelphia",
+     9.31
+    ],
+    [
+     " patriot",
+     8.94
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     "地理",
+     8.12
+    ],
+    [
+     "名叫",
+     7.62
+    ],
+    [
+     "叫做",
+     7.28
+    ],
+    [
+     " geography",
+     7.25
+    ],
+    [
+     " province",
+     7.19
+    ],
+    [
+     " named",
+     6.69
+    ],
+    [
+     "简称",
+     6.53
+    ],
+    [
+     " country",
+     6.53
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " Seattle",
+     10.94
+    ],
+    [
+     "铛",
+     10.81
+    ],
+    [
+     " commemorate",
+     10.44
+    ],
+    [
+     " Smithsonian",
+     9.88
+    ],
+    [
+     " commemor",
+     9.69
+    ],
+    [
+     "Seattle",
+     9.38
+    ],
+    [
+     " commem",
+     9.06
+    ],
+    [
+     " Historic",
+     9.0
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     "地理",
+     8.06
+    ],
+    [
+     "名叫",
+     7.62
+    ],
+    [
+     "叫做",
+     7.22
+    ],
+    [
+     " geography",
+     7.19
+    ],
+    [
+     " province",
+     7.06
+    ],
+    [
+     " named",
+     6.66
+    ],
+    [
+     "简称",
+     6.53
+    ],
+    [
+     " country",
+     6.44
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     " commemorate",
+     9.25
+    ],
+    [
+     " famous",
+     9.0
+    ],
+    [
+     " commemor",
+     8.94
+    ],
+    [
+     "Philadelphia",
+     8.62
+    ],
+    [
+     " fame",
+     8.62
+    ],
+    [
+     " Philadelphia",
+     8.56
+    ],
+    [
+     "铛",
+     8.38
+    ],
+    [
+     " famously",
+     8.12
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "____",
+     8.5
+    ],
+    [
+     "___",
+     8.31
+    ],
+    [
+     " ____",
+     7.84
+    ],
+    [
+     "叫做",
+     7.47
+    ],
+    [
+     " __",
+     7.47
+    ],
+    [
+     " ___",
+     7.41
+    ],
+    [
+     " named",
+     7.28
+    ],
+    [
+     "_____",
+     6.84
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     " Seattle",
+     9.38
+    ],
+    [
+     " commemorate",
+     9.31
+    ],
+    [
+     "铛",
+     9.19
+    ],
+    [
+     " commemor",
+     8.81
+    ],
+    [
+     " famously",
+     8.12
+    ],
+    [
+     " celebrates",
+     7.97
+    ],
+    [
+     " famous",
+     7.94
+    ],
+    [
+     " commem",
+     7.72
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "____",
+     8.44
+    ],
+    [
+     "___",
+     8.25
+    ],
+    [
+     " ____",
+     7.81
+    ],
+    [
+     " ___",
+     7.41
+    ],
+    [
+     " __",
+     7.41
+    ],
+    [
+     "叫做",
+     7.34
+    ],
+    [
+     " named",
+     7.16
+    ],
+    [
+     "_____",
+     6.88
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     " located",
+     11.06
+    ],
+    [
+     " reside",
+     10.69
+    ],
+    [
+     " resides",
+     10.62
+    ],
+    [
+     "located",
+     10.44
+    ],
+    [
+     " Located",
+     8.69
+    ],
+    [
+     "位于",
+     8.0
+    ],
+    [
+     "Philadelphia",
+     7.66
+    ],
+    [
+     "Located",
+     7.41
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     " named",
+     8.94
+    ],
+    [
+     "叫做",
+     8.62
+    ],
+    [
+     " called",
+     8.44
+    ],
+    [
+     " located",
+     7.88
+    ],
+    [
+     "____",
+     7.56
+    ],
+    [
+     "___",
+     7.5
+    ],
+    [
+     " __",
+     7.41
+    ],
+    [
+     "简称",
+     7.34
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     " located",
+     11.06
+    ],
+    [
+     " resides",
+     10.25
+    ],
+    [
+     " reside",
+     10.19
+    ],
+    [
+     "located",
+     10.12
+    ],
+    [
+     " Located",
+     8.75
+    ],
+    [
+     "位于",
+     8.06
+    ],
+    [
+     "Located",
+     7.41
+    ],
+    [
+     " Seattle",
+     7.41
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     " named",
+     8.75
+    ],
+    [
+     "叫做",
+     8.56
+    ],
+    [
+     " called",
+     8.25
+    ],
+    [
+     " located",
+     7.69
+    ],
+    [
+     "____",
+     7.56
+    ],
+    [
+     "___",
+     7.47
+    ],
+    [
+     " __",
+     7.41
+    ],
+    [
+     "简称",
+     7.28
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " resides",
+     15.88
+    ],
+    [
+     " located",
+     14.12
+    ],
+    [
+     " reside",
+     13.69
+    ],
+    [
+     "located",
+     11.31
+    ],
+    [
+     " Located",
+     11.12
+    ],
+    [
+     "位于",
+     11.06
+    ],
+    [
+     " originates",
+     10.31
+    ],
+    [
+     " находится",
+     9.88
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " Pennsylvania",
+     12.81
+    ],
+    [
+     " called",
+     12.38
+    ],
+    [
+     "叫做",
+     10.69
+    ],
+    [
+     " bordered",
+     10.56
+    ],
+    [
+     " named",
+     10.31
+    ],
+    [
+     "简称",
+     10.06
+    ],
+    [
+     " Delaware",
+     9.94
+    ],
+    [
+     " known",
+     9.81
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " resides",
+     16.0
+    ],
+    [
+     " located",
+     14.38
+    ],
+    [
+     " reside",
+     13.94
+    ],
+    [
+     "located",
+     11.5
+    ],
+    [
+     "位于",
+     11.44
+    ],
+    [
+     " Located",
+     11.31
+    ],
+    [
+     " находится",
+     10.0
+    ],
+    [
+     " originates",
+     9.81
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " called",
+     12.19
+    ],
+    [
+     "叫做",
+     10.81
+    ],
+    [
+     " bordered",
+     10.69
+    ],
+    [
+     " named",
+     10.25
+    ],
+    [
+     "简称",
+     10.19
+    ],
+    [
+     " known",
+     9.81
+    ],
+    [
+     "接壤",
+     9.62
+    ],
+    [
+     "called",
+     9.5
+    ]
+   ]
+  }
+ },
+ {
+  "group": "damaged",
+  "index": 69,
+  "name": "person-country-napoleon",
+  "prompt": "Fact: The country whose army was led by the emperor defeated at Waterloo is",
+  "best_pos": 13,
+  "pos_token": " Waterloo",
+  "intermediate": "Napoleon",
+  "swap_to": "Lincoln",
+  "answer": "France",
+  "swap_answer": "America",
+  "final_top5_clean": [
+   [
+    " France",
+    -1.66
+   ],
+   [
+    " the",
+    -2.03
+   ],
+   [
+    " now",
+    -2.78
+   ],
+   [
+    " Belgium",
+    -2.85
+   ],
+   [
+    " known",
+    -2.85
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " the",
+    -1.5
+   ],
+   [
+    " known",
+    -2.75
+   ],
+   [
+    " now",
+    -2.75
+   ],
+   [
+    " currently",
+    -3.06
+   ],
+   [
+    " also",
+    -3.18
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " Waterloo",
+     9.56
+    ],
+    [
+     " Napole",
+     9.0
+    ],
+    [
+     "connexion",
+     9.0
+    ],
+    [
+     "比利时",
+     8.94
+    ],
+    [
+     " Brussels",
+     8.88
+    ],
+    [
+     ".nl",
+     8.56
+    ],
+    [
+     " Belgium",
+     8.44
+    ],
+    [
+     " defence",
+     8.38
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     " honoured",
+     10.5
+    ],
+    [
+     " ...",
+     9.19
+    ],
+    [
+     " honour",
+     8.94
+    ],
+    [
+     " reputed",
+     8.81
+    ],
+    [
+     " recognised",
+     8.69
+    ],
+    [
+     " colours",
+     8.31
+    ],
+    [
+     " labour",
+     8.06
+    ],
+    [
+     " licence",
+     7.97
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     " Waterloo",
+     9.62
+    ],
+    [
+     "śmy",
+     9.44
+    ],
+    [
+     "-esque",
+     9.0
+    ],
+    [
+     " Whilst",
+     8.5
+    ],
+    [
+     "holm",
+     8.38
+    ],
+    [
+     "edException",
+     8.25
+    ],
+    [
+     ".nl",
+     8.25
+    ],
+    [
+     "Stride",
+     8.19
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     " honoured",
+     10.44
+    ],
+    [
+     " honour",
+     8.5
+    ],
+    [
+     " recognised",
+     8.25
+    ],
+    [
+     " labour",
+     8.06
+    ],
+    [
+     " ...",
+     8.06
+    ],
+    [
+     " Britain",
+     7.97
+    ],
+    [
+     " reputed",
+     7.88
+    ],
+    [
+     "colour",
+     7.84
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " Napole",
+     10.44
+    ],
+    [
+     " victory",
+     9.88
+    ],
+    [
+     " defeat",
+     9.62
+    ],
+    [
+     "拿破",
+     9.56
+    ],
+    [
+     " Waterloo",
+     9.25
+    ],
+    [
+     " victorious",
+     9.25
+    ],
+    [
+     " famously",
+     9.06
+    ],
+    [
+     " Napoleon",
+     9.0
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " ...",
+     7.84
+    ],
+    [
+     " famously",
+     7.5
+    ],
+    [
+     " historically",
+     7.41
+    ],
+    [
+     "...",
+     7.38
+    ],
+    [
+     " honoured",
+     7.34
+    ],
+    [
+     " famous",
+     7.28
+    ],
+    [
+     " recognised",
+     7.28
+    ],
+    [
+     " nations",
+     7.12
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " historic",
+     10.12
+    ],
+    [
+     " victory",
+     9.69
+    ],
+    [
+     " Waterloo",
+     9.06
+    ],
+    [
+     " vict",
+     9.06
+    ],
+    [
+     " Lincoln",
+     9.06
+    ],
+    [
+     " Historic",
+     8.75
+    ],
+    [
+     "-era",
+     8.69
+    ],
+    [
+     " defeat",
+     8.69
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " historically",
+     7.78
+    ],
+    [
+     " famously",
+     7.5
+    ],
+    [
+     " nations",
+     7.47
+    ],
+    [
+     " ...",
+     7.41
+    ],
+    [
+     " honoured",
+     7.16
+    ],
+    [
+     " recognised",
+     7.09
+    ],
+    [
+     " British",
+     7.06
+    ],
+    [
+     "...",
+     6.94
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     " famously",
+     10.56
+    ],
+    [
+     " defeat",
+     9.69
+    ],
+    [
+     " victory",
+     9.25
+    ],
+    [
+     " victorious",
+     9.25
+    ],
+    [
+     " defeated",
+     8.81
+    ],
+    [
+     " famous",
+     8.62
+    ],
+    [
+     " fame",
+     8.56
+    ],
+    [
+     " vict",
+     8.44
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     " historically",
+     9.56
+    ],
+    [
+     " famous",
+     8.94
+    ],
+    [
+     " historical",
+     8.88
+    ],
+    [
+     "历史上",
+     8.81
+    ],
+    [
+     "____",
+     8.81
+    ],
+    [
+     "___",
+     8.62
+    ],
+    [
+     " Historical",
+     8.44
+    ],
+    [
+     " descendants",
+     8.38
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     " famously",
+     10.25
+    ],
+    [
+     " victory",
+     9.19
+    ],
+    [
+     " historic",
+     9.06
+    ],
+    [
+     " defeat",
+     8.94
+    ],
+    [
+     " vict",
+     8.56
+    ],
+    [
+     "-era",
+     8.56
+    ],
+    [
+     " victorious",
+     8.44
+    ],
+    [
+     " defeated",
+     8.19
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     " historically",
+     9.94
+    ],
+    [
+     " historical",
+     9.06
+    ],
+    [
+     "历史上",
+     9.0
+    ],
+    [
+     " famous",
+     8.75
+    ],
+    [
+     "____",
+     8.75
+    ],
+    [
+     "___",
+     8.56
+    ],
+    [
+     " Historical",
+     8.56
+    ],
+    [
+     " descendants",
+     8.31
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     " famously",
+     8.25
+    ],
+    [
+     " defeat",
+     7.94
+    ],
+    [
+     "的是",
+     7.72
+    ],
+    [
+     " was",
+     7.22
+    ],
+    [
+     "法国",
+     7.06
+    ],
+    [
+     "pees",
+     7.03
+    ],
+    [
+     " fame",
+     6.84
+    ],
+    [
+     " fought",
+     6.75
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     "____",
+     8.94
+    ],
+    [
+     "___",
+     8.81
+    ],
+    [
+     " __",
+     8.44
+    ],
+    [
+     " countries",
+     8.19
+    ],
+    [
+     " France",
+     8.0
+    ],
+    [
+     " ____",
+     7.78
+    ],
+    [
+     "_____",
+     7.75
+    ],
+    [
+     " ___",
+     7.59
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     " famously",
+     8.5
+    ],
+    [
+     "的是",
+     7.78
+    ],
+    [
+     "pees",
+     7.41
+    ],
+    [
+     " defeat",
+     7.31
+    ],
+    [
+     " fame",
+     7.06
+    ],
+    [
+     " was",
+     6.91
+    ],
+    [
+     "____",
+     6.91
+    ],
+    [
+     "-era",
+     6.88
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     "____",
+     9.19
+    ],
+    [
+     "___",
+     9.19
+    ],
+    [
+     " __",
+     8.75
+    ],
+    [
+     " ____",
+     8.19
+    ],
+    [
+     " countries",
+     8.06
+    ],
+    [
+     " ___",
+     8.0
+    ],
+    [
+     "_____",
+     7.91
+    ],
+    [
+     " ______",
+     7.66
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " Waterloo",
+     10.56
+    ],
+    [
+     " was",
+     9.94
+    ],
+    [
+     "拿破",
+     8.5
+    ],
+    [
+     " Napoleon",
+     8.44
+    ],
+    [
+     " Wellington",
+     8.19
+    ],
+    [
+     "的是",
+     7.97
+    ],
+    [
+     " had",
+     7.69
+    ],
+    [
+     "比利时",
+     7.62
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " now",
+     13.75
+    ],
+    [
+     " currently",
+     13.62
+    ],
+    [
+     " today",
+     12.75
+    ],
+    [
+     " nowadays",
+     11.56
+    ],
+    [
+     "now",
+     11.44
+    ],
+    [
+     "现在的",
+     11.19
+    ],
+    [
+     "currently",
+     10.94
+    ],
+    [
+     " presently",
+     10.94
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " Waterloo",
+     10.06
+    ],
+    [
+     " was",
+     9.5
+    ],
+    [
+     " Wellington",
+     8.19
+    ],
+    [
+     "的是",
+     7.66
+    ],
+    [
+     "loo",
+     7.56
+    ],
+    [
+     " belonged",
+     7.22
+    ],
+    [
+     " wasn",
+     7.12
+    ],
+    [
+     " had",
+     7.06
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " currently",
+     13.06
+    ],
+    [
+     " now",
+     13.06
+    ],
+    [
+     " today",
+     12.12
+    ],
+    [
+     "now",
+     10.94
+    ],
+    [
+     " known",
+     10.75
+    ],
+    [
+     " nowadays",
+     10.69
+    ],
+    [
+     "currently",
+     10.62
+    ],
+    [
+     " located",
+     10.56
+    ]
+   ]
+  }
+ },
+ {
+  "group": "damaged",
+  "index": 83,
+  "name": "spider-legs",
+  "prompt": "Fact: The number of legs on the animal that spins webs is ",
+  "best_pos": 11,
+  "pos_token": " webs",
+  "intermediate": "spider",
+  "swap_to": "ant",
+  "answer": "8",
+  "swap_answer": "6",
+  "final_top5_clean": [
+   [
+    "8",
+    -0.25
+   ],
+   [
+    "4",
+    -2.25
+   ],
+   [
+    "6",
+    -3.0
+   ],
+   [
+    "0",
+    -4.0
+   ],
+   [
+    "2",
+    -4.25
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    "4",
+    -0.63
+   ],
+   [
+    "6",
+    -1.38
+   ],
+   [
+    "8",
+    -2.01
+   ],
+   [
+    "2",
+    -3.63
+   ],
+   [
+    "0",
+    -3.76
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " spiders",
+     13.81
+    ],
+    [
+     " spider",
+     13.38
+    ],
+    [
+     " webs",
+     12.12
+    ],
+    [
+     "蜘蛛",
+     12.06
+    ],
+    [
+     "(web",
+     11.88
+    ],
+    [
+     "/web",
+     10.75
+    ],
+    [
+     "婿",
+     10.75
+    ],
+    [
+     "webs",
+     10.38
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     "number",
+     7.34
+    ],
+    [
+     " number",
+     7.31
+    ],
+    [
+     "-number",
+     7.25
+    ],
+    [
+     "鹿",
+     7.12
+    ],
+    [
+     " numbers",
+     7.06
+    ],
+    [
+     " counted",
+     6.69
+    ],
+    [
+     "数的",
+     6.62
+    ],
+    [
+     "counts",
+     6.47
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     "ery",
+     8.5
+    ],
+    [
+     "ers",
+     8.5
+    ],
+    [
+     "edly",
+     8.19
+    ],
+    [
+     "iness",
+     8.0
+    ],
+    [
+     "avers",
+     7.97
+    ],
+    [
+     "acular",
+     7.94
+    ],
+    [
+     "(web",
+     7.66
+    ],
+    [
+     "dings",
+     7.66
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     "number",
+     7.28
+    ],
+    [
+     " number",
+     7.25
+    ],
+    [
+     "鹿",
+     7.16
+    ],
+    [
+     "-number",
+     7.16
+    ],
+    [
+     " numbers",
+     6.97
+    ],
+    [
+     " counted",
+     6.66
+    ],
+    [
+     "数的",
+     6.5
+    ],
+    [
+     "counts",
+     6.44
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " spiders",
+     16.12
+    ],
+    [
+     " spider",
+     14.81
+    ],
+    [
+     "蜘蛛",
+     13.56
+    ],
+    [
+     "昆虫",
+     11.75
+    ],
+    [
+     " insects",
+     11.5
+    ],
+    [
+     " insect",
+     11.31
+    ],
+    [
+     " Spider",
+     11.12
+    ],
+    [
+     "Spider",
+     10.88
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     "-number",
+     9.06
+    ],
+    [
+     " number",
+     8.88
+    ],
+    [
+     " numbers",
+     8.62
+    ],
+    [
+     "number",
+     8.31
+    ],
+    [
+     " NUMBER",
+     8.12
+    ],
+    [
+     " numbered",
+     8.12
+    ],
+    [
+     "_number",
+     7.94
+    ],
+    [
+     " counted",
+     7.88
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " animals",
+     7.78
+    ],
+    [
+     " ant",
+     7.62
+    ],
+    [
+     " insect",
+     7.28
+    ],
+    [
+     "acular",
+     6.94
+    ],
+    [
+     " insects",
+     6.88
+    ],
+    [
+     " creatures",
+     6.78
+    ],
+    [
+     "ers",
+     6.75
+    ],
+    [
+     "animals",
+     6.59
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " number",
+     8.69
+    ],
+    [
+     "-number",
+     8.56
+    ],
+    [
+     " numbers",
+     8.31
+    ],
+    [
+     "number",
+     8.06
+    ],
+    [
+     " numbered",
+     7.94
+    ],
+    [
+     " counted",
+     7.84
+    ],
+    [
+     "_number",
+     7.75
+    ],
+    [
+     " NUMBER",
+     7.59
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     " spiders",
+     14.88
+    ],
+    [
+     " spider",
+     13.0
+    ],
+    [
+     "蜘蛛",
+     11.81
+    ],
+    [
+     " insects",
+     10.56
+    ],
+    [
+     " animals",
+     10.19
+    ],
+    [
+     " Spider",
+     9.62
+    ],
+    [
+     " insect",
+     9.5
+    ],
+    [
+     " creatures",
+     9.44
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "____",
+     10.44
+    ],
+    [
+     " ____",
+     10.0
+    ],
+    [
+     " number",
+     9.56
+    ],
+    [
+     " ___",
+     9.38
+    ],
+    [
+     "___",
+     9.06
+    ],
+    [
+     "_____",
+     8.94
+    ],
+    [
+     "__",
+     8.56
+    ],
+    [
+     "number",
+     8.44
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     " animals",
+     8.44
+    ],
+    [
+     "____",
+     8.19
+    ],
+    [
+     "\\\"",
+     7.53
+    ],
+    [
+     " ant",
+     7.44
+    ],
+    [
+     " insects",
+     7.0
+    ],
+    [
+     " creatures",
+     7.0
+    ],
+    [
+     " ____",
+     6.94
+    ],
+    [
+     " ants",
+     6.91
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "____",
+     10.12
+    ],
+    [
+     " ____",
+     9.62
+    ],
+    [
+     " number",
+     9.5
+    ],
+    [
+     " ___",
+     9.06
+    ],
+    [
+     "___",
+     8.75
+    ],
+    [
+     "_____",
+     8.62
+    ],
+    [
+     "number",
+     8.44
+    ],
+    [
+     "__",
+     8.38
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     " spiders",
+     10.75
+    ],
+    [
+     " spider",
+     9.81
+    ],
+    [
+     "蜘蛛",
+     8.94
+    ],
+    [
+     " insects",
+     7.72
+    ],
+    [
+     "avers",
+     7.59
+    ],
+    [
+     "____",
+     7.53
+    ],
+    [
+     " insect",
+     7.41
+    ],
+    [
+     " Spider",
+     7.31
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     " legs",
+     9.81
+    ],
+    [
+     "legs",
+     9.19
+    ],
+    [
+     " animals",
+     8.94
+    ],
+    [
+     " animal",
+     8.62
+    ],
+    [
+     " number",
+     8.56
+    ],
+    [
+     "-legged",
+     8.06
+    ],
+    [
+     "number",
+     7.91
+    ],
+    [
+     "动物",
+     7.88
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     " ant",
+     7.12
+    ],
+    [
+     "____",
+     7.03
+    ],
+    [
+     "avers",
+     6.53
+    ],
+    [
+     " ants",
+     6.31
+    ],
+    [
+     " animals",
+     6.31
+    ],
+    [
+     " insect",
+     6.25
+    ],
+    [
+     "ivirus",
+     6.03
+    ],
+    [
+     " insects",
+     6.03
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     " legs",
+     9.69
+    ],
+    [
+     " animals",
+     9.31
+    ],
+    [
+     " animal",
+     9.06
+    ],
+    [
+     "legs",
+     8.81
+    ],
+    [
+     " number",
+     8.38
+    ],
+    [
+     "动物",
+     8.25
+    ],
+    [
+     "animal",
+     8.0
+    ],
+    [
+     "-legged",
+     7.91
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " webs",
+     15.25
+    ],
+    [
+     " spider",
+     14.88
+    ],
+    [
+     " spiders",
+     14.75
+    ],
+    [
+     "蜘蛛",
+     14.25
+    ],
+    [
+     " web",
+     13.56
+    ],
+    [
+     "/web",
+     13.06
+    ],
+    [
+     "(web",
+     12.44
+    ],
+    [
+     " Spider",
+     12.31
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " spider",
+     18.5
+    ],
+    [
+     "蜘蛛",
+     17.75
+    ],
+    [
+     " spiders",
+     16.25
+    ],
+    [
+     " Spider",
+     15.5
+    ],
+    [
+     " web",
+     14.75
+    ],
+    [
+     " webs",
+     14.5
+    ],
+    [
+     "Spider",
+     14.5
+    ],
+    [
+     "蛛",
+     14.38
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " webs",
+     9.81
+    ],
+    [
+     " spiders",
+     8.69
+    ],
+    [
+     " is",
+     8.31
+    ],
+    [
+     "(web",
+     8.12
+    ],
+    [
+     "/web",
+     8.12
+    ],
+    [
+     " web",
+     8.0
+    ],
+    [
+     " spider",
+     7.91
+    ],
+    [
+     "织",
+     7.84
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " legs",
+     12.88
+    ],
+    [
+     "legs",
+     11.88
+    ],
+    [
+     " Legs",
+     11.06
+    ],
+    [
+     " feet",
+     9.25
+    ],
+    [
+     "腿",
+     9.06
+    ],
+    [
+     " leg",
+     8.25
+    ],
+    [
+     " insect",
+     8.25
+    ],
+    [
+     " spider",
+     8.25
+    ]
+   ]
+  }
+ },
+ {
+  "group": "flipped",
+  "index": 23,
+  "name": "ex-city-capital-Lyon-Naples",
+  "prompt": "Fact: The capital of the country where Lyon is located is",
+  "best_pos": 8,
+  "pos_token": " Lyon",
+  "intermediate": "France",
+  "swap_to": "Italy",
+  "answer": "Paris",
+  "swap_answer": "Rome",
+  "final_top5_clean": [
+   [
+    " Paris",
+    -0.36
+   ],
+   [
+    " not",
+    -3.73
+   ],
+   [
+    " the",
+    -3.73
+   ],
+   [
+    " also",
+    -3.79
+   ],
+   [
+    " Vienna",
+    -4.04
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " Rome",
+    -0.6
+   ],
+   [
+    " Milan",
+    -3.16
+   ],
+   [
+    " the",
+    -3.16
+   ],
+   [
+    " also",
+    -3.47
+   ],
+   [
+    " not",
+    -3.54
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " Lyon",
+     15.88
+    ],
+    [
+     "里昂",
+     12.12
+    ],
+    [
+     "法国",
+     11.56
+    ],
+    [
+     "French",
+     10.88
+    ],
+    [
+     "巴黎",
+     10.81
+    ],
+    [
+     " french",
+     10.5
+    ],
+    [
+     "connexion",
+     10.25
+    ],
+    [
+     " lyon",
+     9.94
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     " Capitals",
+     8.5
+    ],
+    [
+     " capitals",
+     8.25
+    ],
+    [
+     "centre",
+     7.91
+    ],
+    [
+     "京",
+     7.81
+    ],
+    [
+     " crowned",
+     7.38
+    ],
+    [
+     " moreover",
+     7.34
+    ],
+    [
+     " countries",
+     7.22
+    ],
+    [
+     " firstly",
+     7.19
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     " Lyon",
+     14.38
+    ],
+    [
+     "里昂",
+     11.12
+    ],
+    [
+     "ishly",
+     10.62
+    ],
+    [
+     "apolis",
+     10.38
+    ],
+    [
+     "acity",
+     10.0
+    ],
+    [
+     "τας",
+     9.69
+    ],
+    [
+     "意大利",
+     9.56
+    ],
+    [
+     "shire",
+     9.5
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     " Capitals",
+     8.5
+    ],
+    [
+     " capitals",
+     8.25
+    ],
+    [
+     " countries",
+     7.66
+    ],
+    [
+     " firstly",
+     7.53
+    ],
+    [
+     " Presidency",
+     7.31
+    ],
+    [
+     "centre",
+     7.19
+    ],
+    [
+     " crowned",
+     7.06
+    ],
+    [
+     " country",
+     7.03
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " Lyon",
+     13.88
+    ],
+    [
+     "里昂",
+     10.25
+    ],
+    [
+     " city",
+     9.0
+    ],
+    [
+     "法国",
+     9.0
+    ],
+    [
+     "acity",
+     8.81
+    ],
+    [
+     "(city",
+     8.69
+    ],
+    [
+     " Localisation",
+     8.69
+    ],
+    [
+     "巴黎",
+     8.5
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " country",
+     9.31
+    ],
+    [
+     " capitals",
+     9.19
+    ],
+    [
+     "country",
+     8.75
+    ],
+    [
+     " cities",
+     8.62
+    ],
+    [
+     " government",
+     8.56
+    ],
+    [
+     " countries",
+     8.31
+    ],
+    [
+     "-country",
+     8.25
+    ],
+    [
+     " province",
+     7.97
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " Lyon",
+     12.88
+    ],
+    [
+     "里昂",
+     9.69
+    ],
+    [
+     " city",
+     9.38
+    ],
+    [
+     "(city",
+     9.06
+    ],
+    [
+     "apolis",
+     8.94
+    ],
+    [
+     "acity",
+     8.88
+    ],
+    [
+     "city",
+     8.81
+    ],
+    [
+     "ishly",
+     8.12
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " country",
+     9.69
+    ],
+    [
+     " cities",
+     9.31
+    ],
+    [
+     " capitals",
+     9.19
+    ],
+    [
+     "country",
+     8.88
+    ],
+    [
+     " government",
+     8.88
+    ],
+    [
+     " countries",
+     8.75
+    ],
+    [
+     "-country",
+     8.44
+    ],
+    [
+     "省会",
+     8.38
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     " Lyon",
+     10.75
+    ],
+    [
+     " Localisation",
+     8.0
+    ],
+    [
+     "里昂",
+     7.97
+    ],
+    [
+     "apolis",
+     7.78
+    ],
+    [
+     " French",
+     7.56
+    ],
+    [
+     "法国",
+     7.5
+    ],
+    [
+     " organised",
+     7.44
+    ],
+    [
+     "(city",
+     7.28
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "___",
+     8.31
+    ],
+    [
+     "____",
+     8.19
+    ],
+    [
+     " __",
+     7.88
+    ],
+    [
+     " ____",
+     7.66
+    ],
+    [
+     "叫做",
+     7.5
+    ],
+    [
+     " ___",
+     7.47
+    ],
+    [
+     " named",
+     7.34
+    ],
+    [
+     " capitals",
+     7.28
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     " Lyon",
+     9.38
+    ],
+    [
+     "apolis",
+     8.56
+    ],
+    [
+     "意大利",
+     7.78
+    ],
+    [
+     "(city",
+     7.66
+    ],
+    [
+     " city",
+     7.31
+    ],
+    [
+     " Localisation",
+     7.28
+    ],
+    [
+     "里昂",
+     7.09
+    ],
+    [
+     "city",
+     7.06
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "____",
+     8.62
+    ],
+    [
+     "___",
+     8.44
+    ],
+    [
+     " ____",
+     8.06
+    ],
+    [
+     " __",
+     7.91
+    ],
+    [
+     " ___",
+     7.72
+    ],
+    [
+     "_____",
+     7.47
+    ],
+    [
+     "叫做",
+     7.44
+    ],
+    [
+     " capitals",
+     7.22
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     "法国",
+     8.69
+    ],
+    [
+     " Lyon",
+     8.44
+    ],
+    [
+     "French",
+     8.38
+    ],
+    [
+     ".vue",
+     8.19
+    ],
+    [
+     " France",
+     8.19
+    ],
+    [
+     " French",
+     8.12
+    ],
+    [
+     "Paris",
+     8.0
+    ],
+    [
+     "巴黎",
+     7.91
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     "叫做",
+     7.62
+    ],
+    [
+     " capitals",
+     7.06
+    ],
+    [
+     " France",
+     6.81
+    ],
+    [
+     " located",
+     6.72
+    ],
+    [
+     "___",
+     6.56
+    ],
+    [
+     "located",
+     6.53
+    ],
+    [
+     " named",
+     6.28
+    ],
+    [
+     " __",
+     6.28
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     "意大利",
+     9.31
+    ],
+    [
+     " Italy",
+     8.38
+    ],
+    [
+     " city",
+     8.19
+    ],
+    [
+     "(city",
+     8.12
+    ],
+    [
+     "成都",
+     7.94
+    ],
+    [
+     "located",
+     7.75
+    ],
+    [
+     " Italian",
+     7.72
+    ],
+    [
+     "city",
+     7.62
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     "叫做",
+     7.72
+    ],
+    [
+     " Italy",
+     7.38
+    ],
+    [
+     "成都",
+     7.28
+    ],
+    [
+     "意大利",
+     7.28
+    ],
+    [
+     "located",
+     6.97
+    ],
+    [
+     " located",
+     6.78
+    ],
+    [
+     " capitals",
+     6.75
+    ],
+    [
+     " Italian",
+     6.59
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " resides",
+     9.5
+    ],
+    [
+     "位于",
+     9.44
+    ],
+    [
+     " located",
+     8.5
+    ],
+    [
+     " Located",
+     8.44
+    ],
+    [
+     " Lyon",
+     8.38
+    ],
+    [
+     " reside",
+     7.97
+    ],
+    [
+     ".vue",
+     7.75
+    ],
+    [
+     "里昂",
+     7.47
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " Paris",
+     11.19
+    ],
+    [
+     "巴黎",
+     10.25
+    ],
+    [
+     "Paris",
+     9.94
+    ],
+    [
+     " located",
+     8.19
+    ],
+    [
+     " capitals",
+     8.12
+    ],
+    [
+     " France",
+     7.84
+    ],
+    [
+     "成都",
+     7.56
+    ],
+    [
+     "位于",
+     7.53
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " resides",
+     10.25
+    ],
+    [
+     "位于",
+     9.69
+    ],
+    [
+     " located",
+     8.94
+    ],
+    [
+     " Located",
+     8.88
+    ],
+    [
+     " reside",
+     8.5
+    ],
+    [
+     "located",
+     8.0
+    ],
+    [
+     " belongs",
+     7.66
+    ],
+    [
+     " originates",
+     7.53
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     "成都",
+     9.81
+    ],
+    [
+     " located",
+     8.5
+    ],
+    [
+     " cities",
+     7.88
+    ],
+    [
+     " capitals",
+     7.72
+    ],
+    [
+     "位于",
+     7.66
+    ],
+    [
+     "叫做",
+     7.53
+    ],
+    [
+     " Rome",
+     7.5
+    ],
+    [
+     " Italy",
+     7.44
+    ]
+   ]
+  }
+ },
+ {
+  "group": "flipped",
+  "index": 38,
+  "name": "ex2-city-capital-Munich",
+  "prompt": "Fact: The capital of the country where Munich is located is",
+  "best_pos": 11,
+  "pos_token": " is",
+  "intermediate": "Germany",
+  "swap_to": "Japan",
+  "answer": "Berlin",
+  "swap_answer": "Tokyo",
+  "final_top5_clean": [
+   [
+    " Berlin",
+    -0.56
+   ],
+   [
+    " Vienna",
+    -2.87
+   ],
+   [
+    " the",
+    -3.06
+   ],
+   [
+    " Munich",
+    -3.25
+   ],
+   [
+    " not",
+    -3.37
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " Tokyo",
+    -0.39
+   ],
+   [
+    " not",
+    -3.26
+   ],
+   [
+    " the",
+    -3.33
+   ],
+   [
+    " also",
+    -3.83
+   ],
+   [
+    " Kyoto",
+    -3.95
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " Capitals",
+     8.81
+    ],
+    [
+     "centre",
+     8.56
+    ],
+    [
+     " capitals",
+     8.44
+    ],
+    [
+     " moreover",
+     8.12
+    ],
+    [
+     "京",
+     8.06
+    ],
+    [
+     " firstly",
+     7.81
+    ],
+    [
+     " crowned",
+     7.59
+    ],
+    [
+     " centre",
+     7.56
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     " Capitals",
+     8.81
+    ],
+    [
+     "centre",
+     8.56
+    ],
+    [
+     " capitals",
+     8.44
+    ],
+    [
+     " moreover",
+     8.12
+    ],
+    [
+     "京",
+     8.06
+    ],
+    [
+     " firstly",
+     7.81
+    ],
+    [
+     " crowned",
+     7.59
+    ],
+    [
+     " centre",
+     7.56
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     " Capitals",
+     8.88
+    ],
+    [
+     "centre",
+     8.62
+    ],
+    [
+     " capitals",
+     8.5
+    ],
+    [
+     "京",
+     8.06
+    ],
+    [
+     " moreover",
+     8.06
+    ],
+    [
+     " firstly",
+     7.88
+    ],
+    [
+     " crowned",
+     7.66
+    ],
+    [
+     " centre",
+     7.56
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     " Capitals",
+     8.88
+    ],
+    [
+     "centre",
+     8.62
+    ],
+    [
+     " capitals",
+     8.5
+    ],
+    [
+     "京",
+     8.06
+    ],
+    [
+     " moreover",
+     8.06
+    ],
+    [
+     " firstly",
+     7.88
+    ],
+    [
+     " crowned",
+     7.66
+    ],
+    [
+     " centre",
+     7.56
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " capitals",
+     9.38
+    ],
+    [
+     " cities",
+     9.31
+    ],
+    [
+     " country",
+     9.19
+    ],
+    [
+     "country",
+     8.75
+    ],
+    [
+     " city",
+     8.5
+    ],
+    [
+     "省会",
+     8.38
+    ],
+    [
+     "-country",
+     8.25
+    ],
+    [
+     " countries",
+     8.25
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " capitals",
+     9.38
+    ],
+    [
+     " cities",
+     9.31
+    ],
+    [
+     " country",
+     9.19
+    ],
+    [
+     "country",
+     8.75
+    ],
+    [
+     " city",
+     8.5
+    ],
+    [
+     "省会",
+     8.38
+    ],
+    [
+     "-country",
+     8.25
+    ],
+    [
+     " countries",
+     8.25
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " capitals",
+     9.25
+    ],
+    [
+     " cities",
+     9.25
+    ],
+    [
+     " country",
+     9.12
+    ],
+    [
+     "country",
+     8.69
+    ],
+    [
+     " city",
+     8.56
+    ],
+    [
+     "省会",
+     8.31
+    ],
+    [
+     "-country",
+     8.25
+    ],
+    [
+     " countries",
+     8.19
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " capitals",
+     9.25
+    ],
+    [
+     " cities",
+     9.25
+    ],
+    [
+     " country",
+     9.12
+    ],
+    [
+     "country",
+     8.69
+    ],
+    [
+     " city",
+     8.56
+    ],
+    [
+     "省会",
+     8.31
+    ],
+    [
+     "-country",
+     8.25
+    ],
+    [
+     " countries",
+     8.19
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     "___",
+     8.56
+    ],
+    [
+     "____",
+     8.44
+    ],
+    [
+     " __",
+     8.25
+    ],
+    [
+     " ____",
+     7.94
+    ],
+    [
+     " ___",
+     7.81
+    ],
+    [
+     "叫做",
+     7.62
+    ],
+    [
+     "_____",
+     7.44
+    ],
+    [
+     " named",
+     7.25
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "___",
+     8.56
+    ],
+    [
+     "____",
+     8.44
+    ],
+    [
+     " __",
+     8.25
+    ],
+    [
+     " ____",
+     7.94
+    ],
+    [
+     " ___",
+     7.81
+    ],
+    [
+     "叫做",
+     7.62
+    ],
+    [
+     "_____",
+     7.44
+    ],
+    [
+     " named",
+     7.25
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     "___",
+     8.44
+    ],
+    [
+     "____",
+     8.38
+    ],
+    [
+     " __",
+     8.12
+    ],
+    [
+     " ____",
+     7.84
+    ],
+    [
+     " ___",
+     7.75
+    ],
+    [
+     "_____",
+     7.44
+    ],
+    [
+     "叫做",
+     7.41
+    ],
+    [
+     " capitals",
+     7.19
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "___",
+     8.44
+    ],
+    [
+     "____",
+     8.38
+    ],
+    [
+     " __",
+     8.12
+    ],
+    [
+     " ____",
+     7.84
+    ],
+    [
+     " ___",
+     7.75
+    ],
+    [
+     "_____",
+     7.44
+    ],
+    [
+     "叫做",
+     7.41
+    ],
+    [
+     " capitals",
+     7.19
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     "叫做",
+     7.47
+    ],
+    [
+     "___",
+     7.0
+    ],
+    [
+     " __",
+     6.88
+    ],
+    [
+     " named",
+     6.62
+    ],
+    [
+     " capitals",
+     6.59
+    ],
+    [
+     "____",
+     6.53
+    ],
+    [
+     "located",
+     6.53
+    ],
+    [
+     " located",
+     6.44
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     "叫做",
+     7.47
+    ],
+    [
+     "___",
+     7.0
+    ],
+    [
+     " __",
+     6.88
+    ],
+    [
+     " named",
+     6.62
+    ],
+    [
+     " capitals",
+     6.59
+    ],
+    [
+     "____",
+     6.53
+    ],
+    [
+     "located",
+     6.53
+    ],
+    [
+     " located",
+     6.44
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     "叫做",
+     7.31
+    ],
+    [
+     "___",
+     7.06
+    ],
+    [
+     "located",
+     6.84
+    ],
+    [
+     " __",
+     6.78
+    ],
+    [
+     " located",
+     6.72
+    ],
+    [
+     "____",
+     6.66
+    ],
+    [
+     " capitals",
+     6.41
+    ],
+    [
+     "_____",
+     6.41
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     "叫做",
+     7.31
+    ],
+    [
+     "___",
+     7.06
+    ],
+    [
+     "located",
+     6.84
+    ],
+    [
+     " __",
+     6.78
+    ],
+    [
+     " located",
+     6.72
+    ],
+    [
+     "____",
+     6.66
+    ],
+    [
+     " capitals",
+     6.41
+    ],
+    [
+     "_____",
+     6.41
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " Berlin",
+     10.31
+    ],
+    [
+     " Munich",
+     9.12
+    ],
+    [
+     " located",
+     8.62
+    ],
+    [
+     "Berlin",
+     8.38
+    ],
+    [
+     "柏林",
+     7.94
+    ],
+    [
+     "慕尼黑",
+     7.94
+    ],
+    [
+     " cities",
+     7.91
+    ],
+    [
+     " called",
+     7.88
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " Berlin",
+     10.31
+    ],
+    [
+     " Munich",
+     9.12
+    ],
+    [
+     " located",
+     8.62
+    ],
+    [
+     "Berlin",
+     8.38
+    ],
+    [
+     "柏林",
+     7.94
+    ],
+    [
+     "慕尼黑",
+     7.94
+    ],
+    [
+     " cities",
+     7.91
+    ],
+    [
+     " called",
+     7.88
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " Tokyo",
+     13.62
+    ],
+    [
+     "东京",
+     11.81
+    ],
+    [
+     "Tok",
+     10.12
+    ],
+    [
+     "東京",
+     10.0
+    ],
+    [
+     " located",
+     9.25
+    ],
+    [
+     " Kyoto",
+     9.19
+    ],
+    [
+     " Beijing",
+     8.62
+    ],
+    [
+     " Japan",
+     8.62
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " Tokyo",
+     13.62
+    ],
+    [
+     "东京",
+     11.81
+    ],
+    [
+     "Tok",
+     10.12
+    ],
+    [
+     "東京",
+     10.0
+    ],
+    [
+     " located",
+     9.25
+    ],
+    [
+     " Kyoto",
+     9.19
+    ],
+    [
+     " Beijing",
+     8.62
+    ],
+    [
+     " Japan",
+     8.62
+    ]
+   ]
+  }
+ },
+ {
+  "group": "flipped",
+  "index": 56,
+  "name": "greatwall-ocean",
+  "prompt": "Fact: The ocean east of the country that built the Great Wall is the",
+  "best_pos": 12,
+  "pos_token": " Wall",
+  "intermediate": "China",
+  "swap_to": "Brazil",
+  "answer": "Pacific",
+  "swap_answer": "Atlantic",
+  "final_top5_clean": [
+   [
+    " Pacific",
+    -1.03
+   ],
+   [
+    " Yellow",
+    -1.15
+   ],
+   [
+    " East",
+    -2.9
+   ],
+   [
+    " South",
+    -3.47
+   ],
+   [
+    " largest",
+    -3.59
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " Atlantic",
+    -0.33
+   ],
+   [
+    " South",
+    -2.89
+   ],
+   [
+    " ______",
+    -4.02
+   ],
+   [
+    " largest",
+    -4.02
+   ],
+   [
+    " most",
+    -4.02
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " China",
+     15.25
+    ],
+    [
+     " Chinese",
+     14.81
+    ],
+    [
+     " Beijing",
+     14.31
+    ],
+    [
+     "长城",
+     12.44
+    ],
+    [
+     "Chinese",
+     12.0
+    ],
+    [
+     "China",
+     11.62
+    ],
+    [
+     "对中国",
+     11.62
+    ],
+    [
+     " китай",
+     11.62
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     " ocean",
+     10.38
+    ],
+    [
+     " oceans",
+     9.62
+    ],
+    [
+     "Ocean",
+     8.25
+    ],
+    [
+     " Ocean",
+     8.19
+    ],
+    [
+     "大海",
+     7.88
+    ],
+    [
+     " coastline",
+     7.78
+    ],
+    [
+     " оке",
+     7.47
+    ],
+    [
+     "船",
+     7.31
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     "巴西",
+     15.19
+    ],
+    [
+     "enght",
+     12.56
+    ],
+    [
+     " Brazil",
+     11.56
+    ],
+    [
+     "igth",
+     11.06
+    ],
+    [
+     " brazil",
+     10.69
+    ],
+    [
+     " Brasília",
+     10.56
+    ],
+    [
+     "´s",
+     10.44
+    ],
+    [
+     " Brazilian",
+     10.38
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     " ocean",
+     10.44
+    ],
+    [
+     " oceans",
+     9.75
+    ],
+    [
+     "大海",
+     8.81
+    ],
+    [
+     "Ocean",
+     8.38
+    ],
+    [
+     " Ocean",
+     8.19
+    ],
+    [
+     " coastline",
+     8.06
+    ],
+    [
+     " оке",
+     7.91
+    ],
+    [
+     "船只",
+     7.75
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " China",
+     11.62
+    ],
+    [
+     " Chinese",
+     11.5
+    ],
+    [
+     " UNESCO",
+     11.0
+    ],
+    [
+     "长城",
+     10.31
+    ],
+    [
+     "对中国",
+     10.19
+    ],
+    [
+     "的中国",
+     10.0
+    ],
+    [
+     "和中国",
+     9.94
+    ],
+    [
+     "中国的",
+     9.94
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " ocean",
+     12.44
+    ],
+    [
+     " oceans",
+     11.38
+    ],
+    [
+     " marine",
+     9.94
+    ],
+    [
+     " Ocean",
+     9.69
+    ],
+    [
+     " coastline",
+     9.62
+    ],
+    [
+     " sea",
+     9.5
+    ],
+    [
+     " maritime",
+     9.19
+    ],
+    [
+     " Sea",
+     9.0
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     "巴西",
+     12.0
+    ],
+    [
+     " UNESCO",
+     10.88
+    ],
+    [
+     " Brazil",
+     9.75
+    ],
+    [
+     "是世界上",
+     8.94
+    ],
+    [
+     " centuries",
+     8.94
+    ],
+    [
+     " civilization",
+     8.69
+    ],
+    [
+     " Brazilian",
+     8.62
+    ],
+    [
+     " archae",
+     8.56
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " ocean",
+     12.69
+    ],
+    [
+     " oceans",
+     11.44
+    ],
+    [
+     " marine",
+     10.19
+    ],
+    [
+     " Ocean",
+     10.0
+    ],
+    [
+     " coastline",
+     9.88
+    ],
+    [
+     " sea",
+     9.75
+    ],
+    [
+     " maritime",
+     9.38
+    ],
+    [
+     "Ocean",
+     9.31
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     " Chinese",
+     11.31
+    ],
+    [
+     " China",
+     10.69
+    ],
+    [
+     "和中国",
+     10.12
+    ],
+    [
+     "的中国",
+     10.06
+    ],
+    [
+     "中国的",
+     9.88
+    ],
+    [
+     " centuries",
+     9.69
+    ],
+    [
+     " famous",
+     9.31
+    ],
+    [
+     "长城",
+     9.25
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     " ocean",
+     9.06
+    ],
+    [
+     " oceans",
+     8.62
+    ],
+    [
+     "____",
+     8.56
+    ],
+    [
+     "叫做",
+     8.31
+    ],
+    [
+     " famous",
+     8.0
+    ],
+    [
+     " named",
+     8.0
+    ],
+    [
+     " ____",
+     7.84
+    ],
+    [
+     " ___",
+     7.78
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     "巴西",
+     11.75
+    ],
+    [
+     " Brazil",
+     9.94
+    ],
+    [
+     " centuries",
+     9.31
+    ],
+    [
+     " UNESCO",
+     9.19
+    ],
+    [
+     " famously",
+     8.69
+    ],
+    [
+     " famous",
+     8.69
+    ],
+    [
+     "Brazil",
+     8.5
+    ],
+    [
+     " Brazilian",
+     8.44
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     " ocean",
+     9.38
+    ],
+    [
+     " oceans",
+     8.69
+    ],
+    [
+     "叫做",
+     8.69
+    ],
+    [
+     "____",
+     8.19
+    ],
+    [
+     " named",
+     8.12
+    ],
+    [
+     " ___",
+     7.94
+    ],
+    [
+     "叫什么",
+     7.88
+    ],
+    [
+     "名叫",
+     7.88
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     " China",
+     8.62
+    ],
+    [
+     " Chinese",
+     8.31
+    ],
+    [
+     " centuries",
+     8.12
+    ],
+    [
+     "是中国",
+     8.06
+    ],
+    [
+     "____",
+     8.0
+    ],
+    [
+     "的中国",
+     7.66
+    ],
+    [
+     " UNESCO",
+     7.66
+    ],
+    [
+     " ____",
+     7.44
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     " ocean",
+     9.5
+    ],
+    [
+     " oceans",
+     8.62
+    ],
+    [
+     " Ocean",
+     8.0
+    ],
+    [
+     " sea",
+     7.75
+    ],
+    [
+     " maritime",
+     7.41
+    ],
+    [
+     " Sea",
+     7.22
+    ],
+    [
+     "海洋",
+     7.12
+    ],
+    [
+     "叫做",
+     7.09
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     "巴西",
+     10.56
+    ],
+    [
+     " Brazil",
+     8.44
+    ],
+    [
+     " UNESCO",
+     7.56
+    ],
+    [
+     "____",
+     7.38
+    ],
+    [
+     " ____",
+     7.25
+    ],
+    [
+     "___",
+     7.22
+    ],
+    [
+     " famously",
+     7.09
+    ],
+    [
+     " centuries",
+     7.06
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     " ocean",
+     9.69
+    ],
+    [
+     " oceans",
+     8.62
+    ],
+    [
+     " Atlantic",
+     8.25
+    ],
+    [
+     " Ocean",
+     8.19
+    ],
+    [
+     "叫做",
+     7.75
+    ],
+    [
+     "大西洋",
+     7.59
+    ],
+    [
+     "巴西",
+     7.56
+    ],
+    [
+     " sea",
+     7.56
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " China",
+     11.75
+    ],
+    [
+     "长城",
+     11.62
+    ],
+    [
+     " Beijing",
+     11.56
+    ],
+    [
+     " Chinese",
+     9.94
+    ],
+    [
+     "China",
+     9.81
+    ],
+    [
+     "是中国",
+     9.56
+    ],
+    [
+     "-China",
+     9.06
+    ],
+    [
+     " Китай",
+     8.69
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " ocean",
+     14.19
+    ],
+    [
+     "太平洋",
+     13.5
+    ],
+    [
+     " Ocean",
+     13.19
+    ],
+    [
+     "东海",
+     13.06
+    ],
+    [
+     " Pacific",
+     12.88
+    ],
+    [
+     "黄海",
+     12.38
+    ],
+    [
+     "海洋",
+     12.25
+    ],
+    [
+     " Atlantic",
+     12.19
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     "巴西",
+     12.5
+    ],
+    [
+     " Brazil",
+     9.88
+    ],
+    [
+     " Brasília",
+     8.56
+    ],
+    [
+     "Brazil",
+     8.38
+    ],
+    [
+     "葡萄牙",
+     7.91
+    ],
+    [
+     " is",
+     7.91
+    ],
+    [
+     " belongs",
+     7.5
+    ],
+    [
+     " Brasil",
+     7.31
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " Atlantic",
+     16.38
+    ],
+    [
+     "大西洋",
+     14.69
+    ],
+    [
+     " ocean",
+     13.62
+    ],
+    [
+     "Atlantic",
+     13.56
+    ],
+    [
+     " Ocean",
+     12.69
+    ],
+    [
+     " oceans",
+     11.0
+    ],
+    [
+     " оке",
+     10.94
+    ],
+    [
+     "巴西",
+     10.88
+    ]
+   ]
+  }
+ },
+ {
+  "group": "flipped",
+  "index": 0,
+  "name": "amazon-language",
+  "prompt": "Fact: The language spoken in the country where the Amazon River ends is",
+  "best_pos": 10,
+  "pos_token": " Amazon",
+  "intermediate": "Brazil",
+  "swap_to": "Mexico",
+  "answer": "Portuguese",
+  "swap_answer": "Spanish",
+  "final_top5_clean": [
+   [
+    " Portuguese",
+    -1.13
+   ],
+   [
+    " Spanish",
+    -1.57
+   ],
+   [
+    " English",
+    -3.26
+   ],
+   [
+    " called",
+    -3.44
+   ],
+   [
+    " Que",
+    -3.51
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " Spanish",
+    -0.98
+   ],
+   [
+    " Que",
+    -2.48
+   ],
+   [
+    " English",
+    -2.85
+   ],
+   [
+    " Portuguese",
+    -2.91
+   ],
+   [
+    " the",
+    -3.48
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " Amazon",
+     11.81
+    ],
+    [
+     "亚马",
+     11.69
+    ],
+    [
+     "Amazon",
+     11.19
+    ],
+    [
+     "巴西",
+     11.06
+    ],
+    [
+     " Amazonas",
+     10.94
+    ],
+    [
+     "亚马逊",
+     10.88
+    ],
+    [
+     " amazon",
+     10.62
+    ],
+    [
+     "️",
+     10.44
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     "-language",
+     10.25
+    ],
+    [
+     " languages",
+     10.0
+    ],
+    [
+     "language",
+     9.5
+    ],
+    [
+     " langue",
+     9.06
+    ],
+    [
+     " ...",
+     9.0
+    ],
+    [
+     "语言",
+     8.81
+    ],
+    [
+     "languages",
+     8.69
+    ],
+    [
+     " language",
+     8.62
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     "istan",
+     10.31
+    ],
+    [
+     " river",
+     10.25
+    ],
+    [
+     "icity",
+     9.94
+    ],
+    [
+     " Mexico",
+     9.75
+    ],
+    [
+     "ize",
+     9.62
+    ],
+    [
+     "墨西哥",
+     9.62
+    ],
+    [
+     "尼亚",
+     9.56
+    ],
+    [
+     "ous",
+     9.56
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     "-language",
+     10.56
+    ],
+    [
+     " languages",
+     10.06
+    ],
+    [
+     "language",
+     9.81
+    ],
+    [
+     " langue",
+     9.56
+    ],
+    [
+     "语言",
+     9.06
+    ],
+    [
+     " ...",
+     8.94
+    ],
+    [
+     " language",
+     8.94
+    ],
+    [
+     "languages",
+     8.81
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " forests",
+     9.94
+    ],
+    [
+     " Amazon",
+     9.81
+    ],
+    [
+     "巴西",
+     9.69
+    ],
+    [
+     "Amazon",
+     9.12
+    ],
+    [
+     " rivers",
+     9.12
+    ],
+    [
+     " tropical",
+     8.94
+    ],
+    [
+     "forest",
+     8.94
+    ],
+    [
+     "亚马",
+     8.94
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " languages",
+     12.0
+    ],
+    [
+     "语种",
+     10.75
+    ],
+    [
+     "-language",
+     10.75
+    ],
+    [
+     "language",
+     10.5
+    ],
+    [
+     "languages",
+     10.25
+    ],
+    [
+     " lingu",
+     10.0
+    ],
+    [
+     "/language",
+     9.81
+    ],
+    [
+     "该国",
+     9.75
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " forests",
+     9.25
+    ],
+    [
+     " river",
+     9.0
+    ],
+    [
+     " rivers",
+     8.94
+    ],
+    [
+     "墨西哥",
+     8.69
+    ],
+    [
+     " Mexico",
+     8.69
+    ],
+    [
+     "世界上最大的",
+     8.38
+    ],
+    [
+     "全球最大的",
+     8.31
+    ],
+    [
+     "river",
+     8.19
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " languages",
+     12.0
+    ],
+    [
+     "语种",
+     10.75
+    ],
+    [
+     "-language",
+     10.69
+    ],
+    [
+     "language",
+     10.5
+    ],
+    [
+     "languages",
+     10.25
+    ],
+    [
+     " lingu",
+     9.94
+    ],
+    [
+     "/language",
+     9.81
+    ],
+    [
+     "该国",
+     9.75
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     "是世界上",
+     8.5
+    ],
+    [
+     " forests",
+     8.31
+    ],
+    [
+     "世界上最大的",
+     8.25
+    ],
+    [
+     "全球最大的",
+     7.53
+    ],
+    [
+     "巴西",
+     7.53
+    ],
+    [
+     " Largest",
+     7.34
+    ],
+    [
+     " Amazon",
+     7.31
+    ],
+    [
+     "亚马",
+     7.25
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "该国",
+     9.88
+    ],
+    [
+     " languages",
+     9.81
+    ],
+    [
+     "____",
+     9.5
+    ],
+    [
+     " ____",
+     8.75
+    ],
+    [
+     " native",
+     8.38
+    ],
+    [
+     "___",
+     8.31
+    ],
+    [
+     "_____",
+     8.25
+    ],
+    [
+     " ___",
+     8.25
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     "是世界上",
+     8.44
+    ],
+    [
+     "世界上最大的",
+     8.31
+    ],
+    [
+     " Largest",
+     7.88
+    ],
+    [
+     " forests",
+     7.81
+    ],
+    [
+     "全球最大的",
+     7.44
+    ],
+    [
+     " largest",
+     7.22
+    ],
+    [
+     " river",
+     7.06
+    ],
+    [
+     " rivers",
+     7.0
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "该国",
+     9.88
+    ],
+    [
+     " languages",
+     9.88
+    ],
+    [
+     "____",
+     9.5
+    ],
+    [
+     " ____",
+     8.81
+    ],
+    [
+     " native",
+     8.44
+    ],
+    [
+     "_____",
+     8.31
+    ],
+    [
+     " linguistic",
+     8.31
+    ],
+    [
+     "___",
+     8.25
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     " Amazon",
+     8.5
+    ],
+    [
+     "亚马逊",
+     8.31
+    ],
+    [
+     "Amazon",
+     8.19
+    ],
+    [
+     "巴西",
+     8.06
+    ],
+    [
+     "amazon",
+     7.91
+    ],
+    [
+     " amazon",
+     7.41
+    ],
+    [
+     "全球最大的",
+     7.25
+    ],
+    [
+     "是世界上",
+     7.19
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     " languages",
+     14.56
+    ],
+    [
+     " language",
+     14.12
+    ],
+    [
+     "语言",
+     13.25
+    ],
+    [
+     "language",
+     12.88
+    ],
+    [
+     "英语",
+     12.56
+    ],
+    [
+     "语言的",
+     12.56
+    ],
+    [
+     "的语言",
+     12.5
+    ],
+    [
+     " Language",
+     12.5
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     "墨西哥",
+     7.34
+    ],
+    [
+     "全球最大的",
+     7.03
+    ],
+    [
+     " largest",
+     6.88
+    ],
+    [
+     " headquartered",
+     6.88
+    ],
+    [
+     "是世界上",
+     6.81
+    ],
+    [
+     " Largest",
+     6.72
+    ],
+    [
+     " Mexico",
+     6.28
+    ],
+    [
+     "located",
+     6.19
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     " languages",
+     14.56
+    ],
+    [
+     " language",
+     14.25
+    ],
+    [
+     "语言",
+     13.31
+    ],
+    [
+     "language",
+     12.94
+    ],
+    [
+     "英语",
+     12.75
+    ],
+    [
+     " Language",
+     12.62
+    ],
+    [
+     "语言的",
+     12.56
+    ],
+    [
+     "的语言",
+     12.5
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     "Amazon",
+     13.5
+    ],
+    [
+     " Amazon",
+     13.19
+    ],
+    [
+     "亚马逊",
+     13.12
+    ],
+    [
+     "amazon",
+     12.81
+    ],
+    [
+     " amazon",
+     12.0
+    ],
+    [
+     " river",
+     11.44
+    ],
+    [
+     "雨林",
+     11.31
+    ],
+    [
+     "流域",
+     11.25
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     "英语",
+     16.5
+    ],
+    [
+     " language",
+     16.0
+    ],
+    [
+     " languages",
+     15.75
+    ],
+    [
+     "语言",
+     15.25
+    ],
+    [
+     " lingua",
+     14.75
+    ],
+    [
+     "的语言",
+     14.75
+    ],
+    [
+     "西班牙语",
+     14.56
+    ],
+    [
+     "language",
+     14.5
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " river",
+     11.5
+    ],
+    [
+     "流域",
+     10.62
+    ],
+    [
+     "河流域",
+     10.44
+    ],
+    [
+     "河流",
+     10.31
+    ],
+    [
+     " River",
+     10.31
+    ],
+    [
+     " rivers",
+     10.12
+    ],
+    [
+     "Amazon",
+     9.38
+    ],
+    [
+     "amazon",
+     9.31
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     "英语",
+     17.0
+    ],
+    [
+     "西班牙语",
+     16.12
+    ],
+    [
+     " languages",
+     15.88
+    ],
+    [
+     " language",
+     15.81
+    ],
+    [
+     "语言",
+     15.06
+    ],
+    [
+     "的语言",
+     14.75
+    ],
+    [
+     "language",
+     14.38
+    ],
+    [
+     " Language",
+     14.31
+    ]
+   ]
+  }
+ },
+ {
+  "group": "flipped",
+  "index": 15,
+  "name": "christmas-season",
+  "prompt": "Fact: The season when the holiday with a decorated tree occurs is",
+  "best_pos": 6,
+  "pos_token": " holiday",
+  "intermediate": "Christmas",
+  "swap_to": "Easter",
+  "answer": "winter",
+  "swap_answer": "spring",
+  "final_top5_clean": [
+   [
+    " winter",
+    -1.37
+   ],
+   [
+    " the",
+    -1.87
+   ],
+   [
+    " called",
+    -2.25
+   ],
+   [
+    " Christmas",
+    -2.87
+   ],
+   [
+    " Winter",
+    -3.0
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " spring",
+    -1.33
+   ],
+   [
+    " Spring",
+    -1.58
+   ],
+   [
+    " the",
+    -2.21
+   ],
+   [
+    " called",
+    -2.46
+   ],
+   [
+    " known",
+    -3.46
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " holiday",
+     19.0
+    ],
+    [
+     " holidays",
+     16.5
+    ],
+    [
+     "holiday",
+     16.12
+    ],
+    [
+     "Holiday",
+     14.69
+    ],
+    [
+     " Holiday",
+     14.38
+    ],
+    [
+     " festive",
+     14.06
+    ],
+    [
+     " Thanksgiving",
+     13.06
+    ],
+    [
+     " Christmas",
+     12.88
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     " calendar",
+     8.12
+    ],
+    [
+     "冬",
+     7.28
+    ],
+    [
+     " ...",
+     7.12
+    ],
+    [
+     "winter",
+     6.78
+    ],
+    [
+     " Calendar",
+     6.56
+    ],
+    [
+     "nam",
+     6.31
+    ],
+    [
+     " season",
+     6.25
+    ],
+    [
+     " months",
+     6.19
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     " holiday",
+     17.12
+    ],
+    [
+     " holidays",
+     15.5
+    ],
+    [
+     "holiday",
+     14.69
+    ],
+    [
+     " celebration",
+     13.38
+    ],
+    [
+     "Holiday",
+     13.06
+    ],
+    [
+     " celebrations",
+     13.0
+    ],
+    [
+     " Holiday",
+     12.69
+    ],
+    [
+     " Thanksgiving",
+     12.44
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     " calendar",
+     8.31
+    ],
+    [
+     " ​​",
+     7.59
+    ],
+    [
+     " ...",
+     7.41
+    ],
+    [
+     "农历",
+     7.03
+    ],
+    [
+     "狸",
+     6.94
+    ],
+    [
+     "nam",
+     6.91
+    ],
+    [
+     "month",
+     6.69
+    ],
+    [
+     "otope",
+     6.66
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " holiday",
+     17.5
+    ],
+    [
+     " holidays",
+     15.44
+    ],
+    [
+     "holiday",
+     14.69
+    ],
+    [
+     " Christmas",
+     13.94
+    ],
+    [
+     "Holiday",
+     13.44
+    ],
+    [
+     " Holiday",
+     12.94
+    ],
+    [
+     " festive",
+     12.81
+    ],
+    [
+     "Christmas",
+     12.81
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " calendar",
+     9.94
+    ],
+    [
+     " season",
+     9.38
+    ],
+    [
+     " seasons",
+     8.44
+    ],
+    [
+     "calendar",
+     7.94
+    ],
+    [
+     " Calendar",
+     7.75
+    ],
+    [
+     " year",
+     7.69
+    ],
+    [
+     " calendars",
+     7.62
+    ],
+    [
+     "季节",
+     7.5
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " holiday",
+     16.0
+    ],
+    [
+     " holidays",
+     14.75
+    ],
+    [
+     "holiday",
+     13.56
+    ],
+    [
+     " Easter",
+     13.12
+    ],
+    [
+     " celebrations",
+     13.0
+    ],
+    [
+     " celebration",
+     12.88
+    ],
+    [
+     "Holiday",
+     12.06
+    ],
+    [
+     " festivities",
+     12.0
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " calendar",
+     9.81
+    ],
+    [
+     " season",
+     9.69
+    ],
+    [
+     " seasons",
+     8.88
+    ],
+    [
+     " year",
+     7.91
+    ],
+    [
+     "calendar",
+     7.84
+    ],
+    [
+     "农历",
+     7.78
+    ],
+    [
+     "季节",
+     7.78
+    ],
+    [
+     " Seasons",
+     7.72
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     " holiday",
+     13.25
+    ],
+    [
+     " holidays",
+     11.75
+    ],
+    [
+     "holiday",
+     10.69
+    ],
+    [
+     " Christmas",
+     10.5
+    ],
+    [
+     " celebration",
+     9.88
+    ],
+    [
+     " festivities",
+     9.88
+    ],
+    [
+     " celebrations",
+     9.81
+    ],
+    [
+     " festive",
+     9.62
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "____",
+     10.06
+    ],
+    [
+     "叫做",
+     9.69
+    ],
+    [
+     "___",
+     9.56
+    ],
+    [
+     " ____",
+     9.38
+    ],
+    [
+     " ___",
+     9.06
+    ],
+    [
+     "_____",
+     8.38
+    ],
+    [
+     "叫什么",
+     8.31
+    ],
+    [
+     " called",
+     8.31
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     " holiday",
+     12.0
+    ],
+    [
+     " holidays",
+     11.19
+    ],
+    [
+     " Easter",
+     10.69
+    ],
+    [
+     " celebration",
+     10.62
+    ],
+    [
+     " celebrates",
+     10.5
+    ],
+    [
+     " celebrations",
+     10.44
+    ],
+    [
+     " celebrating",
+     10.06
+    ],
+    [
+     "holiday",
+     9.75
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "____",
+     10.0
+    ],
+    [
+     "叫做",
+     9.75
+    ],
+    [
+     "___",
+     9.5
+    ],
+    [
+     " ____",
+     9.31
+    ],
+    [
+     " ___",
+     9.0
+    ],
+    [
+     "_____",
+     8.38
+    ],
+    [
+     " called",
+     8.31
+    ],
+    [
+     " ______",
+     8.19
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     " holiday",
+     12.31
+    ],
+    [
+     " holidays",
+     11.06
+    ],
+    [
+     " Christmas",
+     10.0
+    ],
+    [
+     " celebrated",
+     9.62
+    ],
+    [
+     " festivities",
+     9.56
+    ],
+    [
+     "节日",
+     9.56
+    ],
+    [
+     " celebration",
+     9.5
+    ],
+    [
+     " celebrates",
+     9.38
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     " winter",
+     10.81
+    ],
+    [
+     "叫做",
+     10.5
+    ],
+    [
+     " called",
+     10.31
+    ],
+    [
+     "冬季",
+     10.0
+    ],
+    [
+     " season",
+     9.12
+    ],
+    [
+     "冬天",
+     8.94
+    ],
+    [
+     "____",
+     8.69
+    ],
+    [
+     "winter",
+     8.62
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     " Easter",
+     11.56
+    ],
+    [
+     " celebrates",
+     10.88
+    ],
+    [
+     " celebration",
+     10.88
+    ],
+    [
+     " holiday",
+     10.81
+    ],
+    [
+     " celebrating",
+     10.75
+    ],
+    [
+     " celebrated",
+     10.69
+    ],
+    [
+     " celebrations",
+     10.5
+    ],
+    [
+     " holidays",
+     10.19
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     "叫做",
+     10.81
+    ],
+    [
+     " called",
+     10.56
+    ],
+    [
+     " season",
+     9.06
+    ],
+    [
+     "____",
+     9.0
+    ],
+    [
+     " ___",
+     8.81
+    ],
+    [
+     " Easter",
+     8.69
+    ],
+    [
+     "called",
+     8.69
+    ],
+    [
+     "_____",
+     8.69
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " Christmas",
+     11.56
+    ],
+    [
+     " holiday",
+     11.38
+    ],
+    [
+     " Thanksgiving",
+     11.31
+    ],
+    [
+     "Christmas",
+     10.38
+    ],
+    [
+     " holidays",
+     10.06
+    ],
+    [
+     "圣诞",
+     10.0
+    ],
+    [
+     " celebrates",
+     9.94
+    ],
+    [
+     " celebrated",
+     9.62
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " winter",
+     16.12
+    ],
+    [
+     "冬季",
+     15.12
+    ],
+    [
+     " called",
+     14.75
+    ],
+    [
+     "冬天",
+     14.44
+    ],
+    [
+     " Christmas",
+     13.75
+    ],
+    [
+     " Winter",
+     13.69
+    ],
+    [
+     "winter",
+     13.38
+    ],
+    [
+     "冬",
+     13.31
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " celebrates",
+     11.44
+    ],
+    [
+     " Easter",
+     10.94
+    ],
+    [
+     " celebrated",
+     10.56
+    ],
+    [
+     " Thanksgiving",
+     10.38
+    ],
+    [
+     " celebrating",
+     10.38
+    ],
+    [
+     " celebration",
+     10.06
+    ],
+    [
+     " celebrations",
+     9.44
+    ],
+    [
+     " occurs",
+     9.38
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " called",
+     14.38
+    ],
+    [
+     "春季",
+     13.06
+    ],
+    [
+     " winter",
+     12.88
+    ],
+    [
+     "叫做",
+     12.56
+    ],
+    [
+     " summer",
+     12.25
+    ],
+    [
+     "夏季",
+     12.0
+    ],
+    [
+     "春天",
+     11.88
+    ],
+    [
+     " spring",
+     11.81
+    ]
+   ]
+  }
+ },
+ {
+  "group": "unchanged",
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "prompt": "Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a",
+  "best_pos": 11,
+  "pos_token": " rept",
+  "intermediate": "turtle",
+  "swap_to": "snake",
+  "answer": "shell",
+  "swap_answer": "scale",
+  "final_top5_clean": [
+   [
+    " shell",
+    -0.43
+   ],
+   [
+    " __",
+    -2.75
+   ],
+   [
+    " car",
+    -2.87
+   ],
+   [
+    " ______",
+    -3.5
+   ],
+   [
+    "\n",
+    -3.81
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " shell",
+    -0.76
+   ],
+   [
+    " car",
+    -2.69
+   ],
+   [
+    " __",
+    -2.76
+   ],
+   [
+    " sc",
+    -3.26
+   ],
+   [
+    " ______",
+    -3.32
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " rept",
+     19.12
+    ],
+    [
+     " lizard",
+     16.38
+    ],
+    [
+     " turtle",
+     13.81
+    ],
+    [
+     " animals",
+     12.88
+    ],
+    [
+     " turtles",
+     12.25
+    ],
+    [
+     "动物",
+     12.25
+    ],
+    [
+     " snakes",
+     11.94
+    ],
+    [
+     " animal",
+     11.81
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     " turtle",
+     12.12
+    ],
+    [
+     " turtles",
+     10.31
+    ],
+    [
+     "skin",
+     10.19
+    ],
+    [
+     "turtle",
+     9.44
+    ],
+    [
+     " rept",
+     9.0
+    ],
+    [
+     " animal",
+     9.0
+    ],
+    [
+     " lizard",
+     8.5
+    ],
+    [
+     "养殖",
+     8.12
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     " rept",
+     19.12
+    ],
+    [
+     " lizard",
+     16.25
+    ],
+    [
+     "snake",
+     14.38
+    ],
+    [
+     " snakes",
+     13.69
+    ],
+    [
+     " snake",
+     13.38
+    ],
+    [
+     " animals",
+     12.56
+    ],
+    [
+     "动物",
+     12.19
+    ],
+    [
+     " Snake",
+     12.06
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     "skin",
+     11.31
+    ],
+    [
+     " snake",
+     10.88
+    ],
+    [
+     "snake",
+     10.19
+    ],
+    [
+     " snakes",
+     9.5
+    ],
+    [
+     "Snake",
+     8.75
+    ],
+    [
+     "蛇",
+     8.69
+    ],
+    [
+     " rept",
+     8.56
+    ],
+    [
+     " skin",
+     8.06
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " rept",
+     19.12
+    ],
+    [
+     " lizard",
+     16.88
+    ],
+    [
+     " animals",
+     14.25
+    ],
+    [
+     " turtle",
+     13.62
+    ],
+    [
+     "动物",
+     13.19
+    ],
+    [
+     " animal",
+     13.06
+    ],
+    [
+     " turtles",
+     12.31
+    ],
+    [
+     " mammals",
+     12.25
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " protective",
+     8.44
+    ],
+    [
+     " protection",
+     8.25
+    ],
+    [
+     "保护",
+     8.19
+    ],
+    [
+     " protect",
+     8.06
+    ],
+    [
+     " protector",
+     7.75
+    ],
+    [
+     " turtle",
+     7.69
+    ],
+    [
+     "叫做",
+     7.34
+    ],
+    [
+     " shells",
+     7.28
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " rept",
+     19.12
+    ],
+    [
+     " lizard",
+     17.0
+    ],
+    [
+     " snakes",
+     14.0
+    ],
+    [
+     " animals",
+     13.81
+    ],
+    [
+     " snake",
+     13.81
+    ],
+    [
+     "snake",
+     13.25
+    ],
+    [
+     "动物",
+     12.94
+    ],
+    [
+     " animal",
+     12.69
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " protection",
+     8.12
+    ],
+    [
+     " protect",
+     7.53
+    ],
+    [
+     "保护",
+     7.47
+    ],
+    [
+     " protective",
+     7.31
+    ],
+    [
+     " snake",
+     7.28
+    ],
+    [
+     " protector",
+     7.09
+    ],
+    [
+     "skin",
+     6.97
+    ],
+    [
+     "snake",
+     6.78
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     " rept",
+     14.75
+    ],
+    [
+     " lizard",
+     12.44
+    ],
+    [
+     " animals",
+     12.0
+    ],
+    [
+     " animal",
+     10.94
+    ],
+    [
+     " turtle",
+     10.5
+    ],
+    [
+     " mammals",
+     10.38
+    ],
+    [
+     " snakes",
+     10.12
+    ],
+    [
+     " creatures",
+     10.12
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "叫做",
+     8.75
+    ],
+    [
+     "_____",
+     7.25
+    ],
+    [
+     "称为",
+     6.84
+    ],
+    [
+     "也叫",
+     6.81
+    ],
+    [
+     "又称",
+     6.75
+    ],
+    [
+     "____",
+     6.72
+    ],
+    [
+     " ____",
+     6.72
+    ],
+    [
+     " protect",
+     6.62
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     " rept",
+     14.88
+    ],
+    [
+     " lizard",
+     12.69
+    ],
+    [
+     " animals",
+     11.75
+    ],
+    [
+     " snakes",
+     11.62
+    ],
+    [
+     " snake",
+     11.06
+    ],
+    [
+     " animal",
+     10.62
+    ],
+    [
+     " mammals",
+     10.12
+    ],
+    [
+     " creatures",
+     10.0
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "叫做",
+     8.06
+    ],
+    [
+     "_____",
+     6.66
+    ],
+    [
+     "俗称",
+     6.53
+    ],
+    [
+     " ____",
+     6.31
+    ],
+    [
+     "____",
+     6.31
+    ],
+    [
+     "就叫",
+     6.28
+    ],
+    [
+     "称为",
+     6.22
+    ],
+    [
+     " protection",
+     6.19
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     " rept",
+     11.38
+    ],
+    [
+     " lizard",
+     9.56
+    ],
+    [
+     " animals",
+     8.75
+    ],
+    [
+     "缓慢",
+     8.56
+    ],
+    [
+     " turtle",
+     8.5
+    ],
+    [
+     "osaur",
+     8.44
+    ],
+    [
+     " turtles",
+     8.12
+    ],
+    [
+     " animal",
+     8.12
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     "叫做",
+     8.12
+    ],
+    [
+     "_____",
+     7.78
+    ],
+    [
+     "____",
+     7.53
+    ],
+    [
+     " ____",
+     7.44
+    ],
+    [
+     "___",
+     6.72
+    ],
+    [
+     " ___",
+     6.44
+    ],
+    [
+     " ______",
+     6.34
+    ],
+    [
+     "________",
+     6.28
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     " rept",
+     11.56
+    ],
+    [
+     " lizard",
+     9.81
+    ],
+    [
+     " snake",
+     9.0
+    ],
+    [
+     " snakes",
+     8.94
+    ],
+    [
+     " animals",
+     8.81
+    ],
+    [
+     "缓慢",
+     8.62
+    ],
+    [
+     "osaur",
+     8.31
+    ],
+    [
+     " animal",
+     8.12
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     "叫做",
+     8.0
+    ],
+    [
+     "_____",
+     7.38
+    ],
+    [
+     "____",
+     7.12
+    ],
+    [
+     " ____",
+     6.94
+    ],
+    [
+     "___",
+     6.38
+    ],
+    [
+     "叫什么",
+     6.31
+    ],
+    [
+     " ___",
+     6.03
+    ],
+    [
+     " snakes",
+     5.84
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     "叫做",
+     10.19
+    ],
+    [
+     " rept",
+     9.75
+    ],
+    [
+     " slow",
+     9.19
+    ],
+    [
+     "缓慢",
+     9.19
+    ],
+    [
+     "慢",
+     9.06
+    ],
+    [
+     "称为",
+     9.0
+    ],
+    [
+     " called",
+     8.94
+    ],
+    [
+     "叫",
+     8.56
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     "壳",
+     13.81
+    ],
+    [
+     " shell",
+     13.31
+    ],
+    [
+     " shells",
+     13.0
+    ],
+    [
+     "shell",
+     12.19
+    ],
+    [
+     "外壳",
+     11.81
+    ],
+    [
+     "-shell",
+     11.19
+    ],
+    [
+     "殼",
+     9.75
+    ],
+    [
+     "Shell",
+     9.75
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " rept",
+     10.0
+    ],
+    [
+     "叫做",
+     9.94
+    ],
+    [
+     " snakes",
+     9.19
+    ],
+    [
+     " snake",
+     9.06
+    ],
+    [
+     "缓慢",
+     9.0
+    ],
+    [
+     "称为",
+     8.88
+    ],
+    [
+     " slow",
+     8.75
+    ],
+    [
+     " called",
+     8.69
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " shell",
+     9.94
+    ],
+    [
+     "壳",
+     9.88
+    ],
+    [
+     " shells",
+     9.88
+    ],
+    [
+     "外壳",
+     9.81
+    ],
+    [
+     "尾巴",
+     9.38
+    ],
+    [
+     "shell",
+     9.25
+    ],
+    [
+     " tail",
+     9.19
+    ],
+    [
+     " skin",
+     9.0
+    ]
+   ]
+  }
+ },
+ {
+  "group": "unchanged",
+  "index": 72,
+  "name": "person-firstname-einstein",
+  "prompt": "Fact: The first name of the physicist who developed the theory of general relativity was",
+  "best_pos": 14,
+  "pos_token": " rel",
+  "intermediate": "Einstein",
+  "swap_to": "Newton",
+  "answer": "Albert",
+  "swap_answer": "Isaac",
+  "final_top5_clean": [
+   [
+    " Albert",
+    -0.13
+   ],
+   [
+    " '",
+    -3.63
+   ],
+   [
+    " **",
+    -4.51
+   ],
+   [
+    " __",
+    -4.63
+   ],
+   [
+    " \\\"",
+    -4.76
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " Albert",
+    -0.18
+   ],
+   [
+    " Isaac",
+    -3.36
+   ],
+   [
+    " '",
+    -3.93
+   ],
+   [
+    " Arthur",
+    -4.74
+   ],
+   [
+    " **",
+    -4.86
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " mathematics",
+     12.38
+    ],
+    [
+     " Einstein",
+     12.06
+    ],
+    [
+     " physics",
+     11.06
+    ],
+    [
+     "爱因斯坦",
+     10.38
+    ],
+    [
+     " physicists",
+     10.25
+    ],
+    [
+     " Mathematics",
+     10.19
+    ],
+    [
+     "physics",
+     9.75
+    ],
+    [
+     " theory",
+     9.75
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     "名字",
+     11.5
+    ],
+    [
+     " names",
+     11.38
+    ],
+    [
+     " name",
+     11.12
+    ],
+    [
+     " named",
+     10.25
+    ],
+    [
+     "name",
+     10.06
+    ],
+    [
+     "人名",
+     9.5
+    ],
+    [
+     " Names",
+     9.5
+    ],
+    [
+     "named",
+     9.31
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     " mathematics",
+     12.69
+    ],
+    [
+     " physics",
+     11.0
+    ],
+    [
+     " Mathematics",
+     10.5
+    ],
+    [
+     " Einstein",
+     10.5
+    ],
+    [
+     " Newton",
+     10.12
+    ],
+    [
+     "s",
+     9.88
+    ],
+    [
+     " physicists",
+     9.81
+    ],
+    [
+     " theory",
+     9.81
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     "名字",
+     11.62
+    ],
+    [
+     " names",
+     11.19
+    ],
+    [
+     " name",
+     10.94
+    ],
+    [
+     " named",
+     10.0
+    ],
+    [
+     "name",
+     9.69
+    ],
+    [
+     " Names",
+     9.38
+    ],
+    [
+     "人名",
+     9.31
+    ],
+    [
+     "-name",
+     9.31
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " Einstein",
+     14.94
+    ],
+    [
+     "爱因斯坦",
+     11.62
+    ],
+    [
+     " physicists",
+     11.38
+    ],
+    [
+     " physicist",
+     10.94
+    ],
+    [
+     " mathematics",
+     10.75
+    ],
+    [
+     " tensor",
+     10.69
+    ],
+    [
+     " physics",
+     10.69
+    ],
+    [
+     " gravitational",
+     10.62
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " names",
+     13.62
+    ],
+    [
+     "名字",
+     13.06
+    ],
+    [
+     " name",
+     12.69
+    ],
+    [
+     " Names",
+     11.44
+    ],
+    [
+     "人名",
+     11.12
+    ],
+    [
+     "的名字",
+     11.06
+    ],
+    [
+     "names",
+     11.0
+    ],
+    [
+     "name",
+     10.88
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " Newton",
+     13.0
+    ],
+    [
+     "s",
+     11.75
+    ],
+    [
+     " mathematics",
+     11.44
+    ],
+    [
+     " gravitational",
+     11.31
+    ],
+    [
+     " physics",
+     10.75
+    ],
+    [
+     "Newton",
+     10.56
+    ],
+    [
+     "牛顿",
+     10.19
+    ],
+    [
+     " physicists",
+     10.12
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " names",
+     13.69
+    ],
+    [
+     "名字",
+     13.19
+    ],
+    [
+     " name",
+     12.69
+    ],
+    [
+     " Names",
+     11.5
+    ],
+    [
+     "的名字",
+     11.19
+    ],
+    [
+     "人名",
+     11.12
+    ],
+    [
+     "names",
+     11.0
+    ],
+    [
+     " named",
+     10.94
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     " Einstein",
+     11.25
+    ],
+    [
+     " mathematics",
+     9.81
+    ],
+    [
+     "爱因斯坦",
+     9.5
+    ],
+    [
+     " tensor",
+     9.25
+    ],
+    [
+     " Nobel",
+     9.06
+    ],
+    [
+     " physicist",
+     9.0
+    ],
+    [
+     "tensor",
+     8.94
+    ],
+    [
+     " scientist",
+     8.69
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "名字",
+     12.12
+    ],
+    [
+     " names",
+     11.94
+    ],
+    [
+     "的名字",
+     11.06
+    ],
+    [
+     " name",
+     10.94
+    ],
+    [
+     " Names",
+     10.62
+    ],
+    [
+     " named",
+     10.5
+    ],
+    [
+     "names",
+     9.88
+    ],
+    [
+     "名称",
+     9.81
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     " mathematics",
+     10.31
+    ],
+    [
+     " Newton",
+     9.75
+    ],
+    [
+     " gravitational",
+     9.12
+    ],
+    [
+     "s",
+     8.81
+    ],
+    [
+     " physics",
+     8.56
+    ],
+    [
+     " tensor",
+     8.06
+    ],
+    [
+     " mathematical",
+     8.06
+    ],
+    [
+     " theory",
+     8.0
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "名字",
+     12.12
+    ],
+    [
+     " names",
+     12.0
+    ],
+    [
+     "的名字",
+     11.06
+    ],
+    [
+     " name",
+     11.0
+    ],
+    [
+     " Names",
+     10.69
+    ],
+    [
+     " named",
+     10.69
+    ],
+    [
+     "names",
+     9.94
+    ],
+    [
+     "名称",
+     9.88
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     " Einstein",
+     10.5
+    ],
+    [
+     " theory",
+     9.88
+    ],
+    [
+     "爱因斯坦",
+     9.38
+    ],
+    [
+     "Theory",
+     8.88
+    ],
+    [
+     " famously",
+     8.88
+    ],
+    [
+     " Theory",
+     8.69
+    ],
+    [
+     " physics",
+     8.5
+    ],
+    [
+     "theory",
+     8.44
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     " names",
+     8.25
+    ],
+    [
+     "人名",
+     7.97
+    ],
+    [
+     " Names",
+     7.88
+    ],
+    [
+     "的名字",
+     7.84
+    ],
+    [
+     "names",
+     7.84
+    ],
+    [
+     " named",
+     7.69
+    ],
+    [
+     "原名",
+     7.66
+    ],
+    [
+     "名字",
+     7.59
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     " Newton",
+     9.81
+    ],
+    [
+     " theory",
+     9.75
+    ],
+    [
+     " physics",
+     9.0
+    ],
+    [
+     " mathematics",
+     8.94
+    ],
+    [
+     " gravitational",
+     8.75
+    ],
+    [
+     " Theory",
+     8.5
+    ],
+    [
+     "Theory",
+     8.5
+    ],
+    [
+     " famously",
+     8.12
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     " names",
+     8.12
+    ],
+    [
+     "人名",
+     8.06
+    ],
+    [
+     " Names",
+     7.81
+    ],
+    [
+     " named",
+     7.81
+    ],
+    [
+     "names",
+     7.69
+    ],
+    [
+     "的名字",
+     7.59
+    ],
+    [
+     "这个名字",
+     7.41
+    ],
+    [
+     "名字",
+     7.41
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " Einstein",
+     16.25
+    ],
+    [
+     "爱因斯坦",
+     15.56
+    ],
+    [
+     "ativity",
+     14.12
+    ],
+    [
+     " theory",
+     12.75
+    ],
+    [
+     "instein",
+     12.38
+    ],
+    [
+     " relativ",
+     12.0
+    ],
+    [
+     " Theory",
+     11.75
+    ],
+    [
+     "Theory",
+     11.5
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " Einstein",
+     15.25
+    ],
+    [
+     "爱因斯坦",
+     13.5
+    ],
+    [
+     " physicists",
+     11.69
+    ],
+    [
+     " physicist",
+     11.25
+    ],
+    [
+     " Physics",
+     10.94
+    ],
+    [
+     " physics",
+     10.5
+    ],
+    [
+     " Albert",
+     10.31
+    ],
+    [
+     "physics",
+     10.19
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     "ativity",
+     13.0
+    ],
+    [
+     " Einstein",
+     12.75
+    ],
+    [
+     "爱因斯坦",
+     12.19
+    ],
+    [
+     " theory",
+     11.75
+    ],
+    [
+     " Newton",
+     11.44
+    ],
+    [
+     "牛顿",
+     11.38
+    ],
+    [
+     " gravitational",
+     10.69
+    ],
+    [
+     " physics",
+     10.5
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " Newton",
+     12.62
+    ],
+    [
+     "牛顿",
+     12.25
+    ],
+    [
+     " Einstein",
+     12.06
+    ],
+    [
+     " physicists",
+     11.38
+    ],
+    [
+     " physicist",
+     11.25
+    ],
+    [
+     " Physics",
+     10.81
+    ],
+    [
+     " physics",
+     10.62
+    ],
+    [
+     "Newton",
+     10.5
+    ]
+   ]
+  }
+ },
+ {
+  "group": "unchanged",
+  "index": 89,
+  "name": "violin-strings",
+  "prompt": "Fact: The number of strings on the instrument that fiddlers play is ",
+  "best_pos": 11,
+  "pos_token": "idd",
+  "intermediate": "violin",
+  "swap_to": "guitar",
+  "answer": "4",
+  "swap_answer": "6",
+  "final_top5_clean": [
+   [
+    "4",
+    -0.12
+   ],
+   [
+    "3",
+    -3.24
+   ],
+   [
+    "8",
+    -3.87
+   ],
+   [
+    "1",
+    -4.24
+   ],
+   [
+    "5",
+    -4.37
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    "4",
+    -0.24
+   ],
+   [
+    "8",
+    -2.61
+   ],
+   [
+    "3",
+    -2.99
+   ],
+   [
+    "1",
+    -3.61
+   ],
+   [
+    "5",
+    -3.86
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     "sworth",
+     10.62
+    ],
+    [
+     "lington",
+     10.44
+    ],
+    [
+     " tunes",
+     10.0
+    ],
+    [
+     "音乐",
+     9.94
+    ],
+    [
+     "ies",
+     9.88
+    ],
+    [
+     "sburg",
+     9.81
+    ],
+    [
+     "elaide",
+     9.69
+    ],
+    [
+     " folk",
+     9.69
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     " number",
+     7.06
+    ],
+    [
+     " infinity",
+     7.0
+    ],
+    [
+     " ",
+     6.84
+    ],
+    [
+     "-number",
+     6.72
+    ],
+    [
+     "number",
+     6.19
+    ],
+    [
+     " numbers",
+     6.03
+    ],
+    [
+     "amount",
+     6.03
+    ],
+    [
+     "多少",
+     5.91
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     "sworth",
+     10.62
+    ],
+    [
+     "lington",
+     10.44
+    ],
+    [
+     "ies",
+     9.81
+    ],
+    [
+     " tunes",
+     9.81
+    ],
+    [
+     "音乐",
+     9.75
+    ],
+    [
+     " folk",
+     9.69
+    ],
+    [
+     "ette",
+     9.62
+    ],
+    [
+     "ς",
+     9.5
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     " number",
+     7.06
+    ],
+    [
+     " infinity",
+     7.0
+    ],
+    [
+     " ",
+     6.81
+    ],
+    [
+     "-number",
+     6.72
+    ],
+    [
+     "number",
+     6.16
+    ],
+    [
+     " numbers",
+     6.03
+    ],
+    [
+     "amount",
+     6.03
+    ],
+    [
+     "多少",
+     5.94
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " folk",
+     9.38
+    ],
+    [
+     "folk",
+     9.0
+    ],
+    [
+     " tunes",
+     8.94
+    ],
+    [
+     "音乐",
+     8.81
+    ],
+    [
+     "ies",
+     8.31
+    ],
+    [
+     "ς",
+     8.06
+    ],
+    [
+     " violin",
+     8.06
+    ],
+    [
+     "传统的",
+     7.81
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " number",
+     8.94
+    ],
+    [
+     "-number",
+     8.56
+    ],
+    [
+     " numbers",
+     7.56
+    ],
+    [
+     "number",
+     7.41
+    ],
+    [
+     "数",
+     7.25
+    ],
+    [
+     "_number",
+     6.97
+    ],
+    [
+     " numbered",
+     6.94
+    ],
+    [
+     " ",
+     6.91
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " folk",
+     9.38
+    ],
+    [
+     "folk",
+     9.06
+    ],
+    [
+     "音乐",
+     9.0
+    ],
+    [
+     " tunes",
+     9.0
+    ],
+    [
+     "ies",
+     8.31
+    ],
+    [
+     "ς",
+     8.19
+    ],
+    [
+     " guitar",
+     8.0
+    ],
+    [
+     "音乐的",
+     7.94
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " number",
+     9.0
+    ],
+    [
+     "-number",
+     8.62
+    ],
+    [
+     " numbers",
+     7.62
+    ],
+    [
+     "number",
+     7.47
+    ],
+    [
+     "数",
+     7.31
+    ],
+    [
+     "_number",
+     7.0
+    ],
+    [
+     " ",
+     6.97
+    ],
+    [
+     " numbered",
+     6.94
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     "音乐",
+     8.44
+    ],
+    [
+     " folk",
+     8.06
+    ],
+    [
+     "ies",
+     8.0
+    ],
+    [
+     " music",
+     7.78
+    ],
+    [
+     "folk",
+     7.69
+    ],
+    [
+     "wood",
+     7.5
+    ],
+    [
+     "lers",
+     7.44
+    ],
+    [
+     " tunes",
+     7.16
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     " number",
+     9.25
+    ],
+    [
+     "____",
+     8.81
+    ],
+    [
+     "number",
+     8.19
+    ],
+    [
+     "___",
+     8.12
+    ],
+    [
+     " ___",
+     7.78
+    ],
+    [
+     " ____",
+     7.56
+    ],
+    [
+     "-number",
+     7.56
+    ],
+    [
+     " numbers",
+     7.28
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     "音乐",
+     8.5
+    ],
+    [
+     " folk",
+     8.06
+    ],
+    [
+     "ies",
+     7.97
+    ],
+    [
+     " music",
+     7.84
+    ],
+    [
+     "folk",
+     7.69
+    ],
+    [
+     "wood",
+     7.5
+    ],
+    [
+     "lers",
+     7.38
+    ],
+    [
+     " melody",
+     7.16
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     " number",
+     9.31
+    ],
+    [
+     "____",
+     8.69
+    ],
+    [
+     "number",
+     8.19
+    ],
+    [
+     "___",
+     7.97
+    ],
+    [
+     " ___",
+     7.62
+    ],
+    [
+     "-number",
+     7.5
+    ],
+    [
+     " ____",
+     7.47
+    ],
+    [
+     " numbers",
+     7.31
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     "lers",
+     6.78
+    ],
+    [
+     "ies",
+     6.47
+    ],
+    [
+     "顾名思义",
+     6.28
+    ],
+    [
+     "leness",
+     6.22
+    ],
+    [
+     "音乐",
+     5.97
+    ],
+    [
+     "乐",
+     5.94
+    ],
+    [
+     "是什么意思",
+     5.78
+    ],
+    [
+     " folk",
+     5.72
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     "演奏",
+     7.38
+    ],
+    [
+     " number",
+     7.25
+    ],
+    [
+     "number",
+     6.94
+    ],
+    [
+     " count",
+     6.94
+    ],
+    [
+     "乐器",
+     6.75
+    ],
+    [
+     " fewer",
+     6.44
+    ],
+    [
+     "Number",
+     6.41
+    ],
+    [
+     "Count",
+     6.22
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     "lers",
+     6.78
+    ],
+    [
+     "ies",
+     6.38
+    ],
+    [
+     "leness",
+     6.22
+    ],
+    [
+     "顾名思义",
+     6.09
+    ],
+    [
+     "音乐",
+     5.97
+    ],
+    [
+     "乐",
+     5.91
+    ],
+    [
+     "是什么意思",
+     5.88
+    ],
+    [
+     "_____",
+     5.84
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     "演奏",
+     7.38
+    ],
+    [
+     " number",
+     7.31
+    ],
+    [
+     " count",
+     7.0
+    ],
+    [
+     "number",
+     6.94
+    ],
+    [
+     " violin",
+     6.81
+    ],
+    [
+     "Number",
+     6.5
+    ],
+    [
+     " fewer",
+     6.5
+    ],
+    [
+     "Count",
+     6.38
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     "lers",
+     8.88
+    ],
+    [
+     "leness",
+     7.78
+    ],
+    [
+     "ler",
+     7.53
+    ],
+    [
+     "是什么意思",
+     6.38
+    ],
+    [
+     "ies",
+     6.31
+    ],
+    [
+     "ling",
+     6.22
+    ],
+    [
+     "乐",
+     6.12
+    ],
+    [
+     " minst",
+     6.03
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " instrument",
+     19.25
+    ],
+    [
+     " instruments",
+     18.5
+    ],
+    [
+     "弦",
+     18.0
+    ],
+    [
+     " strings",
+     17.25
+    ],
+    [
+     "instrument",
+     17.12
+    ],
+    [
+     "乐器",
+     17.0
+    ],
+    [
+     "Instrument",
+     16.62
+    ],
+    [
+     " Instrument",
+     16.62
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     "lers",
+     8.88
+    ],
+    [
+     "leness",
+     7.78
+    ],
+    [
+     "ler",
+     7.66
+    ],
+    [
+     "是什么意思",
+     6.31
+    ],
+    [
+     "ies",
+     6.22
+    ],
+    [
+     "ling",
+     6.19
+    ],
+    [
+     "乐",
+     6.06
+    ],
+    [
+     " minst",
+     5.88
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " instrument",
+     19.0
+    ],
+    [
+     " instruments",
+     18.38
+    ],
+    [
+     "弦",
+     17.25
+    ],
+    [
+     "instrument",
+     17.0
+    ],
+    [
+     " strings",
+     16.88
+    ],
+    [
+     "乐器",
+     16.88
+    ],
+    [
+     "Instrument",
+     16.5
+    ],
+    [
+     " Instrument",
+     16.5
+    ]
+   ]
+  }
+ },
+ {
+  "group": "unchanged",
+  "index": 36,
+  "name": "ex-element-symbol-26-79",
+  "prompt": "Fact: The chemical symbol for the element with atomic number 26 is",
+  "best_pos": 13,
+  "pos_token": "6",
+  "intermediate": "iron",
+  "swap_to": "gold",
+  "answer": "Fe",
+  "swap_answer": "Au",
+  "final_top5_clean": [
+   [
+    " Fe",
+    -0.25
+   ],
+   [
+    " '",
+    -3.13
+   ],
+   [
+    " **",
+    -3.38
+   ],
+   [
+    " Iron",
+    -4.19
+   ],
+   [
+    " \\\"",
+    -4.44
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " Fe",
+    -0.34
+   ],
+   [
+    " '",
+    -2.84
+   ],
+   [
+    " **",
+    -3.09
+   ],
+   [
+    " \\\"",
+    -4.03
+   ],
+   [
+    " [",
+    -4.28
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     " alloys",
+     6.97
+    ],
+    [
+     "lbrace",
+     6.69
+    ],
+    [
+     "ger",
+     6.66
+    ],
+    [
+     " males",
+     6.53
+    ],
+    [
+     "开朗",
+     6.5
+    ],
+    [
+     " diploma",
+     6.38
+    ],
+    [
+     "冶炼",
+     6.38
+    ],
+    [
+     " ores",
+     6.22
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     "otope",
+     8.25
+    ],
+    [
+     "名叫",
+     8.19
+    ],
+    [
+     "name",
+     7.59
+    ],
+    [
+     " symbol",
+     7.44
+    ],
+    [
+     " abbreviation",
+     7.44
+    ],
+    [
+     "叫做",
+     7.41
+    ],
+    [
+     "abbrev",
+     7.31
+    ],
+    [
+     "ymbol",
+     7.31
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     "gold",
+     7.81
+    ],
+    [
+     " alloys",
+     7.0
+    ],
+    [
+     " diploma",
+     6.81
+    ],
+    [
+     " males",
+     6.56
+    ],
+    [
+     "ger",
+     6.5
+    ],
+    [
+     "lbrace",
+     6.47
+    ],
+    [
+     "开朗",
+     6.41
+    ],
+    [
+     "SS",
+     6.19
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     "名叫",
+     8.25
+    ],
+    [
+     "otope",
+     8.25
+    ],
+    [
+     "name",
+     7.56
+    ],
+    [
+     "简称",
+     7.31
+    ],
+    [
+     "ymbol",
+     7.28
+    ],
+    [
+     "叫做",
+     7.22
+    ],
+    [
+     " abbreviation",
+     7.16
+    ],
+    [
+     " symbol",
+     7.16
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     "钢铁",
+     11.38
+    ],
+    [
+     " iron",
+     10.38
+    ],
+    [
+     "steel",
+     10.12
+    ],
+    [
+     " steel",
+     9.94
+    ],
+    [
+     " Iron",
+     9.69
+    ],
+    [
+     " metals",
+     9.62
+    ],
+    [
+     "钢",
+     9.5
+    ],
+    [
+     "锈",
+     9.25
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     "名称",
+     9.75
+    ],
+    [
+     " names",
+     9.69
+    ],
+    [
+     " name",
+     9.62
+    ],
+    [
+     "名叫",
+     9.5
+    ],
+    [
+     "name",
+     9.44
+    ],
+    [
+     " named",
+     9.25
+    ],
+    [
+     " abbrev",
+     9.12
+    ],
+    [
+     " abbreviation",
+     9.0
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     "gold",
+     11.06
+    ],
+    [
+     " gold",
+     9.94
+    ],
+    [
+     " metals",
+     9.56
+    ],
+    [
+     " metall",
+     8.38
+    ],
+    [
+     " alloys",
+     8.12
+    ],
+    [
+     "金属",
+     8.12
+    ],
+    [
+     "金色",
+     8.06
+    ],
+    [
+     " metallo",
+     7.94
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     "名称",
+     9.81
+    ],
+    [
+     "名叫",
+     9.56
+    ],
+    [
+     " named",
+     9.44
+    ],
+    [
+     " names",
+     9.38
+    ],
+    [
+     " name",
+     9.38
+    ],
+    [
+     "name",
+     9.31
+    ],
+    [
+     "代号",
+     9.19
+    ],
+    [
+     "的名称",
+     9.06
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     "钢铁",
+     10.44
+    ],
+    [
+     " Iron",
+     8.69
+    ],
+    [
+     " Steel",
+     8.62
+    ],
+    [
+     " steel",
+     8.56
+    ],
+    [
+     " iron",
+     8.56
+    ],
+    [
+     "steel",
+     8.38
+    ],
+    [
+     "铁矿石",
+     8.19
+    ],
+    [
+     "钢",
+     8.12
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     " named",
+     9.94
+    ],
+    [
+     "abbrev",
+     9.75
+    ],
+    [
+     " name",
+     9.69
+    ],
+    [
+     " abbreviation",
+     9.62
+    ],
+    [
+     " abbrev",
+     9.5
+    ],
+    [
+     "name",
+     9.25
+    ],
+    [
+     "名称",
+     9.25
+    ],
+    [
+     " names",
+     9.19
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     "gold",
+     8.31
+    ],
+    [
+     " gold",
+     7.88
+    ],
+    [
+     " metals",
+     7.56
+    ],
+    [
+     "钢铁",
+     7.44
+    ],
+    [
+     " chromium",
+     7.16
+    ],
+    [
+     " Chrom",
+     7.12
+    ],
+    [
+     " metall",
+     7.12
+    ],
+    [
+     " copper",
+     7.09
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     " named",
+     10.0
+    ],
+    [
+     "abbrev",
+     9.69
+    ],
+    [
+     " name",
+     9.56
+    ],
+    [
+     " abbreviation",
+     9.56
+    ],
+    [
+     " abbrev",
+     9.44
+    ],
+    [
+     "名称",
+     9.31
+    ],
+    [
+     "name",
+     9.19
+    ],
+    [
+     "名叫",
+     9.12
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     "钢铁",
+     8.62
+    ],
+    [
+     " iron",
+     7.44
+    ],
+    [
+     " metals",
+     7.31
+    ],
+    [
+     "铁矿石",
+     7.25
+    ],
+    [
+     " Iron",
+     7.12
+    ],
+    [
+     " steel",
+     6.88
+    ],
+    [
+     "金属",
+     6.81
+    ],
+    [
+     "steel",
+     6.81
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     " abbreviation",
+     8.38
+    ],
+    [
+     "abbrev",
+     8.19
+    ],
+    [
+     "缩写",
+     7.59
+    ],
+    [
+     " abbrev",
+     7.59
+    ],
+    [
+     "的化学",
+     7.19
+    ],
+    [
+     " abbreviated",
+     7.16
+    ],
+    [
+     "简称",
+     7.12
+    ],
+    [
+     "化学",
+     7.06
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     "gold",
+     8.19
+    ],
+    [
+     "黄金",
+     7.47
+    ],
+    [
+     " metals",
+     7.34
+    ],
+    [
+     " gold",
+     7.28
+    ],
+    [
+     " chromium",
+     7.09
+    ],
+    [
+     "贵金属",
+     6.97
+    ],
+    [
+     "有色金属",
+     6.84
+    ],
+    [
+     " Chromium",
+     6.75
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     " abbreviation",
+     8.12
+    ],
+    [
+     "abbrev",
+     8.0
+    ],
+    [
+     "缩写",
+     7.38
+    ],
+    [
+     " abbrev",
+     7.34
+    ],
+    [
+     "的化学",
+     7.16
+    ],
+    [
+     " abbreviated",
+     7.06
+    ],
+    [
+     "简称",
+     7.06
+    ],
+    [
+     "化学",
+     7.03
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " iron",
+     10.5
+    ],
+    [
+     "钢铁",
+     9.62
+    ],
+    [
+     "铁",
+     9.5
+    ],
+    [
+     " Iron",
+     9.5
+    ],
+    [
+     "的铁",
+     9.38
+    ],
+    [
+     "铁的",
+     9.31
+    ],
+    [
+     "铁矿石",
+     8.69
+    ],
+    [
+     "的元素",
+     8.69
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " iron",
+     8.62
+    ],
+    [
+     "的铁",
+     8.5
+    ],
+    [
+     "钢铁",
+     8.44
+    ],
+    [
+     "铁",
+     8.38
+    ],
+    [
+     "金属",
+     8.19
+    ],
+    [
+     " Iron",
+     8.06
+    ],
+    [
+     " metals",
+     7.75
+    ],
+    [
+     " metal",
+     7.75
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     "的元素",
+     8.94
+    ],
+    [
+     "元素",
+     8.31
+    ],
+    [
+     " is",
+     7.94
+    ],
+    [
+     " chromium",
+     7.47
+    ],
+    [
+     " Chromium",
+     7.38
+    ],
+    [
+     " element",
+     7.38
+    ],
+    [
+     "贵金属",
+     7.12
+    ],
+    [
+     " metals",
+     7.0
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     "金属",
+     8.06
+    ],
+    [
+     " metals",
+     7.66
+    ],
+    [
+     " metal",
+     7.5
+    ],
+    [
+     " abbreviated",
+     7.34
+    ],
+    [
+     " element",
+     7.22
+    ],
+    [
+     "的元素",
+     7.16
+    ],
+    [
+     "元素",
+     7.16
+    ],
+    [
+     "abbrev",
+     7.06
+    ]
+   ]
+  }
+ },
+ {
+  "group": "unchanged",
+  "index": 51,
+  "name": "fruit-grows-grape",
+  "prompt": "Fact: The kind of plant that the small round fruit used to make wine grows on is a",
+  "best_pos": 18,
+  "pos_token": " a",
+  "intermediate": "grape",
+  "swap_to": "apple",
+  "answer": "vine",
+  "swap_answer": "tree",
+  "final_top5_clean": [
+   [
+    " vine",
+    -1.31
+   ],
+   [
+    " grape",
+    -1.94
+   ],
+   [
+    " bush",
+    -3.12
+   ],
+   [
+    "\n",
+    -3.19
+   ],
+   [
+    " shr",
+    -3.62
+   ]
+  ],
+  "final_top5_clamped": [
+   [
+    " vine",
+    -1.54
+   ],
+   [
+    " grape",
+    -2.41
+   ],
+   [
+    " bush",
+    -2.98
+   ],
+   [
+    " tree",
+    -3.1
+   ],
+   [
+    "\n",
+    -3.41
+   ]
+  ],
+  "readout": {
+   "L8_clean_bridge": [
+    [
+     "植物的",
+     7.16
+    ],
+    [
+     " plants",
+     6.75
+    ],
+    [
+     " plant",
+     6.75
+    ],
+    [
+     "树的",
+     6.44
+    ],
+    [
+     "fo",
+     6.31
+    ],
+    [
+     "棵",
+     6.22
+    ],
+    [
+     "植物",
+     6.19
+    ],
+    [
+     " tree",
+     6.09
+    ]
+   ],
+   "L8_clean_final": [
+    [
+     "植物的",
+     7.16
+    ],
+    [
+     " plants",
+     6.75
+    ],
+    [
+     " plant",
+     6.75
+    ],
+    [
+     "树的",
+     6.44
+    ],
+    [
+     "fo",
+     6.31
+    ],
+    [
+     "棵",
+     6.22
+    ],
+    [
+     "植物",
+     6.19
+    ],
+    [
+     " tree",
+     6.09
+    ]
+   ],
+   "L8_clamped_bridge": [
+    [
+     "植物的",
+     7.44
+    ],
+    [
+     " plant",
+     7.25
+    ],
+    [
+     " plants",
+     7.19
+    ],
+    [
+     "植物",
+     6.59
+    ],
+    [
+     "棵",
+     6.53
+    ],
+    [
+     "树的",
+     6.5
+    ],
+    [
+     "fo",
+     6.28
+    ],
+    [
+     " tree",
+     6.12
+    ]
+   ],
+   "L8_clamped_final": [
+    [
+     "植物的",
+     7.44
+    ],
+    [
+     " plant",
+     7.25
+    ],
+    [
+     " plants",
+     7.19
+    ],
+    [
+     "植物",
+     6.59
+    ],
+    [
+     "棵",
+     6.53
+    ],
+    [
+     "树的",
+     6.5
+    ],
+    [
+     "fo",
+     6.28
+    ],
+    [
+     " tree",
+     6.12
+    ]
+   ],
+   "L12_clean_bridge": [
+    [
+     " plants",
+     8.19
+    ],
+    [
+     " plant",
+     7.53
+    ],
+    [
+     "植物的",
+     6.97
+    ],
+    [
+     "plants",
+     6.91
+    ],
+    [
+     "植物",
+     6.75
+    ],
+    [
+     "plant",
+     6.66
+    ],
+    [
+     " planta",
+     6.28
+    ],
+    [
+     " genus",
+     6.19
+    ]
+   ],
+   "L12_clean_final": [
+    [
+     " plants",
+     8.19
+    ],
+    [
+     " plant",
+     7.53
+    ],
+    [
+     "植物的",
+     6.97
+    ],
+    [
+     "plants",
+     6.91
+    ],
+    [
+     "植物",
+     6.75
+    ],
+    [
+     "plant",
+     6.66
+    ],
+    [
+     " planta",
+     6.28
+    ],
+    [
+     " genus",
+     6.19
+    ]
+   ],
+   "L12_clamped_bridge": [
+    [
+     " plants",
+     8.44
+    ],
+    [
+     " plant",
+     7.88
+    ],
+    [
+     "plants",
+     7.28
+    ],
+    [
+     "植物的",
+     7.12
+    ],
+    [
+     "plant",
+     7.03
+    ],
+    [
+     "植物",
+     7.0
+    ],
+    [
+     " planta",
+     6.5
+    ],
+    [
+     " genus",
+     6.31
+    ]
+   ],
+   "L12_clamped_final": [
+    [
+     " plants",
+     8.44
+    ],
+    [
+     " plant",
+     7.88
+    ],
+    [
+     "plants",
+     7.28
+    ],
+    [
+     "植物的",
+     7.12
+    ],
+    [
+     "plant",
+     7.03
+    ],
+    [
+     "植物",
+     7.0
+    ],
+    [
+     " planta",
+     6.5
+    ],
+    [
+     " genus",
+     6.31
+    ]
+   ],
+   "L16_clean_bridge": [
+    [
+     "____",
+     8.25
+    ],
+    [
+     "叫做",
+     8.19
+    ],
+    [
+     " ____",
+     7.66
+    ],
+    [
+     "_____",
+     7.56
+    ],
+    [
+     "名字叫",
+     6.97
+    ],
+    [
+     "___",
+     6.94
+    ],
+    [
+     "名叫",
+     6.62
+    ],
+    [
+     " plants",
+     6.56
+    ]
+   ],
+   "L16_clean_final": [
+    [
+     "____",
+     8.25
+    ],
+    [
+     "叫做",
+     8.19
+    ],
+    [
+     " ____",
+     7.66
+    ],
+    [
+     "_____",
+     7.56
+    ],
+    [
+     "名字叫",
+     6.97
+    ],
+    [
+     "___",
+     6.94
+    ],
+    [
+     "名叫",
+     6.62
+    ],
+    [
+     " plants",
+     6.56
+    ]
+   ],
+   "L16_clamped_bridge": [
+    [
+     "叫做",
+     8.38
+    ],
+    [
+     "____",
+     8.31
+    ],
+    [
+     " ____",
+     7.78
+    ],
+    [
+     "_____",
+     7.66
+    ],
+    [
+     "名字叫",
+     7.19
+    ],
+    [
+     "名叫",
+     7.06
+    ],
+    [
+     "___",
+     7.0
+    ],
+    [
+     " plants",
+     6.91
+    ]
+   ],
+   "L16_clamped_final": [
+    [
+     "叫做",
+     8.38
+    ],
+    [
+     "____",
+     8.31
+    ],
+    [
+     " ____",
+     7.78
+    ],
+    [
+     "_____",
+     7.66
+    ],
+    [
+     "名字叫",
+     7.19
+    ],
+    [
+     "名叫",
+     7.06
+    ],
+    [
+     "___",
+     7.0
+    ],
+    [
+     " plants",
+     6.91
+    ]
+   ],
+   "L20_clean_bridge": [
+    [
+     "____",
+     8.38
+    ],
+    [
+     " plants",
+     8.12
+    ],
+    [
+     " plant",
+     8.06
+    ],
+    [
+     "___",
+     7.94
+    ],
+    [
+     "_____",
+     7.91
+    ],
+    [
+     " ____",
+     7.78
+    ],
+    [
+     "叫做",
+     7.41
+    ],
+    [
+     " __",
+     7.06
+    ]
+   ],
+   "L20_clean_final": [
+    [
+     "____",
+     8.38
+    ],
+    [
+     " plants",
+     8.12
+    ],
+    [
+     " plant",
+     8.06
+    ],
+    [
+     "___",
+     7.94
+    ],
+    [
+     "_____",
+     7.91
+    ],
+    [
+     " ____",
+     7.78
+    ],
+    [
+     "叫做",
+     7.41
+    ],
+    [
+     " __",
+     7.06
+    ]
+   ],
+   "L20_clamped_bridge": [
+    [
+     "____",
+     8.25
+    ],
+    [
+     " plants",
+     7.88
+    ],
+    [
+     "___",
+     7.88
+    ],
+    [
+     "_____",
+     7.78
+    ],
+    [
+     " plant",
+     7.78
+    ],
+    [
+     " ____",
+     7.72
+    ],
+    [
+     "叫做",
+     7.47
+    ],
+    [
+     " __",
+     7.0
+    ]
+   ],
+   "L20_clamped_final": [
+    [
+     "____",
+     8.25
+    ],
+    [
+     " plants",
+     7.88
+    ],
+    [
+     "___",
+     7.88
+    ],
+    [
+     "_____",
+     7.78
+    ],
+    [
+     " plant",
+     7.78
+    ],
+    [
+     " ____",
+     7.72
+    ],
+    [
+     "叫做",
+     7.47
+    ],
+    [
+     " __",
+     7.0
+    ]
+   ],
+   "L24_clean_bridge": [
+    [
+     " vine",
+     15.0
+    ],
+    [
+     " vines",
+     14.12
+    ],
+    [
+     " grapes",
+     12.75
+    ],
+    [
+     "vine",
+     12.38
+    ],
+    [
+     " grape",
+     11.75
+    ],
+    [
+     " vin",
+     11.19
+    ],
+    [
+     "藤蔓",
+     11.12
+    ],
+    [
+     "葡萄",
+     10.88
+    ]
+   ],
+   "L24_clean_final": [
+    [
+     " vine",
+     15.0
+    ],
+    [
+     " vines",
+     14.12
+    ],
+    [
+     " grapes",
+     12.75
+    ],
+    [
+     "vine",
+     12.38
+    ],
+    [
+     " grape",
+     11.75
+    ],
+    [
+     " vin",
+     11.19
+    ],
+    [
+     "藤蔓",
+     11.12
+    ],
+    [
+     "葡萄",
+     10.88
+    ]
+   ],
+   "L24_clamped_bridge": [
+    [
+     " vine",
+     12.5
+    ],
+    [
+     " vines",
+     11.94
+    ],
+    [
+     " grapes",
+     10.88
+    ],
+    [
+     " trees",
+     10.62
+    ],
+    [
+     " plants",
+     10.5
+    ],
+    [
+     "vine",
+     10.44
+    ],
+    [
+     " plant",
+     10.12
+    ],
+    [
+     "果树",
+     9.88
+    ]
+   ],
+   "L24_clamped_final": [
+    [
+     " vine",
+     12.5
+    ],
+    [
+     " vines",
+     11.94
+    ],
+    [
+     " grapes",
+     10.88
+    ],
+    [
+     " trees",
+     10.62
+    ],
+    [
+     " plants",
+     10.5
+    ],
+    [
+     "vine",
+     10.44
+    ],
+    [
+     " plant",
+     10.12
+    ],
+    [
+     "果树",
+     9.88
+    ]
+   ]
+  }
+ }
+]

@@ -1,0 +1,10 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 10748.79it/s]
+[q44] hooks: ['blocks.17.linear_attn.hook_out', 'blocks.18.linear_attn.hook_out', 'blocks.19.hook_attn_out', 'blocks.20.linear_attn.hook_out', 'blocks.21.linear_attn.hook_out', 'blocks.22.linear_attn.hook_out'] ...
+[q44] 1/59
+[q44] 11/59
+[q44] 21/59
+[q44] 31/59
+[q44] 41/59
+[q44] 51/59
+[block39] done
+exit=0

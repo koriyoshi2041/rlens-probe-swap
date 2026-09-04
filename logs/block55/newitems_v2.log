@@ -1,0 +1,35 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12477.33it/s]
+[q60] young-cow-sheep eligible=True cos=+0.21
+[q60] young-dog-cat eligible=True cos=+0.37
+[q60] home-bee-bird eligible=True cos=+0.18
+[q60] home-bird-spider eligible=True cos=+0.07
+[q60] habitat-whale-camel eligible=True cos=+0.12
+[q60] diet-lion-cow eligible=True cos=+0.02
+[q60] food-panda-koala eligible=True cos=+0.10
+[q60] month-valentine-december eligible=True cos=+0.12
+[q60] month-halloween-christmas eligible=True cos=+0.30
+[q60] season-halloween-easter-v2 eligible=True cos=+0.18
+[q60] day-saturday-monday-v2 eligible=False cos=+0.20
+[q60] season-opposite-summer-spring-v2 eligible=True cos=+0.10
+[q60] direction-east-north-v2 eligible=False cos=+0.31
+[q60] color-mix-yellow-red-v2 eligible=False cos=-0.01
+[q60] color-mix-blue-red-v2 eligible=False cos=+0.04
+[q60] fruit-color-apple-banana eligible=True cos=+0.04
+[q60] vegetable-color-carrot-spinach-v2 eligible=True cos=+0.10
+[q60] flame-sodium-copper eligible=True cos=-0.00
+[q60] state-mercury-iron eligible=True cos=+0.08
+[q60] bone-heart-brain-v2 eligible=True cos=+0.11
+[q60] tool-screw-nail-v2 eligible=True cos=+0.05
+[q60] sport-equipment-baseball-hockey eligible=True cos=+0.05
+[q60] plant-grape-apple eligible=True cos=+0.14
+[q60] material-window-ring-v2 eligible=True cos=+0.05
+[q60] young-cat-dog eligible=True cos=+0.37
+[q60] home-spider-bee eligible=True cos=+0.18
+[q60] flame-copper-sodium eligible=True cos=-0.00
+[q60] equipment-hockey-baseball eligible=True cos=+0.05
+[q60] fruit-color-banana-apple eligible=True cos=+0.04
+[q60] habitat-camel-whale eligible=True cos=+0.12
+[q60] month-christmas-halloween eligible=True cos=+0.30
+[q60] diet-cow-lion eligible=True cos=+0.02
+[block55] done
+exit=0

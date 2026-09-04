@@ -1,0 +1,10 @@
+{
+ "index": 0,
+ "clean": -0.5,
+ "patch_clean_k": -0.5,
+ "patch_clean_pattern": -0.5,
+ "zero_pattern_row_L23": -0.125,
+ "zero_z_last_L23": -0.125,
+ "pattern_write_effective": true,
+ "identity_ok": true
+}

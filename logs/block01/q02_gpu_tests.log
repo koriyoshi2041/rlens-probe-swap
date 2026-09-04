@@ -1,0 +1,24 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /root/autodl-tmp/mats-r-lens/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /root/autodl-tmp/mats-r-lens/work/code
+configfile: pytest.ini
+plugins: typeguard-4.6.0, jaxtyping-0.3.11, anyio-4.10.0
+collecting ... collected 14 items
+
+tests/test_hooks_parity.py::test_validate_model_accepts_both_lenses PASSED [  7%]
+tests/test_hooks_parity.py::test_forward_is_deterministic PASSED         [ 14%]
+tests/test_hooks_parity.py::test_final_block_output_reproduces_model_logits PASSED [ 21%]
+tests/test_hooks_parity.py::test_lens_vector_formula[J] PASSED           [ 28%]
+tests/test_hooks_parity.py::test_lens_vector_formula[R] PASSED           [ 35%]
+tests/test_hooks_parity.py::test_alpha_zero_swap_equals_clean[J] PASSED  [ 42%]
+tests/test_hooks_parity.py::test_alpha_zero_swap_equals_clean[R] PASSED  [ 50%]
+tests/test_hooks_parity.py::test_source_equals_target_fails_closed PASSED [ 57%]
+tests/test_hooks_parity.py::test_swap_matches_handwritten_least_squares[None-J] PASSED [ 64%]
+tests/test_hooks_parity.py::test_swap_matches_handwritten_least_squares[None-R] PASSED [ 71%]
+tests/test_hooks_parity.py::test_swap_matches_handwritten_least_squares[positions1-J] PASSED [ 78%]
+tests/test_hooks_parity.py::test_swap_matches_handwritten_least_squares[positions1-R] PASSED [ 85%]
+tests/test_hooks_parity.py::test_swap_matches_handwritten_least_squares[positions2-J] PASSED [ 92%]
+tests/test_hooks_parity.py::test_swap_matches_handwritten_least_squares[positions2-R] PASSED [100%]
+
+============================= 14 passed in 15.71s ==============================

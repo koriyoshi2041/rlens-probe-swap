@@ -1,0 +1,50 @@
+[
+ {
+  "index": 0,
+  "name": "amazon-language",
+  "side": "intermediate",
+  "prompt": "Fact: The language spoken in Brazil is",
+  "expected": " Portuguese",
+  "expected_single": true,
+  "top1": " Portuguese",
+  "correct": true,
+  "logp_expected": -0.2852323055267334,
+  "rank_expected": 1
+ },
+ {
+  "index": 0,
+  "name": "amazon-language",
+  "side": "swap_to",
+  "prompt": "Fact: The language spoken in Mexico is",
+  "expected": " Spanish",
+  "expected_single": true,
+  "top1": " Spanish",
+  "correct": true,
+  "logp_expected": -0.2555708587169647,
+  "rank_expected": 1
+ },
+ {
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "side": "intermediate",
+  "prompt": "Fact: The hard covering on the back of a turtle is called a",
+  "expected": " shell",
+  "expected_single": true,
+  "top1": " shell",
+  "correct": true,
+  "logp_expected": -0.6669758558273315,
+  "rank_expected": 1
+ },
+ {
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "side": "swap_to",
+  "prompt": "Fact: The hard covering on the back of a snake is called a",
+  "expected": " scale",
+  "expected_single": true,
+  "top1": " shell",
+  "correct": false,
+  "logp_expected": -2.06247615814209,
+  "rank_expected": 2
+ }
+]

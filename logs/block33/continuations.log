@@ -1,0 +1,27 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12709.20it/s]
+[q39] rescued chem-atmosphere-Z
+[q39] rescued chem-organic-Z
+[q39] rescued city-state-Philadelphia
+[q39] rescued etym-frigg-position
+[q39] rescued ex-element-symbol-11-26
+[q39] rescued ex-element-symbol-26-79
+[q39] rescued ex2-language-capital-Hungarian
+[q39] rescued food-animal-butter
+[q39] rescued func-filters-count
+[q39] rescued gem-color-ruby
+[q39] rescued person-firstname-einstein
+[q39] rescued person-firstname-mozart
+[q39] rescued person-firstname-newton
+[q39] rescued season-next-winter
+[q39] rescued spider-legs
+[q39] rescued violin-strings
+[q39] random_other amazon-language
+[q39] random_other animal-cover-turtle
+[q39] random_other birthstone-emerald-month
+[q39] random_other ex-city-capital-Toronto-Lyon
+[q39] random_other ex-city-currency-Toronto-Beijing
+[q39] random_other ex2-city-continent-Lima
+[q39] random_other ex2-language-capital-Greek
+[q39] random_other holiday-month-christmas2
+[block33] done
+exit=0

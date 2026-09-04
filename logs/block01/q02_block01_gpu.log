@@ -1,0 +1,574 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12173.51it/s]
+[driver] header: {
+ "model": {
+  "model_name": "/root/autodl-tmp/mats-r-lens/assets/Qwen3.5-9B",
+  "n_layers": 32,
+  "d_model": 4096,
+  "d_vocab": 248320,
+  "unembed_dtype": "torch.bfloat16",
+  "device": "cuda:0"
+ },
+ "torch": "2.8.0+cu128",
+ "transformers": "5.9.0",
+ "transformer_lens": "/root/autodl-tmp/mats-r-lens/src/TransformerLens/transformer_lens/__init__.py"
+}
+[clean] summary: {
+ "as_is": {
+  "n_clean_correct": 57,
+  "n_eligible_strict": 51,
+  "median_p_answer_when_correct": 0.6149552464485168,
+  "median_rank_swap_answer_when_correct": 32,
+  "incorrect": [
+   {
+    "name": "amazon-language",
+    "top1": " Portuguese",
+    "answer": "Portuguese",
+    "rank_answer": 1722
+   },
+   {
+    "name": "animal-legs-buffalo2",
+    "top1": " ",
+    "answer": " four",
+    "rank_answer": 2
+   },
+   {
+    "name": "atomic-80-state",
+    "top1": "1",
+    "answer": "liquid",
+    "rank_answer": 46
+   },
+   {
+    "name": "basketball-players",
+    "top1": "1",
+    "answer": "5",
+    "rank_answer": 2
+   },
+   {
+    "name": "beverage-source-wine",
+    "top1": " same",
+    "answer": " grape",
+    "rank_answer": 2
+   },
+   {
+    "name": "bird-country-eagle",
+    "top1": " the",
+    "answer": " America",
+    "rank_answer": 34
+   },
+   {
+    "name": "bird-time-owl",
+    "top1": " the",
+    "answer": " night",
+    "rank_answer": 1
+   },
+   {
+    "name": "christmas-season",
+    "top1": "1",
+    "answer": "winter",
+    "rank_answer": 211
+   },
+   {
+    "name": "colosseum-currency",
+    "top1": "欧元",
+    "answer": "Euro",
+    "rank_answer": 108
+   },
+   {
+    "name": "etym-saturn-position",
+    "top1": "4",
+    "answer": "6",
+    "rank_answer": 3
+   },
+   {
+    "name": "etym-wargod-month",
+    "top1": "1",
+    "answer": "3",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-8-26",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 5
+   },
+   {
+    "name": "ex-element-state-8-80",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 5
+   },
+   {
+    "name": "ex-element-state-80-8",
+    "top1": " solid",
+    "answer": " liquid",
+    "rank_answer": 2
+   },
+   {
+    "name": "food-animal-honey",
+    "top1": " honey",
+    "answer": " bee",
+    "rank_answer": 2
+   },
+   {
+    "name": "gem-source-pearl",
+    "top1": " same",
+    "answer": " oyster",
+    "rank_answer": 2
+   },
+   {
+    "name": "greatwall-ocean",
+    "top1": "2",
+    "answer": "Pacific",
+    "rank_answer": 174
+   },
+   {
+    "name": "instr-body-trumpet",
+    "top1": " mouth",
+    "answer": " lips",
+    "rank_answer": 2
+   },
+   {
+    "name": "instr-hit-drums",
+    "top1": " a",
+    "answer": " sticks",
+    "rank_answer": 7
+   },
+   {
+    "name": "mars-color",
+    "top1": "1",
+    "answer": "red",
+    "rank_answer": 17265
+   },
+   {
+    "name": "month-3-godof",
+    "top1": " war",
+    "answer": "war",
+    "rank_answer": 304
+   },
+   {
+    "name": "organ-acid-stomach",
+    "top1": " gastric",
+    "answer": " acid",
+    "rank_answer": 3
+   },
+   {
+    "name": "organ-location-heart",
+    "top1": " heart",
+    "answer": " chest",
+    "rank_answer": 2
+   },
+   {
+    "name": "osu-rival-mascot",
+    "top1": "1",
+    "answer": "wolverine",
+    "rank_answer": 131212
+   },
+   {
+    "name": "paper-continent",
+    "top1": "1",
+    "answer": "Asia",
+    "rank_answer": 235
+   },
+   {
+    "name": "person-country-shakespeare",
+    "top1": " the",
+    "answer": " England",
+    "rank_answer": 9
+   },
+   {
+    "name": "rhyme-chair-flag",
+    "top1": "1",
+    "answer": "California",
+    "rank_answer": 745
+   },
+   {
+    "name": "rhyme-rain-neighbor",
+    "top1": "3",
+    "answer": "Portugal",
+    "rank_answer": 1159
+   },
+   {
+    "name": "rhyme-spoon-orbit",
+    "top1": "1",
+    "answer": "Earth",
+    "rank_answer": 936
+   },
+   {
+    "name": "spaceneedle-border",
+    "top1": "3",
+    "answer": "Canada",
+    "rank_answer": 238
+   },
+   {
+    "name": "sport-equip-tennis",
+    "top1": " rac",
+    "answer": " racket",
+    "rank_answer": 2
+   },
+   {
+    "name": "super-populous-capital",
+    "top1": "1",
+    "answer": "Beijing",
+    "rank_answer": 5500
+   },
+   {
+    "name": "super-smallest-continent",
+    "top1": "1",
+    "answer": "Europe",
+    "rank_answer": 366
+   }
+  ]
+ },
+ "rstrip": {
+  "n_clean_correct": 68,
+  "n_eligible_strict": 49,
+  "median_p_answer_when_correct": 0.5664790272712708,
+  "median_rank_swap_answer_when_correct": 31,
+  "incorrect": [
+   {
+    "name": "animal-legs-buffalo2",
+    "top1": " ",
+    "answer": " four",
+    "rank_answer": 2
+   },
+   {
+    "name": "atomic-80-state",
+    "top1": " solid",
+    "answer": " liquid",
+    "rank_answer": 2
+   },
+   {
+    "name": "beverage-source-wine",
+    "top1": " same",
+    "answer": " grape",
+    "rank_answer": 2
+   },
+   {
+    "name": "bird-country-eagle",
+    "top1": " the",
+    "answer": " America",
+    "rank_answer": 34
+   },
+   {
+    "name": "bird-time-owl",
+    "top1": " the",
+    "answer": " night",
+    "rank_answer": 1
+   },
+   {
+    "name": "colosseum-currency",
+    "top1": " euro",
+    "answer": " Euro",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex-element-state-8-26",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 5
+   },
+   {
+    "name": "ex-element-state-8-80",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 5
+   },
+   {
+    "name": "ex-element-state-80-8",
+    "top1": " solid",
+    "answer": " liquid",
+    "rank_answer": 2
+   },
+   {
+    "name": "food-animal-honey",
+    "top1": " honey",
+    "answer": " bee",
+    "rank_answer": 2
+   },
+   {
+    "name": "gem-source-pearl",
+    "top1": " same",
+    "answer": " oyster",
+    "rank_answer": 2
+   },
+   {
+    "name": "instr-body-trumpet",
+    "top1": " mouth",
+    "answer": " lips",
+    "rank_answer": 2
+   },
+   {
+    "name": "instr-hit-drums",
+    "top1": " a",
+    "answer": " sticks",
+    "rank_answer": 7
+   },
+   {
+    "name": "mars-color",
+    "top1": " blue",
+    "answer": " red",
+    "rank_answer": 2
+   },
+   {
+    "name": "organ-acid-stomach",
+    "top1": " gastric",
+    "answer": " acid",
+    "rank_answer": 3
+   },
+   {
+    "name": "organ-location-heart",
+    "top1": " heart",
+    "answer": " chest",
+    "rank_answer": 2
+   },
+   {
+    "name": "osu-rival-mascot",
+    "top1": " buck",
+    "answer": " wolverine",
+    "rank_answer": 62
+   },
+   {
+    "name": "person-country-shakespeare",
+    "top1": " the",
+    "answer": " England",
+    "rank_answer": 9
+   },
+   {
+    "name": "rhyme-chair-flag",
+    "top1": " New",
+    "answer": " California",
+    "rank_answer": 13
+   },
+   {
+    "name": "rhyme-rain-neighbor",
+    "top1": " the",
+    "answer": " Portugal",
+    "rank_answer": 5
+   },
+   {
+    "name": "rhyme-spoon-orbit",
+    "top1": " '",
+    "answer": " Earth",
+    "rank_answer": 3
+   },
+   {
+    "name": "sport-equip-tennis",
+    "top1": " rac",
+    "answer": " racket",
+    "rank_answer": 2
+   }
+  ]
+ }
+}
+[artifacts] J-lens validate_model OK: {'d_model': 4096, 'n_prompts': 25, 'source_layers': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30], 'metadata': {}}
+[artifacts] R-lens validate_model OK: {'d_model': 4096, 'n_prompts': 25, 'source_layers': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30], 'metadata': {}}
+[artifacts] L00 |vJ|=2.7 |vR|=1.47 R/J=0.54 cos(vJ,vR)=0.652 |cos(s,t)| J=0.319 R=0.329 maxJ=0.806 maxR=0.813 fro J=194 R=105 spec J=39.3 R=35.2 relΔ=0.753
+[artifacts] L01 |vJ|=1.94 |vR|=1.38 R/J=0.70 cos(vJ,vR)=0.707 |cos(s,t)| J=0.323 R=0.350 maxJ=0.849 maxR=0.839 fro J=138 R=97.6 spec J=34.4 R=28.8 relΔ=0.684
+[artifacts] L02 |vJ|=1.68 |vR|=1.33 R/J=0.78 cos(vJ,vR)=0.755 |cos(s,t)| J=0.302 R=0.338 maxJ=0.834 maxR=0.839 fro J=124 R=93 spec J=31.2 R=26.4 relΔ=0.640
+[artifacts] L03 |vJ|=1.5 |vR|=1.2 R/J=0.79 cos(vJ,vR)=0.771 |cos(s,t)| J=0.286 R=0.300 maxJ=0.800 maxR=0.793 fro J=110 R=82 spec J=23.8 R=19.7 relΔ=0.620
+[artifacts] L04 |vJ|=1.43 |vR|=1.16 R/J=0.83 cos(vJ,vR)=0.791 |cos(s,t)| J=0.288 R=0.289 maxJ=0.794 maxR=0.788 fro J=105 R=79.8 spec J=22.4 R=18.2 relΔ=0.602
+[artifacts] L05 |vJ|=1.4 |vR|=1.19 R/J=0.87 cos(vJ,vR)=0.799 |cos(s,t)| J=0.286 R=0.288 maxJ=0.794 maxR=0.786 fro J=103 R=81.5 spec J=21.3 R=18.4 relΔ=0.590
+[artifacts] L06 |vJ|=0.858 |vR|=0.971 R/J=1.11 cos(vJ,vR)=0.827 |cos(s,t)| J=0.293 R=0.270 maxJ=0.824 maxR=0.776 fro J=56.4 R=61.1 spec J=10.5 R=13.3 relΔ=0.635
+[artifacts] L07 |vJ|=0.898 |vR|=1.01 R/J=1.10 cos(vJ,vR)=0.850 |cos(s,t)| J=0.290 R=0.274 maxJ=0.830 maxR=0.781 fro J=58 R=63.6 spec J=10.5 R=12.9 relΔ=0.613
+[artifacts] L08 |vJ|=0.961 |vR|=1.09 R/J=1.11 cos(vJ,vR)=0.872 |cos(s,t)| J=0.284 R=0.268 maxJ=0.840 maxR=0.790 fro J=60.2 R=67.3 spec J=10.4 R=12.8 relΔ=0.599
+[artifacts] L09 |vJ|=1.05 |vR|=1.18 R/J=1.12 cos(vJ,vR)=0.893 |cos(s,t)| J=0.286 R=0.265 maxJ=0.845 maxR=0.793 fro J=63 R=71.3 spec J=10.2 R=13 relΔ=0.575
+[artifacts] L10 |vJ|=1.07 |vR|=1.21 R/J=1.13 cos(vJ,vR)=0.903 |cos(s,t)| J=0.287 R=0.274 maxJ=0.854 maxR=0.795 fro J=63.9 R=73.4 spec J=9.64 R=12.7 relΔ=0.562
+[artifacts] L11 |vJ|=1.13 |vR|=1.27 R/J=1.13 cos(vJ,vR)=0.909 |cos(s,t)| J=0.296 R=0.275 maxJ=0.855 maxR=0.794 fro J=67.7 R=78 spec J=9.96 R=12.9 relΔ=0.539
+[artifacts] L12 |vJ|=1.14 |vR|=1.3 R/J=1.14 cos(vJ,vR)=0.912 |cos(s,t)| J=0.296 R=0.275 maxJ=0.855 maxR=0.790 fro J=68.9 R=80 spec J=9.86 R=13.2 relΔ=0.530
+[artifacts] L13 |vJ|=1.17 |vR|=1.34 R/J=1.15 cos(vJ,vR)=0.916 |cos(s,t)| J=0.291 R=0.279 maxJ=0.855 maxR=0.788 fro J=71.9 R=83.5 spec J=10.1 R=13.7 relΔ=0.513
+[artifacts] L14 |vJ|=1.19 |vR|=1.36 R/J=1.15 cos(vJ,vR)=0.920 |cos(s,t)| J=0.293 R=0.278 maxJ=0.850 maxR=0.783 fro J=73.8 R=85.2 spec J=10.3 R=13.5 relΔ=0.496
+[artifacts] L15 |vJ|=1.21 |vR|=1.38 R/J=1.14 cos(vJ,vR)=0.924 |cos(s,t)| J=0.301 R=0.284 maxJ=0.850 maxR=0.783 fro J=76.8 R=87.4 spec J=10.7 R=13.8 relΔ=0.468
+[artifacts] L16 |vJ|=1.16 |vR|=1.33 R/J=1.15 cos(vJ,vR)=0.928 |cos(s,t)| J=0.318 R=0.283 maxJ=0.834 maxR=0.770 fro J=75.3 R=85.7 spec J=10 R=13 relΔ=0.454
+[artifacts] L17 |vJ|=1.15 |vR|=1.33 R/J=1.15 cos(vJ,vR)=0.936 |cos(s,t)| J=0.315 R=0.278 maxJ=0.829 maxR=0.767 fro J=76.2 R=85.9 spec J=9.43 R=12.4 relΔ=0.422
+[artifacts] L18 |vJ|=1.07 |vR|=1.26 R/J=1.17 cos(vJ,vR)=0.950 |cos(s,t)| J=0.314 R=0.284 maxJ=0.813 maxR=0.761 fro J=71.4 R=81.3 spec J=8.7 R=10.4 relΔ=0.380
+[artifacts] L19 |vJ|=1.04 |vR|=1.18 R/J=1.14 cos(vJ,vR)=0.959 |cos(s,t)| J=0.291 R=0.276 maxJ=0.788 maxR=0.746 fro J=69.3 R=77 spec J=7.89 R=9.22 relΔ=0.327
+[artifacts] L20 |vJ|=1.04 |vR|=1.15 R/J=1.11 cos(vJ,vR)=0.967 |cos(s,t)| J=0.293 R=0.282 maxJ=0.765 maxR=0.728 fro J=71.7 R=77.5 spec J=7.5 R=8.72 relΔ=0.281
+[artifacts] L21 |vJ|=1.07 |vR|=1.17 R/J=1.09 cos(vJ,vR)=0.973 |cos(s,t)| J=0.290 R=0.278 maxJ=0.758 maxR=0.723 fro J=73.4 R=78 spec J=7.34 R=8.38 relΔ=0.249
+[artifacts] L22 |vJ|=1.11 |vR|=1.16 R/J=1.04 cos(vJ,vR)=0.979 |cos(s,t)| J=0.271 R=0.264 maxJ=0.746 maxR=0.717 fro J=75.9 R=77.8 spec J=7.22 R=7.88 relΔ=0.204
+[artifacts] L23 |vJ|=1.08 |vR|=1.1 R/J=1.02 cos(vJ,vR)=0.982 |cos(s,t)| J=0.272 R=0.261 maxJ=0.725 maxR=0.698 fro J=75.7 R=76.3 spec J=7.01 R=7.16 relΔ=0.178
+[artifacts] L24 |vJ|=1.09 |vR|=1.09 R/J=1.00 cos(vJ,vR)=0.985 |cos(s,t)| J=0.265 R=0.255 maxJ=0.711 maxR=0.690 fro J=76.3 R=76.1 spec J=6.59 R=6.56 relΔ=0.160
+[artifacts] L25 |vJ|=1.11 |vR|=1.09 R/J=0.98 cos(vJ,vR)=0.988 |cos(s,t)| J=0.252 R=0.245 maxJ=0.704 maxR=0.686 fro J=76.8 R=75.8 spec J=6.35 R=6.09 relΔ=0.146
+[artifacts] L26 |vJ|=1.12 |vR|=1.08 R/J=0.97 cos(vJ,vR)=0.990 |cos(s,t)| J=0.246 R=0.244 maxJ=0.699 maxR=0.677 fro J=77.1 R=75.5 spec J=6.12 R=6.24 relΔ=0.130
+[artifacts] L27 |vJ|=1.08 |vR|=1.04 R/J=0.97 cos(vJ,vR)=0.993 |cos(s,t)| J=0.238 R=0.237 maxJ=0.687 maxR=0.668 fro J=74.8 R=73.2 spec J=4.73 R=4.41 relΔ=0.113
+[artifacts] L28 |vJ|=1.02 |vR|=0.991 R/J=0.97 cos(vJ,vR)=0.995 |cos(s,t)| J=0.236 R=0.230 maxJ=0.672 maxR=0.657 fro J=70.9 R=69.9 spec J=3.9 R=3.33 relΔ=0.095
+[artifacts] L29 |vJ|=0.912 |vR|=0.9 R/J=0.99 cos(vJ,vR)=0.996 |cos(s,t)| J=0.258 R=0.260 maxJ=0.666 maxR=0.657 fro J=67.9 R=67.4 spec J=4.42 R=3.91 relΔ=0.070
+[artifacts] L30 |vJ|=0.843 |vR|=0.843 R/J=1.00 cos(vJ,vR)=1.000 |cos(s,t)| J=0.257 R=0.257 maxJ=0.654 maxR=0.654 fro J=64 R=64 spec J=1 R=1 relΔ=0.000
+[readout] 1/49 items done
+[readout] 11/49 items done
+[readout] 21/49 items done
+[readout] 31/49 items done
+[readout] 41/49 items done
+[readout] token=intermediate: per layer, fraction of items with rank-1 hit at any position (J / R / logit), and rank<=10 at any position
+  L00  J: r1=0.00 r10=0.00 med=4635 | R: r1=0.00 r10=0.00 med=890 | logit: r1=0.00 r10=0.00 med=6603
+  L01  J: r1=0.00 r10=0.00 med=3288 | R: r1=0.00 r10=0.02 med=861 | logit: r1=0.00 r10=0.00 med=7077
+  L02  J: r1=0.00 r10=0.00 med=1847 | R: r1=0.00 r10=0.08 med=204 | logit: r1=0.00 r10=0.02 med=2447
+  L03  J: r1=0.00 r10=0.02 med=196 | R: r1=0.00 r10=0.31 med=51 | logit: r1=0.00 r10=0.02 med=2350
+  L04  J: r1=0.00 r10=0.02 med=215 | R: r1=0.02 r10=0.29 med=32 | logit: r1=0.00 r10=0.02 med=1932
+  L05  J: r1=0.00 r10=0.16 med=95 | R: r1=0.04 r10=0.43 med=15 | logit: r1=0.02 r10=0.04 med=710
+  L06  J: r1=0.08 r10=0.35 med=19 | R: r1=0.12 r10=0.61 med=5 | logit: r1=0.06 r10=0.14 med=347
+  L07  J: r1=0.08 r10=0.45 med=12 | R: r1=0.10 r10=0.65 med=6 | logit: r1=0.06 r10=0.14 med=367
+  L08  J: r1=0.16 r10=0.61 med=7 | R: r1=0.18 r10=0.73 med=4 | logit: r1=0.02 r10=0.16 med=527
+  L09  J: r1=0.31 r10=0.82 med=3 | R: r1=0.35 r10=0.84 med=3 | logit: r1=0.02 r10=0.16 med=216
+  L10  J: r1=0.27 r10=0.76 med=5 | R: r1=0.31 r10=0.80 med=3 | logit: r1=0.02 r10=0.16 med=214
+  L11  J: r1=0.24 r10=0.76 med=4 | R: r1=0.35 r10=0.80 med=3 | logit: r1=0.00 r10=0.06 med=404
+  L12  J: r1=0.29 r10=0.76 med=4 | R: r1=0.31 r10=0.80 med=3 | logit: r1=0.00 r10=0.02 med=560
+  L13  J: r1=0.24 r10=0.76 med=3 | R: r1=0.24 r10=0.76 med=4 | logit: r1=0.00 r10=0.02 med=734
+  L14  J: r1=0.18 r10=0.73 med=4 | R: r1=0.18 r10=0.73 med=5 | logit: r1=0.00 r10=0.00 med=1328
+  L15  J: r1=0.14 r10=0.69 med=4 | R: r1=0.20 r10=0.69 med=4 | logit: r1=0.00 r10=0.00 med=957
+  L16  J: r1=0.12 r10=0.65 med=5 | R: r1=0.14 r10=0.61 med=5 | logit: r1=0.00 r10=0.00 med=1035
+  L17  J: r1=0.12 r10=0.63 med=6 | R: r1=0.16 r10=0.67 med=5 | logit: r1=0.00 r10=0.00 med=988
+  L18  J: r1=0.12 r10=0.51 med=9 | R: r1=0.12 r10=0.59 med=8 | logit: r1=0.00 r10=0.08 med=913
+  L19  J: r1=0.16 r10=0.63 med=5 | R: r1=0.20 r10=0.65 med=5 | logit: r1=0.02 r10=0.16 med=392
+  L20  J: r1=0.14 r10=0.61 med=5 | R: r1=0.22 r10=0.65 med=5 | logit: r1=0.04 r10=0.29 med=168
+  L21  J: r1=0.14 r10=0.45 med=17 | R: r1=0.20 r10=0.49 med=11 | logit: r1=0.06 r10=0.24 med=170
+  L22  J: r1=0.16 r10=0.49 med=11 | R: r1=0.18 r10=0.53 med=9 | logit: r1=0.04 r10=0.20 med=76
+  L23  J: r1=0.29 r10=0.63 med=5 | R: r1=0.31 r10=0.63 med=4 | logit: r1=0.18 r10=0.43 med=15
+  L24  J: r1=0.27 r10=0.78 med=3 | R: r1=0.33 r10=0.82 med=3 | logit: r1=0.20 r10=0.69 med=3
+  L25  J: r1=0.31 r10=0.90 med=2 | R: r1=0.35 r10=0.92 med=2 | logit: r1=0.24 r10=0.69 med=4
+  L26  J: r1=0.41 r10=0.92 med=2 | R: r1=0.45 r10=0.92 med=2 | logit: r1=0.24 r10=0.78 med=4
+  L27  J: r1=0.39 r10=0.92 med=2 | R: r1=0.35 r10=0.90 med=2 | logit: r1=0.29 r10=0.73 med=3
+  L28  J: r1=0.45 r10=0.92 med=2 | R: r1=0.41 r10=0.92 med=2 | logit: r1=0.24 r10=0.73 med=3
+  L29  J: r1=0.20 r10=0.80 med=3 | R: r1=0.20 r10=0.71 med=3 | logit: r1=0.20 r10=0.71 med=3
+  L30  J: r1=0.08 r10=0.49 med=11 | R: r1=0.08 r10=0.49 med=11 | logit: r1=0.08 r10=0.49 med=11
+  L31  J: r1=0.10 r10=0.69 med=7 | R: r1=0.10 r10=0.69 med=7 | logit: r1=0.10 r10=0.69 med=7
+[readout] token=answer: per layer, fraction of items with rank-1 hit at any position (J / R / logit), and rank<=10 at any position
+  L00  J: r1=0.00 r10=0.00 med=7363 | R: r1=0.00 r10=0.02 med=786 | logit: r1=0.00 r10=0.00 med=5342
+  L01  J: r1=0.00 r10=0.00 med=7115 | R: r1=0.00 r10=0.00 med=594 | logit: r1=0.00 r10=0.00 med=4356
+  L02  J: r1=0.00 r10=0.02 med=5500 | R: r1=0.00 r10=0.04 med=601 | logit: r1=0.00 r10=0.00 med=2082
+  L03  J: r1=0.00 r10=0.04 med=1832 | R: r1=0.00 r10=0.14 med=193 | logit: r1=0.00 r10=0.00 med=1778
+  L04  J: r1=0.00 r10=0.04 med=1287 | R: r1=0.00 r10=0.14 med=150 | logit: r1=0.00 r10=0.00 med=1846
+  L05  J: r1=0.00 r10=0.08 med=905 | R: r1=0.00 r10=0.16 med=85 | logit: r1=0.00 r10=0.00 med=1286
+  L06  J: r1=0.00 r10=0.10 med=164 | R: r1=0.00 r10=0.24 med=42 | logit: r1=0.00 r10=0.00 med=846
+  L07  J: r1=0.00 r10=0.16 med=106 | R: r1=0.00 r10=0.27 med=35 | logit: r1=0.00 r10=0.02 med=730
+  L08  J: r1=0.04 r10=0.18 med=55 | R: r1=0.04 r10=0.24 med=36 | logit: r1=0.00 r10=0.02 med=651
+  L09  J: r1=0.04 r10=0.24 med=57 | R: r1=0.06 r10=0.24 med=26 | logit: r1=0.00 r10=0.06 med=638
+  L10  J: r1=0.04 r10=0.18 med=64 | R: r1=0.02 r10=0.22 med=30 | logit: r1=0.00 r10=0.02 med=624
+  L11  J: r1=0.02 r10=0.20 med=85 | R: r1=0.00 r10=0.22 med=30 | logit: r1=0.00 r10=0.02 med=671
+  L12  J: r1=0.02 r10=0.18 med=70 | R: r1=0.00 r10=0.22 med=38 | logit: r1=0.00 r10=0.00 med=1409
+  L13  J: r1=0.00 r10=0.18 med=67 | R: r1=0.00 r10=0.20 med=41 | logit: r1=0.00 r10=0.00 med=1191
+  L14  J: r1=0.00 r10=0.14 med=66 | R: r1=0.00 r10=0.18 med=57 | logit: r1=0.00 r10=0.00 med=1096
+  L15  J: r1=0.00 r10=0.14 med=80 | R: r1=0.00 r10=0.18 med=53 | logit: r1=0.00 r10=0.00 med=1286
+  L16  J: r1=0.00 r10=0.12 med=74 | R: r1=0.00 r10=0.14 med=51 | logit: r1=0.00 r10=0.00 med=1197
+  L17  J: r1=0.00 r10=0.10 med=83 | R: r1=0.02 r10=0.14 med=53 | logit: r1=0.00 r10=0.00 med=1373
+  L18  J: r1=0.00 r10=0.06 med=87 | R: r1=0.00 r10=0.12 med=67 | logit: r1=0.00 r10=0.00 med=1174
+  L19  J: r1=0.00 r10=0.10 med=43 | R: r1=0.00 r10=0.22 med=31 | logit: r1=0.00 r10=0.00 med=614
+  L20  J: r1=0.04 r10=0.16 med=36 | R: r1=0.04 r10=0.24 med=24 | logit: r1=0.02 r10=0.04 med=189
+  L21  J: r1=0.04 r10=0.12 med=32 | R: r1=0.04 r10=0.24 med=22 | logit: r1=0.00 r10=0.04 med=294
+  L22  J: r1=0.06 r10=0.27 med=31 | R: r1=0.04 r10=0.35 med=21 | logit: r1=0.02 r10=0.12 med=96
+  L23  J: r1=0.12 r10=0.53 med=9 | R: r1=0.18 r10=0.59 med=8 | logit: r1=0.12 r10=0.37 med=17
+  L24  J: r1=0.45 r10=0.76 med=2 | R: r1=0.49 r10=0.80 med=2 | logit: r1=0.31 r10=0.63 med=3
+  L25  J: r1=0.45 r10=0.86 med=2 | R: r1=0.51 r10=0.94 med=1 | logit: r1=0.41 r10=0.86 med=2
+  L26  J: r1=0.65 r10=0.92 med=1 | R: r1=0.65 r10=0.98 med=1 | logit: r1=0.55 r10=0.94 med=1
+  L27  J: r1=0.82 r10=1.00 med=1 | R: r1=0.82 r10=1.00 med=1 | logit: r1=0.67 r10=1.00 med=1
+  L28  J: r1=0.88 r10=1.00 med=1 | R: r1=0.84 r10=1.00 med=1 | logit: r1=0.80 r10=1.00 med=1
+  L29  J: r1=0.80 r10=1.00 med=1 | R: r1=0.78 r10=1.00 med=1 | logit: r1=0.82 r10=1.00 med=1
+  L30  J: r1=0.71 r10=1.00 med=1 | R: r1=0.71 r10=1.00 med=1 | logit: r1=0.71 r10=1.00 med=1
+  L31  J: r1=1.00 r10=1.00 med=1 | R: r1=1.00 r10=1.00 med=1 | logit: r1=1.00 r10=1.00 med=1
+[poscontrol] amazon-language J mid all a=0.0  Δmargin=+0.00 top1=' Portuguese' KL=0.000
+[poscontrol] amazon-language J mid all a=0.25 Δmargin=+4.25 top1=' Spanish' KL=1.580
+[poscontrol] amazon-language J mid all a=0.5  Δmargin=+7.19 top1=' Spanish' KL=4.054
+[poscontrol] amazon-language J mid all a=1.0  Δmargin=+10.88 top1=' Spanish' KL=9.415
+[poscontrol] amazon-language J mid all a=2.0  Δmargin=+22.31 top1=' Spanish' KL=21.662
+[poscontrol] amazon-language J mid all a=4.0  Δmargin=+26.06 top1=' Spanish' KL=27.013
+[poscontrol] amazon-language J mid final a=0.0  Δmargin=+0.00 top1=' Portuguese' KL=0.000
+[poscontrol] amazon-language J mid final a=0.25 Δmargin=+2.69 top1=' Spanish' KL=0.865
+[poscontrol] amazon-language J mid final a=0.5  Δmargin=+6.38 top1=' Spanish' KL=3.393
+[poscontrol] amazon-language J mid final a=1.0  Δmargin=+12.75 top1=' Spanish' KL=9.777
+[poscontrol] amazon-language J mid final a=2.0  Δmargin=+21.94 top1=' Spanish' KL=21.290
+[poscontrol] amazon-language J mid final a=4.0  Δmargin=+26.06 top1=' Spanish' KL=27.022
+[poscontrol] amazon-language J late all a=0.0  Δmargin=+0.00 top1=' Portuguese' KL=0.000
+[poscontrol] amazon-language J late all a=0.25 Δmargin=+9.69 top1=' Spanish' KL=7.057
+[poscontrol] amazon-language J late all a=0.5  Δmargin=+23.44 top1=' Spanish' KL=20.844
+[poscontrol] amazon-language J late all a=1.0  Δmargin=+48.19 top1=' Spanish' KL=48.686
+[poscontrol] amazon-language J late all a=2.0  Δmargin=+59.19 top1=' Spanish' KL=62.101
+[poscontrol] amazon-language J late all a=4.0  Δmargin=+58.69 top1=' Spanish' KL=62.279
+[poscontrol] amazon-language J late final a=0.0  Δmargin=+0.00 top1=' Portuguese' KL=0.000
+[poscontrol] amazon-language J late final a=0.25 Δmargin=+10.69 top1=' Spanish' KL=7.994
+[poscontrol] amazon-language J late final a=0.5  Δmargin=+25.69 top1=' Spanish' KL=22.938
+[poscontrol] amazon-language J late final a=1.0  Δmargin=+49.69 top1=' Spanish' KL=50.225
+[poscontrol] amazon-language J late final a=2.0  Δmargin=+58.94 top1=' Spanish' KL=62.006
+[poscontrol] amazon-language J late final a=4.0  Δmargin=+58.69 top1=' Spanish' KL=62.278
+[poscontrol] amazon-language R mid all a=0.0  Δmargin=+0.00 top1=' Portuguese' KL=0.000
+[poscontrol] amazon-language R mid all a=0.25 Δmargin=+6.62 top1=' Spanish' KL=2.429
+[poscontrol] amazon-language R mid all a=0.5  Δmargin=+9.44 top1=' Spanish' KL=4.965
+[poscontrol] amazon-language R mid all a=1.0  Δmargin=+15.94 top1=' Spanish' KL=13.729
+[poscontrol] amazon-language R mid all a=2.0  Δmargin=+31.44 top1=' Spanish' KL=30.875
+[poscontrol] amazon-language R mid all a=4.0  Δmargin=+35.94 top1=' Spanish' KL=37.242
+[poscontrol] amazon-language R mid final a=0.0  Δmargin=+0.00 top1=' Portuguese' KL=0.000
+[poscontrol] amazon-language R mid final a=0.25 Δmargin=+3.75 top1=' Spanish' KL=1.151
+[poscontrol] amazon-language R mid final a=0.5  Δmargin=+8.75 top1=' Spanish' KL=4.378
+[poscontrol] amazon-language R mid final a=1.0  Δmargin=+17.00 top1=' Spanish' KL=13.747
+[poscontrol] amazon-language R mid final a=2.0  Δmargin=+31.19 top1=' Spanish' KL=30.430
+[poscontrol] amazon-language R mid final a=4.0  Δmargin=+35.94 top1=' Spanish' KL=37.252
+[poscontrol] amazon-language R late all a=0.0  Δmargin=+0.00 top1=' Portuguese' KL=0.000
+[poscontrol] amazon-language R late all a=0.25 Δmargin=+10.19 top1=' Spanish' KL=7.632
+[poscontrol] amazon-language R late all a=0.5  Δmargin=+24.81 top1=' Spanish' KL=22.331
+[poscontrol] amazon-language R late all a=1.0  Δmargin=+49.69 top1=' Spanish' KL=50.565
+[poscontrol] amazon-language R late all a=2.0  Δmargin=+58.94 top1=' Spanish' KL=61.953
+[poscontrol] amazon-language R late all a=4.0  Δmargin=+58.69 top1=' Spanish' KL=62.245
+[poscontrol] amazon-language R late final a=0.0  Δmargin=+0.00 top1=' Portuguese' KL=0.000
+[poscontrol] amazon-language R late final a=0.25 Δmargin=+11.19 top1=' Spanish' KL=8.528
+[poscontrol] amazon-language R late final a=0.5  Δmargin=+26.94 top1=' Spanish' KL=24.294
+[poscontrol] amazon-language R late final a=1.0  Δmargin=+50.94 top1=' Spanish' KL=51.833
+[poscontrol] amazon-language R late final a=2.0  Δmargin=+58.69 top1=' Spanish' KL=61.843
+[poscontrol] amazon-language R late final a=4.0  Δmargin=+58.69 top1=' Spanish' KL=62.242
+[poscontrol] animal-cover-turtle J mid all a=0.0  Δmargin=+0.00 top1=' shell' KL=0.000
+[poscontrol] animal-cover-turtle J mid all a=0.25 Δmargin=+12.72 top1=' square' KL=8.071
+[poscontrol] animal-cover-turtle J mid all a=0.5  Δmargin=+13.28 top1=' level' KL=9.907
+[poscontrol] animal-cover-turtle J mid all a=1.0  Δmargin=+24.13 top1=' scale' KL=15.133
+[poscontrol] animal-cover-turtle J mid all a=2.0  Δmargin=+56.29 top1=' scale' KL=47.208
+[poscontrol] animal-cover-turtle J mid all a=4.0  Δmargin=+81.02 top1=' scale' KL=72.455
+[poscontrol] animal-cover-turtle J mid final a=0.0  Δmargin=+0.00 top1=' shell' KL=0.000
+[poscontrol] animal-cover-turtle J mid final a=0.25 Δmargin=+4.75 top1=' shell' KL=0.267
+[poscontrol] animal-cover-turtle J mid final a=0.5  Δmargin=+7.38 top1=' scale' KL=1.654
+[poscontrol] animal-cover-turtle J mid final a=1.0  Δmargin=+24.02 top1=' scale' KL=15.062
+[poscontrol] animal-cover-turtle J mid final a=2.0  Δmargin=+57.25 top1=' scale' KL=48.240
+[poscontrol] animal-cover-turtle J mid final a=4.0  Δmargin=+81.00 top1=' scale' KL=72.435
+[poscontrol] animal-cover-turtle J late all a=0.0  Δmargin=+0.00 top1=' shell' KL=0.000
+[poscontrol] animal-cover-turtle J late all a=0.25 Δmargin=+1.09 top1=' shell' KL=1.324
+[poscontrol] animal-cover-turtle J late all a=0.5  Δmargin=+12.62 top1=' scale' KL=6.587
+[poscontrol] animal-cover-turtle J late all a=1.0  Δmargin=+89.06 top1=' scale' KL=83.245
+[poscontrol] animal-cover-turtle J late all a=2.0  Δmargin=+138.25 top1=' scale' KL=132.829
+[poscontrol] animal-cover-turtle J late all a=4.0  Δmargin=+142.62 top1=' scale' KL=137.116
+[poscontrol] animal-cover-turtle J late final a=0.0  Δmargin=+0.00 top1=' shell' KL=0.000
+[poscontrol] animal-cover-turtle J late final a=0.25 Δmargin=-0.69 top1=' __' KL=1.088
+[poscontrol] animal-cover-turtle J late final a=0.5  Δmargin=+13.06 top1=' scale' KL=5.470
+[poscontrol] animal-cover-turtle J late final a=1.0  Δmargin=+83.81 top1=' scale' KL=77.764
+[poscontrol] animal-cover-turtle J late final a=2.0  Δmargin=+138.19 top1=' scale' KL=132.727
+[poscontrol] animal-cover-turtle J late final a=4.0  Δmargin=+142.62 top1=' scale' KL=137.107
+[poscontrol] animal-cover-turtle R mid all a=0.0  Δmargin=+0.00 top1=' shell' KL=0.000
+[poscontrol] animal-cover-turtle R mid all a=0.25 Δmargin=+14.16 top1=' ton' KL=8.544
+[poscontrol] animal-cover-turtle R mid all a=0.5  Δmargin=+16.53 top1=' scale' KL=10.108
+[poscontrol] animal-cover-turtle R mid all a=1.0  Δmargin=+33.09 top1=' scale' KL=23.603
+[poscontrol] animal-cover-turtle R mid all a=2.0  Δmargin=+75.75 top1=' scale' KL=66.955
+[poscontrol] animal-cover-turtle R mid all a=4.0  Δmargin=+104.45 top1=' scale' KL=96.328
+[poscontrol] animal-cover-turtle R mid final a=0.0  Δmargin=+0.00 top1=' shell' KL=0.000
+[poscontrol] animal-cover-turtle R mid final a=0.25 Δmargin=+5.37 top1=' shell' KL=0.409
+[poscontrol] animal-cover-turtle R mid final a=0.5  Δmargin=+8.88 top1=' scale' KL=2.184
+[poscontrol] animal-cover-turtle R mid final a=1.0  Δmargin=+32.81 top1=' scale' KL=23.229
+[poscontrol] animal-cover-turtle R mid final a=2.0  Δmargin=+76.12 top1=' scale' KL=67.308
+[poscontrol] animal-cover-turtle R mid final a=4.0  Δmargin=+104.44 top1=' scale' KL=96.314
+[poscontrol] animal-cover-turtle R late all a=0.0  Δmargin=+0.00 top1=' shell' KL=0.000
+[poscontrol] animal-cover-turtle R late all a=0.25 Δmargin=+1.62 top1=' shell' KL=1.341
+[poscontrol] animal-cover-turtle R late all a=0.5  Δmargin=+17.69 top1=' scale' KL=10.537
+[poscontrol] animal-cover-turtle R late all a=1.0  Δmargin=+96.56 top1=' scale' KL=90.862
+[poscontrol] animal-cover-turtle R late all a=2.0  Δmargin=+139.19 top1=' scale' KL=133.765
+[poscontrol] animal-cover-turtle R late all a=4.0  Δmargin=+142.56 top1=' scale' KL=137.062
+[poscontrol] animal-cover-turtle R late final a=0.0  Δmargin=+0.00 top1=' shell' KL=0.000
+[poscontrol] animal-cover-turtle R late final a=0.25 Δmargin=-0.09 top1=' __' KL=1.102
+[poscontrol] animal-cover-turtle R late final a=0.5  Δmargin=+16.75 top1=' scale' KL=9.107
+[poscontrol] animal-cover-turtle R late final a=1.0  Δmargin=+92.31 top1=' scale' KL=86.374
+[poscontrol] animal-cover-turtle R late final a=2.0  Δmargin=+138.12 top1=' scale' KL=132.664
+[poscontrol] animal-cover-turtle R late final a=4.0  Δmargin=+142.56 top1=' scale' KL=137.052
+[driver] done: {
+ "started_at": "2026-09-02T11:27:06.806643+00:00",
+ "stages": {
+  "clean": 29.4,
+  "artifacts": 2.5,
+  "readout": 34.7,
+  "poscontrol": 19.0
+ },
+ "load_seconds": 7.1,
+ "finished_at": "2026-09-02T11:28:39.431048+00:00",
+ "peak_cuda_allocated_gib": 21.72
+}

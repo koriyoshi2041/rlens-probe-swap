@@ -1,0 +1,11 @@
+### q82
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 13353.38it/s]
+[q82] band=[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] eligible=45 pattern layers=36 windows=14
+[q82] 1/45 p=10 clamp@1=+1.38 clamp@4=+5.00 clamp@1_all=-0.50 clamp@4_all=+1.38 orth@0.25=+8.50 full@0.25=+9.38
+[q82] 11/45 p=8 clamp@1=+27.19 clamp@4=+28.69 clamp@1_all=+28.62 clamp@4_all=+33.16 orth@0.25=+4.31 full@0.25=+31.75
+[q82] 21/45 p=8 clamp@1=+28.00 clamp@4=+17.62 clamp@1_all=+28.94 clamp@4_all=+26.31 orth@0.25=+19.31 full@0.25=+30.81
+[q82] 31/45 p=16 clamp@1=+2.00 clamp@4=+5.38 clamp@1_all=+4.12 clamp@4_all=+7.62 orth@0.25=+7.69 full@0.25=+7.56
+[q82] 41/45 p=9 clamp@1=+0.72 clamp@4=+4.41 clamp@1_all=+5.22 clamp@4_all=+23.34 orth@0.25=+13.53 full@0.25=+14.41
+[block82] done
+EXIT_q82=0
+ALLDONE

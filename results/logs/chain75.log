@@ -1,0 +1,83 @@
+### q75_donor_free_recipe.py
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 11786.24it/s]
+[q75] 1/59 p_h8=10 clamp@4_h8=+5.31 F[h8@23,1]+clamp@4_h8=+6.38 F[all@23,1]+clamp@4_h8=+7.12 K<-donor+clamp@4_h8=+6.31
+[q75] 11/59 p_h8=21 clamp@4_h8=+0.25 F[h8@23,1]+clamp@4_h8=+0.38 F[all@23,1]+clamp@4_h8=+0.25 K<-donor+clamp@4_h8=+0.25
+[q75] 21/59 p_h8=13 clamp@4_h8=+22.81 F[h8@23,1]+clamp@4_h8=+22.75 F[all@23,1]+clamp@4_h8=+22.78 K<-donor+clamp@4_h8=+22.66
+[q75] 31/59 p_h8=8 clamp@4_h8=+15.56 F[h8@23,1]+clamp@4_h8=+15.81 F[all@23,1]+clamp@4_h8=+15.81 K<-donor+clamp@4_h8=+16.25
+[q75] 41/59 p_h8=3 clamp@4_h8=+1.38 F[h8@23,1]+clamp@4_h8=+1.69 F[all@23,1]+clamp@4_h8=+2.88 K<-donor+clamp@4_h8=+4.25
+[q75] 51/59 p_h8=6 clamp@4_h8=+2.00 F[h8@23,1]+clamp@4_h8=+2.00 F[all@23,1]+clamp@4_h8=+2.00 K<-donor+clamp@4_h8=+2.12
+[block75] done
+EXIT_q75_donor_free_recipe.py=0
+### q76_oos_recipe.py
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12494.45it/s]
+[q76] young-cow-sheep p_best=16 p_h8=13 clamp@4_best=+0.31 clamp@4_h8=+3.25 F+clamp_h8=+3.69
+[q76] young-dog-cat p_best=12 p_h8=12 clamp@4_best=+14.25 clamp@4_h8=+14.25 F+clamp_h8=+15.19
+[q76] home-bee-bird p_best=10 p_h8=10 clamp@4_best=+10.25 clamp@4_h8=+10.25 F+clamp_h8=+11.31
+[q76] home-bird-spider p_best=13 p_h8=13 clamp@4_best=+10.12 clamp@4_h8=+10.12 F+clamp_h8=+11.19
+[q76] habitat-whale-camel p_best=5 p_h8=5 clamp@4_best=+14.44 clamp@4_h8=+14.44 F+clamp_h8=+14.50
+[q76] diet-lion-cow p_best=9 p_h8=11 clamp@4_best=-0.25 clamp@4_h8=+2.38 F+clamp_h8=+2.88
+[q76] food-panda-koala p_best=6 p_h8=6 clamp@4_best=+6.50 clamp@4_h8=+6.50 F+clamp_h8=+7.50
+[q76] month-valentine-december p_best=14 p_h8=11 clamp@4_best=+0.25 clamp@4_h8=+6.50 F+clamp_h8=+6.56
+[q76] month-halloween-christmas p_best=14 p_h8=15 clamp@4_best=+1.56 clamp@4_h8=+5.94 F+clamp_h8=+6.69
+[q76] season-halloween-easter-v2 p_best=12 p_h8=12 clamp@4_best=+0.19 clamp@4_h8=+0.19 F+clamp_h8=+0.31
+[q76] season-opposite-summer-spring-v2 p_best=14 p_h8=9 clamp@4_best=+0.12 clamp@4_h8=-0.06 F+clamp_h8=+0.06
+[q76] fruit-color-apple-banana p_best=12 p_h8=6 clamp@4_best=+1.75 clamp@4_h8=+3.19 F+clamp_h8=+3.81
+[q76] vegetable-color-carrot-spinach-v2 p_best=13 p_h8=11 clamp@4_best=-0.19 clamp@4_h8=-0.69 F+clamp_h8=-0.25
+[q76] flame-sodium-copper p_best=15 p_h8=15 clamp@4_best=+10.38 clamp@4_h8=+10.38 F+clamp_h8=+10.88
+[q76] state-mercury-iron p_best=16 p_h8=16 clamp@4_best=+7.81 clamp@4_h8=+7.81 F+clamp_h8=+7.75
+[q76] bone-heart-brain-v2 p_best=16 p_h8=8 clamp@4_best=-0.88 clamp@4_h8=+0.31 F+clamp_h8=+0.75
+[q76] tool-screw-nail-v2 p_best=19 p_h8=15 clamp@4_best=-0.44 clamp@4_h8=-0.06 F+clamp_h8=+0.12
+[q76] sport-equipment-baseball-hockey p_best=9 p_h8=7 clamp@4_best=+1.62 clamp@4_h8=+1.62 F+clamp_h8=+3.00
+[q76] plant-grape-apple p_best=18 p_h8=15 clamp@4_best=+1.19 clamp@4_h8=+8.69 F+clamp_h8=+8.88
+[q76] material-window-ring-v2 p_best=15 p_h8=15 clamp@4_best=+4.47 clamp@4_h8=+4.47 F+clamp_h8=+4.59
+[q76] young-cat-dog p_best=16 p_h8=13 clamp@4_best=+2.31 clamp@4_h8=+4.38 F+clamp_h8=+5.94
+[q76] home-spider-bee p_best=8 p_h8=8 clamp@4_best=+10.59 clamp@4_h8=+10.59 F+clamp_h8=+12.12
+[q76] flame-copper-sodium p_best=15 p_h8=11 clamp@4_best=+0.75 clamp@4_h8=-0.00 F+clamp_h8=+0.62
+[q76] equipment-hockey-baseball p_best=10 p_h8=10 clamp@4_best=+3.38 clamp@4_h8=+3.38 F+clamp_h8=+5.88
+[q76] fruit-color-banana-apple p_best=12 p_h8=10 clamp@4_best=+0.25 clamp@4_h8=+2.88 F+clamp_h8=+3.00
+[q76] habitat-camel-whale p_best=15 p_h8=4 clamp@4_best=+6.44 clamp@4_h8=+4.31 F+clamp_h8=+5.69
+[q76] month-christmas-halloween p_best=10 p_h8=5 clamp@4_best=+9.06 clamp@4_h8=-0.06 F+clamp_h8=+0.06
+[q76] diet-cow-lion p_best=13 p_h8=9 clamp@4_best=+0.06 clamp@4_h8=+0.12 F+clamp_h8=+0.44
+[block76] done (28 items)
+EXIT_q76_oos_recipe.py=0
+### q77_growth_and_pca_necessity.py
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12442.75it/s]
+[q77] PCA ready; items 59
+[q77] 1/59 full:1 full-PCA64:1 full-PCA256:1 full-PCA1024:0 full-R256:1 full-(R256+PCA256):1 full-rand256:1
+[q77] 11/59 full:1 full-PCA64:0 full-PCA256:0 full-PCA1024:0 full-R256:1 full-(R256+PCA256):0 full-rand256:1
+[q77] 21/59 full:1 full-PCA64:1 full-PCA256:1 full-PCA1024:0 full-R256:1 full-(R256+PCA256):0 full-rand256:1
+[q77] 31/59 full:1 full-PCA64:1 full-PCA256:1 full-PCA1024:0 full-R256:1 full-(R256+PCA256):0 full-rand256:1
+[q77] 41/59 full:1 full-PCA64:0 full-PCA256:0 full-PCA1024:0 full-R256:1 full-(R256+PCA256):0 full-rand256:1
+[q77] 51/59 full:1 full-PCA64:1 full-PCA256:1 full-PCA1024:1 full-R256:1 full-(R256+PCA256):1 full-rand256:1
+[block77] done
+EXIT_q77_growth_and_pca_necessity.py=0
+### q78_early_band_routing.py
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 11980.08it/s]
+[q78] 1/59 J@1=+1.19/h8b 0.75 J@2=+4.00/h8b 0.74 R@1=+1.31/h8b 0.74
+[q78] 11/59 J@1=+0.00/h8b 0.05 J@2=+0.00/h8b 0.04 R@1=+0.12/h8b 0.04
+[q78] 21/59 J@1=+0.78/h8b 0.84 J@2=+2.53/h8b 0.83 R@1=+0.97/h8b 0.82
+[q78] 31/59 J@1=+1.12/h8b 0.81 J@2=+8.94/h8b 0.82 R@1=+1.38/h8b 0.82
+[q78] 41/59 J@1=+0.69/h8b 0.14 J@2=+2.75/h8b 0.16 R@1=+0.94/h8b 0.12
+[q78] 51/59 J@1=+0.25/h8b 0.03 J@2=+0.50/h8b 0.03 R@1=+0.37/h8b 0.02
+[block78] done
+EXIT_q78_early_band_routing.py=0
+### q79_clean_head_ablation.py
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12325.41it/s]
+[q79] 1/59
+[q79] 11/59
+[q79] 21/59
+[q79] 31/59
+[q79] 41/59
+[q79] 51/59
+[block79] done
+EXIT_q79_clean_head_ablation.py=0
+### q79 4b
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 12478.37it/s]
+[q79] 1/52
+[q79] 11/52
+[q79] 21/52
+[q79] 31/52
+[q79] 41/52
+[block79] done
+EXIT_q79_4b=0
+ALLDONE

@@ -1,0 +1,62 @@
+该地区学术加速暂未支持，但您可以使用三方资源:
+ - GitHub: https://ghproxy.com/
+ - HuggingFace: https://hf-mirror.com/
+
+Data disk free before download: 49.21 GiB
+Downloading Qwen/Qwen3.5-9B@c202236235762e1c871ad0ccb60c8ee5ba337b9a -> /root/autodl-tmp/mats-r-lens/assets/Qwen3.5-9B
+Fetching 16 files:   0%|          | 0/16 [00:00<?, ?it/s]Fetching 16 files:  69%|██████▉   | 11/16 [00:02<00:01,  4.08it/s]Fetching 16 files:  75%|███████▌  | 12/16 [00:04<00:01,  2.22it/s]Fetching 16 files:  81%|████████▏ | 13/16 [03:02<01:16, 25.50s/it]Fetching 16 files:  88%|████████▊ | 14/16 [04:25<01:10, 35.05s/it]Fetching 16 files:  94%|█████████▍| 15/16 [04:30<00:29, 29.29s/it]Fetching 16 files: 100%|██████████| 16/16 [04:52<00:00, 27.74s/it]Fetching 16 files: 100%|██████████| 16/16 [04:52<00:00, 18.29s/it]
+Downloading camilablank/workspace-lenses/qwen3.5-9b/j-lens/lens.pt@d740106d1e0f95456dc8718fba2895e9c8ffd6ef
+Downloading camilablank/workspace-lenses/qwen3.5-9b/r-lens/lens.pt@d740106d1e0f95456dc8718fba2895e9c8ffd6ef
+{
+  "created_at": "2026-08-26T07:55:58.770736+00:00",
+  "hf_endpoint": "https://hf-mirror.com",
+  "model": {
+    "repo": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "local_dir": "/root/autodl-tmp/mats-r-lens/assets/Qwen3.5-9B",
+    "weight_files": [
+      {
+        "name": "model.safetensors-00001-of-00004.safetensors",
+        "bytes": 5276436216
+      },
+      {
+        "name": "model.safetensors-00002-of-00004.safetensors",
+        "bytes": 5335161512
+      },
+      {
+        "name": "model.safetensors-00003-of-00004.safetensors",
+        "bytes": 5368717440
+      },
+      {
+        "name": "model.safetensors-00004-of-00004.safetensors",
+        "bytes": 3325995712
+      }
+    ]
+  },
+  "lenses": {
+    "j_lens": {
+      "repo": "camilablank/workspace-lenses",
+      "revision": "d740106d1e0f95456dc8718fba2895e9c8ffd6ef",
+      "remote_name": "qwen3.5-9b/j-lens/lens.pt",
+      "local_path": "/root/autodl-tmp/mats-r-lens/assets/workspace-lenses/qwen3.5-9b/j-lens/lens.pt",
+      "bytes": 1040194903,
+      "sha256": "e9396f37eec4c031462b24559b0360027ac45d5944628214301b8e54883b58f3"
+    },
+    "r_lens": {
+      "repo": "camilablank/workspace-lenses",
+      "revision": "d740106d1e0f95456dc8718fba2895e9c8ffd6ef",
+      "remote_name": "qwen3.5-9b/r-lens/lens.pt",
+      "local_path": "/root/autodl-tmp/mats-r-lens/assets/workspace-lenses/qwen3.5-9b/r-lens/lens.pt",
+      "bytes": 1040195031,
+      "sha256": "76c7372c52b453958e064e4d366fa868cb3733460728236cf2e9fa6bdb632d52"
+    }
+  },
+  "jacobian_lens": {
+    "repo": "https://github.com/anthropics/jacobian-lens.git",
+    "commit": "581d398613e5602a5af361e1c34d3a92ea82ba8e",
+    "local_dir": "/root/autodl-tmp/mats-r-lens/src/jacobian-lens",
+    "probe_swap_items": 90,
+    "probe_swap_sha256": "a0edd27ca23f7b4d0fbe90448c2ddcc7457a3d812121bf024ed12a032ff86796"
+  }
+}
+Wrote /root/autodl-tmp/mats-r-lens/asset_manifest.json

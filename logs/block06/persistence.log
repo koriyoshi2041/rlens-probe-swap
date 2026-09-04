@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12057.34it/s]
+[persistence] 1/59 elapsed=2s
+[persistence] 16/59 elapsed=20s
+[persistence] 31/59 elapsed=38s
+[persistence] 46/59 elapsed=56s
+[persistence] done

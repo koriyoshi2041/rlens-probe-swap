@@ -1,0 +1,22 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12465.08it/s]
+[patch] pair 1/14 (ex-city-capital-Barcelona-Toronto <- ex-city-capital-Toronto-Lyon)
+[patch] pair 2/14 (ex-city-capital-Lyon-Naples <- ex-city-capital-Naples-Barcelona)
+[patch] pair 3/14 (ex-city-capital-Naples-Barcelona <- ex-city-capital-Barcelona-Toronto)
+[patch] pair 4/14 (ex-city-capital-Toronto-Lyon <- ex-city-capital-Lyon-Naples)
+[patch] pair 5/14 (ex-element-symbol-11-26 <- ex-element-symbol-26-79)
+[patch] pair 6/14 (ex2-city-capital-Munich <- ex2-city-capital-Osaka)
+[patch] pair 7/14 (ex2-city-capital-Osaka <- ex2-city-capital-Munich)
+[patch] pair 8/14 (ex2-city-continent-Sydney <- ex2-city-continent-Lima)
+[patch] pair 9/14 (ex2-city-language-Cairo <- ex2-city-language-Moscow)
+[patch] pair 10/14 (ex2-city-language-Moscow <- ex2-city-language-Cairo)
+[patch] pair 11/14 (ex2-language-capital-Greek <- ex2-language-capital-Swedish)
+[patch] pair 12/14 (ex2-language-capital-Hungarian <- ex2-language-capital-Polish)
+[patch] pair 13/14 (ex2-language-capital-Polish <- ex2-language-capital-Greek)
+[patch] pair 14/14 (ex2-language-capital-Swedish <- ex2-language-capital-Hungarian)
+[diffmean] estimating directions for 70 entities over 6 carriers
+[diffmean] directions ready in 67s
+[diffmean] 1/59
+[diffmean] 16/59
+[diffmean] 31/59
+[diffmean] 46/59
+[block07] done

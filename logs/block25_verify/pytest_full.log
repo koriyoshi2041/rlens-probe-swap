@@ -1,0 +1,12 @@
+.....................................                                    [100%]
+=============================== warnings summary ===============================
+tests/test_fit_vectors.py::test_matches_reference_fit_on_one_prompt
+  /root/autodl-tmp/mats-r-lens/work/code/tests/test_fit_vectors.py:19: UserWarning: fitting in torch.bfloat16 accumulates Jacobian gradients at reduced precision; use a float32 TransformerBridge for the highest-fidelity fit
+    reference = JacobianLens.fit(
+
+tests/test_fit_vectors.py::test_matches_reference_fit_on_one_prompt
+  /root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:829: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:179.)
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+37 passed, 2 warnings in 65.46s (0:01:05)

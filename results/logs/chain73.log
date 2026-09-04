@@ -1,0 +1,35 @@
+### q73_routing_all_layers.py
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12174.91it/s]
+[q73] missing hooks: []
+[q73] fired hooks: ['blocks.19.attn.hook_k', 'blocks.23.attn.hook_k', 'blocks.19.attn.hook_v', 'blocks.23.attn.hook_v', 'blocks.19.attn.hook_in', 'blocks.23.attn.hook_in', 'blocks.17.linear_attn.hook_in', 'blocks.18.linear_attn.hook_in', 'blocks.20.linear_attn.hook_in', 'blocks.21.linear_attn.hook_in', 'blocks.22.linear_attn.hook_in', 'blocks.24.linear_attn.hook_in']
+[q73] self-check identity_ok=True shapes={'blocks.19.attn.hook_in': (1, 14, 4096), 'blocks.23.attn.hook_k': (1, 14, 4, 256), 'blocks.22.linear_attn.hook_in': (1, 14, 4096), 'blocks.21.linear_attn.hook_in': (1, 14, 4096), 'blocks.23.attn.hook_v': (1, 14, 4, 256), 'blocks.23.attn.hook_in': (1, 14, 4096), 'blocks.19.attn.hook_v': (1, 14, 4, 256), 'blocks.18.linear_attn.hook_in': (1, 14, 4096), 'blocks.20.linear_attn.hook_in': (1, 14, 4096), 'blocks.24.linear_attn.hook_in': (1, 14, 4096), 'blocks.17.linear_attn.hook_in': (1, 14, 4096), 'blocks.19.attn.hook_k': (1, 14, 4, 256)}
+[q73] 1/59 clamp2d@4=+5.31 orth@0.25=+2.38 KV19,23+lin_in=+3.12 orth-restore=+0.12 K19,23+lin_in+clamp=+6.69
+[q73] 11/59 clamp2d@4=+0.12 orth@0.25=+2.50 KV19,23+lin_in=+1.37 orth-restore=-1.25 K19,23+lin_in+clamp=+1.00
+[q73] 21/59 clamp2d@4=+22.81 orth@0.25=+21.72 KV19,23+lin_in=+20.16 orth-restore=+4.84 K19,23+lin_in+clamp=+22.28
+[q73] 31/59 clamp2d@4=+15.56 orth@0.25=+13.25 KV19,23+lin_in=+13.06 orth-restore=+1.00 K19,23+lin_in+clamp=+15.56
+[q73] 41/59 clamp2d@4=+8.31 orth@0.25=+9.50 KV19,23+lin_in=+6.50 orth-restore=+1.81 K19,23+lin_in+clamp=+11.06
+[q73] 51/59 clamp2d@4=+1.87 orth@0.25=+4.12 KV19,23+lin_in=+4.62 orth-restore=+0.87 K19,23+lin_in+clamp=+4.50
+[block73] done
+EXIT_q73_routing_all_layers.py=0
+### q74_random_token_planes.py
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12175.09it/s]
+[q74] full-attention layers: [3, 7, 11, 15, 19, 23, 27, 31]
+[q74] 1/59 share_own L12 0.2151 other-null median 0.0046
+[q74] 11/59 share_own L12 0.0001 other-null median 0.0002
+[q74] 21/59 share_own L12 0.0447 other-null median 0.0022
+[q74] 31/59 share_own L12 0.0558 other-null median 0.0021
+[q74] 41/59 share_own L12 0.0196 other-null median 0.0012
+[q74] 51/59 share_own L12 0.0122 other-null median 0.0007
+[block74] done
+EXIT_q74_random_token_planes.py=0
+### q74 4b
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 12765.23it/s]
+[q74] full-attention layers: [3, 7, 11, 15, 19, 23, 27, 31]
+[q74] 1/52 share_own L12 0.1133 other-null median 0.0094
+[q74] 11/52 share_own L12 0.1372 other-null median 0.0037
+[q74] 21/52 share_own L12 0.0568 other-null median 0.0028
+[q74] 31/52 share_own L12 0.0166 other-null median 0.0008
+[q74] 41/52 share_own L12 0.0045 other-null median 0.0022
+[block74] done
+EXIT_q74_4b=0
+ALLDONE

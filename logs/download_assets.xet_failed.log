@@ -1,0 +1,44 @@
+该地区学术加速暂未支持，但您可以使用三方资源:
+ - GitHub: https://ghproxy.com/
+ - HuggingFace: https://hf-mirror.com/
+
+Data disk free before download: 49.21 GiB
+Downloading Qwen/Qwen3.5-9B@c202236235762e1c871ad0ccb60c8ee5ba337b9a -> /root/autodl-tmp/mats-r-lens/assets/Qwen3.5-9B
+Fetching 16 files:   0%|          | 0/16 [00:00<?, ?it/s]Fetching 16 files:   6%|▋         | 1/16 [00:00<00:13,  1.10it/s]Fetching 16 files:  19%|█▉        | 3/16 [00:01<00:03,  3.49it/s]Fetching 16 files:  38%|███▊      | 6/16 [00:01<00:02,  3.66it/s]Fetching 16 files:  38%|███▊      | 6/16 [00:03<00:05,  1.85it/s]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/mats-r-lens/prep/download_assets.py", line 161, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/prep/download_assets.py", line 73, in main
+    snapshot_download(
+  File "/root/autodl-tmp/mats-r-lens/.venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/.venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 522, in snapshot_download
+    hf_thread_map(
+  File "/root/autodl-tmp/mats-r-lens/.venv/lib/python3.12/site-packages/huggingface_hub/utils/tqdm.py", line 441, in hf_thread_map
+    results[future_to_index[future]] = future.result()
+                                       ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/root/miniconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/.venv/lib/python3.12/site-packages/huggingface_hub/_snapshot_download.py", line 502, in _inner_hf_hub_download
+    hf_hub_download(  # type: ignore
+  File "/root/autodl-tmp/mats-r-lens/.venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 998, in hf_hub_download
+    return _hf_hub_download_to_local_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1457, in _hf_hub_download_to_local_dir
+    _download_to_tmp_and_move(
+  File "/root/autodl-tmp/mats-r-lens/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1961, in _download_to_tmp_and_move
+    xet_get(
+  File "/root/autodl-tmp/mats-r-lens/.venv/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 565, in xet_get
+    with session.new_file_download_group(
+RuntimeError: Task error: File reconstruction error: CAS Client Error: Request error: HTTP status client error (401 Unauthorized), domain: https://cas-server.xethub.hf.co/v2/reconstructions/7bcbd85ef394b0b8b10a242bb175c4b4e672a83fb3fc46da8319460de3edacce

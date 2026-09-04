@@ -1,0 +1,16 @@
+Python: 3.12.3
+torch: 2.8.0+cu128; CUDA runtime: 12.8
+transformers: 5.9.0
+transformer_lens: /root/autodl-tmp/mats-r-lens/src/TransformerLens/transformer_lens/__init__.py
+GPU: NVIDIA A800 80GB PCIe; memory=79.3 GiB
+Qwen config: Qwen3_5ForConditionalGeneration; 32 layers; d_model=4096
+Model weight files: 4; 17.98 GiB
+Data disk free: 29.27 GiB
+probe-swap.json: 90 items
+J-lens: 0.97 GiB; d_model=4096; n_prompts=25; layers=0..30
+R-lens: 0.97 GiB; d_model=4096; n_prompts=25; layers=0..30
+Loading local Qwen3.5-9B through TransformerBridge in BF16...
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12784.85it/s]
+Forward logits: (1, 5, 248320); dtype=torch.bfloat16
+CUDA allocated=17.55 GiB; reserved=17.65 GiB
+FULL ENVIRONMENT CHECK PASSED.

@@ -1,0 +1,207 @@
+F                                                                        [100%]
+=================================== FAILURES ===================================
+___________________ test_matches_reference_fit_on_one_prompt ___________________
+
+model = TransformerBridge(
+  (embed): EmbeddingBridge(
+    (hook_in): HookPoint(name='embed.hook_in')
+    (hook_out): HookPoin...ct_fn): GELU(approximate='none')
+      (linear_fc2): Linear(in_features=4608, out_features=4096, bias=True)
+    )
+  )
+)
+
+    def test_matches_reference_fit_on_one_prompt(model):
+        from transformer_lens.tools.analysis import JacobianLens
+    
+        tokens = model.to_tokens(PASSAGE)[:, :64]
+        assert tokens.shape[1] > 17, "passage must exceed the skipped prefix"
+>       reference = JacobianLens.fit(
+            model, [PASSAGE], corpus="parity-test", source_layers=[LAYER],
+            dim_batch=64, max_seq_len=64, show_progress=False,
+        )
+
+tests/test_fit_vectors.py:19: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../src/TransformerLens/transformer_lens/tools/analysis/jacobian_lens.py:1440: in fit
+    per_prompt = _jacobian_for_prompt(
+../../src/TransformerLens/transformer_lens/tools/analysis/jacobian_lens.py:1789: in _jacobian_for_prompt
+    model(replicated, return_type=None)
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1773: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1784: in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../src/TransformerLens/transformer_lens/model_bridge/bridge.py:2377: in forward
+    output = self.original_model(input_ids, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1773: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1784: in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../.venv/lib/python3.12/site-packages/transformers/utils/generic.py:903: in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../.venv/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py:1850: in forward
+    outputs = self.model(
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1773: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1784: in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../.venv/lib/python3.12/site-packages/transformers/utils/generic.py:903: in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../.venv/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py:1614: in forward
+    outputs = self.language_model(
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1773: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1784: in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../.venv/lib/python3.12/site-packages/transformers/utils/generic.py:1032: in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../.venv/lib/python3.12/site-packages/transformers/utils/output_capturing.py:252: in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../.venv/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py:1219: in forward
+    hidden_states = decoder_layer(
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1773: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1784: in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../src/TransformerLens/transformer_lens/model_bridge/generalized_components/block.py:253: in forward
+    output = self.original_component(*args, **filtered_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../.venv/lib/python3.12/site-packages/transformers/modeling_layers.py:93: in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1773: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1784: in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../.venv/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py:785: in forward
+    hidden_states = self.linear_attn(
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1773: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1784: in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../src/TransformerLens/transformer_lens/model_bridge/generalized_components/gated_delta_net.py:107: in forward
+    return self._native_forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../src/TransformerLens/transformer_lens/model_bridge/generalized_components/gated_delta_net.py:118: in _native_forward
+    output = self.original_component(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1773: in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/module.py:1784: in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+../../.venv/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py:535: in forward
+    core_attn_out, last_recurrent_state = self.chunk_gated_delta_rule(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+query = tensor([[[[[ 2.7082e-03, -1.0897e-03, -5.0711e-03,  ..., -9.7538e-03,
+            -6.6086e-04,  2.9779e-03],
+         ...000e+00,  ...,  0.0000e+00,
+             0.0000e+00,  0.0000e+00]]]]], device='cuda:0',
+       grad_fn=<ViewBackward0>)
+key = tensor([[[[[-7.1875e-01,  3.4332e-04, -1.9287e-02,  ..., -5.9814e-03,
+             2.5177e-03, -8.1787e-03],
+         ...000e+00,  ...,  0.0000e+00,
+             0.0000e+00,  0.0000e+00]]]]], device='cuda:0',
+       grad_fn=<ViewBackward0>)
+value = tensor([[[[[ 6.4697e-03, -4.3640e-03, -6.7749e-03,  ...,  2.3071e-02,
+            -1.6861e-03,  1.0620e-02],
+         ...000e+00,  ...,  0.0000e+00,
+             0.0000e+00,  0.0000e+00]]]]], device='cuda:0',
+       grad_fn=<ViewBackward0>)
+g = tensor([[[[-1.1582e-02, -3.1179e-02, -5.0777e-02,  ..., -4.9101e-01,
+           -4.9101e-01, -4.9101e-01]],
+
+         ...194e-01,  ..., -8.0223e+00,
+           -8.0223e+00, -8.0223e+00]]]], device='cuda:0',
+       grad_fn=<CumsumBackward0>)
+beta = tensor([[[0.6602, 0.4551, 0.2695,  ..., 0.0000, 0.0000, 0.0000],
+         [0.8281, 0.1777, 0.1099,  ..., 0.0000, 0.000...    [0.8594, 0.8789, 0.8789,  ..., 0.0000, 0.0000, 0.0000]]],
+       device='cuda:0', grad_fn=<ConstantPadNdBackward0>)
+chunk_size = 64, initial_state = None, output_final_state = True
+use_qk_l2norm_in_kernel = True, kwargs = {'cu_seqlens': None}
+
+    def torch_chunk_gated_delta_rule(
+        query,
+        key,
+        value,
+        g,
+        beta,
+        chunk_size=64,
+        initial_state=None,
+        output_final_state=False,
+        use_qk_l2norm_in_kernel=False,
+        **kwargs,
+    ):
+        initial_dtype = query.dtype
+        if use_qk_l2norm_in_kernel:
+            query = l2norm(query, dim=-1, eps=1e-6)
+            key = l2norm(key, dim=-1, eps=1e-6)
+        query, key, value, beta, g = [
+            x.transpose(1, 2).contiguous().to(torch.float32) for x in (query, key, value, beta, g)
+        ]
+    
+        batch_size, num_heads, sequence_length, k_head_dim = key.shape
+        v_head_dim = value.shape[-1]
+        pad_size = (chunk_size - sequence_length % chunk_size) % chunk_size
+        query = F.pad(query, (0, 0, 0, pad_size))
+        key = F.pad(key, (0, 0, 0, pad_size))
+        value = F.pad(value, (0, 0, 0, pad_size))
+        beta = F.pad(beta, (0, pad_size))
+        g = F.pad(g, (0, pad_size))
+        total_sequence_length = sequence_length + pad_size
+        scale = 1 / (query.shape[-1] ** 0.5)
+        query = query * scale
+    
+        v_beta = value * beta.unsqueeze(-1)
+        k_beta = key * beta.unsqueeze(-1)
+        # reshape to chunks
+        query, key, value, k_beta, v_beta = [
+            x.reshape(x.shape[0], x.shape[1], -1, chunk_size, x.shape[-1]) for x in (query, key, value, k_beta, v_beta)
+        ]
+        g = g.reshape(g.shape[0], g.shape[1], -1, chunk_size)
+        mask = torch.triu(torch.ones(chunk_size, chunk_size, dtype=torch.bool, device=query.device), diagonal=0)
+    
+        # chunk decay
+        g = g.cumsum(dim=-1)
+        decay_mask = ((g.unsqueeze(-1) - g.unsqueeze(-2)).tril().exp().float()).tril()
+        attn = -((k_beta @ key.transpose(-1, -2)) * decay_mask).masked_fill(mask, 0)
+        for i in range(1, chunk_size):
+            row = attn[..., i, :i].clone()
+            sub = attn[..., :i, :i].clone()
+>           attn[..., i, :i] = row + (row.unsqueeze(-1) * sub).sum(-2)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^
+E           torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 18.00 MiB. GPU 0 has a total capacity of 79.25 GiB of which 2.38 MiB is free. Process 20256 has 50.39 GiB memory in use. Including non-PyTorch memory, this process has 28.84 GiB memory in use. Of the allocated memory 28.31 GiB is allocated by PyTorch, and 32.18 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+../../.venv/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py:294: OutOfMemoryError
+---------------------------- Captured stderr setup -----------------------------
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12113.15it/s]
+=============================== warnings summary ===============================
+tests/test_fit_vectors.py::test_matches_reference_fit_on_one_prompt
+  /root/autodl-tmp/mats-r-lens/work/code/tests/test_fit_vectors.py:19: UserWarning: fitting in torch.bfloat16 accumulates Jacobian gradients at reduced precision; use a float32 TransformerBridge for the highest-fidelity fit
+    reference = JacobianLens.fit(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_fit_vectors.py::test_matches_reference_fit_on_one_prompt - ...
+1 failed, 1 warning in 14.06s

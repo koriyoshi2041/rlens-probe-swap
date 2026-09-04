@@ -1,0 +1,258 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12653.10it/s]
+[knowledge] {
+ "intermediate": {
+  "n": 59,
+  "n_correct": 52,
+  "n_rank_le5": 55,
+  "failures": [
+   [
+    "christmas-season",
+    " the",
+    " winter",
+    2
+   ],
+   [
+    "ex-city-continent-Toronto-Lyon",
+    " the",
+    " North",
+    20
+   ],
+   [
+    "ex2-city-continent-Lima",
+    " located",
+    " South",
+    9
+   ],
+   [
+    "ex2-city-continent-Sydney",
+    " the",
+    " Australia",
+    54
+   ],
+   [
+    "organ-count-kidney2",
+    "\n",
+    " two",
+    3
+   ],
+   [
+    "paper-continent",
+    " the",
+    " Asia",
+    28
+   ],
+   [
+    "vehicle-power-bicycle",
+    " rider",
+    " legs",
+    5
+   ]
+  ]
+ },
+ "swap_to": {
+  "n": 59,
+  "n_correct": 44,
+  "n_rank_le5": 52,
+  "failures": [
+   [
+    "animal-cover-turtle",
+    " shell",
+    " scale",
+    2
+   ],
+   [
+    "christmas-season",
+    " the",
+    " spring",
+    3
+   ],
+   [
+    "element-color-gold2",
+    " white",
+    " gray",
+    3
+   ],
+   [
+    "ex-city-continent-Toronto-Lyon",
+    " located",
+    " Europe",
+    27
+   ],
+   [
+    "ex-city-currency-Toronto-Beijing",
+    " Ren",
+    " yuan",
+    1
+   ],
+   [
+    "ex-element-state-26-8",
+    " a",
+    " gas",
+    2
+   ],
+   [
+    "ex2-city-continent-Lima",
+    " located",
+    " Africa",
+    11
+   ],
+   [
+    "ex2-city-continent-Sydney",
+    " located",
+    " South",
+    9
+   ],
+   [
+    "holiday-month-christmas2",
+    " always",
+    " April",
+    8
+   ],
+   [
+    "organ-count-kidney2",
+    "\n",
+    " one",
+    3
+   ],
+   [
+    "paper-continent",
+    " located",
+    " Europe",
+    27
+   ],
+   [
+    "person-country-napoleon",
+    " the",
+    " America",
+    7
+   ],
+   [
+    "planet-rings-saturn2",
+    " Great",
+    " spot",
+    31
+   ],
+   [
+    "spaceneedle-border",
+    " the",
+    " New",
+    2
+   ],
+   [
+    "super-populous-capital",
+    " New",
+    " Delhi",
+    2
+   ]
+  ]
+ }
+}
+[mainrun] item 1/59 (amazon-language) done; records=127; elapsed=27s
+[mainrun] item 2/59 (animal-cover-turtle) done; records=246; elapsed=51s
+[mainrun] item 3/59 (animal-nose-elephant) done; records=365; elapsed=75s
+[mainrun] item 4/59 (birthstone-emerald-month) done; records=492; elapsed=100s
+[mainrun] item 5/59 (chem-atmosphere-Z) done; records=619; elapsed=126s
+[mainrun] item 6/59 (chem-organic-Z) done; records=746; elapsed=152s
+[mainrun] item 7/59 (chem-photosynthesis-Z) done; records=873; elapsed=178s
+[mainrun] item 8/59 (christmas-season) done; records=1000; elapsed=203s
+[mainrun] item 9/59 (city-state-Philadelphia) done; records=1119; elapsed=227s
+[mainrun] item 10/59 (element-color-gold2) done; records=1238; elapsed=251s
+[mainrun] item 11/59 (etym-frigg-position) done; records=1365; elapsed=277s
+[mainrun] item 12/59 (ex-city-capital-Barcelona-Toronto) done; records=1492; elapsed=303s
+[mainrun] item 13/59 (ex-city-capital-Lyon-Naples) done; records=1619; elapsed=329s
+[mainrun] item 14/59 (ex-city-capital-Naples-Barcelona) done; records=1746; elapsed=355s
+[mainrun] item 15/59 (ex-city-capital-Toronto-Lyon) done; records=1873; elapsed=381s
+[mainrun] item 16/59 (ex-city-continent-Toronto-Lyon) done; records=2000; elapsed=407s
+[mainrun] item 17/59 (ex-city-currency-Toronto-Beijing) done; records=2119; elapsed=431s
+[mainrun] item 18/59 (ex-city-language-Lyon-Naples) done; records=2246; elapsed=457s
+[mainrun] item 19/59 (ex-element-state-26-8) done; records=2373; elapsed=483s
+[mainrun] item 20/59 (ex-element-state-26-80) done; records=2500; elapsed=509s
+[mainrun] item 21/59 (ex-element-symbol-11-26) done; records=2627; elapsed=535s
+[mainrun] item 22/59 (ex-element-symbol-26-79) done; records=2746; elapsed=559s
+[mainrun] item 23/59 (ex-planet-color-third-fourth) done; records=2865; elapsed=583s
+[mainrun] item 24/59 (ex2-city-capital-Munich) done; records=2992; elapsed=609s
+[mainrun] item 25/59 (ex2-city-capital-Osaka) done; records=3119; elapsed=635s
+[mainrun] item 26/59 (ex2-city-continent-Lima) done; records=3246; elapsed=661s
+[mainrun] item 27/59 (ex2-city-continent-Sydney) done; records=3373; elapsed=686s
+[mainrun] item 28/59 (ex2-city-language-Cairo) done; records=3500; elapsed=712s
+[mainrun] item 29/59 (ex2-city-language-Moscow) done; records=3627; elapsed=738s
+[mainrun] item 30/59 (ex2-language-capital-Greek) done; records=3754; elapsed=764s
+[mainrun] item 31/59 (ex2-language-capital-Hungarian) done; records=3881; elapsed=790s
+[mainrun] item 32/59 (ex2-language-capital-Polish) done; records=4008; elapsed=815s
+[mainrun] item 33/59 (ex2-language-capital-Swedish) done; records=4135; elapsed=841s
+[mainrun] item 34/59 (ex2-river-capital-Thames) done; records=4254; elapsed=866s
+[mainrun] item 35/59 (food-animal-butter) done; records=4373; elapsed=890s
+[mainrun] item 36/59 (fruit-grows-grape) done; records=4492; elapsed=914s
+[mainrun] item 37/59 (func-filters-count) done; records=4619; elapsed=940s
+[mainrun] item 38/59 (func-pumps-chambers) done; records=4746; elapsed=966s
+[mainrun] item 39/59 (gem-color-ruby) done; records=4865; elapsed=990s
+[mainrun] item 40/59 (greatwall-ocean) done; records=4992; elapsed=1016s
+[mainrun] item 41/59 (holiday-month-christmas2) done; records=5111; elapsed=1040s
+[mainrun] item 42/59 (month-3-godof) done; records=5238; elapsed=1066s
+[mainrun] item 43/59 (organ-count-kidney2) done; records=5357; elapsed=1090s
+[mainrun] item 44/59 (paper-continent) done; records=5484; elapsed=1116s
+[mainrun] item 45/59 (person-country-napoleon) done; records=5603; elapsed=1140s
+[mainrun] item 46/59 (person-firstname-darwin) done; records=5730; elapsed=1166s
+[mainrun] item 47/59 (person-firstname-einstein) done; records=5857; elapsed=1191s
+[mainrun] item 48/59 (person-firstname-mozart) done; records=5984; elapsed=1218s
+[mainrun] item 49/59 (person-firstname-newton) done; records=6111; elapsed=1243s
+[mainrun] item 50/59 (person-firstname-shakespeare) done; records=6238; elapsed=1269s
+[mainrun] item 51/59 (planet-3-moons) done; records=6365; elapsed=1295s
+[mainrun] item 52/59 (planet-rings-saturn2) done; records=6484; elapsed=1319s
+[mainrun] item 53/59 (season-next-winter) done; records=6603; elapsed=1344s
+[mainrun] item 54/59 (spaceneedle-border) done; records=6730; elapsed=1369s
+[mainrun] item 55/59 (spider-legs) done; records=6857; elapsed=1395s
+[mainrun] item 56/59 (super-populous-capital) done; records=6984; elapsed=1421s
+[mainrun] item 57/59 (super-smallest-continent) done; records=7111; elapsed=1447s
+[mainrun] item 58/59 (vehicle-power-bicycle) done; records=7230; elapsed=1471s
+[mainrun] item 59/59 (violin-strings) done; records=7357; elapsed=1497s
+[qual] animal-nose-elephant             clean                top1=[' trunk', 0.6977] cont=' trunk.\nQuestion: What is the'
+[qual] animal-nose-elephant             J_primary_L8_20      top1=[' trunk', 0.6214] cont=' trunk.\nQuestion: What is the'
+[qual] animal-nose-elephant             R_primary_L8_20      top1=[' trunk', 0.6262] cont=' trunk.\nQuestion: What is the'
+[qual] animal-nose-elephant             J_early_L3_8         top1=[' trunk', 0.6337] cont=' trunk.\nQuestion: What is the'
+[qual] animal-nose-elephant             R_early_L3_8         top1=[' trunk', 0.5643] cont=' trunk.\nQuestion: What is the'
+[qual] ex-city-currency-Toronto-Beijing clean                top1=[' Canadian', 0.8367] cont=' Canadian dollar.\nQuestion: What is'
+[qual] ex-city-currency-Toronto-Beijing J_primary_L8_20      top1=[' Canadian', 0.2786] cont=' Canadian dollar.\nQuestion: What is'
+[qual] ex-city-currency-Toronto-Beijing R_primary_L8_20      top1=[' Canadian', 0.4908] cont=' Canadian dollar.\nQuestion: What is'
+[qual] ex-city-currency-Toronto-Beijing J_early_L3_8         top1=[' Canadian', 0.7848] cont=' Canadian dollar.\nQuestion: What is'
+[qual] ex-city-currency-Toronto-Beijing R_early_L3_8         top1=[' Canadian', 0.7773] cont=' Canadian dollar.\nQuestion: What is'
+[qual] ex2-city-capital-Osaka           clean                top1=[' Tokyo', 0.4118] cont=' Tokyo.\nQuestion: What is the'
+[qual] ex2-city-capital-Osaka           J_primary_L8_20      top1=[' Berlin', 0.2709] cont=' Berlin.\nQuestion: What is the'
+[qual] ex2-city-capital-Osaka           R_primary_L8_20      top1=[' Berlin', 0.3746] cont=' Berlin.\nQuestion: What is the'
+[qual] ex2-city-capital-Osaka           J_early_L3_8         top1=[' Tokyo', 0.3951] cont=' Tokyo.\nQuestion: What is the'
+[qual] ex2-city-capital-Osaka           R_early_L3_8         top1=[' Tokyo', 0.4005] cont=' Tokyo.\nQuestion: What is the'
+[qual] ex2-city-continent-Sydney        clean                top1=[' Australia', 0.2306] cont=' Australia.\nQuestion: What continent is'
+[qual] ex2-city-continent-Sydney        J_primary_L8_20      top1=[' South', 0.1375] cont=' North America.\nQuestion: What continent'
+[qual] ex2-city-continent-Sydney        R_primary_L8_20      top1=[' North', 0.1808] cont=' North America.\nQuestion: What continent'
+[qual] ex2-city-continent-Sydney        J_early_L3_8         top1=[' Australia', 0.2] cont=' Australia.\nQuestion: What continent is'
+[qual] ex2-city-continent-Sydney        R_early_L3_8         top1=[' Australia', 0.1141] cont=' the same continent as the country where the'
+[qual] ex2-language-capital-Polish      clean                top1=[' Warsaw', 0.8849] cont=' Warsaw.\nQuestion: What is the'
+[qual] ex2-language-capital-Polish      J_primary_L8_20      top1=[' Warsaw', 0.8725] cont=' Warsaw.\nQuestion: What is the'
+[qual] ex2-language-capital-Polish      R_primary_L8_20      top1=[' Warsaw', 0.8751] cont=' Warsaw.\nQuestion: What is the'
+[qual] ex2-language-capital-Polish      J_early_L3_8         top1=[' Warsaw', 0.893] cont=' Warsaw.\nQuestion: What is the'
+[qual] ex2-language-capital-Polish      R_early_L3_8         top1=[' Warsaw', 0.887] cont=' Warsaw.\nQuestion: What is the'
+[qual] ex2-language-capital-Swedish     clean                top1=[' Stockholm', 0.88] cont=' Stockholm.\nQuestion: What is the'
+[qual] ex2-language-capital-Swedish     J_primary_L8_20      top1=[' Stockholm', 0.4247] cont=' Stockholm.\nQuestion: What is the'
+[qual] ex2-language-capital-Swedish     R_primary_L8_20      top1=[' Stockholm', 0.5766] cont=' Stockholm.\nQuestion: What is the'
+[qual] ex2-language-capital-Swedish     J_early_L3_8         top1=[' Stockholm', 0.878] cont=' Stockholm.\nQuestion: What is the'
+[qual] ex2-language-capital-Swedish     R_early_L3_8         top1=[' Stockholm', 0.8724] cont=' Stockholm.\nQuestion: What is the'
+[qual] person-firstname-newton          clean                top1=[' Isaac', 0.8293] cont=' Isaac.\nQuestion: What is the'
+[qual] person-firstname-newton          J_primary_L8_20      top1=[' Isaac', 0.8036] cont=' Isaac.\nQuestion: What is the'
+[qual] person-firstname-newton          R_primary_L8_20      top1=[' Isaac', 0.7804] cont=' Isaac.\nQuestion: What is the'
+[qual] person-firstname-newton          J_early_L3_8         top1=[' Isaac', 0.828] cont=' Isaac.\nQuestion: What is the'
+[qual] person-firstname-newton          R_early_L3_8         top1=[' Isaac', 0.8128] cont=' Isaac.\nQuestion: What is the'
+[qual] spider-legs                      clean                top1=['8', 0.7782] cont='8.\nQuestion: How many legs'
+[qual] spider-legs                      J_primary_L8_20      top1=['8', 0.4185] cont='8.\nQuestion: How many legs'
+[qual] spider-legs                      R_primary_L8_20      top1=['8', 0.5728] cont='8.\nQuestion: How many legs'
+[qual] spider-legs                      J_early_L3_8         top1=['8', 0.743] cont='8.\nQuestion: How many legs'
+[qual] spider-legs                      R_early_L3_8         top1=['8', 0.7821] cont='8.\nQuestion: How many legs'
+[driver] done: {
+ "stages": {
+  "knowledge": 18.9,
+  "main": 1506.0,
+  "qual": 73.5
+ },
+ "n_eligible": 59,
+ "load_seconds": 7.3,
+ "peak_cuda_allocated_gib": 20.52
+}

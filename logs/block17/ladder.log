@@ -1,0 +1,11 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12873.65it/s]
+[ladder] 145 unique tracked tokens, layers 3..24
+[ladder] 400 passages
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:829: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:179.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[ladder] n=25 saved  6.63s/passage  drift=None
+[ladder] n=50 saved  6.61s/passage  drift=0.2116408246099491
+[ladder] n=100 saved  6.6s/passage  drift=0.23341733475249724
+[ladder] n=200 saved  6.61s/passage  drift=0.12646486383610248
+[ladder] n=400 saved  6.6s/passage  drift=0.10650258131431183
+[ladder] done

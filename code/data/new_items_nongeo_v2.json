@@ -1,0 +1,325 @@
+{
+ "_note": "Authored by Claude (Fable 5.1) on 2026-09-03 14:20 for an OUT-OF-SAMPLE test of the claim 'editability under the 2-D lens clamp is predicted by the linear relatedness of the entity pair to the answer pair, and geography is not special'. Deliberately NON-geographic two-hop items in the probe-swap format: the prompt describes the bridge entity without naming it, and the answer is a single token. 'single_hop' is a template with {} for the entity, used for the knowledge ceiling. This is LLM-generated data: every item must be shown as a raw sample in the write-up and the clean baseline decides eligibility exactly as for the original 90. v2 (14:55): 5 items with multi-token answers/concepts dropped, 9 prompts reworded so the answer is the next token (criterion: the clean continuation was a function word), 8 reverse/extra non-geographic items added. Original v1 file kept.",
+ "items": [
+  {
+   "name": "young-cow-sheep",
+   "category": "animal-young",
+   "prompt": "Fact: The young of the animal that gives us milk and says moo is called a",
+   "intermediate": "cow",
+   "answer": "calf",
+   "swap_to": "sheep",
+   "swap_answer": "lamb",
+   "single_hop": "Fact: The young of a {} is called a"
+  },
+  {
+   "name": "young-dog-cat",
+   "category": "animal-young",
+   "prompt": "Fact: The young of the animal known as man's best friend is called a",
+   "intermediate": "dog",
+   "answer": "puppy",
+   "swap_to": "cat",
+   "swap_answer": "kitten",
+   "single_hop": "Fact: The young of a {} is called a"
+  },
+  {
+   "name": "home-bee-bird",
+   "category": "animal-home",
+   "prompt": "Fact: The home built by the insect that makes honey is called a",
+   "intermediate": "bee",
+   "answer": "hive",
+   "swap_to": "bird",
+   "swap_answer": "nest",
+   "single_hop": "Fact: The home built by a {} is called a"
+  },
+  {
+   "name": "home-bird-spider",
+   "category": "animal-home",
+   "prompt": "Fact: The home built by the animal that lays eggs and has feathers is called a",
+   "intermediate": "bird",
+   "answer": "nest",
+   "swap_to": "spider",
+   "swap_answer": "web",
+   "single_hop": "Fact: The home built by a {} is called a"
+  },
+  {
+   "name": "habitat-whale-camel",
+   "category": "animal-habitat",
+   "prompt": "Fact: The largest mammal on Earth lives in the",
+   "intermediate": "whale",
+   "answer": "ocean",
+   "swap_to": "camel",
+   "swap_answer": "desert",
+   "single_hop": "Fact: A {} lives in the"
+  },
+  {
+   "name": "diet-lion-cow",
+   "category": "animal-diet",
+   "prompt": "Fact: The big cat known as the king of the jungle mainly eats",
+   "intermediate": "lion",
+   "answer": "meat",
+   "swap_to": "cow",
+   "swap_answer": "grass",
+   "single_hop": "Fact: A {} mainly eats"
+  },
+  {
+   "name": "food-panda-koala",
+   "category": "animal-diet",
+   "prompt": "Fact: The black-and-white bear from China mostly eats",
+   "intermediate": "panda",
+   "answer": "bamboo",
+   "swap_to": "cow",
+   "swap_answer": "grass",
+   "single_hop": "Fact: A {} mostly eats"
+  },
+  {
+   "name": "month-valentine-december",
+   "category": "calendar-next-month",
+   "prompt": "Fact: The month that comes right after the month of Valentine's Day is",
+   "intermediate": "February",
+   "answer": "March",
+   "swap_to": "December",
+   "swap_answer": "January",
+   "single_hop": "Fact: The month that comes right after {} is"
+  },
+  {
+   "name": "month-halloween-christmas",
+   "category": "calendar-holiday-month",
+   "prompt": "Fact: The month of the holiday with pumpkins, costumes and trick-or-treating is",
+   "intermediate": "Halloween",
+   "answer": "October",
+   "swap_to": "Christmas",
+   "swap_answer": "December",
+   "single_hop": "Fact: The month of {} is"
+  },
+  {
+   "name": "season-halloween-easter-v2",
+   "category": "calendar-holiday-season",
+   "prompt": "Fact: The holiday with pumpkins, costumes and trick-or-treating is celebrated in the season of",
+   "intermediate": "Halloween",
+   "answer": "autumn",
+   "swap_to": "Easter",
+   "swap_answer": "spring",
+   "single_hop": "Fact: The season of {} is"
+  },
+  {
+   "name": "day-saturday-monday-v2",
+   "category": "calendar-next-day",
+   "prompt": "Fact: The day of the week that comes right after the first day of the weekend is called",
+   "intermediate": "Saturday",
+   "answer": "Sunday",
+   "swap_to": "Monday",
+   "swap_answer": "Tuesday",
+   "single_hop": "Fact: The day that comes right after {} is"
+  },
+  {
+   "name": "season-opposite-summer-spring-v2",
+   "category": "season-opposite",
+   "prompt": "Fact: The season on the opposite side of the year from the hottest season is called",
+   "intermediate": "summer",
+   "answer": "winter",
+   "swap_to": "spring",
+   "swap_answer": "autumn",
+   "single_hop": "Fact: The season opposite to {} is"
+  },
+  {
+   "name": "direction-east-north-v2",
+   "category": "direction-opposite",
+   "prompt": "Fact: The compass direction opposite to the direction where the sun rises is called",
+   "intermediate": "east",
+   "answer": "west",
+   "swap_to": "north",
+   "swap_answer": "south",
+   "single_hop": "Fact: The direction opposite to {} is"
+  },
+  {
+   "name": "color-mix-yellow-red-v2",
+   "category": "color-mixing",
+   "prompt": "Fact: Mixing blue with the color of a ripe banana makes the color",
+   "intermediate": "yellow",
+   "answer": "green",
+   "swap_to": "red",
+   "swap_answer": "purple",
+   "single_hop": "Fact: Mixing blue paint with {} paint gives the color"
+  },
+  {
+   "name": "color-mix-blue-red-v2",
+   "category": "color-mixing",
+   "prompt": "Fact: Mixing yellow with the color of a clear daytime sky makes the color",
+   "intermediate": "blue",
+   "answer": "green",
+   "swap_to": "red",
+   "swap_answer": "orange",
+   "single_hop": "Fact: Mixing yellow paint with {} paint gives the color"
+  },
+  {
+   "name": "fruit-color-apple-banana",
+   "category": "fruit-color",
+   "prompt": "Fact: The color of the fruit that keeps the doctor away is",
+   "intermediate": "apple",
+   "answer": "red",
+   "swap_to": "banana",
+   "swap_answer": "yellow",
+   "single_hop": "Fact: The color of a {} is"
+  },
+  {
+   "name": "vegetable-color-carrot-spinach-v2",
+   "category": "vegetable-color",
+   "prompt": "Fact: The color of the long crunchy root vegetable that rabbits love is",
+   "intermediate": "carrot",
+   "answer": "orange",
+   "swap_to": "spinach",
+   "swap_answer": "green",
+   "single_hop": "Fact: The color of {} is"
+  },
+  {
+   "name": "flame-sodium-copper",
+   "category": "chem-flame",
+   "prompt": "Fact: The color of the flame produced when burning the metal found in table salt is",
+   "intermediate": "sodium",
+   "answer": "yellow",
+   "swap_to": "copper",
+   "swap_answer": "green",
+   "single_hop": "Fact: The color of the flame produced when burning {} is"
+  },
+  {
+   "name": "state-mercury-iron",
+   "category": "chem-state-symbol",
+   "prompt": "Fact: The state of matter at room temperature of the element with the symbol Hg is",
+   "intermediate": "mercury",
+   "answer": "liquid",
+   "swap_to": "iron",
+   "swap_answer": "solid",
+   "single_hop": "Fact: The state of matter at room temperature of {} is"
+  },
+  {
+   "name": "bone-heart-brain-v2",
+   "category": "anatomy-protection",
+   "prompt": "Fact: The organ that pumps blood through the body is protected by the bones called the",
+   "intermediate": "heart",
+   "answer": "ribs",
+   "swap_to": "brain",
+   "swap_answer": "skull",
+   "single_hop": "Fact: The {} is protected by the"
+  },
+  {
+   "name": "tool-screw-nail-v2",
+   "category": "tool",
+   "prompt": "Fact: The tool used to drive the pointed metal fastener with a flat head into wood is a",
+   "intermediate": "nail",
+   "answer": "hammer",
+   "swap_to": "bolt",
+   "swap_answer": "wrench",
+   "single_hop": "Fact: The tool used to drive a {} into wood is a"
+  },
+  {
+   "name": "sport-equipment-baseball-hockey",
+   "category": "sport-equipment",
+   "prompt": "Fact: In the sport with home runs and innings, the ball is hit with a",
+   "intermediate": "baseball",
+   "answer": "bat",
+   "swap_to": "hockey",
+   "swap_answer": "stick",
+   "single_hop": "Fact: In {}, the ball is hit with a"
+  },
+  {
+   "name": "plant-grape-apple",
+   "category": "fruit-plant",
+   "prompt": "Fact: The kind of plant on which the small round fruit used to make wine grows is a",
+   "intermediate": "grape",
+   "answer": "vine",
+   "swap_to": "apple",
+   "swap_answer": "tree",
+   "single_hop": "Fact: The kind of plant on which a {} grows is a"
+  },
+  {
+   "name": "material-window-ring-v2",
+   "category": "object-material",
+   "prompt": "Fact: The transparent material used to make the panes of a house's windows is called",
+   "intermediate": "window",
+   "answer": "glass",
+   "swap_to": "ring",
+   "swap_answer": "gold",
+   "single_hop": "Fact: The material that a {} is usually made of is"
+  },
+  {
+   "name": "young-cat-dog",
+   "category": "animal-young",
+   "prompt": "Fact: The young of the animal that purrs and chases mice is called a",
+   "intermediate": "cat",
+   "answer": "kitten",
+   "swap_to": "dog",
+   "swap_answer": "puppy",
+   "single_hop": "Fact: The young of a {} is called a"
+  },
+  {
+   "name": "home-spider-bee",
+   "category": "animal-home",
+   "prompt": "Fact: The home spun by the eight-legged animal that catches flies is called a",
+   "intermediate": "spider",
+   "answer": "web",
+   "swap_to": "bee",
+   "swap_answer": "hive",
+   "single_hop": "Fact: The home built by a {} is called a"
+  },
+  {
+   "name": "flame-copper-sodium",
+   "category": "chem-flame",
+   "prompt": "Fact: The color of the flame produced when burning the reddish metal used in electrical wires is",
+   "intermediate": "copper",
+   "answer": "green",
+   "swap_to": "sodium",
+   "swap_answer": "yellow",
+   "single_hop": "Fact: The color of the flame produced when burning {} is"
+  },
+  {
+   "name": "equipment-hockey-baseball",
+   "category": "sport-equipment",
+   "prompt": "Fact: In the sport played on ice with a puck, the puck is hit with a",
+   "intermediate": "hockey",
+   "answer": "stick",
+   "swap_to": "baseball",
+   "swap_answer": "bat",
+   "single_hop": "Fact: In {}, the ball is hit with a"
+  },
+  {
+   "name": "fruit-color-banana-apple",
+   "category": "fruit-color",
+   "prompt": "Fact: The color of the long curved fruit that monkeys love is",
+   "intermediate": "banana",
+   "answer": "yellow",
+   "swap_to": "apple",
+   "swap_answer": "red",
+   "single_hop": "Fact: The color of a {} is"
+  },
+  {
+   "name": "habitat-camel-whale",
+   "category": "animal-habitat",
+   "prompt": "Fact: The humped animal that can go for days without water lives in the",
+   "intermediate": "camel",
+   "answer": "desert",
+   "swap_to": "whale",
+   "swap_answer": "ocean",
+   "single_hop": "Fact: A {} lives in the"
+  },
+  {
+   "name": "month-christmas-halloween",
+   "category": "calendar-holiday-month",
+   "prompt": "Fact: The month of the holiday with a decorated tree and gifts under it is",
+   "intermediate": "Christmas",
+   "answer": "December",
+   "swap_to": "Halloween",
+   "swap_answer": "October",
+   "single_hop": "Fact: The month of {} is"
+  },
+  {
+   "name": "diet-cow-lion",
+   "category": "animal-diet",
+   "prompt": "Fact: The farm animal that gives us milk and says moo mainly eats",
+   "intermediate": "cow",
+   "answer": "grass",
+   "swap_to": "lion",
+   "swap_answer": "meat",
+   "single_hop": "Fact: A {} mainly eats"
+  }
+ ]
+}

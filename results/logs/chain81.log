@@ -1,0 +1,26 @@
+### q79 zero 9b
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12013.53it/s]
+[q79] 1/59
+[q79] 11/59
+[q79] 21/59
+[q79] 31/59
+[q79] 41/59
+[q79] 51/59
+[block79] done
+EXIT_q79_zero_9b=0
+### q79 zero 4b
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 11857.67it/s]
+[q79] 1/52
+[q79] 11/52
+[q79] 21/52
+[q79] 31/52
+[q79] 41/52
+[block79] done
+EXIT_q79_zero_4b=0
+### q81
+Traceback (most recent call last):
+  File "/root/autodl-tmp/mats-r-lens/work/code/q81_third_model.py", line 32, in <module>
+    from rlens.readout import logit_lens_vectors
+ImportError: cannot import name 'logit_lens_vectors' from 'rlens.readout' (/root/autodl-tmp/mats-r-lens/work/code/rlens/readout.py)
+EXIT_q81=1
+ALLDONE

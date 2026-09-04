@@ -1,0 +1,8 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12774.09it/s]
+[eval] rungs: ['ours_n25', 'ours_n50', 'ours_n100', 'ours_n200', 'ours_n400']
+[eval] geometry written
+[eval] 1/59
+[eval] 16/59
+[eval] 31/59
+[eval] 46/59
+[block19] done

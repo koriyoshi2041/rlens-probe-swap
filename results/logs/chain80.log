@@ -1,0 +1,10 @@
+### q75 4b
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 11864.08it/s]
+[q75] 1/52 p_h8=10 clamp@4_h8=+5.50 F[h8@23,1]+clamp@4_h8=+6.38 F[all@23,1]+clamp@4_h8=+7.12 K<-donor+clamp@4_h8=+6.56
+[q75] 11/52 p_h8=8 clamp@4_h8=+7.12 F[h8@23,1]+clamp@4_h8=+8.44 F[all@23,1]+clamp@4_h8=+8.62 K<-donor+clamp@4_h8=+8.00
+[q75] 21/52 p_h8=8 clamp@4_h8=+13.25 F[h8@23,1]+clamp@4_h8=+16.00 F[all@23,1]+clamp@4_h8=+16.06 K<-donor+clamp@4_h8=+15.75
+[q75] 31/52 p_h8=9 clamp@4_h8=+6.62 F[h8@23,1]+clamp@4_h8=+7.12 F[all@23,1]+clamp@4_h8=+7.44 K<-donor+clamp@4_h8=+6.94
+[q75] 41/52 p_h8=3 clamp@4_h8=+0.12 F[h8@23,1]+clamp@4_h8=+0.19 F[all@23,1]+clamp@4_h8=-0.06 K<-donor+clamp@4_h8=+0.31
+[block80] done
+EXIT_q75_4b=0
+ALLDONE

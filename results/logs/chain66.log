@@ -1,0 +1,12 @@
+### q69
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 11810.17it/s]
+[q69] self-check {'clean': -0.4375, 'patch_clean_k': -0.4375, 'patch_clean_pattern': -0.4375, 'zero_pattern_row_L23': 0.0625, 'zero_z_last_L23': 0.0625, 'pattern_write_effective': True, 'identity_ok': True}
+[q69] 1/59 clamp2d@4=+5.31 orth@0.25=+2.38 K@19,23=-0.12 KV@19,23=+1.62 K@19,23+clamp2d@4=+6.31 PAT@19,23+clamp2d@4=+6.19
+[q69] 11/59 clamp2d@4=+0.12 orth@0.25=+2.50 K@19,23=+0.38 KV@19,23=+0.50 K@19,23+clamp2d@4=+0.62 PAT@19,23+clamp2d@4=+0.62
+[q69] 21/59 clamp2d@4=+22.81 orth@0.25=+21.72 K@19,23=+0.22 KV@19,23=+17.34 K@19,23+clamp2d@4=+22.66 PAT@19,23+clamp2d@4=+22.72
+[q69] 31/59 clamp2d@4=+15.56 orth@0.25=+13.25 K@19,23=-0.25 KV@19,23=+5.06 K@19,23+clamp2d@4=+16.25 PAT@19,23+clamp2d@4=+16.12
+[q69] 41/59 clamp2d@4=+8.31 orth@0.25=+9.50 K@19,23=-0.44 KV@19,23=+2.94 K@19,23+clamp2d@4=+11.69 PAT@19,23+clamp2d@4=+11.31
+[q69] 51/59 clamp2d@4=+1.87 orth@0.25=+4.12 K@19,23=+1.37 KV@19,23=+3.87 K@19,23+clamp2d@4=+3.50 PAT@19,23+clamp2d@4=+3.37
+[block66] done
+EXIT_q69=0
+ALLDONE

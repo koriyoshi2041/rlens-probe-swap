@@ -1,0 +1,6542 @@
+[
+ {
+  "index": 0,
+  "name": "amazon-language",
+  "category": "multihop",
+  "prompt": "Fact: The language spoken in the country where the Amazon River ends is ",
+  "intermediate": "Brazil",
+  "answer": "Portuguese",
+  "swap_to": "Mexico",
+  "swap_answer": "Spanish",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Brazil",
+   "ids": [
+    15477
+   ],
+   "first_id": 15477,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Mexico",
+   "ids": [
+    11920
+   ],
+   "first_id": 11920,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "Portuguese",
+   "ids": [
+    6864,
+    743,
+    34281
+   ],
+   "first_id": 6864,
+   "single": false
+  },
+  "swap_answer_as_is": {
+   "text": "Spanish",
+   "ids": [
+    59713
+   ],
+   "first_id": 59713,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Portuguese",
+   "ids": [
+    40790
+   ],
+   "first_id": 40790,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Spanish",
+   "ids": [
+    14712
+   ],
+   "first_id": 14712,
+   "single": true
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "category": "animal-cover",
+  "prompt": "Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a",
+  "intermediate": "turtle",
+  "answer": "shell",
+  "swap_to": "snake",
+  "swap_answer": "scale",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 24,
+  "n_prompt_tokens_rstrip": 24,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " turtle",
+   "ids": [
+    34895
+   ],
+   "first_id": 34895,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " snake",
+   "ids": [
+    24463
+   ],
+   "first_id": 24463,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " shell",
+   "ids": [
+    12168
+   ],
+   "first_id": 12168,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " scale",
+   "ids": [
+    5281
+   ],
+   "first_id": 5281,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " shell",
+   "ids": [
+    12168
+   ],
+   "first_id": 12168,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " scale",
+   "ids": [
+    5281
+   ],
+   "first_id": 5281,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 2,
+  "name": "animal-legs-buffalo2",
+  "category": "animal-legs",
+  "prompt": "Fact: The number of legs on the large horned animal that roamed the American plains in huge herds is",
+  "intermediate": "buffalo",
+  "answer": "four",
+  "swap_to": "spider",
+  "swap_answer": "eight",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 23,
+  "n_prompt_tokens_rstrip": 23,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " buffalo",
+   "ids": [
+    78551
+   ],
+   "first_id": 78551,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " spider",
+   "ids": [
+    33213
+   ],
+   "first_id": 33213,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " four",
+   "ids": [
+    2943
+   ],
+   "first_id": 2943,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " eight",
+   "ids": [
+    7810
+   ],
+   "first_id": 7810,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " four",
+   "ids": [
+    2943
+   ],
+   "first_id": 2943,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " eight",
+   "ids": [
+    7810
+   ],
+   "first_id": 7810,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 3,
+  "name": "animal-nose-elephant",
+  "category": "animal-nose",
+  "prompt": "Fact: The long flexible body part that the largest land animal uses to pick things up is called a",
+  "intermediate": "elephant",
+  "answer": "trunk",
+  "swap_to": "snake",
+  "swap_answer": "tongue",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 20,
+  "n_prompt_tokens_rstrip": 20,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " elephant",
+   "ids": [
+    44217
+   ],
+   "first_id": 44217,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " snake",
+   "ids": [
+    24463
+   ],
+   "first_id": 24463,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " trunk",
+   "ids": [
+    36076
+   ],
+   "first_id": 36076,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " tongue",
+   "ids": [
+    23684
+   ],
+   "first_id": 23684,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " trunk",
+   "ids": [
+    36076
+   ],
+   "first_id": 36076,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " tongue",
+   "ids": [
+    23684
+   ],
+   "first_id": 23684,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 4,
+  "name": "atomic-80-state",
+  "category": "multihop",
+  "prompt": "Fact: The state of matter at room temperature of the element with atomic number 80 is ",
+  "intermediate": "mercury",
+  "answer": "liquid",
+  "swap_to": "iron",
+  "swap_answer": "solid",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 20,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " mercury",
+   "ids": [
+    49044
+   ],
+   "first_id": 49044,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " iron",
+   "ids": [
+    10679
+   ],
+   "first_id": 10679,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "liquid",
+   "ids": [
+    51836
+   ],
+   "first_id": 51836,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "solid",
+   "ids": [
+    30009
+   ],
+   "first_id": 30009,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " liquid",
+   "ids": [
+    14058
+   ],
+   "first_id": 14058,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " solid",
+   "ids": [
+    6235
+   ],
+   "first_id": 6235,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 5,
+  "name": "basketball-players",
+  "category": "multihop",
+  "prompt": "Fact: The number of players per side in the sport invented in Springfield, Massachusetts is ",
+  "intermediate": "basketball",
+  "answer": "5",
+  "swap_to": "baseball",
+  "swap_answer": "9",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 18,
+  "n_prompt_tokens_rstrip": 17,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " basketball",
+   "ids": [
+    18659
+   ],
+   "first_id": 18659,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " baseball",
+   "ids": [
+    18915
+   ],
+   "first_id": 18915,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "5",
+   "ids": [
+    20
+   ],
+   "first_id": 20,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "9",
+   "ids": [
+    24
+   ],
+   "first_id": 24,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 5",
+   "ids": [
+    220,
+    20
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 9",
+   "ids": [
+    220,
+    24
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 6,
+  "name": "beverage-source-wine",
+  "category": "beverage-source",
+  "prompt": "Fact: The fruit that the alcoholic drink served at communion is made from is the",
+  "intermediate": "wine",
+  "answer": "grape",
+  "swap_to": "beer",
+  "swap_answer": "barley",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 16,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " wine",
+   "ids": [
+    12701
+   ],
+   "first_id": 12701,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " beer",
+   "ids": [
+    12514
+   ],
+   "first_id": 12514,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " grape",
+   "ids": [
+    49431
+   ],
+   "first_id": 49431,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " barley",
+   "ids": [
+    77931
+   ],
+   "first_id": 77931,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " grape",
+   "ids": [
+    49431
+   ],
+   "first_id": 49431,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " barley",
+   "ids": [
+    77931
+   ],
+   "first_id": 77931,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 7,
+  "name": "bird-color-swan",
+  "category": "bird-color",
+  "prompt": "Fact: The color of the long-necked bird in the famous Tchaikovsky ballet is",
+  "intermediate": "swan",
+  "answer": "white",
+  "swap_to": "eagle",
+  "swap_answer": "brown",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " swan",
+   "ids": [
+    1953,
+    276
+   ],
+   "first_id": 1953,
+   "single": false
+  },
+  "concept_tgt": {
+   "text": " eagle",
+   "ids": [
+    57867
+   ],
+   "first_id": 57867,
+   "single": true
+  },
+  "concept_feasible": false,
+  "answer_as_is": {
+   "text": " white",
+   "ids": [
+    4022
+   ],
+   "first_id": 4022,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " brown",
+   "ids": [
+    13477
+   ],
+   "first_id": 13477,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " white",
+   "ids": [
+    4022
+   ],
+   "first_id": 4022,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " brown",
+   "ids": [
+    13477
+   ],
+   "first_id": 13477,
+   "single": true
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 8,
+  "name": "bird-country-eagle",
+  "category": "bird-country",
+  "prompt": "Fact: The country whose national emblem is the bird with the white head on the Great Seal is",
+  "intermediate": "eagle",
+  "answer": "America",
+  "swap_to": "swan",
+  "swap_answer": "England",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " eagle",
+   "ids": [
+    57867
+   ],
+   "first_id": 57867,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " swan",
+   "ids": [
+    1953,
+    276
+   ],
+   "first_id": 1953,
+   "single": false
+  },
+  "concept_feasible": false,
+  "answer_as_is": {
+   "text": " America",
+   "ids": [
+    4994
+   ],
+   "first_id": 4994,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " England",
+   "ids": [
+    9169
+   ],
+   "first_id": 9169,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " America",
+   "ids": [
+    4994
+   ],
+   "first_id": 4994,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " England",
+   "ids": [
+    9169
+   ],
+   "first_id": 9169,
+   "single": true
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 9,
+  "name": "bird-time-owl",
+  "category": "bird-time",
+  "prompt": "Fact: The time of day when the bird that hoots and can turn its head almost all the way around hunts is",
+  "intermediate": "owl",
+  "answer": "night",
+  "swap_to": "eagle",
+  "swap_answer": "day",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 25,
+  "n_prompt_tokens_rstrip": 25,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": true
+  },
+  "concept_src": {
+   "text": " owl",
+   "ids": [
+    50514
+   ],
+   "first_id": 50514,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " eagle",
+   "ids": [
+    57867
+   ],
+   "first_id": 57867,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " night",
+   "ids": [
+    3603
+   ],
+   "first_id": 3603,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " day",
+   "ids": [
+    1834
+   ],
+   "first_id": 1834,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " night",
+   "ids": [
+    3603
+   ],
+   "first_id": 3603,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " day",
+   "ids": [
+    1834
+   ],
+   "first_id": 1834,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 10,
+  "name": "birthstone-emerald-month",
+  "category": "multihop",
+  "prompt": "Fact: Emerald is the birthstone for month number ",
+  "intermediate": "May",
+  "answer": "5",
+  "swap_to": "July",
+  "swap_answer": "7",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 11,
+  "n_prompt_tokens_rstrip": 10,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " May",
+   "ids": [
+    3114
+   ],
+   "first_id": 3114,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " July",
+   "ids": [
+    5589
+   ],
+   "first_id": 5589,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "5",
+   "ids": [
+    20
+   ],
+   "first_id": 20,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "7",
+   "ids": [
+    22
+   ],
+   "first_id": 22,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 5",
+   "ids": [
+    220,
+    20
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 7",
+   "ids": [
+    220,
+    22
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 11,
+  "name": "chem-atmosphere-Z",
+  "category": "multihop",
+  "prompt": "Fact: The atomic number of the gas that makes up about 78 percent of the atmosphere is ",
+  "intermediate": "nitrogen",
+  "answer": "7",
+  "swap_to": "oxygen",
+  "swap_answer": "8",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 21,
+  "n_prompt_tokens_rstrip": 20,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " nitrogen",
+   "ids": [
+    44857
+   ],
+   "first_id": 44857,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " oxygen",
+   "ids": [
+    22817
+   ],
+   "first_id": 22817,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "7",
+   "ids": [
+    22
+   ],
+   "first_id": 22,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "8",
+   "ids": [
+    23
+   ],
+   "first_id": 23,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 7",
+   "ids": [
+    220,
+    22
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 8",
+   "ids": [
+    220,
+    23
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 12,
+  "name": "chem-bones-Z",
+  "category": "multihop",
+  "prompt": "Fact: The atomic number of the metal most abundant in human bones is ",
+  "intermediate": "calcium",
+  "answer": "20",
+  "swap_to": "iron",
+  "swap_answer": "26",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " calcium",
+   "ids": [
+    33474
+   ],
+   "first_id": 33474,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " iron",
+   "ids": [
+    10679
+   ],
+   "first_id": 10679,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "20",
+   "ids": [
+    17,
+    15
+   ],
+   "first_id": 17,
+   "single": false
+  },
+  "swap_answer_as_is": {
+   "text": "26",
+   "ids": [
+    17,
+    21
+   ],
+   "first_id": 17,
+   "single": false
+  },
+  "answer_rstrip": {
+   "text": " 20",
+   "ids": [
+    220,
+    17,
+    15
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 26",
+   "ids": [
+    220,
+    17,
+    21
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": true,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 13,
+  "name": "chem-organic-Z",
+  "category": "multihop",
+  "prompt": "Fact: The atomic number of the element present in all organic compounds by definition is ",
+  "intermediate": "carbon",
+  "answer": "6",
+  "swap_to": "oxygen",
+  "swap_answer": "8",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 17,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " carbon",
+   "ids": [
+    12141
+   ],
+   "first_id": 12141,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " oxygen",
+   "ids": [
+    22817
+   ],
+   "first_id": 22817,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "6",
+   "ids": [
+    21
+   ],
+   "first_id": 21,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "8",
+   "ids": [
+    23
+   ],
+   "first_id": 23,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 6",
+   "ids": [
+    220,
+    21
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 8",
+   "ids": [
+    220,
+    23
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 14,
+  "name": "chem-photosynthesis-Z",
+  "category": "multihop",
+  "prompt": "Fact: The atomic number of the gas that plants release during photosynthesis is ",
+  "intermediate": "oxygen",
+  "answer": "8",
+  "swap_to": "nitrogen",
+  "swap_answer": "7",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 16,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " oxygen",
+   "ids": [
+    22817
+   ],
+   "first_id": 22817,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " nitrogen",
+   "ids": [
+    44857
+   ],
+   "first_id": 44857,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "8",
+   "ids": [
+    23
+   ],
+   "first_id": 23,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "7",
+   "ids": [
+    22
+   ],
+   "first_id": 22,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 8",
+   "ids": [
+    220,
+    23
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 7",
+   "ids": [
+    220,
+    22
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 15,
+  "name": "christmas-season",
+  "category": "multihop",
+  "prompt": "Fact: The season when the holiday with a decorated tree occurs is ",
+  "intermediate": "Christmas",
+  "answer": "winter",
+  "swap_to": "Easter",
+  "swap_answer": "spring",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 14,
+  "n_prompt_tokens_rstrip": 13,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Christmas",
+   "ids": [
+    9777
+   ],
+   "first_id": 9777,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Easter",
+   "ids": [
+    31330
+   ],
+   "first_id": 31330,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "winter",
+   "ids": [
+    80065
+   ],
+   "first_id": 80065,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "spring",
+   "ids": [
+    28267
+   ],
+   "first_id": 28267,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " winter",
+   "ids": [
+    12050
+   ],
+   "first_id": 12050,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " spring",
+   "ids": [
+    10151
+   ],
+   "first_id": 10151,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 16,
+  "name": "city-state-Philadelphia",
+  "category": "city-state",
+  "prompt": "Fact: The US state where the city famous for the Liberty Bell is located is",
+  "intermediate": "Philadelphia",
+  "answer": "Pennsylvania",
+  "swap_to": "Seattle",
+  "swap_answer": "Washington",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 16,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Philadelphia",
+   "ids": [
+    18749
+   ],
+   "first_id": 18749,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Seattle",
+   "ids": [
+    15875
+   ],
+   "first_id": 15875,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Pennsylvania",
+   "ids": [
+    19168
+   ],
+   "first_id": 19168,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Washington",
+   "ids": [
+    6312
+   ],
+   "first_id": 6312,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Pennsylvania",
+   "ids": [
+    19168
+   ],
+   "first_id": 19168,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Washington",
+   "ids": [
+    6312
+   ],
+   "first_id": 6312,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 17,
+  "name": "colosseum-currency",
+  "category": "multihop",
+  "prompt": "Fact: The currency used in the country where the Colosseum stands is the ",
+  "intermediate": "Italy",
+  "answer": "Euro",
+  "swap_to": "Mexico",
+  "swap_answer": "peso",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 17,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Italy",
+   "ids": [
+    14898
+   ],
+   "first_id": 14898,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Mexico",
+   "ids": [
+    11920
+   ],
+   "first_id": 11920,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "Euro",
+   "ids": [
+    94067
+   ],
+   "first_id": 94067,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "peso",
+   "ids": [
+    19735,
+    78
+   ],
+   "first_id": 19735,
+   "single": false
+  },
+  "answer_rstrip": {
+   "text": " Euro",
+   "ids": [
+    18870
+   ],
+   "first_id": 18870,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " peso",
+   "ids": [
+    35710
+   ],
+   "first_id": 35710,
+   "single": true
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 18,
+  "name": "element-color-gold2",
+  "category": "element-color",
+  "prompt": "Fact: The color of the precious metal with atomic number 79 is",
+  "intermediate": "gold",
+  "answer": "yellow",
+  "swap_to": "silver",
+  "swap_answer": "gray",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " gold",
+   "ids": [
+    6414
+   ],
+   "first_id": 6414,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " silver",
+   "ids": [
+    14527
+   ],
+   "first_id": 14527,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " yellow",
+   "ids": [
+    13358
+   ],
+   "first_id": 13358,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " gray",
+   "ids": [
+    17024
+   ],
+   "first_id": 17024,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " yellow",
+   "ids": [
+    13358
+   ],
+   "first_id": 13358,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " gray",
+   "ids": [
+    17024
+   ],
+   "first_id": 17024,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 19,
+  "name": "etym-frigg-position",
+  "category": "multihop",
+  "prompt": "Fact: Counting Monday as day 1, the day of the week named after the Norse goddess Frigg is day number ",
+  "intermediate": "Friday",
+  "answer": "5",
+  "swap_to": "Thursday",
+  "swap_answer": "4",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 26,
+  "n_prompt_tokens_rstrip": 25,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Friday",
+   "ids": [
+    6394
+   ],
+   "first_id": 6394,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Thursday",
+   "ids": [
+    7548
+   ],
+   "first_id": 7548,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "5",
+   "ids": [
+    20
+   ],
+   "first_id": 20,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "4",
+   "ids": [
+    19
+   ],
+   "first_id": 19,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 5",
+   "ids": [
+    220,
+    20
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 4",
+   "ids": [
+    220,
+    19
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 20,
+  "name": "etym-saturn-position",
+  "category": "multihop",
+  "prompt": "Fact: The planet named after the Roman god of agriculture and time is planet number ",
+  "intermediate": "Saturn",
+  "answer": "6",
+  "swap_to": "Jupiter",
+  "swap_answer": "5",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 17,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Saturn",
+   "ids": [
+    47503
+   ],
+   "first_id": 47503,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Jupiter",
+   "ids": [
+    48017
+   ],
+   "first_id": 48017,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "6",
+   "ids": [
+    21
+   ],
+   "first_id": 21,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "5",
+   "ids": [
+    20
+   ],
+   "first_id": 20,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 6",
+   "ids": [
+    220,
+    21
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 5",
+   "ids": [
+    220,
+    20
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 21,
+  "name": "etym-wargod-month",
+  "category": "multihop",
+  "prompt": "Fact: The month named after the Roman god of war is month number ",
+  "intermediate": "March",
+  "answer": "3",
+  "swap_to": "June",
+  "swap_answer": "6",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " March",
+   "ids": [
+    5297
+   ],
+   "first_id": 5297,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " June",
+   "ids": [
+    5361
+   ],
+   "first_id": 5361,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "3",
+   "ids": [
+    18
+   ],
+   "first_id": 18,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "6",
+   "ids": [
+    21
+   ],
+   "first_id": 21,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 3",
+   "ids": [
+    220,
+    18
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 6",
+   "ids": [
+    220,
+    21
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 22,
+  "name": "ex-city-capital-Barcelona-Toronto",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Barcelona is located is",
+  "intermediate": "Spain",
+  "answer": "Madrid",
+  "swap_to": "Canada",
+  "swap_answer": "Ottawa",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 12,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Spain",
+   "ids": [
+    17163
+   ],
+   "first_id": 17163,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Canada",
+   "ids": [
+    6650
+   ],
+   "first_id": 6650,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Madrid",
+   "ids": [
+    23327
+   ],
+   "first_id": 23327,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Ottawa",
+   "ids": [
+    31106
+   ],
+   "first_id": 31106,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Madrid",
+   "ids": [
+    23327
+   ],
+   "first_id": 23327,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Ottawa",
+   "ids": [
+    31106
+   ],
+   "first_id": 31106,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 23,
+  "name": "ex-city-capital-Lyon-Naples",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Lyon is located is",
+  "intermediate": "France",
+  "answer": "Paris",
+  "swap_to": "Italy",
+  "swap_answer": "Rome",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 12,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " France",
+   "ids": [
+    9338
+   ],
+   "first_id": 9338,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Italy",
+   "ids": [
+    14898
+   ],
+   "first_id": 14898,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Paris",
+   "ids": [
+    11751
+   ],
+   "first_id": 11751,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Rome",
+   "ids": [
+    21047
+   ],
+   "first_id": 21047,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Paris",
+   "ids": [
+    11751
+   ],
+   "first_id": 11751,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Rome",
+   "ids": [
+    21047
+   ],
+   "first_id": 21047,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 24,
+  "name": "ex-city-capital-Naples-Barcelona",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Naples is located is",
+  "intermediate": "Italy",
+  "answer": "Rome",
+  "swap_to": "Spain",
+  "swap_answer": "Madrid",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 12,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Italy",
+   "ids": [
+    14898
+   ],
+   "first_id": 14898,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Spain",
+   "ids": [
+    17163
+   ],
+   "first_id": 17163,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Rome",
+   "ids": [
+    21047
+   ],
+   "first_id": 21047,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Madrid",
+   "ids": [
+    23327
+   ],
+   "first_id": 23327,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Rome",
+   "ids": [
+    21047
+   ],
+   "first_id": 21047,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Madrid",
+   "ids": [
+    23327
+   ],
+   "first_id": 23327,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 25,
+  "name": "ex-city-capital-Toronto-Lyon",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Toronto is located is",
+  "intermediate": "Canada",
+  "answer": "Ottawa",
+  "swap_to": "France",
+  "swap_answer": "Paris",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 12,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Canada",
+   "ids": [
+    6650
+   ],
+   "first_id": 6650,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " France",
+   "ids": [
+    9338
+   ],
+   "first_id": 9338,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Ottawa",
+   "ids": [
+    31106
+   ],
+   "first_id": 31106,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Paris",
+   "ids": [
+    11751
+   ],
+   "first_id": 11751,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Ottawa",
+   "ids": [
+    31106
+   ],
+   "first_id": 31106,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Paris",
+   "ids": [
+    11751
+   ],
+   "first_id": 11751,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 26,
+  "name": "ex-city-continent-Toronto-Lyon",
+  "category": "city-continent",
+  "prompt": "Fact: The continent of the country where Toronto is located is",
+  "intermediate": "Canada",
+  "answer": "North",
+  "swap_to": "France",
+  "swap_answer": "Europe",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 12,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Canada",
+   "ids": [
+    6650
+   ],
+   "first_id": 6650,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " France",
+   "ids": [
+    9338
+   ],
+   "first_id": 9338,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " North",
+   "ids": [
+    4634
+   ],
+   "first_id": 4634,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Europe",
+   "ids": [
+    4357
+   ],
+   "first_id": 4357,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " North",
+   "ids": [
+    4634
+   ],
+   "first_id": 4634,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Europe",
+   "ids": [
+    4357
+   ],
+   "first_id": 4357,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 27,
+  "name": "ex-city-currency-Toronto-Beijing",
+  "category": "city-currency",
+  "prompt": "Fact: The currency used in the country where Toronto is located is the",
+  "intermediate": "Canada",
+  "answer": "Canadian",
+  "swap_to": "China",
+  "swap_answer": "yuan",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 14,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Canada",
+   "ids": [
+    6650
+   ],
+   "first_id": 6650,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " China",
+   "ids": [
+    5440
+   ],
+   "first_id": 5440,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Canadian",
+   "ids": [
+    11549
+   ],
+   "first_id": 11549,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " yuan",
+   "ids": [
+    69827
+   ],
+   "first_id": 69827,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Canadian",
+   "ids": [
+    11549
+   ],
+   "first_id": 11549,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " yuan",
+   "ids": [
+    69827
+   ],
+   "first_id": 69827,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 28,
+  "name": "ex-city-currency-Toronto-Mumbai",
+  "category": "city-currency",
+  "prompt": "Fact: The currency used in the country where Toronto is located is the",
+  "intermediate": "Canada",
+  "answer": "Canadian",
+  "swap_to": "India",
+  "swap_answer": "rupee",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 14,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Canada",
+   "ids": [
+    6650
+   ],
+   "first_id": 6650,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " India",
+   "ids": [
+    6535
+   ],
+   "first_id": 6535,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Canadian",
+   "ids": [
+    11549
+   ],
+   "first_id": 11549,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " rupee",
+   "ids": [
+    10799,
+    59424
+   ],
+   "first_id": 10799,
+   "single": false
+  },
+  "answer_rstrip": {
+   "text": " Canadian",
+   "ids": [
+    11549
+   ],
+   "first_id": 11549,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " rupee",
+   "ids": [
+    10799,
+    59424
+   ],
+   "first_id": 10799,
+   "single": false
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 29,
+  "name": "ex-city-language-Lyon-Naples",
+  "category": "city-language",
+  "prompt": "Fact: The language spoken in the country where Lyon is located is",
+  "intermediate": "France",
+  "answer": "French",
+  "swap_to": "Italy",
+  "swap_answer": "Italian",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 13,
+  "n_prompt_tokens_rstrip": 13,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " France",
+   "ids": [
+    9338
+   ],
+   "first_id": 9338,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Italy",
+   "ids": [
+    14898
+   ],
+   "first_id": 14898,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " French",
+   "ids": [
+    8323
+   ],
+   "first_id": 8323,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Italian",
+   "ids": [
+    14382
+   ],
+   "first_id": 14382,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " French",
+   "ids": [
+    8323
+   ],
+   "first_id": 8323,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Italian",
+   "ids": [
+    14382
+   ],
+   "first_id": 14382,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 30,
+  "name": "ex-element-state-26-8",
+  "category": "element-state",
+  "prompt": "Fact: The state of matter at room temperature of the element with atomic number 26 is",
+  "intermediate": "iron",
+  "answer": "solid",
+  "swap_to": "oxygen",
+  "swap_answer": "gas",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " iron",
+   "ids": [
+    10679
+   ],
+   "first_id": 10679,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " oxygen",
+   "ids": [
+    22817
+   ],
+   "first_id": 22817,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " solid",
+   "ids": [
+    6235
+   ],
+   "first_id": 6235,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " gas",
+   "ids": [
+    6605
+   ],
+   "first_id": 6605,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " solid",
+   "ids": [
+    6235
+   ],
+   "first_id": 6235,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " gas",
+   "ids": [
+    6605
+   ],
+   "first_id": 6605,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 31,
+  "name": "ex-element-state-26-80",
+  "category": "element-state",
+  "prompt": "Fact: The state of matter at room temperature of the element with atomic number 26 is",
+  "intermediate": "iron",
+  "answer": "solid",
+  "swap_to": "mercury",
+  "swap_answer": "liquid",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " iron",
+   "ids": [
+    10679
+   ],
+   "first_id": 10679,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " mercury",
+   "ids": [
+    49044
+   ],
+   "first_id": 49044,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " solid",
+   "ids": [
+    6235
+   ],
+   "first_id": 6235,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " liquid",
+   "ids": [
+    14058
+   ],
+   "first_id": 14058,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " solid",
+   "ids": [
+    6235
+   ],
+   "first_id": 6235,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " liquid",
+   "ids": [
+    14058
+   ],
+   "first_id": 14058,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 32,
+  "name": "ex-element-state-8-26",
+  "category": "element-state",
+  "prompt": "Fact: The state of matter at room temperature of the element with atomic number 8 is",
+  "intermediate": "oxygen",
+  "answer": "gas",
+  "swap_to": "iron",
+  "swap_answer": "solid",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 18,
+  "n_prompt_tokens_rstrip": 18,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " oxygen",
+   "ids": [
+    22817
+   ],
+   "first_id": 22817,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " iron",
+   "ids": [
+    10679
+   ],
+   "first_id": 10679,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " gas",
+   "ids": [
+    6605
+   ],
+   "first_id": 6605,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " solid",
+   "ids": [
+    6235
+   ],
+   "first_id": 6235,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " gas",
+   "ids": [
+    6605
+   ],
+   "first_id": 6605,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " solid",
+   "ids": [
+    6235
+   ],
+   "first_id": 6235,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 33,
+  "name": "ex-element-state-8-80",
+  "category": "element-state",
+  "prompt": "Fact: The state of matter at room temperature of the element with atomic number 8 is",
+  "intermediate": "oxygen",
+  "answer": "gas",
+  "swap_to": "mercury",
+  "swap_answer": "liquid",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 18,
+  "n_prompt_tokens_rstrip": 18,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " oxygen",
+   "ids": [
+    22817
+   ],
+   "first_id": 22817,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " mercury",
+   "ids": [
+    49044
+   ],
+   "first_id": 49044,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " gas",
+   "ids": [
+    6605
+   ],
+   "first_id": 6605,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " liquid",
+   "ids": [
+    14058
+   ],
+   "first_id": 14058,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " gas",
+   "ids": [
+    6605
+   ],
+   "first_id": 6605,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " liquid",
+   "ids": [
+    14058
+   ],
+   "first_id": 14058,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 34,
+  "name": "ex-element-state-80-8",
+  "category": "element-state",
+  "prompt": "Fact: The state of matter at room temperature of the element with atomic number 80 is",
+  "intermediate": "mercury",
+  "answer": "liquid",
+  "swap_to": "oxygen",
+  "swap_answer": "gas",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " mercury",
+   "ids": [
+    49044
+   ],
+   "first_id": 49044,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " oxygen",
+   "ids": [
+    22817
+   ],
+   "first_id": 22817,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " liquid",
+   "ids": [
+    14058
+   ],
+   "first_id": 14058,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " gas",
+   "ids": [
+    6605
+   ],
+   "first_id": 6605,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " liquid",
+   "ids": [
+    14058
+   ],
+   "first_id": 14058,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " gas",
+   "ids": [
+    6605
+   ],
+   "first_id": 6605,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 35,
+  "name": "ex-element-symbol-11-26",
+  "category": "element-symbol",
+  "prompt": "Fact: The chemical symbol for the element with atomic number 11 is",
+  "intermediate": "sodium",
+  "answer": "Na",
+  "swap_to": "iron",
+  "swap_answer": "Fe",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " sodium",
+   "ids": [
+    37315
+   ],
+   "first_id": 37315,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " iron",
+   "ids": [
+    10679
+   ],
+   "first_id": 10679,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Na",
+   "ids": [
+    12444
+   ],
+   "first_id": 12444,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Fe",
+   "ids": [
+    3713
+   ],
+   "first_id": 3713,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Na",
+   "ids": [
+    12444
+   ],
+   "first_id": 12444,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Fe",
+   "ids": [
+    3713
+   ],
+   "first_id": 3713,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 36,
+  "name": "ex-element-symbol-26-79",
+  "category": "element-symbol",
+  "prompt": "Fact: The chemical symbol for the element with atomic number 26 is",
+  "intermediate": "iron",
+  "answer": "Fe",
+  "swap_to": "gold",
+  "swap_answer": "Au",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " iron",
+   "ids": [
+    10679
+   ],
+   "first_id": 10679,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " gold",
+   "ids": [
+    6414
+   ],
+   "first_id": 6414,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Fe",
+   "ids": [
+    3713
+   ],
+   "first_id": 3713,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Au",
+   "ids": [
+    30994
+   ],
+   "first_id": 30994,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Fe",
+   "ids": [
+    3713
+   ],
+   "first_id": 3713,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Au",
+   "ids": [
+    30994
+   ],
+   "first_id": 30994,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 37,
+  "name": "ex-planet-color-third-fourth",
+  "category": "planet-color",
+  "prompt": "Fact: The color of the planet third from the Sun is",
+  "intermediate": "Earth",
+  "answer": "blue",
+  "swap_to": "Mars",
+  "swap_answer": "red",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 12,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Earth",
+   "ids": [
+    8964
+   ],
+   "first_id": 8964,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Mars",
+   "ids": [
+    20403
+   ],
+   "first_id": 20403,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " blue",
+   "ids": [
+    6105
+   ],
+   "first_id": 6105,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " red",
+   "ids": [
+    2438
+   ],
+   "first_id": 2438,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " blue",
+   "ids": [
+    6105
+   ],
+   "first_id": 6105,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " red",
+   "ids": [
+    2438
+   ],
+   "first_id": 2438,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 38,
+  "name": "ex2-city-capital-Munich",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Munich is located is",
+  "intermediate": "Germany",
+  "answer": "Berlin",
+  "swap_to": "Japan",
+  "swap_answer": "Tokyo",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 12,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Germany",
+   "ids": [
+    9564
+   ],
+   "first_id": 9564,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Japan",
+   "ids": [
+    6124
+   ],
+   "first_id": 6124,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Berlin",
+   "ids": [
+    19241
+   ],
+   "first_id": 19241,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Tokyo",
+   "ids": [
+    25358
+   ],
+   "first_id": 25358,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Berlin",
+   "ids": [
+    19241
+   ],
+   "first_id": 19241,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Tokyo",
+   "ids": [
+    25358
+   ],
+   "first_id": 25358,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 39,
+  "name": "ex2-city-capital-Osaka",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Osaka is located is",
+  "intermediate": "Japan",
+  "answer": "Tokyo",
+  "swap_to": "Germany",
+  "swap_answer": "Berlin",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 12,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Japan",
+   "ids": [
+    6124
+   ],
+   "first_id": 6124,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Germany",
+   "ids": [
+    9564
+   ],
+   "first_id": 9564,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Tokyo",
+   "ids": [
+    25358
+   ],
+   "first_id": 25358,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Berlin",
+   "ids": [
+    19241
+   ],
+   "first_id": 19241,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Tokyo",
+   "ids": [
+    25358
+   ],
+   "first_id": 25358,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Berlin",
+   "ids": [
+    19241
+   ],
+   "first_id": 19241,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 40,
+  "name": "ex2-city-continent-Lima",
+  "category": "city-continent",
+  "prompt": "Fact: The continent of the country where Lima is located is",
+  "intermediate": "Peru",
+  "answer": "South",
+  "swap_to": "Egypt",
+  "swap_answer": "Africa",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 12,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Peru",
+   "ids": [
+    46157
+   ],
+   "first_id": 46157,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Egypt",
+   "ids": [
+    14437
+   ],
+   "first_id": 14437,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " South",
+   "ids": [
+    4725
+   ],
+   "first_id": 4725,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Africa",
+   "ids": [
+    9871
+   ],
+   "first_id": 9871,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " South",
+   "ids": [
+    4725
+   ],
+   "first_id": 4725,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Africa",
+   "ids": [
+    9871
+   ],
+   "first_id": 9871,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 41,
+  "name": "ex2-city-continent-Sydney",
+  "category": "city-continent",
+  "prompt": "Fact: The continent of the country where Sydney is located is",
+  "intermediate": "Australia",
+  "answer": "Australia",
+  "swap_to": "Peru",
+  "swap_answer": "South",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 12,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Australia",
+   "ids": [
+    8071
+   ],
+   "first_id": 8071,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Peru",
+   "ids": [
+    46157
+   ],
+   "first_id": 46157,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Australia",
+   "ids": [
+    8071
+   ],
+   "first_id": 8071,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " South",
+   "ids": [
+    4725
+   ],
+   "first_id": 4725,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Australia",
+   "ids": [
+    8071
+   ],
+   "first_id": 8071,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " South",
+   "ids": [
+    4725
+   ],
+   "first_id": 4725,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 42,
+  "name": "ex2-city-language-Cairo",
+  "category": "city-language",
+  "prompt": "Fact: The language spoken in the country where Cairo is located is",
+  "intermediate": "Egypt",
+  "answer": "Arabic",
+  "swap_to": "Russia",
+  "swap_answer": "Russian",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 13,
+  "n_prompt_tokens_rstrip": 13,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Egypt",
+   "ids": [
+    14437
+   ],
+   "first_id": 14437,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Russia",
+   "ids": [
+    8100
+   ],
+   "first_id": 8100,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Arabic",
+   "ids": [
+    32988
+   ],
+   "first_id": 32988,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Russian",
+   "ids": [
+    8260
+   ],
+   "first_id": 8260,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Arabic",
+   "ids": [
+    32988
+   ],
+   "first_id": 32988,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Russian",
+   "ids": [
+    8260
+   ],
+   "first_id": 8260,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 43,
+  "name": "ex2-city-language-Moscow",
+  "category": "city-language",
+  "prompt": "Fact: The language spoken in the country where Moscow is located is",
+  "intermediate": "Russia",
+  "answer": "Russian",
+  "swap_to": "Egypt",
+  "swap_answer": "Arabic",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 13,
+  "n_prompt_tokens_rstrip": 13,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Russia",
+   "ids": [
+    8100
+   ],
+   "first_id": 8100,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Egypt",
+   "ids": [
+    14437
+   ],
+   "first_id": 14437,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Russian",
+   "ids": [
+    8260
+   ],
+   "first_id": 8260,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Arabic",
+   "ids": [
+    32988
+   ],
+   "first_id": 32988,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Russian",
+   "ids": [
+    8260
+   ],
+   "first_id": 8260,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Arabic",
+   "ids": [
+    32988
+   ],
+   "first_id": 32988,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 44,
+  "name": "ex2-language-capital-Greek",
+  "category": "language-capital",
+  "prompt": "Fact: The capital of the country where Greek is the primary language is",
+  "intermediate": "Greece",
+  "answer": "Athens",
+  "swap_to": "Sweden",
+  "swap_answer": "Stockholm",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 14,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Greece",
+   "ids": [
+    23655
+   ],
+   "first_id": 23655,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Sweden",
+   "ids": [
+    22466
+   ],
+   "first_id": 22466,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Athens",
+   "ids": [
+    44299
+   ],
+   "first_id": 44299,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Stockholm",
+   "ids": [
+    50332
+   ],
+   "first_id": 50332,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Athens",
+   "ids": [
+    44299
+   ],
+   "first_id": 44299,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Stockholm",
+   "ids": [
+    50332
+   ],
+   "first_id": 50332,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 45,
+  "name": "ex2-language-capital-Hungarian",
+  "category": "language-capital",
+  "prompt": "Fact: The capital of the country where Hungarian is the primary language is",
+  "intermediate": "Hungary",
+  "answer": "Budapest",
+  "swap_to": "Poland",
+  "swap_answer": "Warsaw",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 14,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Hungary",
+   "ids": [
+    41361
+   ],
+   "first_id": 41361,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Poland",
+   "ids": [
+    26707
+   ],
+   "first_id": 26707,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Budapest",
+   "ids": [
+    67236
+   ],
+   "first_id": 67236,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Warsaw",
+   "ids": [
+    69724
+   ],
+   "first_id": 69724,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Budapest",
+   "ids": [
+    67236
+   ],
+   "first_id": 67236,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Warsaw",
+   "ids": [
+    69724
+   ],
+   "first_id": 69724,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 46,
+  "name": "ex2-language-capital-Polish",
+  "category": "language-capital",
+  "prompt": "Fact: The capital of the country where Polish is the primary language is",
+  "intermediate": "Poland",
+  "answer": "Warsaw",
+  "swap_to": "Greece",
+  "swap_answer": "Athens",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 14,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Poland",
+   "ids": [
+    26707
+   ],
+   "first_id": 26707,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Greece",
+   "ids": [
+    23655
+   ],
+   "first_id": 23655,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Warsaw",
+   "ids": [
+    69724
+   ],
+   "first_id": 69724,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Athens",
+   "ids": [
+    44299
+   ],
+   "first_id": 44299,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Warsaw",
+   "ids": [
+    69724
+   ],
+   "first_id": 69724,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Athens",
+   "ids": [
+    44299
+   ],
+   "first_id": 44299,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 47,
+  "name": "ex2-language-capital-Swedish",
+  "category": "language-capital",
+  "prompt": "Fact: The capital of the country where Swedish is the primary language is",
+  "intermediate": "Sweden",
+  "answer": "Stockholm",
+  "swap_to": "Hungary",
+  "swap_answer": "Budapest",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 14,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Sweden",
+   "ids": [
+    22466
+   ],
+   "first_id": 22466,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Hungary",
+   "ids": [
+    41361
+   ],
+   "first_id": 41361,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Stockholm",
+   "ids": [
+    50332
+   ],
+   "first_id": 50332,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Budapest",
+   "ids": [
+    67236
+   ],
+   "first_id": 67236,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Stockholm",
+   "ids": [
+    50332
+   ],
+   "first_id": 50332,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Budapest",
+   "ids": [
+    67236
+   ],
+   "first_id": 67236,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 48,
+  "name": "ex2-river-capital-Thames",
+  "category": "river-capital",
+  "prompt": "Fact: The capital of the country where the Thames River reaches the sea is",
+  "intermediate": "England",
+  "answer": "London",
+  "swap_to": "Germany",
+  "swap_answer": "Berlin",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " England",
+   "ids": [
+    9169
+   ],
+   "first_id": 9169,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Germany",
+   "ids": [
+    9564
+   ],
+   "first_id": 9564,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " London",
+   "ids": [
+    6924
+   ],
+   "first_id": 6924,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Berlin",
+   "ids": [
+    19241
+   ],
+   "first_id": 19241,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " London",
+   "ids": [
+    6924
+   ],
+   "first_id": 6924,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Berlin",
+   "ids": [
+    19241
+   ],
+   "first_id": 19241,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 49,
+  "name": "food-animal-butter",
+  "category": "food-animal",
+  "prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+  "intermediate": "butter",
+  "answer": "cow",
+  "swap_to": "honey",
+  "swap_answer": "bee",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " butter",
+   "ids": [
+    13696
+   ],
+   "first_id": 13696,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " honey",
+   "ids": [
+    24924
+   ],
+   "first_id": 24924,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " cow",
+   "ids": [
+    18775
+   ],
+   "first_id": 18775,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " bee",
+   "ids": [
+    35997
+   ],
+   "first_id": 35997,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " cow",
+   "ids": [
+    18775
+   ],
+   "first_id": 18775,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " bee",
+   "ids": [
+    35997
+   ],
+   "first_id": 35997,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 50,
+  "name": "food-animal-honey",
+  "category": "food-animal",
+  "prompt": "Fact: The insect that produces the sweet golden substance spread on toast is the",
+  "intermediate": "honey",
+  "answer": "bee",
+  "swap_to": "butter",
+  "swap_answer": "cow",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " honey",
+   "ids": [
+    24924
+   ],
+   "first_id": 24924,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " butter",
+   "ids": [
+    13696
+   ],
+   "first_id": 13696,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " bee",
+   "ids": [
+    35997
+   ],
+   "first_id": 35997,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " cow",
+   "ids": [
+    18775
+   ],
+   "first_id": 18775,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " bee",
+   "ids": [
+    35997
+   ],
+   "first_id": 35997,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " cow",
+   "ids": [
+    18775
+   ],
+   "first_id": 18775,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 51,
+  "name": "fruit-grows-grape",
+  "category": "fruit-grows",
+  "prompt": "Fact: The kind of plant that the small round fruit used to make wine grows on is a",
+  "intermediate": "grape",
+  "answer": "vine",
+  "swap_to": "apple",
+  "swap_answer": "tree",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " grape",
+   "ids": [
+    49431
+   ],
+   "first_id": 49431,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " apple",
+   "ids": [
+    22544
+   ],
+   "first_id": 22544,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " vine",
+   "ids": [
+    28007
+   ],
+   "first_id": 28007,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " tree",
+   "ids": [
+    4757
+   ],
+   "first_id": 4757,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " vine",
+   "ids": [
+    28007
+   ],
+   "first_id": 28007,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " tree",
+   "ids": [
+    4757
+   ],
+   "first_id": 4757,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 52,
+  "name": "func-filters-count",
+  "category": "multihop",
+  "prompt": "Fact: In humans, the number of organs that filter blood to make urine is ",
+  "intermediate": "kidney",
+  "answer": "2",
+  "swap_to": "liver",
+  "swap_answer": "1",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 17,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " kidney",
+   "ids": [
+    36690
+   ],
+   "first_id": 36690,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " liver",
+   "ids": [
+    24694
+   ],
+   "first_id": 24694,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "2",
+   "ids": [
+    17
+   ],
+   "first_id": 17,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "1",
+   "ids": [
+    16
+   ],
+   "first_id": 16,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 2",
+   "ids": [
+    220,
+    17
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 1",
+   "ids": [
+    220,
+    16
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 53,
+  "name": "func-pumps-chambers",
+  "category": "multihop",
+  "prompt": "Fact: In humans, the organ that pumps blood through the body has this many chambers: ",
+  "intermediate": "heart",
+  "answer": "4",
+  "swap_to": "lung",
+  "swap_answer": "2",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 18,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " heart",
+   "ids": [
+    4593
+   ],
+   "first_id": 4593,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " lung",
+   "ids": [
+    19997
+   ],
+   "first_id": 19997,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "4",
+   "ids": [
+    19
+   ],
+   "first_id": 19,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "2",
+   "ids": [
+    17
+   ],
+   "first_id": 17,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 4",
+   "ids": [
+    220,
+    19
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 2",
+   "ids": [
+    220,
+    17
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 54,
+  "name": "gem-color-ruby",
+  "category": "gem-color",
+  "prompt": "Fact: The color of the gemstone that is the traditional birthstone for July is",
+  "intermediate": "ruby",
+  "answer": "red",
+  "swap_to": "pearl",
+  "swap_answer": "white",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 17,
+  "n_prompt_tokens_rstrip": 17,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " ruby",
+   "ids": [
+    43699
+   ],
+   "first_id": 43699,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " pearl",
+   "ids": [
+    67264
+   ],
+   "first_id": 67264,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " red",
+   "ids": [
+    2438
+   ],
+   "first_id": 2438,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " white",
+   "ids": [
+    4022
+   ],
+   "first_id": 4022,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " red",
+   "ids": [
+    2438
+   ],
+   "first_id": 2438,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " white",
+   "ids": [
+    4022
+   ],
+   "first_id": 4022,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 55,
+  "name": "gem-source-pearl",
+  "category": "gem-source",
+  "prompt": "Fact: The animal that produces the round gem traditionally worn as a necklace by brides is the",
+  "intermediate": "pearl",
+  "answer": "oyster",
+  "swap_to": "diamond",
+  "swap_answer": "earth",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 18,
+  "n_prompt_tokens_rstrip": 18,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " pearl",
+   "ids": [
+    67264
+   ],
+   "first_id": 67264,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " diamond",
+   "ids": [
+    21517
+   ],
+   "first_id": 21517,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " oyster",
+   "ids": [
+    296,
+    21176
+   ],
+   "first_id": 296,
+   "single": false
+  },
+  "swap_answer_as_is": {
+   "text": " earth",
+   "ids": [
+    9114
+   ],
+   "first_id": 9114,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " oyster",
+   "ids": [
+    296,
+    21176
+   ],
+   "first_id": 296,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " earth",
+   "ids": [
+    9114
+   ],
+   "first_id": 9114,
+   "single": true
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 56,
+  "name": "greatwall-ocean",
+  "category": "multihop",
+  "prompt": "Fact: The ocean east of the country that built the Great Wall is the ",
+  "intermediate": "China",
+  "answer": "Pacific",
+  "swap_to": "Brazil",
+  "swap_answer": "Atlantic",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 16,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " China",
+   "ids": [
+    5440
+   ],
+   "first_id": 5440,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Brazil",
+   "ids": [
+    15477
+   ],
+   "first_id": 15477,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "Pacific",
+   "ids": [
+    79767
+   ],
+   "first_id": 79767,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "Atlantic",
+   "ids": [
+    74875
+   ],
+   "first_id": 74875,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Pacific",
+   "ids": [
+    15979
+   ],
+   "first_id": 15979,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Atlantic",
+   "ids": [
+    21678
+   ],
+   "first_id": 21678,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 57,
+  "name": "holiday-month-christmas2",
+  "category": "holiday-month",
+  "prompt": "Fact: The month of the holiday celebrated with a decorated evergreen tree and gift-giving is",
+  "intermediate": "Christmas",
+  "answer": "December",
+  "swap_to": "Easter",
+  "swap_answer": "April",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Christmas",
+   "ids": [
+    9777
+   ],
+   "first_id": 9777,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Easter",
+   "ids": [
+    31330
+   ],
+   "first_id": 31330,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " December",
+   "ids": [
+    6443
+   ],
+   "first_id": 6443,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " April",
+   "ids": [
+    5632
+   ],
+   "first_id": 5632,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " December",
+   "ids": [
+    6443
+   ],
+   "first_id": 6443,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " April",
+   "ids": [
+    5632
+   ],
+   "first_id": 5632,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 58,
+  "name": "instr-body-trumpet",
+  "category": "instr-played",
+  "prompt": "Fact: The part of the body a player buzzes to play the valved brass instrument heard in jazz solos is the",
+  "intermediate": "trumpet",
+  "answer": "lips",
+  "swap_to": "drums",
+  "swap_answer": "hands",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 24,
+  "n_prompt_tokens_rstrip": 24,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " trumpet",
+   "ids": [
+    88117
+   ],
+   "first_id": 88117,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " drums",
+   "ids": [
+    44747
+   ],
+   "first_id": 44747,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " lips",
+   "ids": [
+    22164
+   ],
+   "first_id": 22164,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " hands",
+   "ids": [
+    5888
+   ],
+   "first_id": 5888,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " lips",
+   "ids": [
+    22164
+   ],
+   "first_id": 22164,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " hands",
+   "ids": [
+    5888
+   ],
+   "first_id": 5888,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 59,
+  "name": "instr-hit-drums",
+  "category": "instr-played",
+  "prompt": "Fact: The pair of wooden objects used to strike the instrument that keeps the beat at the back of a rock band is called",
+  "intermediate": "drums",
+  "answer": "sticks",
+  "swap_to": "piano",
+  "swap_answer": "keys",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 25,
+  "n_prompt_tokens_rstrip": 25,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " drums",
+   "ids": [
+    44747
+   ],
+   "first_id": 44747,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " piano",
+   "ids": [
+    25439
+   ],
+   "first_id": 25439,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " sticks",
+   "ids": [
+    32040
+   ],
+   "first_id": 32040,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " keys",
+   "ids": [
+    6679
+   ],
+   "first_id": 6679,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " sticks",
+   "ids": [
+    32040
+   ],
+   "first_id": 32040,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " keys",
+   "ids": [
+    6679
+   ],
+   "first_id": 6679,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 60,
+  "name": "mars-color",
+  "category": "multihop",
+  "prompt": "Fact: The color of the planet fourth from the Sun is ",
+  "intermediate": "Mars",
+  "answer": "red",
+  "swap_to": "Earth",
+  "swap_answer": "blue",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 13,
+  "n_prompt_tokens_rstrip": 12,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Mars",
+   "ids": [
+    20403
+   ],
+   "first_id": 20403,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Earth",
+   "ids": [
+    8964
+   ],
+   "first_id": 8964,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "red",
+   "ids": [
+    1114
+   ],
+   "first_id": 1114,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "blue",
+   "ids": [
+    11855
+   ],
+   "first_id": 11855,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " red",
+   "ids": [
+    2438
+   ],
+   "first_id": 2438,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " blue",
+   "ids": [
+    6105
+   ],
+   "first_id": 6105,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 61,
+  "name": "month-3-godof",
+  "category": "multihop",
+  "prompt": "Fact: The third month of the year is named after the Roman god of ",
+  "intermediate": "Mars",
+  "answer": "war",
+  "swap_to": "Venus",
+  "swap_answer": "love",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 16,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Mars",
+   "ids": [
+    20403
+   ],
+   "first_id": 20403,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Venus",
+   "ids": [
+    47334
+   ],
+   "first_id": 47334,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "war",
+   "ids": [
+    11126
+   ],
+   "first_id": 11126,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "love",
+   "ids": [
+    29069
+   ],
+   "first_id": 29069,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " war",
+   "ids": [
+    3980
+   ],
+   "first_id": 3980,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " love",
+   "ids": [
+    2854
+   ],
+   "first_id": 2854,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 62,
+  "name": "organ-acid-stomach",
+  "category": "organ-function",
+  "prompt": "Fact: The strong liquid inside the organ that breaks down swallowed food is called",
+  "intermediate": "stomach",
+  "answer": "acid",
+  "swap_to": "heart",
+  "swap_answer": "blood",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " stomach",
+   "ids": [
+    21654
+   ],
+   "first_id": 21654,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " heart",
+   "ids": [
+    4593
+   ],
+   "first_id": 4593,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " acid",
+   "ids": [
+    13228
+   ],
+   "first_id": 13228,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " blood",
+   "ids": [
+    6340
+   ],
+   "first_id": 6340,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " acid",
+   "ids": [
+    13228
+   ],
+   "first_id": 13228,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " blood",
+   "ids": [
+    6340
+   ],
+   "first_id": 6340,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 63,
+  "name": "organ-count-kidney2",
+  "category": "organ-count",
+  "prompt": "Fact: The number of the bean-shaped organs that filter blood into urine in a human body is",
+  "intermediate": "kidney",
+  "answer": "two",
+  "swap_to": "heart",
+  "swap_answer": "one",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " kidney",
+   "ids": [
+    36690
+   ],
+   "first_id": 36690,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " heart",
+   "ids": [
+    4593
+   ],
+   "first_id": 4593,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " two",
+   "ids": [
+    1330
+   ],
+   "first_id": 1330,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " one",
+   "ids": [
+    799
+   ],
+   "first_id": 799,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " two",
+   "ids": [
+    1330
+   ],
+   "first_id": 1330,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " one",
+   "ids": [
+    799
+   ],
+   "first_id": 799,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 64,
+  "name": "organ-location-brain",
+  "category": "organ-location",
+  "prompt": "Fact: The bony structure that encases the organ responsible for thinking and memory is the",
+  "intermediate": "brain",
+  "answer": "skull",
+  "swap_to": "heart",
+  "swap_answer": "ribcage",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 18,
+  "n_prompt_tokens_rstrip": 18,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " brain",
+   "ids": [
+    7853
+   ],
+   "first_id": 7853,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " heart",
+   "ids": [
+    4593
+   ],
+   "first_id": 4593,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " skull",
+   "ids": [
+    32886
+   ],
+   "first_id": 32886,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " ribcage",
+   "ids": [
+    19518,
+    66,
+    416
+   ],
+   "first_id": 19518,
+   "single": false
+  },
+  "answer_rstrip": {
+   "text": " skull",
+   "ids": [
+    32886
+   ],
+   "first_id": 32886,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " ribcage",
+   "ids": [
+    19518,
+    66,
+    416
+   ],
+   "first_id": 19518,
+   "single": false
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 65,
+  "name": "organ-location-heart",
+  "category": "organ-location",
+  "prompt": "Fact: The part of the body that contains the organ that pumps blood is the",
+  "intermediate": "heart",
+  "answer": "chest",
+  "swap_to": "brain",
+  "swap_answer": "head",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 16,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " heart",
+   "ids": [
+    4593
+   ],
+   "first_id": 4593,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " brain",
+   "ids": [
+    7853
+   ],
+   "first_id": 7853,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " chest",
+   "ids": [
+    14697
+   ],
+   "first_id": 14697,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " head",
+   "ids": [
+    1901
+   ],
+   "first_id": 1901,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " chest",
+   "ids": [
+    14697
+   ],
+   "first_id": 14697,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " head",
+   "ids": [
+    1901
+   ],
+   "first_id": 1901,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 66,
+  "name": "osu-rival-mascot",
+  "category": "multihop",
+  "prompt": "Fact: The mascot of the college football rival of Ohio State is a ",
+  "intermediate": "Michigan",
+  "answer": "wolverine",
+  "swap_to": "Wisconsin",
+  "swap_answer": "badger",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Michigan",
+   "ids": [
+    14209
+   ],
+   "first_id": 14209,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Wisconsin",
+   "ids": [
+    19818
+   ],
+   "first_id": 19818,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "wolverine",
+   "ids": [
+    86,
+    7671,
+    472
+   ],
+   "first_id": 86,
+   "single": false
+  },
+  "swap_answer_as_is": {
+   "text": "badger",
+   "ids": [
+    13458,
+    1341
+   ],
+   "first_id": 13458,
+   "single": false
+  },
+  "answer_rstrip": {
+   "text": " wolverine",
+   "ids": [
+    288,
+    7671,
+    472
+   ],
+   "first_id": 288,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " badger",
+   "ids": [
+    3743,
+    1341
+   ],
+   "first_id": 3743,
+   "single": false
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 67,
+  "name": "paper-continent",
+  "category": "multihop",
+  "prompt": "Fact: The continent where the country that invented paper is located is ",
+  "intermediate": "China",
+  "answer": "Asia",
+  "swap_to": "France",
+  "swap_answer": "Europe",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 14,
+  "n_prompt_tokens_rstrip": 13,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " China",
+   "ids": [
+    5440
+   ],
+   "first_id": 5440,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " France",
+   "ids": [
+    9338
+   ],
+   "first_id": 9338,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "Asia",
+   "ids": [
+    37186
+   ],
+   "first_id": 37186,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "Europe",
+   "ids": [
+    29774
+   ],
+   "first_id": 29774,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Asia",
+   "ids": [
+    13229
+   ],
+   "first_id": 13229,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Europe",
+   "ids": [
+    4357
+   ],
+   "first_id": 4357,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 68,
+  "name": "person-century-lincoln",
+  "category": "person-century",
+  "prompt": "Fact: The war that the president who delivered the Gettysburg Address led his country through was the",
+  "intermediate": "Lincoln",
+  "answer": "Civil",
+  "swap_to": "Napoleon",
+  "swap_answer": "Napoleonic",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 21,
+  "n_prompt_tokens_rstrip": 21,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Lincoln",
+   "ids": [
+    23608
+   ],
+   "first_id": 23608,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Napoleon",
+   "ids": [
+    67076
+   ],
+   "first_id": 67076,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Civil",
+   "ids": [
+    15917
+   ],
+   "first_id": 15917,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Napoleonic",
+   "ids": [
+    231787,
+    13609
+   ],
+   "first_id": 231787,
+   "single": false
+  },
+  "answer_rstrip": {
+   "text": " Civil",
+   "ids": [
+    15917
+   ],
+   "first_id": 15917,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Napoleonic",
+   "ids": [
+    231787,
+    13609
+   ],
+   "first_id": 231787,
+   "single": false
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 69,
+  "name": "person-country-napoleon",
+  "category": "person-country",
+  "prompt": "Fact: The country whose army was led by the emperor defeated at Waterloo is",
+  "intermediate": "Napoleon",
+  "answer": "France",
+  "swap_to": "Lincoln",
+  "swap_answer": "America",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Napoleon",
+   "ids": [
+    67076
+   ],
+   "first_id": 67076,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Lincoln",
+   "ids": [
+    23608
+   ],
+   "first_id": 23608,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " France",
+   "ids": [
+    9338
+   ],
+   "first_id": 9338,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " America",
+   "ids": [
+    4994
+   ],
+   "first_id": 4994,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " France",
+   "ids": [
+    9338
+   ],
+   "first_id": 9338,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " America",
+   "ids": [
+    4994
+   ],
+   "first_id": 4994,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 70,
+  "name": "person-country-shakespeare",
+  "category": "person-country",
+  "prompt": "Fact: The country where the playwright who wrote Hamlet and Macbeth was born is",
+  "intermediate": "Shakespeare",
+  "answer": "England",
+  "swap_to": "Einstein",
+  "swap_answer": "Germany",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 17,
+  "n_prompt_tokens_rstrip": 17,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Shakespeare",
+   "ids": [
+    40014
+   ],
+   "first_id": 40014,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Einstein",
+   "ids": [
+    52237
+   ],
+   "first_id": 52237,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " England",
+   "ids": [
+    9169
+   ],
+   "first_id": 9169,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Germany",
+   "ids": [
+    9564
+   ],
+   "first_id": 9564,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " England",
+   "ids": [
+    9169
+   ],
+   "first_id": 9169,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Germany",
+   "ids": [
+    9564
+   ],
+   "first_id": 9564,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 71,
+  "name": "person-firstname-darwin",
+  "category": "person-firstname",
+  "prompt": "Fact: The first name of the naturalist who proposed evolution by natural selection was",
+  "intermediate": "Darwin",
+  "answer": "Charles",
+  "swap_to": "Einstein",
+  "swap_answer": "Albert",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 16,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Darwin",
+   "ids": [
+    42905
+   ],
+   "first_id": 42905,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Einstein",
+   "ids": [
+    52237
+   ],
+   "first_id": 52237,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Charles",
+   "ids": [
+    14496
+   ],
+   "first_id": 14496,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Albert",
+   "ids": [
+    16993
+   ],
+   "first_id": 16993,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Charles",
+   "ids": [
+    14496
+   ],
+   "first_id": 14496,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Albert",
+   "ids": [
+    16993
+   ],
+   "first_id": 16993,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 72,
+  "name": "person-firstname-einstein",
+  "category": "person-firstname",
+  "prompt": "Fact: The first name of the physicist who developed the theory of general relativity was",
+  "intermediate": "Einstein",
+  "answer": "Albert",
+  "swap_to": "Newton",
+  "swap_answer": "Isaac",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 17,
+  "n_prompt_tokens_rstrip": 17,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Einstein",
+   "ids": [
+    52237
+   ],
+   "first_id": 52237,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Newton",
+   "ids": [
+    20042
+   ],
+   "first_id": 20042,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Albert",
+   "ids": [
+    16993
+   ],
+   "first_id": 16993,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Isaac",
+   "ids": [
+    40134
+   ],
+   "first_id": 40134,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Albert",
+   "ids": [
+    16993
+   ],
+   "first_id": 16993,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Isaac",
+   "ids": [
+    40134
+   ],
+   "first_id": 40134,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 73,
+  "name": "person-firstname-mozart",
+  "category": "person-firstname",
+  "prompt": "Fact: The first name of the child-prodigy composer from Salzburg who wrote The Magic Flute was",
+  "intermediate": "Mozart",
+  "answer": "Wolfgang",
+  "swap_to": "Darwin",
+  "swap_answer": "Charles",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 21,
+  "n_prompt_tokens_rstrip": 21,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Mozart",
+   "ids": [
+    91400
+   ],
+   "first_id": 91400,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Darwin",
+   "ids": [
+    42905
+   ],
+   "first_id": 42905,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Wolfgang",
+   "ids": [
+    83509
+   ],
+   "first_id": 83509,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Charles",
+   "ids": [
+    14496
+   ],
+   "first_id": 14496,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Wolfgang",
+   "ids": [
+    83509
+   ],
+   "first_id": 83509,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Charles",
+   "ids": [
+    14496
+   ],
+   "first_id": 14496,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 74,
+  "name": "person-firstname-newton",
+  "category": "person-firstname",
+  "prompt": "Fact: The first name of the scientist on whose head an apple is said to have fallen was",
+  "intermediate": "Newton",
+  "answer": "Isaac",
+  "swap_to": "Shakespeare",
+  "swap_answer": "William",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Newton",
+   "ids": [
+    20042
+   ],
+   "first_id": 20042,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Shakespeare",
+   "ids": [
+    40014
+   ],
+   "first_id": 40014,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " Isaac",
+   "ids": [
+    40134
+   ],
+   "first_id": 40134,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " William",
+   "ids": [
+    12021
+   ],
+   "first_id": 12021,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Isaac",
+   "ids": [
+    40134
+   ],
+   "first_id": 40134,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " William",
+   "ids": [
+    12021
+   ],
+   "first_id": 12021,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 75,
+  "name": "person-firstname-shakespeare",
+  "category": "person-firstname",
+  "prompt": "Fact: The first name of the playwright who wrote Romeo and Juliet was",
+  "intermediate": "Shakespeare",
+  "answer": "William",
+  "swap_to": "Mozart",
+  "swap_answer": "Wolfgang",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 14,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Shakespeare",
+   "ids": [
+    40014
+   ],
+   "first_id": 40014,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Mozart",
+   "ids": [
+    91400
+   ],
+   "first_id": 91400,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " William",
+   "ids": [
+    12021
+   ],
+   "first_id": 12021,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " Wolfgang",
+   "ids": [
+    83509
+   ],
+   "first_id": 83509,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " William",
+   "ids": [
+    12021
+   ],
+   "first_id": 12021,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Wolfgang",
+   "ids": [
+    83509
+   ],
+   "first_id": 83509,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 76,
+  "name": "planet-3-moons",
+  "category": "multihop",
+  "prompt": "Fact: The number of natural moons orbiting the planet third from the Sun is ",
+  "intermediate": "Earth",
+  "answer": "1",
+  "swap_to": "Mars",
+  "swap_answer": "2",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 17,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Earth",
+   "ids": [
+    8964
+   ],
+   "first_id": 8964,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Mars",
+   "ids": [
+    20403
+   ],
+   "first_id": 20403,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "1",
+   "ids": [
+    16
+   ],
+   "first_id": 16,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "2",
+   "ids": [
+    17
+   ],
+   "first_id": 17,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 1",
+   "ids": [
+    220,
+    16
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 2",
+   "ids": [
+    220,
+    17
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 77,
+  "name": "planet-rings-saturn2",
+  "category": "planet-feature",
+  "prompt": "Fact: The most famous feature of the sixth planet from the Sun is its",
+  "intermediate": "Saturn",
+  "answer": "rings",
+  "swap_to": "Jupiter",
+  "swap_answer": "spot",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Saturn",
+   "ids": [
+    47503
+   ],
+   "first_id": 47503,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Jupiter",
+   "ids": [
+    48017
+   ],
+   "first_id": 48017,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " rings",
+   "ids": [
+    23769
+   ],
+   "first_id": 23769,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " spot",
+   "ids": [
+    7458
+   ],
+   "first_id": 7458,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " rings",
+   "ids": [
+    23769
+   ],
+   "first_id": 23769,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " spot",
+   "ids": [
+    7458
+   ],
+   "first_id": 7458,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 78,
+  "name": "rhyme-chair-flag",
+  "category": "multihop",
+  "prompt": "Fact: The large mammal whose name rhymes with 'chair' appears on the state flag of ",
+  "intermediate": "bear",
+  "answer": "California",
+  "swap_to": "buffalo",
+  "swap_answer": "Wyoming",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 21,
+  "n_prompt_tokens_rstrip": 20,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " bear",
+   "ids": [
+    11385
+   ],
+   "first_id": 11385,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " buffalo",
+   "ids": [
+    78551
+   ],
+   "first_id": 78551,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "California",
+   "ids": [
+    43895
+   ],
+   "first_id": 43895,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "Wyoming",
+   "ids": [
+    64646,
+    17235
+   ],
+   "first_id": 64646,
+   "single": false
+  },
+  "answer_rstrip": {
+   "text": " California",
+   "ids": [
+    6824
+   ],
+   "first_id": 6824,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Wyoming",
+   "ids": [
+    47104
+   ],
+   "first_id": 47104,
+   "single": true
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 79,
+  "name": "rhyme-rain-neighbor",
+  "category": "multihop",
+  "prompt": "Fact: The European country whose name rhymes with 'rain' shares its western border with ",
+  "intermediate": "Spain",
+  "answer": "Portugal",
+  "swap_to": "Belgium",
+  "swap_answer": "France",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 18,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Spain",
+   "ids": [
+    17163
+   ],
+   "first_id": 17163,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Belgium",
+   "ids": [
+    31868
+   ],
+   "first_id": 31868,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "Portugal",
+   "ids": [
+    6864,
+    42715
+   ],
+   "first_id": 6864,
+   "single": false
+  },
+  "swap_answer_as_is": {
+   "text": "France",
+   "ids": [
+    47358
+   ],
+   "first_id": 47358,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Portugal",
+   "ids": [
+    32208
+   ],
+   "first_id": 32208,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " France",
+   "ids": [
+    9338
+   ],
+   "first_id": 9338,
+   "single": true
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 80,
+  "name": "rhyme-spoon-orbit",
+  "category": "multihop",
+  "prompt": "Fact: The celestial body whose name rhymes with 'spoon' orbits the planet called ",
+  "intermediate": "moon",
+  "answer": "Earth",
+  "swap_to": "Europa",
+  "swap_answer": "Jupiter",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 18,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " moon",
+   "ids": [
+    17257
+   ],
+   "first_id": 17257,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Europa",
+   "ids": [
+    37222
+   ],
+   "first_id": 37222,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "Earth",
+   "ids": [
+    42373
+   ],
+   "first_id": 42373,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "Jupiter",
+   "ids": [
+    41,
+    18925
+   ],
+   "first_id": 41,
+   "single": false
+  },
+  "answer_rstrip": {
+   "text": " Earth",
+   "ids": [
+    8964
+   ],
+   "first_id": 8964,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Jupiter",
+   "ids": [
+    48017
+   ],
+   "first_id": 48017,
+   "single": true
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 81,
+  "name": "season-next-winter",
+  "category": "season-next",
+  "prompt": "Fact: The season that comes immediately after the coldest season of the year is",
+  "intermediate": "winter",
+  "answer": "spring",
+  "swap_to": "summer",
+  "swap_answer": "autumn",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 16,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " winter",
+   "ids": [
+    12050
+   ],
+   "first_id": 12050,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " summer",
+   "ids": [
+    7094
+   ],
+   "first_id": 7094,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " spring",
+   "ids": [
+    10151
+   ],
+   "first_id": 10151,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " autumn",
+   "ids": [
+    40297
+   ],
+   "first_id": 40297,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " spring",
+   "ids": [
+    10151
+   ],
+   "first_id": 10151,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " autumn",
+   "ids": [
+    40297
+   ],
+   "first_id": 40297,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 82,
+  "name": "spaceneedle-border",
+  "category": "multihop",
+  "prompt": "Fact: The US state where the Space Needle is located shares its northern border with ",
+  "intermediate": "Seattle",
+  "answer": "Canada",
+  "swap_to": "Philadelphia",
+  "swap_answer": "New",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 17,
+  "n_prompt_tokens_rstrip": 16,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Seattle",
+   "ids": [
+    15875
+   ],
+   "first_id": 15875,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Philadelphia",
+   "ids": [
+    18749
+   ],
+   "first_id": 18749,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "Canada",
+   "ids": [
+    34740
+   ],
+   "first_id": 34740,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "New",
+   "ids": [
+    3446
+   ],
+   "first_id": 3446,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Canada",
+   "ids": [
+    6650
+   ],
+   "first_id": 6650,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " New",
+   "ids": [
+    1478
+   ],
+   "first_id": 1478,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 83,
+  "name": "spider-legs",
+  "category": "multihop",
+  "prompt": "Fact: The number of legs on the animal that spins webs is ",
+  "intermediate": "spider",
+  "answer": "8",
+  "swap_to": "ant",
+  "swap_answer": "6",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 14,
+  "n_prompt_tokens_rstrip": 13,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " spider",
+   "ids": [
+    33213
+   ],
+   "first_id": 33213,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " ant",
+   "ids": [
+    3094
+   ],
+   "first_id": 3094,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "8",
+   "ids": [
+    23
+   ],
+   "first_id": 23,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "6",
+   "ids": [
+    21
+   ],
+   "first_id": 21,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 8",
+   "ids": [
+    220,
+    23
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 6",
+   "ids": [
+    220,
+    21
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ },
+ {
+  "index": 84,
+  "name": "sport-equip-tennis",
+  "category": "sport-equip",
+  "prompt": "Fact: The piece of equipment used to strike the ball in the sport played at Wimbledon is a",
+  "intermediate": "tennis",
+  "answer": "racket",
+  "swap_to": "golf",
+  "swap_answer": "club",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 19,
+  "n_prompt_tokens_rstrip": 19,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " tennis",
+   "ids": [
+    30382
+   ],
+   "first_id": 30382,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " golf",
+   "ids": [
+    18542
+   ],
+   "first_id": 18542,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " racket",
+   "ids": [
+    78701
+   ],
+   "first_id": 78701,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " club",
+   "ids": [
+    6135
+   ],
+   "first_id": 6135,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " racket",
+   "ids": [
+    78701
+   ],
+   "first_id": 78701,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " club",
+   "ids": [
+    6135
+   ],
+   "first_id": 6135,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 85,
+  "name": "super-populous-capital",
+  "category": "multihop",
+  "prompt": "Fact: The capital city of the most populous country in the world is ",
+  "intermediate": "China",
+  "answer": "Beijing",
+  "swap_to": "India",
+  "swap_answer": "Delhi",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " China",
+   "ids": [
+    5440
+   ],
+   "first_id": 5440,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " India",
+   "ids": [
+    6535
+   ],
+   "first_id": 6535,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "Beijing",
+   "ids": [
+    3320,
+    22909
+   ],
+   "first_id": 3320,
+   "single": false
+  },
+  "swap_answer_as_is": {
+   "text": "Delhi",
+   "ids": [
+    16044,
+    5834
+   ],
+   "first_id": 16044,
+   "single": false
+  },
+  "answer_rstrip": {
+   "text": " Beijing",
+   "ids": [
+    25701
+   ],
+   "first_id": 25701,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Delhi",
+   "ids": [
+    21318
+   ],
+   "first_id": 21318,
+   "single": true
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 86,
+  "name": "super-smallest-continent",
+  "category": "multihop",
+  "prompt": "Fact: The smallest country in the world is located on the continent of ",
+  "intermediate": "Vatican",
+  "answer": "Europe",
+  "swap_to": "Singapore",
+  "swap_answer": "Asia",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 15,
+  "n_prompt_tokens_rstrip": 14,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " Vatican",
+   "ids": [
+    44993
+   ],
+   "first_id": 44993,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " Singapore",
+   "ids": [
+    19914
+   ],
+   "first_id": 19914,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "Europe",
+   "ids": [
+    29774
+   ],
+   "first_id": 29774,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "Asia",
+   "ids": [
+    37186
+   ],
+   "first_id": 37186,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " Europe",
+   "ids": [
+    4357
+   ],
+   "first_id": 4357,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " Asia",
+   "ids": [
+    13229
+   ],
+   "first_id": 13229,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 87,
+  "name": "tree-product-oak",
+  "category": "tree-product",
+  "prompt": "Fact: The small hard nut produced by the large tree that squirrels famously bury food from is the",
+  "intermediate": "oak",
+  "answer": "acorn",
+  "swap_to": "pine",
+  "swap_answer": "cone",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 20,
+  "n_prompt_tokens_rstrip": 20,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " oak",
+   "ids": [
+    36620
+   ],
+   "first_id": 36620,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " pine",
+   "ids": [
+    32485
+   ],
+   "first_id": 32485,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " acorn",
+   "ids": [
+    1557,
+    1458
+   ],
+   "first_id": 1557,
+   "single": false
+  },
+  "swap_answer_as_is": {
+   "text": " cone",
+   "ids": [
+    21474
+   ],
+   "first_id": 21474,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " acorn",
+   "ids": [
+    1557,
+    1458
+   ],
+   "first_id": 1557,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " cone",
+   "ids": [
+    21474
+   ],
+   "first_id": 21474,
+   "single": true
+  },
+  "all_single_as_is": false,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 88,
+  "name": "vehicle-power-bicycle",
+  "category": "vehicle-power",
+  "prompt": "Fact: The source of power for the two-wheeled vehicle ridden in the Tour de France is the rider's",
+  "intermediate": "bicycle",
+  "answer": "legs",
+  "swap_to": "train",
+  "swap_answer": "engine",
+  "trailing_space": false,
+  "n_prompt_tokens_as_is": 23,
+  "n_prompt_tokens_rstrip": 23,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " bicycle",
+   "ids": [
+    33828
+   ],
+   "first_id": 33828,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " train",
+   "ids": [
+    5257
+   ],
+   "first_id": 5257,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": " legs",
+   "ids": [
+    13795
+   ],
+   "first_id": 13795,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": " engine",
+   "ids": [
+    4560
+   ],
+   "first_id": 4560,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " legs",
+   "ids": [
+    13795
+   ],
+   "first_id": 13795,
+   "single": true
+  },
+  "swap_answer_rstrip": {
+   "text": " engine",
+   "ids": [
+    4560
+   ],
+   "first_id": 4560,
+   "single": true
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": true,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": false
+ },
+ {
+  "index": 89,
+  "name": "violin-strings",
+  "category": "multihop",
+  "prompt": "Fact: The number of strings on the instrument that fiddlers play is ",
+  "intermediate": "violin",
+  "answer": "4",
+  "swap_to": "guitar",
+  "swap_answer": "6",
+  "trailing_space": true,
+  "n_prompt_tokens_as_is": 16,
+  "n_prompt_tokens_rstrip": 15,
+  "leak": {
+   "intermediate": false,
+   "swap_to": false,
+   "answer": false,
+   "swap_answer": false
+  },
+  "concept_src": {
+   "text": " violin",
+   "ids": [
+    59945
+   ],
+   "first_id": 59945,
+   "single": true
+  },
+  "concept_tgt": {
+   "text": " guitar",
+   "ids": [
+    16488
+   ],
+   "first_id": 16488,
+   "single": true
+  },
+  "concept_feasible": true,
+  "answer_as_is": {
+   "text": "4",
+   "ids": [
+    19
+   ],
+   "first_id": 19,
+   "single": true
+  },
+  "swap_answer_as_is": {
+   "text": "6",
+   "ids": [
+    21
+   ],
+   "first_id": 21,
+   "single": true
+  },
+  "answer_rstrip": {
+   "text": " 4",
+   "ids": [
+    220,
+    19
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "swap_answer_rstrip": {
+   "text": " 6",
+   "ids": [
+    220,
+    21
+   ],
+   "first_id": 220,
+   "single": false
+  },
+  "all_single_as_is": true,
+  "all_single_rstrip": false,
+  "same_first_token_answers_as_is": false,
+  "same_first_token_answers_rstrip": true
+ }
+]

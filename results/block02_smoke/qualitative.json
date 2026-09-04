@@ -1,0 +1,512 @@
+[
+ {
+  "index": 0,
+  "name": "amazon-language",
+  "prompt": "Fact: The language spoken in the country where the Amazon River ends is",
+  "condition": "clean",
+  "answer": " Portuguese",
+  "swap_answer": " Spanish",
+  "top10": [
+   [
+    " Portuguese",
+    0.3227
+   ],
+   [
+    " Spanish",
+    0.2084
+   ],
+   [
+    " English",
+    0.0385
+   ],
+   [
+    " called",
+    0.032
+   ],
+   [
+    " Que",
+    0.03
+   ],
+   [
+    " not",
+    0.0282
+   ],
+   [
+    " French",
+    0.0282
+   ],
+   [
+    " the",
+    0.0249
+   ],
+   [
+    " known",
+    0.022
+   ],
+   [
+    " **",
+    0.0194
+   ]
+  ],
+  "continuation": " Portuguese.\nQuestion: What is the"
+ },
+ {
+  "index": 0,
+  "name": "amazon-language",
+  "prompt": "Fact: The language spoken in the country where the Amazon River ends is",
+  "condition": "J_primary_L8_20",
+  "answer": " Portuguese",
+  "swap_answer": " Spanish",
+  "top10": [
+   [
+    " Spanish",
+    0.276
+   ],
+   [
+    " Portuguese",
+    0.2288
+   ],
+   [
+    " Que",
+    0.0579
+   ],
+   [
+    " English",
+    0.0423
+   ],
+   [
+    " called",
+    0.031
+   ],
+   [
+    " not",
+    0.0273
+   ],
+   [
+    " French",
+    0.0273
+   ],
+   [
+    " the",
+    0.0257
+   ],
+   [
+    " known",
+    0.0213
+   ],
+   [
+    " **",
+    0.0188
+   ]
+  ],
+  "continuation": " Spanish.\nQuestion: What is the"
+ },
+ {
+  "index": 0,
+  "name": "amazon-language",
+  "prompt": "Fact: The language spoken in the country where the Amazon River ends is",
+  "condition": "R_primary_L8_20",
+  "answer": " Portuguese",
+  "swap_answer": " Spanish",
+  "top10": [
+   [
+    " Spanish",
+    0.2714
+   ],
+   [
+    " Portuguese",
+    0.2395
+   ],
+   [
+    " Que",
+    0.0569
+   ],
+   [
+    " English",
+    0.0391
+   ],
+   [
+    " called",
+    0.0324
+   ],
+   [
+    " French",
+    0.0269
+   ],
+   [
+    " the",
+    0.0252
+   ],
+   [
+    " not",
+    0.0252
+   ],
+   [
+    " known",
+    0.0223
+   ],
+   [
+    " **",
+    0.0197
+   ]
+  ],
+  "continuation": " Spanish.\nQuestion: What is the"
+ },
+ {
+  "index": 0,
+  "name": "amazon-language",
+  "prompt": "Fact: The language spoken in the country where the Amazon River ends is",
+  "condition": "J_early_L3_8",
+  "answer": " Portuguese",
+  "swap_answer": " Spanish",
+  "top10": [
+   [
+    " Portuguese",
+    0.2578
+   ],
+   [
+    " Spanish",
+    0.2422
+   ],
+   [
+    " Que",
+    0.0508
+   ],
+   [
+    " English",
+    0.0421
+   ],
+   [
+    " called",
+    0.0328
+   ],
+   [
+    " French",
+    0.0308
+   ],
+   [
+    " not",
+    0.0289
+   ],
+   [
+    " the",
+    0.0272
+   ],
+   [
+    " known",
+    0.0225
+   ],
+   [
+    " **",
+    0.0175
+   ]
+  ],
+  "continuation": " Portuguese.\nQuestion: What is the"
+ },
+ {
+  "index": 0,
+  "name": "amazon-language",
+  "prompt": "Fact: The language spoken in the country where the Amazon River ends is",
+  "condition": "R_early_L3_8",
+  "answer": " Portuguese",
+  "swap_answer": " Spanish",
+  "top10": [
+   [
+    " Spanish",
+    0.2497
+   ],
+   [
+    " Portuguese",
+    0.2346
+   ],
+   [
+    " Que",
+    0.0593
+   ],
+   [
+    " English",
+    0.0408
+   ],
+   [
+    " called",
+    0.0338
+   ],
+   [
+    " French",
+    0.0298
+   ],
+   [
+    " the",
+    0.0263
+   ],
+   [
+    " not",
+    0.0263
+   ],
+   [
+    " known",
+    0.0232
+   ],
+   [
+    " **",
+    0.0181
+   ]
+  ],
+  "continuation": " Spanish.\nQuestion: What is the"
+ },
+ {
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "prompt": "Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a",
+  "condition": "clean",
+  "answer": " shell",
+  "swap_answer": " scale",
+  "top10": [
+   [
+    " shell",
+    0.648
+   ],
+   [
+    " __",
+    0.0642
+   ],
+   [
+    " car",
+    0.0566
+   ],
+   [
+    " ______",
+    0.0303
+   ],
+   [
+    "\n",
+    0.0222
+   ],
+   [
+    " **",
+    0.0162
+   ],
+   [
+    " _____",
+    0.0082
+   ],
+   [
+    " ___",
+    0.0077
+   ],
+   [
+    " tort",
+    0.0077
+   ],
+   [
+    " ____",
+    0.0068
+   ]
+  ],
+  "continuation": " shell.\nQuestion: What is the"
+ },
+ {
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "prompt": "Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a",
+  "condition": "J_primary_L8_20",
+  "answer": " shell",
+  "swap_answer": " scale",
+  "top10": [
+   [
+    " shell",
+    0.5706
+   ],
+   [
+    " __",
+    0.0682
+   ],
+   [
+    " car",
+    0.0499
+   ],
+   [
+    " ______",
+    0.0343
+   ],
+   [
+    "\n",
+    0.0267
+   ],
+   [
+    " sc",
+    0.0208
+   ],
+   [
+    " **",
+    0.0162
+   ],
+   [
+    " _____",
+    0.0098
+   ],
+   [
+    " scale",
+    0.0098
+   ],
+   [
+    " \"",
+    0.0092
+   ]
+  ],
+  "continuation": " shell.\nQuestion: What is the"
+ },
+ {
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "prompt": "Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a",
+  "condition": "R_primary_L8_20",
+  "answer": " shell",
+  "swap_answer": " scale",
+  "top10": [
+   [
+    " shell",
+    0.6082
+   ],
+   [
+    " __",
+    0.0641
+   ],
+   [
+    " car",
+    0.0469
+   ],
+   [
+    " ______",
+    0.0303
+   ],
+   [
+    "\n",
+    0.0251
+   ],
+   [
+    " sc",
+    0.0162
+   ],
+   [
+    " **",
+    0.0143
+   ],
+   [
+    " _____",
+    0.0087
+   ],
+   [
+    " scale",
+    0.0087
+   ],
+   [
+    " \"",
+    0.0087
+   ]
+  ],
+  "continuation": " shell.\nQuestion: What is the"
+ },
+ {
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "prompt": "Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a",
+  "condition": "J_early_L3_8",
+  "answer": " shell",
+  "swap_answer": " scale",
+  "top10": [
+   [
+    " shell",
+    0.613
+   ],
+   [
+    " car",
+    0.0732
+   ],
+   [
+    " __",
+    0.0607
+   ],
+   [
+    " ______",
+    0.0269
+   ],
+   [
+    "\n",
+    0.0223
+   ],
+   [
+    " **",
+    0.0163
+   ],
+   [
+    " sc",
+    0.0127
+   ],
+   [
+    " ___",
+    0.0093
+   ],
+   [
+    " _____",
+    0.0082
+   ],
+   [
+    " \"",
+    0.0068
+   ]
+  ],
+  "continuation": " shell.\nQuestion: What is the"
+ },
+ {
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "prompt": "Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a",
+  "condition": "R_early_L3_8",
+  "answer": " shell",
+  "swap_answer": " scale",
+  "top10": [
+   [
+    " shell",
+    0.5554
+   ],
+   [
+    " __",
+    0.0752
+   ],
+   [
+    " car",
+    0.0585
+   ],
+   [
+    " ______",
+    0.0355
+   ],
+   [
+    "\n",
+    0.0313
+   ],
+   [
+    " sc",
+    0.0202
+   ],
+   [
+    " **",
+    0.0139
+   ],
+   [
+    " _____",
+    0.0102
+   ],
+   [
+    " ___",
+    0.0096
+   ],
+   [
+    " ____",
+    0.0079
+   ]
+  ],
+  "continuation": " shell.\nQuestion: What is the"
+ }
+]

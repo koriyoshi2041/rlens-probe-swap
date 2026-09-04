@@ -1,0 +1,348 @@
+{
+ "as_is": {
+  "n_clean_correct": 57,
+  "n_eligible_strict": 51,
+  "median_p_answer_when_correct": 0.6149552464485168,
+  "median_rank_swap_answer_when_correct": 32,
+  "incorrect": [
+   {
+    "name": "amazon-language",
+    "top1": " Portuguese",
+    "answer": "Portuguese",
+    "rank_answer": 1722
+   },
+   {
+    "name": "animal-legs-buffalo2",
+    "top1": " ",
+    "answer": " four",
+    "rank_answer": 2
+   },
+   {
+    "name": "atomic-80-state",
+    "top1": "1",
+    "answer": "liquid",
+    "rank_answer": 46
+   },
+   {
+    "name": "basketball-players",
+    "top1": "1",
+    "answer": "5",
+    "rank_answer": 2
+   },
+   {
+    "name": "beverage-source-wine",
+    "top1": " same",
+    "answer": " grape",
+    "rank_answer": 2
+   },
+   {
+    "name": "bird-country-eagle",
+    "top1": " the",
+    "answer": " America",
+    "rank_answer": 34
+   },
+   {
+    "name": "bird-time-owl",
+    "top1": " the",
+    "answer": " night",
+    "rank_answer": 1
+   },
+   {
+    "name": "christmas-season",
+    "top1": "1",
+    "answer": "winter",
+    "rank_answer": 211
+   },
+   {
+    "name": "colosseum-currency",
+    "top1": "欧元",
+    "answer": "Euro",
+    "rank_answer": 108
+   },
+   {
+    "name": "etym-saturn-position",
+    "top1": "4",
+    "answer": "6",
+    "rank_answer": 3
+   },
+   {
+    "name": "etym-wargod-month",
+    "top1": "1",
+    "answer": "3",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-8-26",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 5
+   },
+   {
+    "name": "ex-element-state-8-80",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 5
+   },
+   {
+    "name": "ex-element-state-80-8",
+    "top1": " solid",
+    "answer": " liquid",
+    "rank_answer": 2
+   },
+   {
+    "name": "food-animal-honey",
+    "top1": " honey",
+    "answer": " bee",
+    "rank_answer": 2
+   },
+   {
+    "name": "gem-source-pearl",
+    "top1": " same",
+    "answer": " oyster",
+    "rank_answer": 2
+   },
+   {
+    "name": "greatwall-ocean",
+    "top1": "2",
+    "answer": "Pacific",
+    "rank_answer": 174
+   },
+   {
+    "name": "instr-body-trumpet",
+    "top1": " mouth",
+    "answer": " lips",
+    "rank_answer": 2
+   },
+   {
+    "name": "instr-hit-drums",
+    "top1": " a",
+    "answer": " sticks",
+    "rank_answer": 7
+   },
+   {
+    "name": "mars-color",
+    "top1": "1",
+    "answer": "red",
+    "rank_answer": 17265
+   },
+   {
+    "name": "month-3-godof",
+    "top1": " war",
+    "answer": "war",
+    "rank_answer": 304
+   },
+   {
+    "name": "organ-acid-stomach",
+    "top1": " gastric",
+    "answer": " acid",
+    "rank_answer": 3
+   },
+   {
+    "name": "organ-location-heart",
+    "top1": " heart",
+    "answer": " chest",
+    "rank_answer": 2
+   },
+   {
+    "name": "osu-rival-mascot",
+    "top1": "1",
+    "answer": "wolverine",
+    "rank_answer": 131212
+   },
+   {
+    "name": "paper-continent",
+    "top1": "1",
+    "answer": "Asia",
+    "rank_answer": 235
+   },
+   {
+    "name": "person-country-shakespeare",
+    "top1": " the",
+    "answer": " England",
+    "rank_answer": 9
+   },
+   {
+    "name": "rhyme-chair-flag",
+    "top1": "1",
+    "answer": "California",
+    "rank_answer": 745
+   },
+   {
+    "name": "rhyme-rain-neighbor",
+    "top1": "3",
+    "answer": "Portugal",
+    "rank_answer": 1159
+   },
+   {
+    "name": "rhyme-spoon-orbit",
+    "top1": "1",
+    "answer": "Earth",
+    "rank_answer": 936
+   },
+   {
+    "name": "spaceneedle-border",
+    "top1": "3",
+    "answer": "Canada",
+    "rank_answer": 238
+   },
+   {
+    "name": "sport-equip-tennis",
+    "top1": " rac",
+    "answer": " racket",
+    "rank_answer": 2
+   },
+   {
+    "name": "super-populous-capital",
+    "top1": "1",
+    "answer": "Beijing",
+    "rank_answer": 5500
+   },
+   {
+    "name": "super-smallest-continent",
+    "top1": "1",
+    "answer": "Europe",
+    "rank_answer": 366
+   }
+  ]
+ },
+ "rstrip": {
+  "n_clean_correct": 68,
+  "n_eligible_strict": 49,
+  "median_p_answer_when_correct": 0.5664790272712708,
+  "median_rank_swap_answer_when_correct": 31,
+  "incorrect": [
+   {
+    "name": "animal-legs-buffalo2",
+    "top1": " ",
+    "answer": " four",
+    "rank_answer": 2
+   },
+   {
+    "name": "atomic-80-state",
+    "top1": " solid",
+    "answer": " liquid",
+    "rank_answer": 2
+   },
+   {
+    "name": "beverage-source-wine",
+    "top1": " same",
+    "answer": " grape",
+    "rank_answer": 2
+   },
+   {
+    "name": "bird-country-eagle",
+    "top1": " the",
+    "answer": " America",
+    "rank_answer": 34
+   },
+   {
+    "name": "bird-time-owl",
+    "top1": " the",
+    "answer": " night",
+    "rank_answer": 1
+   },
+   {
+    "name": "colosseum-currency",
+    "top1": " euro",
+    "answer": " Euro",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex-element-state-8-26",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 5
+   },
+   {
+    "name": "ex-element-state-8-80",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 5
+   },
+   {
+    "name": "ex-element-state-80-8",
+    "top1": " solid",
+    "answer": " liquid",
+    "rank_answer": 2
+   },
+   {
+    "name": "food-animal-honey",
+    "top1": " honey",
+    "answer": " bee",
+    "rank_answer": 2
+   },
+   {
+    "name": "gem-source-pearl",
+    "top1": " same",
+    "answer": " oyster",
+    "rank_answer": 2
+   },
+   {
+    "name": "instr-body-trumpet",
+    "top1": " mouth",
+    "answer": " lips",
+    "rank_answer": 2
+   },
+   {
+    "name": "instr-hit-drums",
+    "top1": " a",
+    "answer": " sticks",
+    "rank_answer": 7
+   },
+   {
+    "name": "mars-color",
+    "top1": " blue",
+    "answer": " red",
+    "rank_answer": 2
+   },
+   {
+    "name": "organ-acid-stomach",
+    "top1": " gastric",
+    "answer": " acid",
+    "rank_answer": 3
+   },
+   {
+    "name": "organ-location-heart",
+    "top1": " heart",
+    "answer": " chest",
+    "rank_answer": 2
+   },
+   {
+    "name": "osu-rival-mascot",
+    "top1": " buck",
+    "answer": " wolverine",
+    "rank_answer": 62
+   },
+   {
+    "name": "person-country-shakespeare",
+    "top1": " the",
+    "answer": " England",
+    "rank_answer": 9
+   },
+   {
+    "name": "rhyme-chair-flag",
+    "top1": " New",
+    "answer": " California",
+    "rank_answer": 13
+   },
+   {
+    "name": "rhyme-rain-neighbor",
+    "top1": " the",
+    "answer": " Portugal",
+    "rank_answer": 5
+   },
+   {
+    "name": "rhyme-spoon-orbit",
+    "top1": " '",
+    "answer": " Earth",
+    "rank_answer": 3
+   },
+   {
+    "name": "sport-equip-tennis",
+    "top1": " rac",
+    "answer": " racket",
+    "rank_answer": 2
+   }
+  ]
+ }
+}

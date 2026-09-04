@@ -1,0 +1,9 @@
+### q82
+Traceback (most recent call last):
+  File "/root/autodl-tmp/mats-r-lens/work/code/q82_third_model_mechanism.py", line 32, in <module>
+    from q81_third_model import LENS_PATH, load_third
+  File "/root/autodl-tmp/mats-r-lens/work/code/q81_third_model.py", line 32, in <module>
+    from rlens.readout import logit_lens_vectors
+ImportError: cannot import name 'logit_lens_vectors' from 'rlens.readout' (/root/autodl-tmp/mats-r-lens/work/code/rlens/readout.py)
+EXIT_q82=1
+ALLDONE

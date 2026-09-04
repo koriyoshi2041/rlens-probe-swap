@@ -1,0 +1,31 @@
+### q70_position_choice.py
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12454.37it/s]
+[q70] 1/59 p_best=10 p_h8=10 clamp@4_best=+5.31 clamp@4_h8=+5.31 clamp@4_all=+6.88 K<-foil+clamp@4_best=+4.44
+[q70] 11/59 p_best=14 p_h8=21 clamp@4_best=+0.12 clamp@4_h8=+0.25 clamp@4_all=+1.50 K<-foil+clamp@4_best=+0.12
+[q70] 21/59 p_best=13 p_h8=13 clamp@4_best=+22.81 clamp@4_h8=+22.81 clamp@4_all=+22.56 K<-foil+clamp@4_best=+22.69
+[q70] 31/59 p_best=8 p_h8=8 clamp@4_best=+15.56 clamp@4_h8=+15.56 clamp@4_all=+16.06 K<-foil+clamp@4_best=+16.19
+[q70] 41/59 p_best=13 p_h8=3 clamp@4_best=+8.31 clamp@4_h8=+1.38 clamp@4_all=+16.81 K<-foil+clamp@4_best=+9.81
+[q70] 51/59 p_best=12 p_h8=6 clamp@4_best=+1.87 clamp@4_h8=+2.00 clamp@4_all=+1.37 K<-foil+clamp@4_best=+2.62
+[block69] done
+EXIT_q70_position_choice.py=0
+### q71_necessity_ladder.py
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 10267.28it/s]
+[q71] 1/59
+[q71] 11/59
+[q71] 21/59
+[q71] 31/59
+[q71] 41/59
+[q71] 51/59
+[block71] done
+EXIT_q71_necessity_ladder.py=0
+### q69 4b
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 12238.06it/s]
+[q69] self-check {'clean': -0.5, 'patch_clean_k': -0.5, 'patch_clean_pattern': -0.5, 'zero_pattern_row_L23': -0.125, 'zero_z_last_L23': -0.125, 'pattern_write_effective': True, 'identity_ok': True}
+[q69] 1/52 clamp2d@4=+5.50 orth@0.25=+3.56 K@19,23=-0.19 KV@19,23=+1.81 K@19,23+clamp2d@4=+6.56 PAT@19,23+clamp2d@4=+6.56
+[q69] 11/52 clamp2d@4=+7.12 orth@0.25=+5.38 K@19,23=-0.12 KV@19,23=+3.94 K@19,23+clamp2d@4=+8.00 PAT@19,23+clamp2d@4=+8.00
+[q69] 21/52 clamp2d@4=+13.25 orth@0.25=+10.12 K@19,23=-1.06 KV@19,23=+4.25 K@19,23+clamp2d@4=+15.75 PAT@19,23+clamp2d@4=+15.75
+[q69] 31/52 clamp2d@4=-0.81 orth@0.25=+8.44 K@19,23=+0.50 KV@19,23=+3.00 K@19,23+clamp2d@4=-0.56 PAT@19,23+clamp2d@4=-0.81
+[q69] 41/52 clamp2d@4=-0.06 orth@0.25=+2.66 K@19,23=-0.13 KV@19,23=+1.06 K@19,23+clamp2d@4=+0.00 PAT@19,23+clamp2d@4=+0.31
+[block70] done
+EXIT_q69_4b=0
+ALLDONE

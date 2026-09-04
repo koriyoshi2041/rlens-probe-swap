@@ -1,0 +1,73 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12976.69it/s]
+[knowledge] {
+ "intermediate": {
+  "n": 59,
+  "n_correct": 57,
+  "n_rank_le5": 58,
+  "failures": [
+   [
+    "organ-count-kidney2",
+    " one",
+    " two",
+    10
+   ],
+   [
+    "vehicle-power-bicycle",
+    " rider",
+    " legs",
+    5
+   ]
+  ]
+ },
+ "swap_to": {
+  "n": 59,
+  "n_correct": 52,
+  "n_rank_le5": 58,
+  "failures": [
+   [
+    "animal-cover-turtle",
+    " shell",
+    " scale",
+    2
+   ],
+   [
+    "element-color-gold2",
+    " white",
+    " gray",
+    3
+   ],
+   [
+    "ex-city-currency-Toronto-Beijing",
+    " Ren",
+    " yuan",
+    1
+   ],
+   [
+    "person-country-napoleon",
+    " the",
+    " America",
+    2
+   ],
+   [
+    "planet-rings-saturn2",
+    " Great",
+    " spot",
+    31
+   ],
+   [
+    "spaceneedle-border",
+    " the",
+    " New",
+    2
+   ],
+   [
+    "super-populous-capital",
+    " New",
+    " Delhi",
+    2
+   ]
+  ]
+ }
+}
+[block04b] swap_to reachable n=52
+exit=0

@@ -1,0 +1,32 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12762.02it/s]
+[q60] young-cow-sheep eligible=True cos=+0.21
+[q60] young-dog-cat eligible=True cos=+0.37
+[q60] young-horse-goat eligible=False cos=+0.01
+[q60] home-bee-bird eligible=True cos=+0.18
+[q60] home-bird-spider eligible=True cos=+0.07
+[q60] habitat-whale-camel eligible=True cos=+0.12
+[q60] class-elephant-penguin eligible=False cos=+0.05
+[q60] diet-lion-cow eligible=True cos=+0.02
+[q60] food-panda-koala eligible=True cos=+0.10
+[q60] month-valentine-december eligible=True cos=+0.12
+[q60] month-halloween-christmas eligible=True cos=+0.30
+[q60] season-halloween-easter eligible=False cos=+0.18
+[q60] day-saturday-monday eligible=False cos=+0.20
+[q60] season-opposite-summer-spring eligible=False cos=+0.10
+[q60] direction-east-north eligible=False cos=+0.31
+[q60] color-mix-yellow-red eligible=False cos=-0.01
+[q60] color-mix-blue-red eligible=False cos=+0.04
+[q60] fruit-color-apple-banana eligible=True cos=+0.04
+[q60] vegetable-color-carrot-spinach eligible=False cos=+0.10
+[q60] flame-sodium-copper eligible=True cos=-0.00
+[q60] state-mercury-iron eligible=True cos=+0.08
+[q60] bone-heart-brain eligible=False cos=+0.11
+[q60] tool-screw-nail eligible=False cos=+0.50
+[q60] player-piano-violin eligible=False cos=+0.66
+[q60] sport-equipment-tennis-golf eligible=False cos=+0.11
+[q60] sport-equipment-baseball-hockey eligible=True cos=+0.05
+[q60] plant-grape-apple eligible=True cos=+0.14
+[q60] sound-dog-cat eligible=False cos=+0.04
+[q60] material-window-ring eligible=False cos=+0.05
+[block55] done
+exit=0

@@ -1,0 +1,410 @@
+[
+ {
+  "group": "rescued",
+  "index": 11,
+  "name": "chem-atmosphere-Z",
+  "prompt": "Fact: The atomic number of the gas that makes up about 78 percent of the atmosphere is ",
+  "position": 14,
+  "pos_token": "8",
+  "intermediate": "nitrogen",
+  "swap_to": "oxygen",
+  "answer": "7",
+  "swap_answer": "8",
+  "continuations": {
+   "clean": "7.\nQuestion: What is the atomic number of the gas that makes up",
+   "clamp2d": "7.\nQuestion: What is the atomic number of the gas that makes up",
+   "paste_full": "8.\nQuestion: What is the atomic number of the gas that makes up"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 13,
+  "name": "chem-organic-Z",
+  "prompt": "Fact: The atomic number of the element present in all organic compounds by definition is ",
+  "position": 11,
+  "pos_token": " organic",
+  "intermediate": "carbon",
+  "swap_to": "oxygen",
+  "answer": "6",
+  "swap_answer": "8",
+  "continuations": {
+   "clean": "6.\nQuestion: What is the atomic number of the element present in all",
+   "clamp2d": "6.\nQuestion: What is the atomic number of the element present in all",
+   "paste_full": "8.\nQuestion: What is the atomic number of the element present in all"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 16,
+  "name": "city-state-Philadelphia",
+  "prompt": "Fact: The US state where the city famous for the Liberty Bell is located is",
+  "position": 12,
+  "pos_token": " Bell",
+  "intermediate": "Philadelphia",
+  "swap_to": "Seattle",
+  "answer": "Pennsylvania",
+  "swap_answer": "Washington",
+  "continuations": {
+   "clean": " Pennsylvania.\nQuestion: What is the name of the city famous for the Liberty",
+   "clamp2d": " the 43rd largest state by area.\nQuestion: What is the",
+   "paste_full": " Washington.\nQuestion: What is the capital of the US state where the city"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 19,
+  "name": "etym-frigg-position",
+  "prompt": "Fact: Counting Monday as day 1, the day of the week named after the Norse goddess Frigg is day number ",
+  "position": 14,
+  "pos_token": " week",
+  "intermediate": "Friday",
+  "swap_to": "Thursday",
+  "answer": "5",
+  "swap_answer": "4",
+  "continuations": {
+   "clean": "5.\nQuestion: What is the day of the week named after the Norse",
+   "clamp2d": "5.\nQuestion: What is the day of the week named after the Norse",
+   "paste_full": "4.\nQuestion: What is the name of the day of the week named"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 35,
+  "name": "ex-element-symbol-11-26",
+  "prompt": "Fact: The chemical symbol for the element with atomic number 11 is",
+  "position": 13,
+  "pos_token": "1",
+  "intermediate": "sodium",
+  "swap_to": "iron",
+  "answer": "Na",
+  "swap_answer": "Fe",
+  "continuations": {
+   "clean": " Na.\nQuestion: What is the chemical symbol for the element with atomic number",
+   "clamp2d": " Na.\nQuestion: What is the chemical symbol for the element with atomic number",
+   "paste_full": " Fe.\nQuestion: What is the chemical symbol for the element with atomic number"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 36,
+  "name": "ex-element-symbol-26-79",
+  "prompt": "Fact: The chemical symbol for the element with atomic number 26 is",
+  "position": 13,
+  "pos_token": "6",
+  "intermediate": "iron",
+  "swap_to": "gold",
+  "answer": "Fe",
+  "swap_answer": "Au",
+  "continuations": {
+   "clean": " Fe.\nQuestion: What is the chemical symbol for the element with atomic number",
+   "clamp2d": " Fe.\nQuestion: What is the chemical symbol for the element with atomic number",
+   "paste_full": " Au.\nQuestion: What is the chemical symbol for the element with atomic number"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 45,
+  "name": "ex2-language-capital-Hungarian",
+  "prompt": "Fact: The capital of the country where Hungarian is the primary language is",
+  "position": 8,
+  "pos_token": " Hungarian",
+  "intermediate": "Hungary",
+  "swap_to": "Poland",
+  "answer": "Budapest",
+  "swap_answer": "Warsaw",
+  "continuations": {
+   "clean": " Budapest.\nQuestion: What is the capital of the country where Hungarian is the",
+   "clamp2d": " Budapest.\nQuestion: What is the capital of the country where Hungarian is the",
+   "paste_full": " Warsaw.\nQuestion: What is the capital of the country where Polish is the"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 49,
+  "name": "food-animal-butter",
+  "prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+  "position": 9,
+  "pos_token": " spread",
+  "intermediate": "butter",
+  "swap_to": "honey",
+  "answer": "cow",
+  "swap_answer": "bee",
+  "continuations": {
+   "clean": " cow.\nQuestion: What is the yellow dairy spread used on bread?\n",
+   "clamp2d": " cow.\nQuestion: What is the yellow dairy spread used on bread?\n",
+   "paste_full": " bee.\nQuestion: What is the animal that produces the yellow dairy used on"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 52,
+  "name": "func-filters-count",
+  "prompt": "Fact: In humans, the number of organs that filter blood to make urine is ",
+  "position": 14,
+  "pos_token": " urine",
+  "intermediate": "kidney",
+  "swap_to": "liver",
+  "answer": "2",
+  "swap_answer": "1",
+  "continuations": {
+   "clean": "2.\nQuestion: How many organs in humans filter blood to make urine?",
+   "clamp2d": "1.\nQuestion: How many organs in humans filter blood to make urine?",
+   "paste_full": "1.\nQuestion: How many organs in humans filter blood to make urine?"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 54,
+  "name": "gem-color-ruby",
+  "prompt": "Fact: The color of the gemstone that is the traditional birthstone for July is",
+  "position": 6,
+  "pos_token": " gem",
+  "intermediate": "ruby",
+  "swap_to": "pearl",
+  "answer": "red",
+  "swap_answer": "white",
+  "continuations": {
+   "clean": " red.\nQuestion: What is the traditional birthstone for July?\nOptions",
+   "clamp2d": " red.\nQuestion: What is the traditional birthstone for July?\nOptions",
+   "paste_full": " white.\nQuestion: What is the traditional birthstone for July?\nOptions"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 72,
+  "name": "person-firstname-einstein",
+  "prompt": "Fact: The first name of the physicist who developed the theory of general relativity was",
+  "position": 14,
+  "pos_token": " rel",
+  "intermediate": "Einstein",
+  "swap_to": "Newton",
+  "answer": "Albert",
+  "swap_answer": "Isaac",
+  "continuations": {
+   "clean": " Albert.\nQuestion: What is the first name of the physicist who developed the",
+   "clamp2d": " Albert.\nQuestion: What is the first name of the physicist who developed the",
+   "paste_full": " Isaac.\nQuestion: What is the first name of the physicist who developed the"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 73,
+  "name": "person-firstname-mozart",
+  "prompt": "Fact: The first name of the child-prodigy composer from Salzburg who wrote The Magic Flute was",
+  "position": 19,
+  "pos_token": "ute",
+  "intermediate": "Mozart",
+  "swap_to": "Darwin",
+  "answer": "Wolfgang",
+  "swap_answer": "Charles",
+  "continuations": {
+   "clean": " Wolfgang.\nHypothesis: The child-prodigy composer from Salzburg who",
+   "clamp2d": " Wolfgang.\nHypothesis: The child-prodigy composer from Salzburg who",
+   "paste_full": " Charles.\nHypothesis: The child-prodigy composer from Salzburg who"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 74,
+  "name": "person-firstname-newton",
+  "prompt": "Fact: The first name of the scientist on whose head an apple is said to have fallen was",
+  "position": 17,
+  "pos_token": " fallen",
+  "intermediate": "Newton",
+  "swap_to": "Shakespeare",
+  "answer": "Isaac",
+  "swap_answer": "William",
+  "continuations": {
+   "clean": " Isaac.\nQuestion: What is the first name of the scientist on whose head",
+   "clamp2d": " Isaac.\nQuestion: What is the first name of the scientist on whose head",
+   "paste_full": " William.\nQuestion: What is the first name of the scientist on whose head"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 81,
+  "name": "season-next-winter",
+  "prompt": "Fact: The season that comes immediately after the coldest season of the year is",
+  "position": 13,
+  "pos_token": " the",
+  "intermediate": "winter",
+  "swap_to": "summer",
+  "answer": "spring",
+  "swap_answer": "autumn",
+  "continuations": {
+   "clean": " spring.\nQuestion: What season comes after winter?\nAnswer:\n\n<think>",
+   "clamp2d": " spring.\nQuestion: What season comes after winter?\nAnswer:\n\n<think>",
+   "paste_full": " autumn.\nQuestion: What season comes after the coldest season?\nOptions"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 83,
+  "name": "spider-legs",
+  "prompt": "Fact: The number of legs on the animal that spins webs is ",
+  "position": 11,
+  "pos_token": " webs",
+  "intermediate": "spider",
+  "swap_to": "ant",
+  "answer": "8",
+  "swap_answer": "6",
+  "continuations": {
+   "clean": "8.\nQuestion: How many legs does the animal that spins webs have?",
+   "clamp2d": "4.\nQuestion: How many legs does the animal that spins webs have?",
+   "paste_full": "6.\nQuestion: How many legs does the animal that spins webs have?"
+  }
+ },
+ {
+  "group": "rescued",
+  "index": 89,
+  "name": "violin-strings",
+  "prompt": "Fact: The number of strings on the instrument that fiddlers play is ",
+  "position": 11,
+  "pos_token": "idd",
+  "intermediate": "violin",
+  "swap_to": "guitar",
+  "answer": "4",
+  "swap_answer": "6",
+  "continuations": {
+   "clean": "4.\nQuestion: How many strings does the instrument that fiddlers play",
+   "clamp2d": "4.\nQuestion: How many strings does a fiddle have?\nAnswer",
+   "paste_full": "6.\nQuestion: How many strings does a guitar have?\nOptions:"
+  }
+ },
+ {
+  "group": "random_other",
+  "index": 0,
+  "name": "amazon-language",
+  "prompt": "Fact: The language spoken in the country where the Amazon River ends is",
+  "position": 10,
+  "pos_token": " Amazon",
+  "intermediate": "Brazil",
+  "swap_to": "Mexico",
+  "answer": "Portuguese",
+  "swap_answer": "Spanish",
+  "continuations": {
+   "clean": " Portuguese.\nQuestion: What is the language spoken in the country where the Amazon",
+   "clamp2d": " Spanish.\nQuestion: What is the name of the country where the Amazon River",
+   "paste_full": " Spanish.\nQuestion: What is the language spoken in the country where the Mexico"
+  }
+ },
+ {
+  "group": "random_other",
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "prompt": "Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a",
+  "position": 11,
+  "pos_token": " rept",
+  "intermediate": "turtle",
+  "swap_to": "snake",
+  "answer": "shell",
+  "swap_answer": "scale",
+  "continuations": {
+   "clean": " shell.\nQuestion: What is the hard covering on the back of the slow",
+   "clamp2d": " shell.\nQuestion: What is the hard covering on the back of the slow",
+   "paste_full": " shell.\nQuestion: What is the hard covering on the back of the slow"
+  }
+ },
+ {
+  "group": "random_other",
+  "index": 10,
+  "name": "birthstone-emerald-month",
+  "prompt": "Fact: Emerald is the birthstone for month number ",
+  "position": 10,
+  "pos_token": " ",
+  "intermediate": "May",
+  "swap_to": "July",
+  "answer": "5",
+  "swap_answer": "7",
+  "continuations": {
+   "clean": "5.\nQuestion: What is the birthstone for the month of May?",
+   "clamp2d": "5.\nQuestion: What is the birthstone for the month of May?",
+   "paste_full": " is the 7th month of the year.\nQuestion: What is the"
+  }
+ },
+ {
+  "group": "random_other",
+  "index": 25,
+  "name": "ex-city-capital-Toronto-Lyon",
+  "prompt": "Fact: The capital of the country where Toronto is located is",
+  "position": 8,
+  "pos_token": " Toronto",
+  "intermediate": "Canada",
+  "swap_to": "France",
+  "answer": "Ottawa",
+  "swap_answer": "Paris",
+  "continuations": {
+   "clean": " Ottawa.\nQuestion: What is the capital of the country where Toronto is located",
+   "clamp2d": " Paris.\nQuestion: Is the following statement true or false?\nThe capital",
+   "paste_full": " Paris.\nQuestion: What is the capital of the country where France is located"
+  }
+ },
+ {
+  "group": "random_other",
+  "index": 27,
+  "name": "ex-city-currency-Toronto-Beijing",
+  "prompt": "Fact: The currency used in the country where Toronto is located is the",
+  "position": 13,
+  "pos_token": " the",
+  "intermediate": "Canada",
+  "swap_to": "China",
+  "answer": "Canadian",
+  "swap_answer": "yuan",
+  "continuations": {
+   "clean": " Canadian dollar.\nQuestion: What is the currency used in the country where Toronto",
+   "clamp2d": " Canadian dollar.\nQuestion: What is the currency used in the country where Toronto",
+   "paste_full": " is the Renminbi.\nQuestion: What is the currency used in the"
+  }
+ },
+ {
+  "group": "random_other",
+  "index": 40,
+  "name": "ex2-city-continent-Lima",
+  "prompt": "Fact: The continent of the country where Lima is located is",
+  "position": 8,
+  "pos_token": " Lima",
+  "intermediate": "Peru",
+  "swap_to": "Egypt",
+  "answer": "South",
+  "swap_answer": "Africa",
+  "continuations": {
+   "clean": " South America.\nHypothesis: The continent of the country where Lima is",
+   "clamp2d": " Africa.\nQuestion: What continent is the country where Lima is located in?",
+   "paste_full": " Africa.\nQuestion: What continent is the country where Egypt is located in?"
+  }
+ },
+ {
+  "group": "random_other",
+  "index": 44,
+  "name": "ex2-language-capital-Greek",
+  "prompt": "Fact: The capital of the country where Greek is the primary language is",
+  "position": 8,
+  "pos_token": " Greek",
+  "intermediate": "Greece",
+  "swap_to": "Sweden",
+  "answer": "Athens",
+  "swap_answer": "Stockholm",
+  "continuations": {
+   "clean": " Athens.\nQuestion: What is the capital of the country where Greek is the",
+   "clamp2d": " Stockholm.\nQuestion: Is the following statement true or false?\nThe capital",
+   "paste_full": " Stockholm.\nQuestion: What is the capital of the country where Swedish is the"
+  }
+ },
+ {
+  "group": "random_other",
+  "index": 57,
+  "name": "holiday-month-christmas2",
+  "prompt": "Fact: The month of the holiday celebrated with a decorated evergreen tree and gift-giving is",
+  "position": 13,
+  "pos_token": " tree",
+  "intermediate": "Christmas",
+  "swap_to": "Easter",
+  "answer": "December",
+  "swap_answer": "April",
+  "continuations": {
+   "clean": " December.\nQuestion: What is the name of the holiday celebrated with a decorated",
+   "clamp2d": " December.\nQuestion: What is the name of the holiday celebrated with a decorated",
+   "paste_full": " April.\nQuestion: What is the name of the holiday celebrated with a decorated"
+  }
+ }
+]

@@ -1,0 +1,660 @@
+### q81 fp32 lens, band 10-20
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 1/398 [00:00<02:01,  3.26it/s]Loading weights:   9%|▉         | 37/398 [00:00<00:03, 93.48it/s]Loading weights:  13%|█▎        | 50/398 [00:00<00:03, 100.52it/s]Loading weights:  16%|█▋        | 65/398 [00:00<00:02, 113.91it/s]Loading weights:  20%|█▉        | 79/398 [00:00<00:02, 120.96it/s]Loading weights:  23%|██▎       | 93/398 [00:00<00:03, 99.89it/s] Loading weights:  28%|██▊       | 110/398 [00:01<00:02, 114.99it/s]Loading weights:  31%|███       | 123/398 [00:01<00:02, 118.67it/s]Loading weights:  34%|███▍      | 136/398 [00:01<00:02, 97.40it/s] Loading weights:  37%|███▋      | 149/398 [00:01<00:02, 105.00it/s]Loading weights:  40%|████      | 161/398 [00:01<00:02, 108.49it/s]Loading weights:  45%|████▍     | 179/398 [00:01<00:02, 101.87it/s]Loading weights:  48%|████▊     | 190/398 [00:01<00:02, 101.62it/s]Loading weights:  52%|█████▏    | 206/398 [00:01<00:01, 115.82it/s]Loading weights:  55%|█████▌    | 220/398 [00:02<00:01, 117.90it/s]Loading weights:  61%|██████    | 242/398 [00:02<00:01, 119.44it/s]Loading weights:  64%|██████▍   | 256/398 [00:02<00:01, 123.74it/s]Loading weights:  68%|██████▊   | 269/398 [00:02<00:01, 124.16it/s]Loading weights:  71%|███████▏  | 284/398 [00:02<00:01, 105.86it/s]Loading weights:  75%|███████▌  | 300/398 [00:02<00:00, 116.05it/s]Loading weights:  79%|███████▊  | 313/398 [00:02<00:00, 116.86it/s]Loading weights:  83%|████████▎ | 330/398 [00:03<00:00, 107.14it/s]Loading weights:  87%|████████▋ | 345/398 [00:03<00:00, 116.59it/s]Loading weights:  90%|████████▉ | 358/398 [00:03<00:00, 119.74it/s]Loading weights:  93%|█████████▎| 371/398 [00:03<00:00, 121.65it/s]Loading weights:  97%|█████████▋| 385/398 [00:03<00:00, 123.90it/s]Loading weights: 100%|██████████| 398/398 [00:03<00:00, 110.72it/s]
+[q81] loaded lens /root/autodl-tmp/mats-r-lens/assets/workspace-lenses/qwen3-4b-fp32/j-lens/lens.pt
+[q81] header: {
+ "model": {
+  "model_name": "/root/autodl-tmp/mats-r-lens/assets/Qwen3-4B",
+  "n_layers": 36,
+  "d_model": 2560,
+  "d_vocab": 151936,
+  "unembed_dtype": "torch.float32",
+  "device": "cuda:0"
+ },
+ "lenses": {
+  "J": {
+   "d_model": 2560,
+   "n_prompts": 25,
+   "source_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+   ],
+   "metadata": {
+    "model_name": "/root/autodl-tmp/mats-r-lens/assets/Qwen3-4B",
+    "model_revision": null,
+    "transformer_lens_version": "0.0.0",
+    "model_system": "TransformerBridge",
+    "processing": {
+     "compatibility_mode": false,
+     "weight_basis": "raw_huggingface"
+    },
+    "hook_convention": "blocks.{layer}.hook_out",
+    "corpus": "NeelNanda/pile-10k",
+    "n_prompts": 25,
+    "fit_dtype": "float32",
+    "target_layer": 35,
+    "dim_batch": 32,
+    "max_seq_len": 128,
+    "skip_first_positions": 4,
+    "transformer_lens_fit": true
+   }
+  }
+ }
+}
+[clean] summary: {
+ "as_is": {
+  "n_clean_correct": 47,
+  "n_eligible_strict": 43,
+  "median_p_answer_when_correct": 0.942010223865509,
+  "median_rank_swap_answer_when_correct": 58,
+  "incorrect": [
+   {
+    "name": "amazon-language",
+    "top1": " Portuguese",
+    "answer": "Portuguese",
+    "rank_answer": 84
+   },
+   {
+    "name": "animal-cover-turtle",
+    "top1": " sc",
+    "answer": " shell",
+    "rank_answer": 2
+   },
+   {
+    "name": "animal-legs-buffalo2",
+    "top1": " ",
+    "answer": " four",
+    "rank_answer": 3
+   },
+   {
+    "name": "atomic-80-state",
+    "top1": " a",
+    "answer": "liquid",
+    "rank_answer": 22
+   },
+   {
+    "name": "basketball-players",
+    "top1": "1",
+    "answer": "5",
+    "rank_answer": 3
+   },
+   {
+    "name": "beverage-source-wine",
+    "top1": " same",
+    "answer": " grape",
+    "rank_answer": 9
+   },
+   {
+    "name": "bird-color-swan",
+    "top1": " blue",
+    "answer": " white",
+    "rank_answer": 2
+   },
+   {
+    "name": "bird-country-eagle",
+    "top1": " the",
+    "answer": " America",
+    "rank_answer": 12
+   },
+   {
+    "name": "bird-time-owl",
+    "top1": " when",
+    "answer": " night",
+    "rank_answer": 13
+   },
+   {
+    "name": "christmas-season",
+    "top1": "1",
+    "answer": "winter",
+    "rank_answer": 126
+   },
+   {
+    "name": "colosseum-currency",
+    "top1": " euro",
+    "answer": "Euro",
+    "rank_answer": 46
+   },
+   {
+    "name": "element-color-gold2",
+    "top1": " gold",
+    "answer": " yellow",
+    "rank_answer": 4
+   },
+   {
+    "name": "etym-frigg-position",
+    "top1": "1",
+    "answer": "5",
+    "rank_answer": 2
+   },
+   {
+    "name": "etym-wargod-month",
+    "top1": "5",
+    "answer": "3",
+    "rank_answer": 5
+   },
+   {
+    "name": "ex-element-state-8-26",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex-element-state-8-80",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex-element-state-80-8",
+    "top1": " a",
+    "answer": " liquid",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex-planet-color-third-fourth",
+    "top1": " green",
+    "answer": " blue",
+    "rank_answer": 3
+   },
+   {
+    "name": "ex2-city-capital-Munich",
+    "top1": " Munich",
+    "answer": " Berlin",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex2-city-capital-Osaka",
+    "top1": " Kyoto",
+    "answer": " Tokyo",
+    "rank_answer": 2
+   },
+   {
+    "name": "food-animal-honey",
+    "top1": " honey",
+    "answer": " bee",
+    "rank_answer": 2
+   },
+   {
+    "name": "gem-color-ruby",
+    "top1": " s",
+    "answer": " red",
+    "rank_answer": 43
+   },
+   {
+    "name": "gem-source-pearl",
+    "top1": " same",
+    "answer": " oyster",
+    "rank_answer": 100
+   },
+   {
+    "name": "greatwall-ocean",
+    "top1": " Pacific",
+    "answer": "Pacific",
+    "rank_answer": 18
+   },
+   {
+    "name": "instr-hit-drums",
+    "top1": " a",
+    "answer": " sticks",
+    "rank_answer": 5
+   },
+   {
+    "name": "mars-color",
+    "top1": " green",
+    "answer": "red",
+    "rank_answer": 1362
+   },
+   {
+    "name": "month-3-godof",
+    "top1": " war",
+    "answer": "war",
+    "rank_answer": 1837
+   },
+   {
+    "name": "organ-acid-stomach",
+    "top1": " the",
+    "answer": " acid",
+    "rank_answer": 6
+   },
+   {
+    "name": "organ-count-kidney2",
+    "top1": " ",
+    "answer": " two",
+    "rank_answer": 2
+   },
+   {
+    "name": "organ-location-heart",
+    "top1": " heart",
+    "answer": " chest",
+    "rank_answer": 32
+   },
+   {
+    "name": "osu-rival-mascot",
+    "top1": "1",
+    "answer": "wolverine",
+    "rank_answer": 120677
+   },
+   {
+    "name": "paper-continent",
+    "top1": " Europe",
+    "answer": "Asia",
+    "rank_answer": 201
+   },
+   {
+    "name": "person-century-lincoln",
+    "top1": " American",
+    "answer": " Civil",
+    "rank_answer": 2
+   },
+   {
+    "name": "person-country-shakespeare",
+    "top1": " the",
+    "answer": " England",
+    "rank_answer": 21
+   },
+   {
+    "name": "person-firstname-mozart",
+    "top1": " Mozart",
+    "answer": " Wolfgang",
+    "rank_answer": 2
+   },
+   {
+    "name": "rhyme-chair-flag",
+    "top1": "1",
+    "answer": "California",
+    "rank_answer": 578
+   },
+   {
+    "name": "rhyme-rain-neighbor",
+    "top1": "1",
+    "answer": "Portugal",
+    "rank_answer": 18454
+   },
+   {
+    "name": "rhyme-spoon-orbit",
+    "top1": " Earth",
+    "answer": "Earth",
+    "rank_answer": 123
+   },
+   {
+    "name": "spaceneedle-border",
+    "top1": "3",
+    "answer": "Canada",
+    "rank_answer": 1369
+   },
+   {
+    "name": "spider-legs",
+    "top1": "6",
+    "answer": "8",
+    "rank_answer": 2
+   },
+   {
+    "name": "sport-equip-tennis",
+    "top1": " tennis",
+    "answer": " racket",
+    "rank_answer": 3
+   },
+   {
+    "name": "super-populous-capital",
+    "top1": "2",
+    "answer": "Beijing",
+    "rank_answer": 6718
+   },
+   {
+    "name": "super-smallest-continent",
+    "top1": " Europe",
+    "answer": "Europe",
+    "rank_answer": 91
+   }
+  ]
+ },
+ "rstrip": {
+  "n_clean_correct": 53,
+  "n_eligible_strict": 38,
+  "median_p_answer_when_correct": 0.9238823652267456,
+  "median_rank_swap_answer_when_correct": 33,
+  "incorrect": [
+   {
+    "name": "animal-cover-turtle",
+    "top1": " sc",
+    "answer": " shell",
+    "rank_answer": 2
+   },
+   {
+    "name": "animal-legs-buffalo2",
+    "top1": " ",
+    "answer": " four",
+    "rank_answer": 3
+   },
+   {
+    "name": "atomic-80-state",
+    "top1": " a",
+    "answer": " liquid",
+    "rank_answer": 2
+   },
+   {
+    "name": "beverage-source-wine",
+    "top1": " same",
+    "answer": " grape",
+    "rank_answer": 9
+   },
+   {
+    "name": "bird-color-swan",
+    "top1": " blue",
+    "answer": " white",
+    "rank_answer": 2
+   },
+   {
+    "name": "bird-country-eagle",
+    "top1": " the",
+    "answer": " America",
+    "rank_answer": 12
+   },
+   {
+    "name": "bird-time-owl",
+    "top1": " when",
+    "answer": " night",
+    "rank_answer": 13
+   },
+   {
+    "name": "christmas-season",
+    "top1": " called",
+    "answer": " winter",
+    "rank_answer": 2
+   },
+   {
+    "name": "colosseum-currency",
+    "top1": " euro",
+    "answer": " Euro",
+    "rank_answer": 2
+   },
+   {
+    "name": "element-color-gold2",
+    "top1": " gold",
+    "answer": " yellow",
+    "rank_answer": 4
+   },
+   {
+    "name": "ex-element-state-8-26",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex-element-state-8-80",
+    "top1": " a",
+    "answer": " gas",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex-element-state-80-8",
+    "top1": " a",
+    "answer": " liquid",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex-planet-color-third-fourth",
+    "top1": " green",
+    "answer": " blue",
+    "rank_answer": 3
+   },
+   {
+    "name": "ex2-city-capital-Munich",
+    "top1": " Munich",
+    "answer": " Berlin",
+    "rank_answer": 2
+   },
+   {
+    "name": "ex2-city-capital-Osaka",
+    "top1": " Kyoto",
+    "answer": " Tokyo",
+    "rank_answer": 2
+   },
+   {
+    "name": "food-animal-honey",
+    "top1": " honey",
+    "answer": " bee",
+    "rank_answer": 2
+   },
+   {
+    "name": "func-filters-count",
+    "top1": " two",
+    "answer": " 2",
+    "rank_answer": 2
+   },
+   {
+    "name": "gem-color-ruby",
+    "top1": " s",
+    "answer": " red",
+    "rank_answer": 43
+   },
+   {
+    "name": "gem-source-pearl",
+    "top1": " same",
+    "answer": " oyster",
+    "rank_answer": 100
+   },
+   {
+    "name": "greatwall-ocean",
+    "top1": " Atlantic",
+    "answer": " Pacific",
+    "rank_answer": 2
+   },
+   {
+    "name": "instr-hit-drums",
+    "top1": " a",
+    "answer": " sticks",
+    "rank_answer": 5
+   },
+   {
+    "name": "mars-color",
+    "top1": " green",
+    "answer": " red",
+    "rank_answer": 4
+   },
+   {
+    "name": "organ-acid-stomach",
+    "top1": " the",
+    "answer": " acid",
+    "rank_answer": 6
+   },
+   {
+    "name": "organ-count-kidney2",
+    "top1": " ",
+    "answer": " two",
+    "rank_answer": 2
+   },
+   {
+    "name": "organ-location-heart",
+    "top1": " heart",
+    "answer": " chest",
+    "rank_answer": 32
+   },
+   {
+    "name": "osu-rival-mascot",
+    "top1": " lion",
+    "answer": " wolverine",
+    "rank_answer": 740
+   },
+   {
+    "name": "person-century-lincoln",
+    "top1": " American",
+    "answer": " Civil",
+    "rank_answer": 2
+   },
+   {
+    "name": "person-country-shakespeare",
+    "top1": " the",
+    "answer": " England",
+    "rank_answer": 21
+   },
+   {
+    "name": "person-firstname-mozart",
+    "top1": " Mozart",
+    "answer": " Wolfgang",
+    "rank_answer": 2
+   },
+   {
+    "name": "rhyme-chair-flag",
+    "top1": " Texas",
+    "answer": " California",
+    "rank_answer": 5
+   },
+   {
+    "name": "rhyme-rain-neighbor",
+    "top1": " France",
+    "answer": " Portugal",
+    "rank_answer": 5
+   },
+   {
+    "name": "rhyme-spoon-orbit",
+    "top1": " Saturn",
+    "answer": " Earth",
+    "rank_answer": 5
+   },
+   {
+    "name": "spaceneedle-border",
+    "top1": " Washington",
+    "answer": " Canada",
+    "rank_answer": 7
+   },
+   {
+    "name": "sport-equip-tennis",
+    "top1": " tennis",
+    "answer": " racket",
+    "rank_answer": 3
+   },
+   {
+    "name": "super-populous-capital",
+    "top1": " the",
+    "answer": " Beijing",
+    "rank_answer": 3
+   },
+   {
+    "name": "violin-strings",
+    "top1": " usually",
+    "answer": " 4",
+    "rank_answer": 3
+   }
+  ]
+ }
+}
+[readout] 1/38 items done
+[readout] 11/38 items done
+[readout] 21/38 items done
+[readout] 31/38 items done
+[readout] token=intermediate: per layer, fraction of items with rank-1 hit at any position (J / R / logit), and rank<=10 at any position
+  L00  J: r1=0.00 r10=0.00 med=956 | logit: r1=0.00 r10=0.08 med=1340
+  L01  J: r1=0.00 r10=0.03 med=1866 | logit: r1=0.00 r10=0.08 med=3352
+  L02  J: r1=0.00 r10=0.00 med=1736 | logit: r1=0.00 r10=0.03 med=4101
+  L03  J: r1=0.00 r10=0.03 med=236 | logit: r1=0.00 r10=0.03 med=3551
+  L04  J: r1=0.00 r10=0.03 med=232 | logit: r1=0.00 r10=0.00 med=1259
+  L05  J: r1=0.00 r10=0.05 med=223 | logit: r1=0.00 r10=0.00 med=2449
+  L06  J: r1=0.03 r10=0.11 med=98 | logit: r1=0.00 r10=0.05 med=1203
+  L07  J: r1=0.03 r10=0.26 med=32 | logit: r1=0.00 r10=0.00 med=633
+  L08  J: r1=0.03 r10=0.26 med=60 | logit: r1=0.00 r10=0.08 med=763
+  L09  J: r1=0.11 r10=0.47 med=14 | logit: r1=0.03 r10=0.24 med=86
+  L10  J: r1=0.26 r10=0.66 med=4 | logit: r1=0.05 r10=0.26 med=76
+  L11  J: r1=0.21 r10=0.71 med=4 | logit: r1=0.05 r10=0.21 med=130
+  L12  J: r1=0.32 r10=0.76 med=3 | logit: r1=0.05 r10=0.34 med=46
+  L13  J: r1=0.39 r10=0.79 med=3 | logit: r1=0.03 r10=0.29 med=47
+  L14  J: r1=0.24 r10=0.71 med=4 | logit: r1=0.08 r10=0.18 med=52
+  L15  J: r1=0.16 r10=0.68 med=4 | logit: r1=0.05 r10=0.13 med=116
+  L16  J: r1=0.16 r10=0.68 med=4 | logit: r1=0.03 r10=0.11 med=76
+  L17  J: r1=0.16 r10=0.63 med=5 | logit: r1=0.03 r10=0.05 med=167
+  L18  J: r1=0.16 r10=0.63 med=4 | logit: r1=0.00 r10=0.08 med=244
+  L19  J: r1=0.03 r10=0.58 med=6 | logit: r1=0.00 r10=0.03 med=210
+  L20  J: r1=0.16 r10=0.66 med=5 | logit: r1=0.00 r10=0.03 med=206
+  L21  J: r1=0.08 r10=0.55 med=7 | logit: r1=0.00 r10=0.05 med=118
+  L22  J: r1=0.08 r10=0.58 med=8 | logit: r1=0.03 r10=0.16 med=91
+  L23  J: r1=0.13 r10=0.66 med=5 | logit: r1=0.11 r10=0.34 med=36
+  L24  J: r1=0.32 r10=0.76 med=4 | logit: r1=0.11 r10=0.39 med=30
+  L25  J: r1=0.21 r10=0.71 med=4 | logit: r1=0.11 r10=0.32 med=29
+  L26  J: r1=0.34 r10=0.82 med=5 | logit: r1=0.11 r10=0.45 med=12
+  L27  J: r1=0.37 r10=0.79 med=2 | logit: r1=0.05 r10=0.50 med=10
+  L28  J: r1=0.34 r10=0.87 med=2 | logit: r1=0.16 r10=0.71 med=4
+  L29  J: r1=0.29 r10=0.92 med=2 | logit: r1=0.29 r10=0.87 med=4
+  L30  J: r1=0.34 r10=0.95 med=3 | logit: r1=0.26 r10=0.74 med=3
+  L31  J: r1=0.34 r10=0.89 med=3 | logit: r1=0.29 r10=0.76 med=2
+  L32  J: r1=0.21 r10=0.87 med=3 | logit: r1=0.24 r10=0.74 med=4
+  L33  J: r1=0.13 r10=0.74 med=4 | logit: r1=0.16 r10=0.63 med=5
+  L34  J: r1=0.11 r10=0.76 med=4 | logit: r1=0.13 r10=0.63 med=5
+  L35  J: r1=0.08 r10=0.63 med=6 | logit: r1=0.08 r10=0.63 med=6
+[readout] token=answer: per layer, fraction of items with rank-1 hit at any position (J / R / logit), and rank<=10 at any position
+  L00  J: r1=0.00 r10=0.00 med=1514 | logit: r1=0.00 r10=0.05 med=7336
+  L01  J: r1=0.00 r10=0.00 med=2932 | logit: r1=0.00 r10=0.00 med=14153
+  L02  J: r1=0.00 r10=0.00 med=8270 | logit: r1=0.00 r10=0.00 med=14316
+  L03  J: r1=0.00 r10=0.00 med=1157 | logit: r1=0.00 r10=0.00 med=14430
+  L04  J: r1=0.00 r10=0.03 med=1199 | logit: r1=0.00 r10=0.00 med=5614
+  L05  J: r1=0.00 r10=0.00 med=566 | logit: r1=0.00 r10=0.00 med=3590
+  L06  J: r1=0.00 r10=0.00 med=398 | logit: r1=0.00 r10=0.00 med=2008
+  L07  J: r1=0.00 r10=0.03 med=198 | logit: r1=0.00 r10=0.00 med=2018
+  L08  J: r1=0.00 r10=0.08 med=262 | logit: r1=0.00 r10=0.03 med=1335
+  L09  J: r1=0.00 r10=0.18 med=62 | logit: r1=0.03 r10=0.13 med=1068
+  L10  J: r1=0.00 r10=0.45 med=12 | logit: r1=0.00 r10=0.11 med=1018
+  L11  J: r1=0.00 r10=0.34 med=23 | logit: r1=0.03 r10=0.08 med=1006
+  L12  J: r1=0.03 r10=0.34 med=18 | logit: r1=0.03 r10=0.05 med=342
+  L13  J: r1=0.03 r10=0.32 med=22 | logit: r1=0.03 r10=0.05 med=616
+  L14  J: r1=0.03 r10=0.21 med=42 | logit: r1=0.03 r10=0.05 med=658
+  L15  J: r1=0.03 r10=0.11 med=70 | logit: r1=0.03 r10=0.03 med=418
+  L16  J: r1=0.05 r10=0.13 med=94 | logit: r1=0.03 r10=0.08 med=486
+  L17  J: r1=0.00 r10=0.11 med=84 | logit: r1=0.05 r10=0.11 med=694
+  L18  J: r1=0.03 r10=0.08 med=70 | logit: r1=0.03 r10=0.08 med=402
+  L19  J: r1=0.00 r10=0.11 med=92 | logit: r1=0.00 r10=0.11 med=586
+  L20  J: r1=0.00 r10=0.08 med=118 | logit: r1=0.00 r10=0.08 med=653
+  L21  J: r1=0.00 r10=0.08 med=165 | logit: r1=0.00 r10=0.11 med=614
+  L22  J: r1=0.00 r10=0.13 med=166 | logit: r1=0.03 r10=0.05 med=310
+  L23  J: r1=0.00 r10=0.24 med=50 | logit: r1=0.03 r10=0.21 med=64
+  L24  J: r1=0.13 r10=0.50 med=10 | logit: r1=0.00 r10=0.32 med=16
+  L25  J: r1=0.08 r10=0.45 med=12 | logit: r1=0.00 r10=0.24 med=20
+  L26  J: r1=0.13 r10=0.53 med=6 | logit: r1=0.08 r10=0.53 med=10
+  L27  J: r1=0.24 r10=0.63 med=8 | logit: r1=0.18 r10=0.76 med=6
+  L28  J: r1=0.34 r10=0.68 med=3 | logit: r1=0.39 r10=0.79 med=2
+  L29  J: r1=0.47 r10=0.89 med=2 | logit: r1=0.50 r10=0.97 med=2
+  L30  J: r1=0.58 r10=0.92 med=1 | logit: r1=0.61 r10=0.92 med=1
+  L31  J: r1=0.63 r10=0.97 med=1 | logit: r1=0.63 r10=0.97 med=1
+  L32  J: r1=0.82 r10=0.97 med=1 | logit: r1=0.79 r10=0.97 med=1
+  L33  J: r1=0.97 r10=1.00 med=1 | logit: r1=0.84 r10=1.00 med=1
+  L34  J: r1=0.95 r10=1.00 med=1 | logit: r1=0.92 r10=1.00 med=1
+  L35  J: r1=1.00 r10=1.00 med=1 | logit: r1=1.00 r10=1.00 med=1
+[q81] band=[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] eligible=47
+[q81] 1/47
+[q81] 11/47
+[q81] 21/47
+[q81] 31/47
+[q81] 41/47
+[block81] done in 2.9 min
+EXIT_q81b=0
+ALLDONE

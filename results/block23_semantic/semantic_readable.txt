@@ -1,0 +1,530 @@
+### amazon-language  [Brazil -> Mexico]  expect Portuguese -> Spanish
+    prompt: Fact: The language spoken in the country where the Amazon River ends is
+    clean cont : ' Portuguese.\nQuestion: What is the language spoken in the country where the Amazon River ends?\n'
+    clean probe: ' the Amazon River.\nQuestion: What'
+    J     cont : ' Spanish.\nQuestion: What is the name of the country where the Amazon River ends?\nAnswer'
+    J     probe: ' the Amazon River.\nQuestion: What'
+    R     cont : ' Spanish.\nQuestion: What is the name of the country where the Amazon River ends?\nAnswer'
+    R     probe: ' the Amazon River.\nQuestion: What'
+
+### animal-cover-turtle  [turtle -> snake]  expect shell -> scale
+    prompt: Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a
+    clean cont : ' shell.\nQuestion: What is the hard covering on the back of the slow reptile that can'
+    clean probe: ' a turtle.\nQuestion: What is'
+    J     cont : ' shell.\nQuestion: What is the hard covering on the back of the slow reptile that can'
+    J     probe: ' a turtle.\nQuestion: What is'
+    R     cont : ' shell.\nQuestion: What is the hard covering on the back of the slow reptile that can'
+    R     probe: ' a turtle.\nQuestion: What is'
+
+### animal-nose-elephant  [elephant -> snake]  expect trunk -> tongue
+    prompt: Fact: The long flexible body part that the largest land animal uses to pick things up is called a
+    clean cont : ' trunk.\nQuestion: What is the name of the long flexible body part that the largest land animal'
+    clean probe: ' a(n) __________.\n\nA'
+    J     cont : ' trunk.\nQuestion: What is the name of the long flexible body part that the largest land animal'
+    J     probe: ' a(n) __________.\n\nA'
+    R     cont : ' trunk.\nQuestion: What is the name of the long flexible body part that the largest land animal'
+    R     probe: ' a(n) __________.\n\nA'
+
+### birthstone-emerald-month  [May -> July]  expect 5 -> 7
+    prompt: Fact: Emerald is the birthstone for month number 
+    clean cont : '5.\nQuestion: What is the birthstone for the month of May?\nOptions:\n'
+    clean probe: ' the month of May.\nQuestion:'
+    J     cont : '5.\nQuestion: What is the birthstone for the month of May?\nAnswer:\n\n'
+    J     probe: ' the month of May.\nQuestion:'
+    R     cont : '5.\nQuestion: What is the birthstone for the month of May?\nAnswer:\n\n'
+    R     probe: ' the month of May.\nQuestion:'
+
+### chem-atmosphere-Z  [nitrogen -> oxygen]  expect 7 -> 8
+    prompt: Fact: The atomic number of the gas that makes up about 78 percent of the atmosphere is 
+    clean cont : '7.\nQuestion: What is the atomic number of the gas that makes up about 78'
+    clean probe: ' the atomic number of the gas that makes'
+    J     cont : '7.\nQuestion: What is the atomic number of the gas that makes up about 78'
+    J     probe: ' the atomic number of the gas that makes'
+    R     cont : '7.\nQuestion: What is the atomic number of the gas that makes up about 78'
+    R     probe: ' the atomic number of the gas that makes'
+
+### chem-organic-Z  [carbon -> oxygen]  expect 6 -> 8
+    prompt: Fact: The atomic number of the element present in all organic compounds by definition is 
+    clean cont : '6.\nQuestion: What is the atomic number of the element present in all organic compounds by definition'
+    clean probe: ' the atomic number of the element.\n'
+    J     cont : '6.\nQuestion: What is the atomic number of the element present in all organic compounds by definition'
+    J     probe: ' the atomic number of the element.\n'
+    R     cont : '6.\nQuestion: What is the atomic number of the element present in all organic compounds by definition'
+    R     probe: ' the atomic number of the element.\n'
+
+### chem-photosynthesis-Z  [oxygen -> nitrogen]  expect 8 -> 7
+    prompt: Fact: The atomic number of the gas that plants release during photosynthesis is 
+    clean cont : '8.\nQuestion: What is the name of the gas that plants release during photosynthesis?\n'
+    clean probe: ' the atomic number of the gas that plants'
+    J     cont : '7.\nQuestion: What is the gas that plants release during photosynthesis?\nOptions:\n'
+    J     probe: ':\n\nA. Oxygen\nB.'
+    R     cont : '7.\nQuestion: What is the gas that plants release during photosynthesis?\nOptions:\n'
+    R     probe: ' the atomic number of the gas that plants'
+
+### christmas-season  [Christmas -> Easter]  expect winter -> spring
+    prompt: Fact: The season when the holiday with a decorated tree occurs is
+    clean cont : ' winter.\nQuestion: What is the season when the holiday with a decorated tree occurs?\nOptions'
+    clean probe: ' a holiday with a decorated tree.\n'
+    J     cont : ' spring.\nQuestion: What is the season when the holiday with a decorated tree occurs?\nAnswer'
+    J     probe: ' a holiday with a decorated tree.\n'
+    R     cont : ' spring.\nQuestion: What is the season when the holiday with a decorated tree occurs?\nOptions'
+    R     probe: ' a holiday with a decorated tree.\n'
+
+### city-state-Philadelphia  [Philadelphia -> Seattle]  expect Pennsylvania -> Washington
+    prompt: Fact: The US state where the city famous for the Liberty Bell is located is
+    clean cont : ' Pennsylvania.\nQuestion: What is the name of the city famous for the Liberty Bell?\nAnswer'
+    clean probe: ' the United States.\nHypothesis'
+    J     cont : ' the 43rd largest state by area.\nQuestion: What is the name of the city'
+    J     probe: ' the United States.\nQuestion: What'
+    R     cont : ' the 43rd largest state by area.\nQuestion: What is the name of the city'
+    R     probe: ' the United States.\nHypothesis'
+
+### element-color-gold2  [gold -> silver]  expect yellow -> gray
+    prompt: Fact: The color of the precious metal with atomic number 79 is
+    clean cont : ' yellow.\nQuestion: What is the color of the precious metal with atomic number 79?'
+    clean probe: ' a precious metal with atomic number 7'
+    J     cont : ' yellow.\nQuestion: What is the color of the precious metal with atomic number 79?'
+    J     probe: ' the color of the precious metal with atomic'
+    R     cont : ' yellow.\nQuestion: What is the color of the precious metal with atomic number 79?'
+    R     probe: ' a precious metal with atomic number 7'
+
+### etym-frigg-position  [Friday -> Thursday]  expect 5 -> 4
+    prompt: Fact: Counting Monday as day 1, the day of the week named after the Norse goddess Frigg is day number 
+    clean cont : '5.\nQuestion: What is the day of the week named after the Norse goddess Frigg?'
+    clean probe: ' a day of the week.\nQuestion'
+    J     cont : '5.\nQuestion: What is the day of the week named after the Norse goddess Frigg?'
+    J     probe: ' a day of the week.\nQuestion'
+    R     cont : '5.\nQuestion: What is the day of the week named after the Norse goddess Frigg?'
+    R     probe: ' a day of the week.\nQuestion'
+
+### ex-city-capital-Barcelona-Toronto  [Spain -> Canada]  expect Madrid -> Ottawa
+    prompt: Fact: The capital of the country where Barcelona is located is
+    clean cont : ' Madrid.\nQuestion: What is the capital of the country where Barcelona is located?\nOptions:'
+    clean probe: ':\nA. Spain\nB.'
+    J     cont : ' Ottawa.\nQuestion: Is the following statement true or false?\nThe capital of the country where'
+    J     probe: ':\nA. Spain\nB.'
+    R     cont : ' Madrid.\nQuestion: What is the capital of the country where Barcelona is located?\nOptions:'
+    R     probe: ':\nA. Spain\nB.'
+
+### ex-city-capital-Lyon-Naples  [France -> Italy]  expect Paris -> Rome
+    prompt: Fact: The capital of the country where Lyon is located is
+    clean cont : ' Paris.\nQuestion: What is the capital of the country where Lyon is located?\nOptions:'
+    clean probe: ' France.\nQuestion: What is the'
+    J     cont : ' Rome.\nQuestion: What is the capital of the country where Lyon is located?\nOptions:'
+    J     probe: ' France.\nQuestion: What is the'
+    R     cont : ' Rome.\nQuestion: What is the capital of the country where Lyon is located?\nOptions:'
+    R     probe: ' France.\nQuestion: What is the'
+
+### ex-city-capital-Naples-Barcelona  [Italy -> Spain]  expect Rome -> Madrid
+    prompt: Fact: The capital of the country where Naples is located is
+    clean cont : ' Rome.\nQuestion: What is the capital of the country where Naples is located?\nOptions:'
+    clean probe: ' Italy.\nQuestion: What is the'
+    J     cont : ' Madrid.\nQuestion: What is the capital of the country where Naples is located?\nOptions:'
+    J     probe: ':\nA. Spain\nB.'
+    R     cont : ' Madrid.\nQuestion: What is the capital of the country where Naples is located?\nOptions:'
+    R     probe: ':\nA. Spain\nB.'
+
+### ex-city-capital-Toronto-Lyon  [Canada -> France]  expect Ottawa -> Paris
+    prompt: Fact: The capital of the country where Toronto is located is
+    clean cont : ' Ottawa.\nQuestion: What is the capital of the country where Toronto is located?\nOptions:'
+    clean probe: ' Canada.\nQuestion: What is the'
+    J     cont : ' Paris.\nQuestion: Is the following statement true or false?\nThe capital of the country where'
+    J     probe: ' Canada.\nQuestion: What is the'
+    R     cont : ' Paris.\nQuestion: Is the following statement true or false?\nThe capital of the country where'
+    R     probe: ' Canada.\nQuestion: What is the'
+
+### ex-city-continent-Toronto-Lyon  [Canada -> France]  expect North -> Europe
+    prompt: Fact: The continent of the country where Toronto is located is
+    clean cont : ' North America.\nHypothesis: Toronto is in North America.\nWhat is the relationship between'
+    clean probe: ' Canada.\nHypothesis: The'
+    J     cont : ' Europe.\nHypothesis: The continent of the country where Paris is located is Europe.\n'
+    J     probe: ' France.\nQuestion: What continent is'
+    R     cont : ' Europe.\nHypothesis: The continent of the country where Paris is located is Europe.\n'
+    R     probe: ' France.\nHypothesis: The'
+
+### ex-city-currency-Toronto-Beijing  [Canada -> China]  expect Canadian -> yuan
+    prompt: Fact: The currency used in the country where Toronto is located is the
+    clean cont : ' Canadian dollar.\nQuestion: What is the currency used in the country where Toronto is located?\n'
+    clean probe: ' Canada.\nQuestion: What is the'
+    J     cont : ' Renminbi.\nQuestion: What is the currency used in the country where Toronto is located?'
+    J     probe: ' Canada.\nQuestion: What is the'
+    R     cont : ' Renminbi.\nQuestion: What is the currency used in the country where Toronto is located?'
+    R     probe: ' Canada.\nQuestion: What is the'
+
+### ex-city-language-Lyon-Naples  [France -> Italy]  expect French -> Italian
+    prompt: Fact: The language spoken in the country where Lyon is located is
+    clean cont : ' French.\nHypothesis: Lyon is in a country where French is spoken.\nIs the'
+    clean probe: ' France.\nQuestion: What is the'
+    J     cont : ' Italian.\nQuestion: Is the language spoken in the country where Lyon is located Italian?\nOptions'
+    J     probe: ' France.\nQuestion: What is the'
+    R     cont : ' Italian.\nQuestion: What is the capital of the country where Lyon is located?\nAnswer:'
+    R     probe: ' France.\nQuestion: What is the'
+
+### ex-element-state-26-8  [iron -> oxygen]  expect solid -> gas
+    prompt: Fact: The state of matter at room temperature of the element with atomic number 26 is
+    clean cont : ' solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number'
+    clean probe: ' the element with atomic number 26'
+    J     cont : ' solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number'
+    J     probe: ' the element with atomic number 26'
+    R     cont : ' solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number'
+    R     probe: ' the element with atomic number 26'
+
+### ex-element-state-26-80  [iron -> mercury]  expect solid -> liquid
+    prompt: Fact: The state of matter at room temperature of the element with atomic number 26 is
+    clean cont : ' solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number'
+    clean probe: ' the element with atomic number 26'
+    J     cont : ' solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number'
+    J     probe: ' a fact.\nQuestion: What is'
+    R     cont : ' solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number'
+    R     probe: ' the element with atomic number 26'
+
+### ex-element-symbol-11-26  [sodium -> iron]  expect Na -> Fe
+    prompt: Fact: The chemical symbol for the element with atomic number 11 is
+    clean cont : ' Na.\nQuestion: What is the chemical symbol for the element with atomic number 11?'
+    clean probe: ' the element with atomic number 11'
+    J     cont : ' Na.\nQuestion: What is the chemical symbol for the element with atomic number 11?'
+    J     probe: ' the element with atomic number 11'
+    R     cont : ' Na.\nQuestion: What is the chemical symbol for the element with atomic number 11?'
+    R     probe: ' the element with atomic number 11'
+
+### ex-element-symbol-26-79  [iron -> gold]  expect Fe -> Au
+    prompt: Fact: The chemical symbol for the element with atomic number 26 is
+    clean cont : ' Fe.\nQuestion: What is the chemical symbol for the element with atomic number 26?'
+    clean probe: ' the element with atomic number 26'
+    J     cont : ' Fe.\nQuestion: What is the chemical symbol for the element with atomic number 26?'
+    J     probe: ' the element with atomic number 26'
+    R     cont : ' Fe.\nQuestion: What is the chemical symbol for the element with atomic number 26?'
+    R     probe: ' the element with atomic number 26'
+
+### ex-planet-color-third-fourth  [Earth -> Mars]  expect blue -> red
+    prompt: Fact: The color of the planet third from the Sun is
+    clean cont : ' blue.\nQuestion: What is the color of the planet third from the Sun?\nOptions:'
+    clean probe: ' the planet third from the Sun.\n'
+    J     cont : ' red.\nQuestion: What is the color of the planet third from the Sun?\nOptions:'
+    J     probe: ' the planet third from the Sun.\n'
+    R     cont : ' red.\nQuestion: What is the color of the planet third from the Sun?\nOptions:'
+    R     probe: ' the planet third from the Sun.\n'
+
+### ex2-city-capital-Munich  [Germany -> Japan]  expect Berlin -> Tokyo
+    prompt: Fact: The capital of the country where Munich is located is
+    clean cont : ' Berlin.\nQuestion: What is the capital of the country where Munich is located?\nOptions:'
+    clean probe: ' Germany.\nQuestion: What is the'
+    J     cont : ' Tokyo.\nQuestion: What is the capital of the country where Munich is located?\nOptions:'
+    J     probe: ' Germany.\nQuestion: What is the'
+    R     cont : ' Tokyo.\nQuestion: What is the capital of the country where Munich is located?\nOptions:'
+    R     probe: ' Germany.\nQuestion: What is the'
+
+### ex2-city-capital-Osaka  [Japan -> Germany]  expect Tokyo -> Berlin
+    prompt: Fact: The capital of the country where Osaka is located is
+    clean cont : ' Tokyo.\nQuestion: What is the capital of the country where Osaka is located?\nOptions:'
+    clean probe: ' Japan.\nQuestion: What is the'
+    J     cont : ' Berlin.\nQuestion: What is the capital of the country where Osaka is located?\nOptions:'
+    J     probe: ' Japan.\nQuestion: What is the'
+    R     cont : ' Berlin.\nQuestion: What is the capital of the country where the city of Hamburg is located?'
+    R     probe: ' Japan.\nQuestion: What is the'
+
+### ex2-city-continent-Lima  [Peru -> Egypt]  expect South -> Africa
+    prompt: Fact: The continent of the country where Lima is located is
+    clean cont : ' South America.\nHypothesis: The continent of the country where Lima is located is North America'
+    clean probe: ' Peru.\nHypothesis: The'
+    J     cont : ' Africa.\nQuestion: What continent is the country where Lima is located in?\nOptions:\n'
+    J     probe: ' Egypt.\nQuestion: What continent is'
+    R     cont : ' Africa.\nQuestion: What continent is the country where Lima is located in?\nOptions:\n'
+    R     probe: ' Egypt.\nQuestion: What continent is'
+
+### ex2-city-continent-Sydney  [Australia -> Peru]  expect Australia -> South
+    prompt: Fact: The continent of the country where Sydney is located is
+    clean cont : ' Australia.\nQuestion: What continent is the country where Sydney is located on?\nOptions:\n'
+    clean probe: ' Australia.\nQuestion: What continent is'
+    J     cont : ' South America.\nQuestion: What continent is the country where the city of Sydney is located?\n'
+    J     probe: ' not Australia.\nHypothesis:'
+    R     cont : ' South America.\nQuestion: What continent is the country where Sydney is located in?\nOptions:'
+    R     probe: ' the United States.\nQuestion: What'
+
+### ex2-city-language-Cairo  [Egypt -> Russia]  expect Arabic -> Russian
+    prompt: Fact: The language spoken in the country where Cairo is located is
+    clean cont : ' Arabic.\nHypothesis: The language spoken in the country where Cairo is located is not Arabic'
+    clean probe: ' Egypt.\nQuestion: What is the'
+    J     cont : ' Russian.\nQuestion: Is the following statement true or false?\nThe language spoken in the country'
+    J     probe: ' Russia.\nQuestion: What is the'
+    R     cont : ' Russian.\nQuestion: Is the following statement true or false?\nThe language spoken in the country'
+    R     probe: ' Russia.\nQuestion: What is the'
+
+### ex2-city-language-Moscow  [Russia -> Egypt]  expect Russian -> Arabic
+    prompt: Fact: The language spoken in the country where Moscow is located is
+    clean cont : ' Russian.\nQuestion: What is the language spoken in the country where Moscow is located?\nOptions'
+    clean probe: ' Russia.\nQuestion: What is the'
+    J     cont : ' Arabic.\nQuestion: Is the following statement true or false?\nThe language spoken in the country'
+    J     probe: ' Egypt.\nQuestion: What is the'
+    R     cont : ' Arabic.\nQuestion: Is the following statement true or false?\nThe language spoken in the country'
+    R     probe: ' Egypt.\nQuestion: What is the'
+
+### ex2-language-capital-Greek  [Greece -> Sweden]  expect Athens -> Stockholm
+    prompt: Fact: The capital of the country where Greek is the primary language is
+    clean cont : ' Athens.\nQuestion: What is the capital of the country where Greek is the primary language?\n'
+    clean probe: ' Greece.\nQuestion: What is the'
+    J     cont : ' Stockholm.\nQuestion: Is the following statement true or false?\nThe capital of the country where'
+    J     probe: ':\nA. Greece\nB.'
+    R     cont : ' Stockholm.\nQuestion: What is the capital of the country where Greek is the primary language?\n'
+    R     probe: ':\nA. Greece\nB.'
+
+### ex2-language-capital-Hungarian  [Hungary -> Poland]  expect Budapest -> Warsaw
+    prompt: Fact: The capital of the country where Hungarian is the primary language is
+    clean cont : ' Budapest.\nQuestion: What is the capital of the country where Hungarian is the primary language?\n'
+    clean probe: ' Hungary.\nQuestion: What is the'
+    J     cont : ' Budapest.\nQuestion: What is the capital of the country where Hungarian is the primary language?\n'
+    J     probe: ' Hungary.\nQuestion: What is the'
+    R     cont : ' Budapest.\nQuestion: What is the capital of the country where Hungarian is the primary language?\n'
+    R     probe: ' Hungary.\nQuestion: What is the'
+
+### ex2-language-capital-Polish  [Poland -> Greece]  expect Warsaw -> Athens
+    prompt: Fact: The capital of the country where Polish is the primary language is
+    clean cont : ' Warsaw.\nQuestion: What is the capital of the country where Polish is the primary language?\n'
+    clean probe: ' Poland.\nQuestion: What is the'
+    J     cont : ' Athens.\nQuestion: Is the following statement true, false, or uncertain?\nStatement: The'
+    J     probe: ' Poland.\nQuestion: What is the'
+    R     cont : ' Athens.\nQuestion: Is the following statement true, false, or uncertain?\nStatement: The'
+    R     probe: ' Poland.\nQuestion: What is the'
+
+### ex2-language-capital-Swedish  [Sweden -> Hungary]  expect Stockholm -> Budapest
+    prompt: Fact: The capital of the country where Swedish is the primary language is
+    clean cont : ' Stockholm.\nQuestion: What is the capital of the country where Swedish is the primary language?\n'
+    clean probe: ' Sweden.\nQuestion: What is the'
+    J     cont : ' Budapest.\nQuestion: Is the following statement true, false, or uncertain?\nStatement: The'
+    J     probe: ' Sweden.\nQuestion: What is the'
+    R     cont : ' Budapest.\nQuestion: Is the following statement true, false, or cannot be determined?\nStatement'
+    R     probe: ' Sweden.\nQuestion: What is the'
+
+### ex2-river-capital-Thames  [England -> Germany]  expect London -> Berlin
+    prompt: Fact: The capital of the country where the Thames River reaches the sea is
+    clean cont : ' London.\nQuestion: What is the capital of the country where the Thames River reaches the sea?'
+    clean probe: ' England.\nQuestion: What is the'
+    J     cont : ' Berlin.\nQuestion: What is the capital of the country where the Thames River reaches the sea?'
+    J     probe: '\nA. France\nB. Germany'
+    R     cont : ' Berlin.\nQuestion: What is the capital of the country where the Thames River reaches the sea?'
+    R     probe: '\nA. France\nB. Germany'
+
+### food-animal-butter  [butter -> honey]  expect cow -> bee
+    prompt: Fact: The animal that produces the yellow dairy spread used on bread is the
+    clean cont : ' cow.\nQuestion: What is the yellow dairy spread used on bread?\nAnswer:\n\n<think>'
+    clean probe: ' the cow.\nQuestion: What is'
+    J     cont : ' cow.\nQuestion: What is the yellow dairy spread used on bread?\nAnswer:\n\n<think>'
+    J     probe: ' the cow.\nQuestion: What is'
+    R     cont : ' cow.\nQuestion: What is the yellow dairy spread used on bread?\nAnswer:\n\n<think>'
+    R     probe: ' the cow.\nQuestion: What is'
+
+### fruit-grows-grape  [grape -> apple]  expect vine -> tree
+    prompt: Fact: The kind of plant that the small round fruit used to make wine grows on is a
+    clean cont : ' vine.\nQuestion: What kind of plant is the small round fruit used to make wine grows on'
+    clean probe: ' a vine.\nHypothesis:'
+    J     cont : ' vine.\nQuestion: What kind of plant is the small round fruit used to make wine grows on'
+    J     probe: ' a vine.\nHypothesis:'
+    R     cont : ' vine.\nQuestion: What kind of plant is the small round fruit used to make wine grows on'
+    R     probe: ' a vine.\nHypothesis:'
+
+### func-filters-count  [kidney -> liver]  expect 2 -> 1
+    prompt: Fact: In humans, the number of organs that filter blood to make urine is 
+    clean cont : '2.\nQuestion: How many organs in humans filter blood to make urine?\nOptions:\n'
+    clean probe: ' the kidney.\nQuestion: What is'
+    J     cont : '2.\nQuestion: How many organs in humans filter blood to make urine?\nOptions:\n'
+    J     probe: ' the kidney.\nQuestion: What is'
+    R     cont : '1.\nQuestion: How many organs in humans filter blood to make urine?\nOptions:\n'
+    R     probe: ' the kidney.\nQuestion: What is'
+
+### func-pumps-chambers  [heart -> lung]  expect 4 -> 2
+    prompt: Fact: In humans, the organ that pumps blood through the body has this many chambers: 
+    clean cont : '4.\nQuestion: How many chambers does the heart have?\nOptions:\nA. '
+    clean probe: ' the heart.\nQuestion: What is'
+    J     cont : '4.\nQuestion: How many chambers does the organ that pumps blood through the body have?\n'
+    J     probe: ' the heart.\nQuestion: What is'
+    R     cont : '4.\nQuestion: How many chambers does the organ that pumps blood through the body have?\n'
+    R     probe: ' the heart.\nQuestion: What is'
+
+### gem-color-ruby  [ruby -> pearl]  expect red -> white
+    prompt: Fact: The color of the gemstone that is the traditional birthstone for July is
+    clean cont : ' red.\nQuestion: What is the traditional birthstone for July?\nOptions:\n(A)'
+    clean probe: ' a ruby.\nQuestion: What is'
+    J     cont : ' green.\nQuestion: What is the birthstone for July?\nOptions:\n(A). Ruby'
+    J     probe: ' a ruby.\nQuestion: What is'
+    R     cont : ' blue.\nQuestion: What is the traditional birthstone for July?\nOptions:\n(A)'
+    R     probe: ' a ruby.\nQuestion: What is'
+
+### greatwall-ocean  [China -> Brazil]  expect Pacific -> Atlantic
+    prompt: Fact: The ocean east of the country that built the Great Wall is the
+    clean cont : ' Pacific Ocean.\nQuestion: What is the ocean east of the country that built the Great Wall?'
+    clean probe: ' the Pacific.\nQuestion: What is'
+    J     cont : ' Atlantic Ocean.\nQuestion: What is the ocean east of the country that built the Great Wall?'
+    J     probe: ' the Atlantic.\nQuestion: What is'
+    R     cont : ' Atlantic Ocean.\nQuestion: What is the ocean east of the country that built the Great Wall?'
+    R     probe: ' the Atlantic.\nQuestion: What is'
+
+### holiday-month-christmas2  [Christmas -> Easter]  expect December -> April
+    prompt: Fact: The month of the holiday celebrated with a decorated evergreen tree and gift-giving is
+    clean cont : ' December.\nQuestion: What is the name of the holiday celebrated with a decorated evergreen tree and'
+    clean probe: ' a Christmas tree.\nQuestion: What'
+    J     cont : ' April.\nQuestion: What is the name of the holiday celebrated with a decorated evergreen tree and'
+    J     probe: ' a holiday celebrated with a decorated evergreen'
+    R     cont : ' the 12th month of the year.\nQuestion: What is the name of the holiday'
+    R     probe: ' Christmas.\nQuestion: What is the'
+
+### month-3-godof  [Mars -> Venus]  expect war -> love
+    prompt: Fact: The third month of the year is named after the Roman god of
+    clean cont : ' war.\nQuestion: What is the name of the third month of the year?\nOptions:'
+    clean probe: ' the Roman god of war.\nQuestion'
+    J     cont : ' war.\nQuestion: What is the name of the third month of the year?\nOptions:'
+    J     probe: ' the Roman god of war.\nQuestion'
+    R     cont : ' war.\nQuestion: What is the name of the third month of the year?\nOptions:'
+    R     probe: ' the Roman god of war.\nQuestion'
+
+### organ-count-kidney2  [kidney -> heart]  expect two -> one
+    prompt: Fact: The number of the bean-shaped organs that filter blood into urine in a human body is
+    clean cont : ' two.\nQuestion: How many kidneys does a human have?\nAnswer:\n\n<think>\nThinking'
+    clean probe: ' the kidneys.\nQuestion: What is'
+    J     cont : ' two.\nQuestion: How many bean-shaped organs that filter blood into urine are in a human body'
+    J     probe: ' the kidneys.\nQuestion: What is'
+    R     cont : ' 2.\nQuestion: How many bean-shaped organs that filter blood into urine are in a human'
+    R     probe: ' the kidneys.\nQuestion: What is'
+
+### paper-continent  [China -> France]  expect Asia -> Europe
+    prompt: Fact: The continent where the country that invented paper is located is
+    clean cont : ' Asia.\nQuestion: What is the continent where the country that invented paper is located?\nOptions'
+    clean probe: ' paper.\nQuestion: What is the'
+    J     cont : ' Africa.\nQuestion: What is the continent where the country that invented paper is located?\nOptions'
+    J     probe: ' paper.\nQuestion: What is the'
+    R     cont : ' Africa.\nQuestion: What is the continent where the country that invented paper is located?\nOptions'
+    R     probe: ' paper.\nQuestion: What is the'
+
+### person-country-napoleon  [Napoleon -> Lincoln]  expect France -> America
+    prompt: Fact: The country whose army was led by the emperor defeated at Waterloo is
+    clean cont : ' France.\nQuestion: What is the country whose army was led by the emperor defeated at Waterloo?'
+    clean probe: ' the country whose army was led by the'
+    J     cont : ' the United Kingdom.\nQuestion: What is the country whose army was led by the emperor defeated at'
+    J     probe: ' the country whose army was led by the'
+    R     cont : ' the United Kingdom.\nQuestion: What is the country whose army was led by the emperor defeated at'
+    R     probe: ' the country whose army was led by the'
+
+### person-firstname-darwin  [Darwin -> Einstein]  expect Charles -> Albert
+    prompt: Fact: The first name of the naturalist who proposed evolution by natural selection was
+    clean cont : ' Charles.\nQuestion: What is the first name of the naturalist who proposed evolution by natural selection'
+    clean probe: ' the first name of the naturalist who'
+    J     cont : ' Charles.\nQuestion: What is the first name of the naturalist who proposed evolution by natural selection'
+    J     probe: ' a person.\nQuestion: What is'
+    R     cont : ' Charles.\nQuestion: What is the first name of the naturalist who proposed evolution by natural selection'
+    R     probe: ' the first name of the naturalist who'
+
+### person-firstname-einstein  [Einstein -> Newton]  expect Albert -> Isaac
+    prompt: Fact: The first name of the physicist who developed the theory of general relativity was
+    clean cont : ' Albert.\nQuestion: What is the first name of the physicist who developed the theory of general rel'
+    clean probe: ' the theory of general relativity.\n'
+    J     cont : ' Albert.\nQuestion: What is the first name of the physicist who developed the theory of general rel'
+    J     probe: ' the theory of general relativity.\n'
+    R     cont : ' Albert.\nQuestion: What is the first name of the physicist who developed the theory of general rel'
+    R     probe: ' the theory of general relativity.\n'
+
+### person-firstname-mozart  [Mozart -> Darwin]  expect Wolfgang -> Charles
+    prompt: Fact: The first name of the child-prodigy composer from Salzburg who wrote The Magic Flute was
+    clean cont : ' Wolfgang.\nHypothesis: The child-prodigy composer from Salzburg who wrote The Magic Fl'
+    clean probe: ' a musical composition.\nQuestion: What'
+    J     cont : ' Wolfgang.\nHypothesis: The child-prodigy composer from Salzburg who wrote The Magic Fl'
+    J     probe: ' a person.\nQuestion: What is'
+    R     cont : ' Wolfgang.\nHypothesis: The child-prodigy composer from Salzburg who wrote The Magic Fl'
+    R     probe: ' a person.\nQuestion: What is'
+
+### person-firstname-newton  [Newton -> Shakespeare]  expect Isaac -> William
+    prompt: Fact: The first name of the scientist on whose head an apple is said to have fallen was
+    clean cont : ' Isaac.\nQuestion: What is the first name of the scientist on whose head an apple is said'
+    clean probe: ' an apple.\nQuestion: What is'
+    J     cont : ' Isaac.\nQuestion: What is the first name of the scientist on whose head an apple is said'
+    J     probe: ' an apple.\nQuestion: What is'
+    R     cont : ' Isaac.\nQuestion: What is the first name of the scientist on whose head an apple is said'
+    R     probe: ' an apple.\nQuestion: What is'
+
+### person-firstname-shakespeare  [Shakespeare -> Mozart]  expect William -> Wolfgang
+    prompt: Fact: The first name of the playwright who wrote Romeo and Juliet was
+    clean cont : ' William.\nQuestion: What is the first name of the playwright who wrote Romeo and Juliet?\n'
+    clean probe: ' the first name of the playwright who wrote'
+    J     cont : ' Wolfgang.\nQuestion: What is the first name of the playwright who wrote Romeo and Juliet?\n'
+    J     probe: ' the first name of the playwright who wrote'
+    R     cont : ' Wolfgang.\nQuestion: What is the first name of the playwright who wrote Romeo and Juliet?\n'
+    R     probe: ' the first name of the playwright who wrote'
+
+### planet-3-moons  [Earth -> Mars]  expect 1 -> 2
+    prompt: Fact: The number of natural moons orbiting the planet third from the Sun is 
+    clean cont : '1.\nQuestion: How many natural moons orbit the planet third from the Sun?\nAnswer:'
+    clean probe: ' a planet.\nQuestion: What is'
+    J     cont : '2.\nQuestion: How many natural moons orbit the planet third from the Sun?\nAnswer:'
+    J     probe: ' a planet.\nQuestion: What is'
+    R     cont : '2.\nQuestion: How many natural moons orbit the planet third from the Sun?\nOptions:'
+    R     probe: ' a planet.\nQuestion: What is'
+
+### planet-rings-saturn2  [Saturn -> Jupiter]  expect rings -> spot
+    prompt: Fact: The most famous feature of the sixth planet from the Sun is its
+    clean cont : ' rings.\nQuestion: What is the sixth planet from the Saturn?\nOptions:\n(A).'
+    clean probe: ' the sixth planet from the Sun.\n'
+    J     cont : ' rings.\nQuestion: What is the most famous feature of the sixth planet from the Sun?\n'
+    J     probe: ' the sixth planet from the Sun.\n'
+    R     cont : ' rings.\nQuestion: What is the most famous feature of the sixth planet from the Sun?\n'
+    R     probe: ' the sixth planet from the Sun.\n'
+
+### season-next-winter  [winter -> summer]  expect spring -> autumn
+    prompt: Fact: The season that comes immediately after the coldest season of the year is
+    clean cont : ' spring.\nQuestion: What season comes after winter?\nAnswer:\n\n<think>\nThinking Process:'
+    clean probe: ' the season that comes immediately after the col'
+    J     cont : ' the season that comes immediately before the hottest season of the year.\nQuestion: What season comes immediately'
+    J     probe: ' the season that comes immediately after the col'
+    R     cont : ' spring.\nQuestion: What season comes after the coldest season of the year?\nOptions:'
+    R     probe: ' the season that comes immediately after the col'
+
+### spaceneedle-border  [Seattle -> Philadelphia]  expect Canada -> New
+    prompt: Fact: The US state where the Space Needle is located shares its northern border with
+    clean cont : ' Canada.\nQuestion: What is the name of the US state where the Space Needle is located?'
+    clean probe: ' the Space Needle.\nQuestion: What'
+    J     cont : ' the state where the Empire State Building is located.\nQuestion: What is the name of the US'
+    J     probe: ' the Space Needle.\nQuestion: What'
+    R     cont : ' the state where the Empire State Building is located.\nQuestion: What is the name of the US'
+    R     probe: ' the Space Needle.\nQuestion: What'
+
+### spider-legs  [spider -> ant]  expect 8 -> 6
+    prompt: Fact: The number of legs on the animal that spins webs is 
+    clean cont : '8.\nQuestion: How many legs does the animal that spins webs have?\nAnswer:\n\n'
+    clean probe: ' a spider.\nQuestion: How many'
+    J     cont : '4.\nQuestion: How many legs does the animal that spins webs have?\nAnswer:\n\n'
+    J     probe: ' the animal that spins webs.\nQuestion'
+    R     cont : '8.\nQuestion: How many legs does the animal that spins webs have?\nAnswer:\n\n'
+    R     probe: ' a spider.\nQuestion: What is'
+
+### super-populous-capital  [China -> India]  expect Beijing -> Delhi
+    prompt: Fact: The capital city of the most populous country in the world is
+    clean cont : ' Beijing.\nQuestion: What is the capital city of the most populous country in the world?\n'
+    clean probe: ' Beijing.\nQuestion: What is the'
+    J     cont : ' New Delhi.\nQuestion: What is the capital city of the most populous country in the world?'
+    J     probe: ' Beijing.\nQuestion: What is the'
+    R     cont : ' New Delhi.\nQuestion: What is the capital city of the most populous country in the world?'
+    R     probe: ' Beijing.\nQuestion: What is the'
+
+### super-smallest-continent  [Vatican -> Singapore]  expect Europe -> Asia
+    prompt: Fact: The smallest country in the world is located on the continent of
+    clean cont : ' Europe.\nQuestion: What is the smallest country in the world?\nAnswer:\n\nVatican'
+    clean probe: ' the smallest country in the world.\n'
+    J     cont : ' Europe.\nQuestion: What is the smallest country in the world?\nAnswer:\n\nVatican'
+    J     probe: ' the smallest country in the world.\n'
+    R     cont : ' Europe.\nQuestion: What is the smallest country in the world?\nAnswer:\n\nVatican'
+    R     probe: ' the smallest country in the world.\n'
+
+### vehicle-power-bicycle  [bicycle -> train]  expect legs -> engine
+    prompt: Fact: The source of power for the two-wheeled vehicle ridden in the Tour de France is the rider's
+    clean cont : ' legs.\nQuestion: What is the source of power for the two-wheeled vehicle ridden in'
+    clean probe: ' the Tour de France.\nQuestion:'
+    J     cont : ' legs.\nQuestion: What is the source of power for the two-wheeled vehicle ridden in'
+    J     probe: ' the Tour de France.\nQuestion:'
+    R     cont : ' legs.\nHypothesis: The Tour de France is a race for two-wheeled vehicles'
+    R     probe: ' the Tour de France.\nQuestion:'
+
+### violin-strings  [violin -> guitar]  expect 4 -> 6
+    prompt: Fact: The number of strings on the instrument that fiddlers play is 
+    clean cont : '4.\nQuestion: How many strings does the instrument that fiddlers play have?\nAnswer'
+    clean probe: ' the number of strings on the instrument that'
+    J     cont : '4.\nQuestion: How many strings does the instrument that fiddlers play have?\nAnswer'
+    J     probe: ' the violin.\nQuestion: What is'
+    R     cont : '4.\nQuestion: How many strings does the instrument that fiddlers play have?\nAnswer'
+    R     probe: ' the number of strings on the instrument that'

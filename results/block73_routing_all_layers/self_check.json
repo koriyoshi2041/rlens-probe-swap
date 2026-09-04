@@ -1,0 +1,72 @@
+{
+ "index": 0,
+ "shapes": {
+  "blocks.19.attn.hook_in": [
+   1,
+   14,
+   4096
+  ],
+  "blocks.23.attn.hook_k": [
+   1,
+   14,
+   4,
+   256
+  ],
+  "blocks.22.linear_attn.hook_in": [
+   1,
+   14,
+   4096
+  ],
+  "blocks.21.linear_attn.hook_in": [
+   1,
+   14,
+   4096
+  ],
+  "blocks.23.attn.hook_v": [
+   1,
+   14,
+   4,
+   256
+  ],
+  "blocks.23.attn.hook_in": [
+   1,
+   14,
+   4096
+  ],
+  "blocks.19.attn.hook_v": [
+   1,
+   14,
+   4,
+   256
+  ],
+  "blocks.18.linear_attn.hook_in": [
+   1,
+   14,
+   4096
+  ],
+  "blocks.20.linear_attn.hook_in": [
+   1,
+   14,
+   4096
+  ],
+  "blocks.24.linear_attn.hook_in": [
+   1,
+   14,
+   4096
+  ],
+  "blocks.17.linear_attn.hook_in": [
+   1,
+   14,
+   4096
+  ],
+  "blocks.19.attn.hook_k": [
+   1,
+   14,
+   4,
+   256
+  ]
+ },
+ "clean_margin": -0.4375,
+ "patch_clean_all_margin": -0.4375,
+ "identity_ok": true
+}

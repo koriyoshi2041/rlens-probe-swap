@@ -1,0 +1,10 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12466.11it/s]
+[q59] input hooks: {11: 'blocks.11.attn.hook_in', 17: 'blocks.17.linear_attn.hook_in', 20: 'blocks.20.linear_attn.hook_in', 23: 'blocks.23.attn.hook_in', 24: 'blocks.24.linear_attn.hook_in'}
+[q59] 1/59
+[q59] 11/59
+[q59] 21/59
+[q59] 31/59
+[q59] 41/59
+[q59] 51/59
+[block53] done
+exit=0

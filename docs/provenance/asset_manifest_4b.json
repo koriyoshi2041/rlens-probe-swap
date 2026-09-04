@@ -1,0 +1,28 @@
+{
+  "model": {
+    "repo": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "files": [
+      {
+        "name": "model.safetensors-00001-of-00002.safetensors",
+        "bytes": 5329398688
+      },
+      {
+        "name": "model.safetensors-00002-of-00002.safetensors",
+        "bytes": 3990429408
+      }
+    ]
+  },
+  "lenses": {
+    "j-lens": {
+      "path": "/root/autodl-tmp/mats-r-lens/assets/workspace-lenses/qwen3.5-4b/j-lens/lens.pt",
+      "bytes": 406330711,
+      "sha256": "8ac16d8e5e988f19d9e19ac9b459c9e73336a866c8534d521200e4fcf2c21377"
+    },
+    "r-lens": {
+      "path": "/root/autodl-tmp/mats-r-lens/assets/workspace-lenses/qwen3.5-4b/r-lens/lens.pt",
+      "bytes": 406330839,
+      "sha256": "848b9b8e76eb0448a926edc8bb374cb4369916dd6bdbd62f1d3141fa12b9f231"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights: 100%|██████████| 760/760 [00:00<00:00, 12230.97it/s]
+[ladder] 1/59 elapsed=6s
+[ladder] 11/59 elapsed=52s
+[ladder] 21/59 elapsed=99s
+[ladder] 31/59 elapsed=148s
+[ladder] 41/59 elapsed=194s
+[ladder] 51/59 elapsed=239s
+[subspace] pair 1/14
+[subspace] pair 2/14
+[subspace] pair 3/14
+[subspace] pair 4/14
+[subspace] pair 5/14
+[subspace] pair 6/14
+[subspace] pair 7/14
+[subspace] pair 8/14
+[subspace] pair 9/14
+[subspace] pair 10/14
+[subspace] pair 11/14
+[subspace] pair 12/14
+[subspace] pair 13/14
+[subspace] pair 14/14
+[block10] done

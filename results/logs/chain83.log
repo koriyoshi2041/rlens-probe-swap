@@ -1,0 +1,44 @@
+### q81
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 11719.55it/s]
+/root/autodl-tmp/mats-r-lens/work/code/q81_third_model.py:59: UserWarning: fitting in torch.bfloat16 accumulates Jacobian gradients at reduced precision; use a float32 TransformerBridge for the highest-fidelity fit
+  lens = JacobianLens.fit(model, docs, corpus="NeelNanda/pile-10k", source_layers=list(range(0, model.cfg.n_layers - 1)),
+/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py:829: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:179.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Traceback (most recent call last):
+  File "/root/autodl-tmp/mats-r-lens/work/code/q81_third_model.py", line 171, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/work/code/q81_third_model.py", line 89, in main
+    lens = fit_or_load_lens(model)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/work/code/q81_third_model.py", line 59, in fit_or_load_lens
+    lens = JacobianLens.fit(model, docs, corpus="NeelNanda/pile-10k", source_layers=list(range(0, model.cfg.n_layers - 1)),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/src/TransformerLens/transformer_lens/tools/analysis/jacobian_lens.py", line 1476, in fit
+    raise ValueError(f"metadata cannot override fit provenance keys: {reserved}")
+ValueError: metadata cannot override fit provenance keys: ['n_prompts']
+EXIT_q81=1
+### q82
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 11572.82it/s]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/mats-r-lens/work/code/q82_third_model_mechanism.py", line 131, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/mats-r-lens/work/code/q82_third_model_mechanism.py", line 49, in main
+    lens = JacobianLens.load(str(LENS_PATH)) if LENS_PATH.exists() else torch.load(str(LENS_PATH.with_suffix(".pkl")), weights_only=False)
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/serialization.py", line 1484, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/serialization.py", line 759, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/serialization.py", line 740, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/autodl-tmp/mats-r-lens/assets/workspace-lenses/qwen3-4b/j-lens/lens.pkl'
+EXIT_q82=1
+ALLDONE

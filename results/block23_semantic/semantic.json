@@ -1,0 +1,1418 @@
+[
+ {
+  "index": 0,
+  "name": "amazon-language",
+  "category": "multihop",
+  "prompt": "Fact: The language spoken in the country where the Amazon River ends is",
+  "intermediate": "Brazil",
+  "swap_to": "Mexico",
+  "answer": "Portuguese",
+  "swap_answer": "Spanish",
+  "arms": {
+   "clean": {
+    "continuation": " Portuguese.\nQuestion: What is the language spoken in the country where the Amazon River ends?\n",
+    "entity_probe": " the Amazon River.\nQuestion: What"
+   },
+   "J": {
+    "continuation": " Spanish.\nQuestion: What is the name of the country where the Amazon River ends?\nAnswer",
+    "entity_probe": " the Amazon River.\nQuestion: What"
+   },
+   "R": {
+    "continuation": " Spanish.\nQuestion: What is the name of the country where the Amazon River ends?\nAnswer",
+    "entity_probe": " the Amazon River.\nQuestion: What"
+   }
+  }
+ },
+ {
+  "index": 1,
+  "name": "animal-cover-turtle",
+  "category": "animal-cover",
+  "prompt": "Fact: The hard covering on the back of the slow reptile that can pull its head inside its body is called a",
+  "intermediate": "turtle",
+  "swap_to": "snake",
+  "answer": "shell",
+  "swap_answer": "scale",
+  "arms": {
+   "clean": {
+    "continuation": " shell.\nQuestion: What is the hard covering on the back of the slow reptile that can",
+    "entity_probe": " a turtle.\nQuestion: What is"
+   },
+   "J": {
+    "continuation": " shell.\nQuestion: What is the hard covering on the back of the slow reptile that can",
+    "entity_probe": " a turtle.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": " shell.\nQuestion: What is the hard covering on the back of the slow reptile that can",
+    "entity_probe": " a turtle.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 3,
+  "name": "animal-nose-elephant",
+  "category": "animal-nose",
+  "prompt": "Fact: The long flexible body part that the largest land animal uses to pick things up is called a",
+  "intermediate": "elephant",
+  "swap_to": "snake",
+  "answer": "trunk",
+  "swap_answer": "tongue",
+  "arms": {
+   "clean": {
+    "continuation": " trunk.\nQuestion: What is the name of the long flexible body part that the largest land animal",
+    "entity_probe": " a(n) __________.\n\nA"
+   },
+   "J": {
+    "continuation": " trunk.\nQuestion: What is the name of the long flexible body part that the largest land animal",
+    "entity_probe": " a(n) __________.\n\nA"
+   },
+   "R": {
+    "continuation": " trunk.\nQuestion: What is the name of the long flexible body part that the largest land animal",
+    "entity_probe": " a(n) __________.\n\nA"
+   }
+  }
+ },
+ {
+  "index": 10,
+  "name": "birthstone-emerald-month",
+  "category": "multihop",
+  "prompt": "Fact: Emerald is the birthstone for month number ",
+  "intermediate": "May",
+  "swap_to": "July",
+  "answer": "5",
+  "swap_answer": "7",
+  "arms": {
+   "clean": {
+    "continuation": "5.\nQuestion: What is the birthstone for the month of May?\nOptions:\n",
+    "entity_probe": " the month of May.\nQuestion:"
+   },
+   "J": {
+    "continuation": "5.\nQuestion: What is the birthstone for the month of May?\nAnswer:\n\n",
+    "entity_probe": " the month of May.\nQuestion:"
+   },
+   "R": {
+    "continuation": "5.\nQuestion: What is the birthstone for the month of May?\nAnswer:\n\n",
+    "entity_probe": " the month of May.\nQuestion:"
+   }
+  }
+ },
+ {
+  "index": 11,
+  "name": "chem-atmosphere-Z",
+  "category": "multihop",
+  "prompt": "Fact: The atomic number of the gas that makes up about 78 percent of the atmosphere is ",
+  "intermediate": "nitrogen",
+  "swap_to": "oxygen",
+  "answer": "7",
+  "swap_answer": "8",
+  "arms": {
+   "clean": {
+    "continuation": "7.\nQuestion: What is the atomic number of the gas that makes up about 78",
+    "entity_probe": " the atomic number of the gas that makes"
+   },
+   "J": {
+    "continuation": "7.\nQuestion: What is the atomic number of the gas that makes up about 78",
+    "entity_probe": " the atomic number of the gas that makes"
+   },
+   "R": {
+    "continuation": "7.\nQuestion: What is the atomic number of the gas that makes up about 78",
+    "entity_probe": " the atomic number of the gas that makes"
+   }
+  }
+ },
+ {
+  "index": 13,
+  "name": "chem-organic-Z",
+  "category": "multihop",
+  "prompt": "Fact: The atomic number of the element present in all organic compounds by definition is ",
+  "intermediate": "carbon",
+  "swap_to": "oxygen",
+  "answer": "6",
+  "swap_answer": "8",
+  "arms": {
+   "clean": {
+    "continuation": "6.\nQuestion: What is the atomic number of the element present in all organic compounds by definition",
+    "entity_probe": " the atomic number of the element.\n"
+   },
+   "J": {
+    "continuation": "6.\nQuestion: What is the atomic number of the element present in all organic compounds by definition",
+    "entity_probe": " the atomic number of the element.\n"
+   },
+   "R": {
+    "continuation": "6.\nQuestion: What is the atomic number of the element present in all organic compounds by definition",
+    "entity_probe": " the atomic number of the element.\n"
+   }
+  }
+ },
+ {
+  "index": 14,
+  "name": "chem-photosynthesis-Z",
+  "category": "multihop",
+  "prompt": "Fact: The atomic number of the gas that plants release during photosynthesis is ",
+  "intermediate": "oxygen",
+  "swap_to": "nitrogen",
+  "answer": "8",
+  "swap_answer": "7",
+  "arms": {
+   "clean": {
+    "continuation": "8.\nQuestion: What is the name of the gas that plants release during photosynthesis?\n",
+    "entity_probe": " the atomic number of the gas that plants"
+   },
+   "J": {
+    "continuation": "7.\nQuestion: What is the gas that plants release during photosynthesis?\nOptions:\n",
+    "entity_probe": ":\n\nA. Oxygen\nB."
+   },
+   "R": {
+    "continuation": "7.\nQuestion: What is the gas that plants release during photosynthesis?\nOptions:\n",
+    "entity_probe": " the atomic number of the gas that plants"
+   }
+  }
+ },
+ {
+  "index": 15,
+  "name": "christmas-season",
+  "category": "multihop",
+  "prompt": "Fact: The season when the holiday with a decorated tree occurs is",
+  "intermediate": "Christmas",
+  "swap_to": "Easter",
+  "answer": "winter",
+  "swap_answer": "spring",
+  "arms": {
+   "clean": {
+    "continuation": " winter.\nQuestion: What is the season when the holiday with a decorated tree occurs?\nOptions",
+    "entity_probe": " a holiday with a decorated tree.\n"
+   },
+   "J": {
+    "continuation": " spring.\nQuestion: What is the season when the holiday with a decorated tree occurs?\nAnswer",
+    "entity_probe": " a holiday with a decorated tree.\n"
+   },
+   "R": {
+    "continuation": " spring.\nQuestion: What is the season when the holiday with a decorated tree occurs?\nOptions",
+    "entity_probe": " a holiday with a decorated tree.\n"
+   }
+  }
+ },
+ {
+  "index": 16,
+  "name": "city-state-Philadelphia",
+  "category": "city-state",
+  "prompt": "Fact: The US state where the city famous for the Liberty Bell is located is",
+  "intermediate": "Philadelphia",
+  "swap_to": "Seattle",
+  "answer": "Pennsylvania",
+  "swap_answer": "Washington",
+  "arms": {
+   "clean": {
+    "continuation": " Pennsylvania.\nQuestion: What is the name of the city famous for the Liberty Bell?\nAnswer",
+    "entity_probe": " the United States.\nHypothesis"
+   },
+   "J": {
+    "continuation": " the 43rd largest state by area.\nQuestion: What is the name of the city",
+    "entity_probe": " the United States.\nQuestion: What"
+   },
+   "R": {
+    "continuation": " the 43rd largest state by area.\nQuestion: What is the name of the city",
+    "entity_probe": " the United States.\nHypothesis"
+   }
+  }
+ },
+ {
+  "index": 18,
+  "name": "element-color-gold2",
+  "category": "element-color",
+  "prompt": "Fact: The color of the precious metal with atomic number 79 is",
+  "intermediate": "gold",
+  "swap_to": "silver",
+  "answer": "yellow",
+  "swap_answer": "gray",
+  "arms": {
+   "clean": {
+    "continuation": " yellow.\nQuestion: What is the color of the precious metal with atomic number 79?",
+    "entity_probe": " a precious metal with atomic number 7"
+   },
+   "J": {
+    "continuation": " yellow.\nQuestion: What is the color of the precious metal with atomic number 79?",
+    "entity_probe": " the color of the precious metal with atomic"
+   },
+   "R": {
+    "continuation": " yellow.\nQuestion: What is the color of the precious metal with atomic number 79?",
+    "entity_probe": " a precious metal with atomic number 7"
+   }
+  }
+ },
+ {
+  "index": 19,
+  "name": "etym-frigg-position",
+  "category": "multihop",
+  "prompt": "Fact: Counting Monday as day 1, the day of the week named after the Norse goddess Frigg is day number ",
+  "intermediate": "Friday",
+  "swap_to": "Thursday",
+  "answer": "5",
+  "swap_answer": "4",
+  "arms": {
+   "clean": {
+    "continuation": "5.\nQuestion: What is the day of the week named after the Norse goddess Frigg?",
+    "entity_probe": " a day of the week.\nQuestion"
+   },
+   "J": {
+    "continuation": "5.\nQuestion: What is the day of the week named after the Norse goddess Frigg?",
+    "entity_probe": " a day of the week.\nQuestion"
+   },
+   "R": {
+    "continuation": "5.\nQuestion: What is the day of the week named after the Norse goddess Frigg?",
+    "entity_probe": " a day of the week.\nQuestion"
+   }
+  }
+ },
+ {
+  "index": 22,
+  "name": "ex-city-capital-Barcelona-Toronto",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Barcelona is located is",
+  "intermediate": "Spain",
+  "swap_to": "Canada",
+  "answer": "Madrid",
+  "swap_answer": "Ottawa",
+  "arms": {
+   "clean": {
+    "continuation": " Madrid.\nQuestion: What is the capital of the country where Barcelona is located?\nOptions:",
+    "entity_probe": ":\nA. Spain\nB."
+   },
+   "J": {
+    "continuation": " Ottawa.\nQuestion: Is the following statement true or false?\nThe capital of the country where",
+    "entity_probe": ":\nA. Spain\nB."
+   },
+   "R": {
+    "continuation": " Madrid.\nQuestion: What is the capital of the country where Barcelona is located?\nOptions:",
+    "entity_probe": ":\nA. Spain\nB."
+   }
+  }
+ },
+ {
+  "index": 23,
+  "name": "ex-city-capital-Lyon-Naples",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Lyon is located is",
+  "intermediate": "France",
+  "swap_to": "Italy",
+  "answer": "Paris",
+  "swap_answer": "Rome",
+  "arms": {
+   "clean": {
+    "continuation": " Paris.\nQuestion: What is the capital of the country where Lyon is located?\nOptions:",
+    "entity_probe": " France.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Rome.\nQuestion: What is the capital of the country where Lyon is located?\nOptions:",
+    "entity_probe": " France.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Rome.\nQuestion: What is the capital of the country where Lyon is located?\nOptions:",
+    "entity_probe": " France.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 24,
+  "name": "ex-city-capital-Naples-Barcelona",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Naples is located is",
+  "intermediate": "Italy",
+  "swap_to": "Spain",
+  "answer": "Rome",
+  "swap_answer": "Madrid",
+  "arms": {
+   "clean": {
+    "continuation": " Rome.\nQuestion: What is the capital of the country where Naples is located?\nOptions:",
+    "entity_probe": " Italy.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Madrid.\nQuestion: What is the capital of the country where Naples is located?\nOptions:",
+    "entity_probe": ":\nA. Spain\nB."
+   },
+   "R": {
+    "continuation": " Madrid.\nQuestion: What is the capital of the country where Naples is located?\nOptions:",
+    "entity_probe": ":\nA. Spain\nB."
+   }
+  }
+ },
+ {
+  "index": 25,
+  "name": "ex-city-capital-Toronto-Lyon",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Toronto is located is",
+  "intermediate": "Canada",
+  "swap_to": "France",
+  "answer": "Ottawa",
+  "swap_answer": "Paris",
+  "arms": {
+   "clean": {
+    "continuation": " Ottawa.\nQuestion: What is the capital of the country where Toronto is located?\nOptions:",
+    "entity_probe": " Canada.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Paris.\nQuestion: Is the following statement true or false?\nThe capital of the country where",
+    "entity_probe": " Canada.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Paris.\nQuestion: Is the following statement true or false?\nThe capital of the country where",
+    "entity_probe": " Canada.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 26,
+  "name": "ex-city-continent-Toronto-Lyon",
+  "category": "city-continent",
+  "prompt": "Fact: The continent of the country where Toronto is located is",
+  "intermediate": "Canada",
+  "swap_to": "France",
+  "answer": "North",
+  "swap_answer": "Europe",
+  "arms": {
+   "clean": {
+    "continuation": " North America.\nHypothesis: Toronto is in North America.\nWhat is the relationship between",
+    "entity_probe": " Canada.\nHypothesis: The"
+   },
+   "J": {
+    "continuation": " Europe.\nHypothesis: The continent of the country where Paris is located is Europe.\n",
+    "entity_probe": " France.\nQuestion: What continent is"
+   },
+   "R": {
+    "continuation": " Europe.\nHypothesis: The continent of the country where Paris is located is Europe.\n",
+    "entity_probe": " France.\nHypothesis: The"
+   }
+  }
+ },
+ {
+  "index": 27,
+  "name": "ex-city-currency-Toronto-Beijing",
+  "category": "city-currency",
+  "prompt": "Fact: The currency used in the country where Toronto is located is the",
+  "intermediate": "Canada",
+  "swap_to": "China",
+  "answer": "Canadian",
+  "swap_answer": "yuan",
+  "arms": {
+   "clean": {
+    "continuation": " Canadian dollar.\nQuestion: What is the currency used in the country where Toronto is located?\n",
+    "entity_probe": " Canada.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Renminbi.\nQuestion: What is the currency used in the country where Toronto is located?",
+    "entity_probe": " Canada.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Renminbi.\nQuestion: What is the currency used in the country where Toronto is located?",
+    "entity_probe": " Canada.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 29,
+  "name": "ex-city-language-Lyon-Naples",
+  "category": "city-language",
+  "prompt": "Fact: The language spoken in the country where Lyon is located is",
+  "intermediate": "France",
+  "swap_to": "Italy",
+  "answer": "French",
+  "swap_answer": "Italian",
+  "arms": {
+   "clean": {
+    "continuation": " French.\nHypothesis: Lyon is in a country where French is spoken.\nIs the",
+    "entity_probe": " France.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Italian.\nQuestion: Is the language spoken in the country where Lyon is located Italian?\nOptions",
+    "entity_probe": " France.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Italian.\nQuestion: What is the capital of the country where Lyon is located?\nAnswer:",
+    "entity_probe": " France.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 30,
+  "name": "ex-element-state-26-8",
+  "category": "element-state",
+  "prompt": "Fact: The state of matter at room temperature of the element with atomic number 26 is",
+  "intermediate": "iron",
+  "swap_to": "oxygen",
+  "answer": "solid",
+  "swap_answer": "gas",
+  "arms": {
+   "clean": {
+    "continuation": " solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number",
+    "entity_probe": " the element with atomic number 26"
+   },
+   "J": {
+    "continuation": " solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number",
+    "entity_probe": " the element with atomic number 26"
+   },
+   "R": {
+    "continuation": " solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number",
+    "entity_probe": " the element with atomic number 26"
+   }
+  }
+ },
+ {
+  "index": 31,
+  "name": "ex-element-state-26-80",
+  "category": "element-state",
+  "prompt": "Fact: The state of matter at room temperature of the element with atomic number 26 is",
+  "intermediate": "iron",
+  "swap_to": "mercury",
+  "answer": "solid",
+  "swap_answer": "liquid",
+  "arms": {
+   "clean": {
+    "continuation": " solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number",
+    "entity_probe": " the element with atomic number 26"
+   },
+   "J": {
+    "continuation": " solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number",
+    "entity_probe": " a fact.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": " solid.\nQuestion: What is the state of matter at room temperature of the element with atomic number",
+    "entity_probe": " the element with atomic number 26"
+   }
+  }
+ },
+ {
+  "index": 35,
+  "name": "ex-element-symbol-11-26",
+  "category": "element-symbol",
+  "prompt": "Fact: The chemical symbol for the element with atomic number 11 is",
+  "intermediate": "sodium",
+  "swap_to": "iron",
+  "answer": "Na",
+  "swap_answer": "Fe",
+  "arms": {
+   "clean": {
+    "continuation": " Na.\nQuestion: What is the chemical symbol for the element with atomic number 11?",
+    "entity_probe": " the element with atomic number 11"
+   },
+   "J": {
+    "continuation": " Na.\nQuestion: What is the chemical symbol for the element with atomic number 11?",
+    "entity_probe": " the element with atomic number 11"
+   },
+   "R": {
+    "continuation": " Na.\nQuestion: What is the chemical symbol for the element with atomic number 11?",
+    "entity_probe": " the element with atomic number 11"
+   }
+  }
+ },
+ {
+  "index": 36,
+  "name": "ex-element-symbol-26-79",
+  "category": "element-symbol",
+  "prompt": "Fact: The chemical symbol for the element with atomic number 26 is",
+  "intermediate": "iron",
+  "swap_to": "gold",
+  "answer": "Fe",
+  "swap_answer": "Au",
+  "arms": {
+   "clean": {
+    "continuation": " Fe.\nQuestion: What is the chemical symbol for the element with atomic number 26?",
+    "entity_probe": " the element with atomic number 26"
+   },
+   "J": {
+    "continuation": " Fe.\nQuestion: What is the chemical symbol for the element with atomic number 26?",
+    "entity_probe": " the element with atomic number 26"
+   },
+   "R": {
+    "continuation": " Fe.\nQuestion: What is the chemical symbol for the element with atomic number 26?",
+    "entity_probe": " the element with atomic number 26"
+   }
+  }
+ },
+ {
+  "index": 37,
+  "name": "ex-planet-color-third-fourth",
+  "category": "planet-color",
+  "prompt": "Fact: The color of the planet third from the Sun is",
+  "intermediate": "Earth",
+  "swap_to": "Mars",
+  "answer": "blue",
+  "swap_answer": "red",
+  "arms": {
+   "clean": {
+    "continuation": " blue.\nQuestion: What is the color of the planet third from the Sun?\nOptions:",
+    "entity_probe": " the planet third from the Sun.\n"
+   },
+   "J": {
+    "continuation": " red.\nQuestion: What is the color of the planet third from the Sun?\nOptions:",
+    "entity_probe": " the planet third from the Sun.\n"
+   },
+   "R": {
+    "continuation": " red.\nQuestion: What is the color of the planet third from the Sun?\nOptions:",
+    "entity_probe": " the planet third from the Sun.\n"
+   }
+  }
+ },
+ {
+  "index": 38,
+  "name": "ex2-city-capital-Munich",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Munich is located is",
+  "intermediate": "Germany",
+  "swap_to": "Japan",
+  "answer": "Berlin",
+  "swap_answer": "Tokyo",
+  "arms": {
+   "clean": {
+    "continuation": " Berlin.\nQuestion: What is the capital of the country where Munich is located?\nOptions:",
+    "entity_probe": " Germany.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Tokyo.\nQuestion: What is the capital of the country where Munich is located?\nOptions:",
+    "entity_probe": " Germany.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Tokyo.\nQuestion: What is the capital of the country where Munich is located?\nOptions:",
+    "entity_probe": " Germany.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 39,
+  "name": "ex2-city-capital-Osaka",
+  "category": "city-capital",
+  "prompt": "Fact: The capital of the country where Osaka is located is",
+  "intermediate": "Japan",
+  "swap_to": "Germany",
+  "answer": "Tokyo",
+  "swap_answer": "Berlin",
+  "arms": {
+   "clean": {
+    "continuation": " Tokyo.\nQuestion: What is the capital of the country where Osaka is located?\nOptions:",
+    "entity_probe": " Japan.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Berlin.\nQuestion: What is the capital of the country where Osaka is located?\nOptions:",
+    "entity_probe": " Japan.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Berlin.\nQuestion: What is the capital of the country where the city of Hamburg is located?",
+    "entity_probe": " Japan.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 40,
+  "name": "ex2-city-continent-Lima",
+  "category": "city-continent",
+  "prompt": "Fact: The continent of the country where Lima is located is",
+  "intermediate": "Peru",
+  "swap_to": "Egypt",
+  "answer": "South",
+  "swap_answer": "Africa",
+  "arms": {
+   "clean": {
+    "continuation": " South America.\nHypothesis: The continent of the country where Lima is located is North America",
+    "entity_probe": " Peru.\nHypothesis: The"
+   },
+   "J": {
+    "continuation": " Africa.\nQuestion: What continent is the country where Lima is located in?\nOptions:\n",
+    "entity_probe": " Egypt.\nQuestion: What continent is"
+   },
+   "R": {
+    "continuation": " Africa.\nQuestion: What continent is the country where Lima is located in?\nOptions:\n",
+    "entity_probe": " Egypt.\nQuestion: What continent is"
+   }
+  }
+ },
+ {
+  "index": 41,
+  "name": "ex2-city-continent-Sydney",
+  "category": "city-continent",
+  "prompt": "Fact: The continent of the country where Sydney is located is",
+  "intermediate": "Australia",
+  "swap_to": "Peru",
+  "answer": "Australia",
+  "swap_answer": "South",
+  "arms": {
+   "clean": {
+    "continuation": " Australia.\nQuestion: What continent is the country where Sydney is located on?\nOptions:\n",
+    "entity_probe": " Australia.\nQuestion: What continent is"
+   },
+   "J": {
+    "continuation": " South America.\nQuestion: What continent is the country where the city of Sydney is located?\n",
+    "entity_probe": " not Australia.\nHypothesis:"
+   },
+   "R": {
+    "continuation": " South America.\nQuestion: What continent is the country where Sydney is located in?\nOptions:",
+    "entity_probe": " the United States.\nQuestion: What"
+   }
+  }
+ },
+ {
+  "index": 42,
+  "name": "ex2-city-language-Cairo",
+  "category": "city-language",
+  "prompt": "Fact: The language spoken in the country where Cairo is located is",
+  "intermediate": "Egypt",
+  "swap_to": "Russia",
+  "answer": "Arabic",
+  "swap_answer": "Russian",
+  "arms": {
+   "clean": {
+    "continuation": " Arabic.\nHypothesis: The language spoken in the country where Cairo is located is not Arabic",
+    "entity_probe": " Egypt.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Russian.\nQuestion: Is the following statement true or false?\nThe language spoken in the country",
+    "entity_probe": " Russia.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Russian.\nQuestion: Is the following statement true or false?\nThe language spoken in the country",
+    "entity_probe": " Russia.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 43,
+  "name": "ex2-city-language-Moscow",
+  "category": "city-language",
+  "prompt": "Fact: The language spoken in the country where Moscow is located is",
+  "intermediate": "Russia",
+  "swap_to": "Egypt",
+  "answer": "Russian",
+  "swap_answer": "Arabic",
+  "arms": {
+   "clean": {
+    "continuation": " Russian.\nQuestion: What is the language spoken in the country where Moscow is located?\nOptions",
+    "entity_probe": " Russia.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Arabic.\nQuestion: Is the following statement true or false?\nThe language spoken in the country",
+    "entity_probe": " Egypt.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Arabic.\nQuestion: Is the following statement true or false?\nThe language spoken in the country",
+    "entity_probe": " Egypt.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 44,
+  "name": "ex2-language-capital-Greek",
+  "category": "language-capital",
+  "prompt": "Fact: The capital of the country where Greek is the primary language is",
+  "intermediate": "Greece",
+  "swap_to": "Sweden",
+  "answer": "Athens",
+  "swap_answer": "Stockholm",
+  "arms": {
+   "clean": {
+    "continuation": " Athens.\nQuestion: What is the capital of the country where Greek is the primary language?\n",
+    "entity_probe": " Greece.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Stockholm.\nQuestion: Is the following statement true or false?\nThe capital of the country where",
+    "entity_probe": ":\nA. Greece\nB."
+   },
+   "R": {
+    "continuation": " Stockholm.\nQuestion: What is the capital of the country where Greek is the primary language?\n",
+    "entity_probe": ":\nA. Greece\nB."
+   }
+  }
+ },
+ {
+  "index": 45,
+  "name": "ex2-language-capital-Hungarian",
+  "category": "language-capital",
+  "prompt": "Fact: The capital of the country where Hungarian is the primary language is",
+  "intermediate": "Hungary",
+  "swap_to": "Poland",
+  "answer": "Budapest",
+  "swap_answer": "Warsaw",
+  "arms": {
+   "clean": {
+    "continuation": " Budapest.\nQuestion: What is the capital of the country where Hungarian is the primary language?\n",
+    "entity_probe": " Hungary.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Budapest.\nQuestion: What is the capital of the country where Hungarian is the primary language?\n",
+    "entity_probe": " Hungary.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Budapest.\nQuestion: What is the capital of the country where Hungarian is the primary language?\n",
+    "entity_probe": " Hungary.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 46,
+  "name": "ex2-language-capital-Polish",
+  "category": "language-capital",
+  "prompt": "Fact: The capital of the country where Polish is the primary language is",
+  "intermediate": "Poland",
+  "swap_to": "Greece",
+  "answer": "Warsaw",
+  "swap_answer": "Athens",
+  "arms": {
+   "clean": {
+    "continuation": " Warsaw.\nQuestion: What is the capital of the country where Polish is the primary language?\n",
+    "entity_probe": " Poland.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Athens.\nQuestion: Is the following statement true, false, or uncertain?\nStatement: The",
+    "entity_probe": " Poland.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Athens.\nQuestion: Is the following statement true, false, or uncertain?\nStatement: The",
+    "entity_probe": " Poland.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 47,
+  "name": "ex2-language-capital-Swedish",
+  "category": "language-capital",
+  "prompt": "Fact: The capital of the country where Swedish is the primary language is",
+  "intermediate": "Sweden",
+  "swap_to": "Hungary",
+  "answer": "Stockholm",
+  "swap_answer": "Budapest",
+  "arms": {
+   "clean": {
+    "continuation": " Stockholm.\nQuestion: What is the capital of the country where Swedish is the primary language?\n",
+    "entity_probe": " Sweden.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Budapest.\nQuestion: Is the following statement true, false, or uncertain?\nStatement: The",
+    "entity_probe": " Sweden.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Budapest.\nQuestion: Is the following statement true, false, or cannot be determined?\nStatement",
+    "entity_probe": " Sweden.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 48,
+  "name": "ex2-river-capital-Thames",
+  "category": "river-capital",
+  "prompt": "Fact: The capital of the country where the Thames River reaches the sea is",
+  "intermediate": "England",
+  "swap_to": "Germany",
+  "answer": "London",
+  "swap_answer": "Berlin",
+  "arms": {
+   "clean": {
+    "continuation": " London.\nQuestion: What is the capital of the country where the Thames River reaches the sea?",
+    "entity_probe": " England.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Berlin.\nQuestion: What is the capital of the country where the Thames River reaches the sea?",
+    "entity_probe": "\nA. France\nB. Germany"
+   },
+   "R": {
+    "continuation": " Berlin.\nQuestion: What is the capital of the country where the Thames River reaches the sea?",
+    "entity_probe": "\nA. France\nB. Germany"
+   }
+  }
+ },
+ {
+  "index": 49,
+  "name": "food-animal-butter",
+  "category": "food-animal",
+  "prompt": "Fact: The animal that produces the yellow dairy spread used on bread is the",
+  "intermediate": "butter",
+  "swap_to": "honey",
+  "answer": "cow",
+  "swap_answer": "bee",
+  "arms": {
+   "clean": {
+    "continuation": " cow.\nQuestion: What is the yellow dairy spread used on bread?\nAnswer:\n\n<think>",
+    "entity_probe": " the cow.\nQuestion: What is"
+   },
+   "J": {
+    "continuation": " cow.\nQuestion: What is the yellow dairy spread used on bread?\nAnswer:\n\n<think>",
+    "entity_probe": " the cow.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": " cow.\nQuestion: What is the yellow dairy spread used on bread?\nAnswer:\n\n<think>",
+    "entity_probe": " the cow.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 51,
+  "name": "fruit-grows-grape",
+  "category": "fruit-grows",
+  "prompt": "Fact: The kind of plant that the small round fruit used to make wine grows on is a",
+  "intermediate": "grape",
+  "swap_to": "apple",
+  "answer": "vine",
+  "swap_answer": "tree",
+  "arms": {
+   "clean": {
+    "continuation": " vine.\nQuestion: What kind of plant is the small round fruit used to make wine grows on",
+    "entity_probe": " a vine.\nHypothesis:"
+   },
+   "J": {
+    "continuation": " vine.\nQuestion: What kind of plant is the small round fruit used to make wine grows on",
+    "entity_probe": " a vine.\nHypothesis:"
+   },
+   "R": {
+    "continuation": " vine.\nQuestion: What kind of plant is the small round fruit used to make wine grows on",
+    "entity_probe": " a vine.\nHypothesis:"
+   }
+  }
+ },
+ {
+  "index": 52,
+  "name": "func-filters-count",
+  "category": "multihop",
+  "prompt": "Fact: In humans, the number of organs that filter blood to make urine is ",
+  "intermediate": "kidney",
+  "swap_to": "liver",
+  "answer": "2",
+  "swap_answer": "1",
+  "arms": {
+   "clean": {
+    "continuation": "2.\nQuestion: How many organs in humans filter blood to make urine?\nOptions:\n",
+    "entity_probe": " the kidney.\nQuestion: What is"
+   },
+   "J": {
+    "continuation": "2.\nQuestion: How many organs in humans filter blood to make urine?\nOptions:\n",
+    "entity_probe": " the kidney.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": "1.\nQuestion: How many organs in humans filter blood to make urine?\nOptions:\n",
+    "entity_probe": " the kidney.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 53,
+  "name": "func-pumps-chambers",
+  "category": "multihop",
+  "prompt": "Fact: In humans, the organ that pumps blood through the body has this many chambers: ",
+  "intermediate": "heart",
+  "swap_to": "lung",
+  "answer": "4",
+  "swap_answer": "2",
+  "arms": {
+   "clean": {
+    "continuation": "4.\nQuestion: How many chambers does the heart have?\nOptions:\nA. ",
+    "entity_probe": " the heart.\nQuestion: What is"
+   },
+   "J": {
+    "continuation": "4.\nQuestion: How many chambers does the organ that pumps blood through the body have?\n",
+    "entity_probe": " the heart.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": "4.\nQuestion: How many chambers does the organ that pumps blood through the body have?\n",
+    "entity_probe": " the heart.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 54,
+  "name": "gem-color-ruby",
+  "category": "gem-color",
+  "prompt": "Fact: The color of the gemstone that is the traditional birthstone for July is",
+  "intermediate": "ruby",
+  "swap_to": "pearl",
+  "answer": "red",
+  "swap_answer": "white",
+  "arms": {
+   "clean": {
+    "continuation": " red.\nQuestion: What is the traditional birthstone for July?\nOptions:\n(A)",
+    "entity_probe": " a ruby.\nQuestion: What is"
+   },
+   "J": {
+    "continuation": " green.\nQuestion: What is the birthstone for July?\nOptions:\n(A). Ruby",
+    "entity_probe": " a ruby.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": " blue.\nQuestion: What is the traditional birthstone for July?\nOptions:\n(A)",
+    "entity_probe": " a ruby.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 56,
+  "name": "greatwall-ocean",
+  "category": "multihop",
+  "prompt": "Fact: The ocean east of the country that built the Great Wall is the",
+  "intermediate": "China",
+  "swap_to": "Brazil",
+  "answer": "Pacific",
+  "swap_answer": "Atlantic",
+  "arms": {
+   "clean": {
+    "continuation": " Pacific Ocean.\nQuestion: What is the ocean east of the country that built the Great Wall?",
+    "entity_probe": " the Pacific.\nQuestion: What is"
+   },
+   "J": {
+    "continuation": " Atlantic Ocean.\nQuestion: What is the ocean east of the country that built the Great Wall?",
+    "entity_probe": " the Atlantic.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": " Atlantic Ocean.\nQuestion: What is the ocean east of the country that built the Great Wall?",
+    "entity_probe": " the Atlantic.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 57,
+  "name": "holiday-month-christmas2",
+  "category": "holiday-month",
+  "prompt": "Fact: The month of the holiday celebrated with a decorated evergreen tree and gift-giving is",
+  "intermediate": "Christmas",
+  "swap_to": "Easter",
+  "answer": "December",
+  "swap_answer": "April",
+  "arms": {
+   "clean": {
+    "continuation": " December.\nQuestion: What is the name of the holiday celebrated with a decorated evergreen tree and",
+    "entity_probe": " a Christmas tree.\nQuestion: What"
+   },
+   "J": {
+    "continuation": " April.\nQuestion: What is the name of the holiday celebrated with a decorated evergreen tree and",
+    "entity_probe": " a holiday celebrated with a decorated evergreen"
+   },
+   "R": {
+    "continuation": " the 12th month of the year.\nQuestion: What is the name of the holiday",
+    "entity_probe": " Christmas.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 61,
+  "name": "month-3-godof",
+  "category": "multihop",
+  "prompt": "Fact: The third month of the year is named after the Roman god of",
+  "intermediate": "Mars",
+  "swap_to": "Venus",
+  "answer": "war",
+  "swap_answer": "love",
+  "arms": {
+   "clean": {
+    "continuation": " war.\nQuestion: What is the name of the third month of the year?\nOptions:",
+    "entity_probe": " the Roman god of war.\nQuestion"
+   },
+   "J": {
+    "continuation": " war.\nQuestion: What is the name of the third month of the year?\nOptions:",
+    "entity_probe": " the Roman god of war.\nQuestion"
+   },
+   "R": {
+    "continuation": " war.\nQuestion: What is the name of the third month of the year?\nOptions:",
+    "entity_probe": " the Roman god of war.\nQuestion"
+   }
+  }
+ },
+ {
+  "index": 63,
+  "name": "organ-count-kidney2",
+  "category": "organ-count",
+  "prompt": "Fact: The number of the bean-shaped organs that filter blood into urine in a human body is",
+  "intermediate": "kidney",
+  "swap_to": "heart",
+  "answer": "two",
+  "swap_answer": "one",
+  "arms": {
+   "clean": {
+    "continuation": " two.\nQuestion: How many kidneys does a human have?\nAnswer:\n\n<think>\nThinking",
+    "entity_probe": " the kidneys.\nQuestion: What is"
+   },
+   "J": {
+    "continuation": " two.\nQuestion: How many bean-shaped organs that filter blood into urine are in a human body",
+    "entity_probe": " the kidneys.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": " 2.\nQuestion: How many bean-shaped organs that filter blood into urine are in a human",
+    "entity_probe": " the kidneys.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 67,
+  "name": "paper-continent",
+  "category": "multihop",
+  "prompt": "Fact: The continent where the country that invented paper is located is",
+  "intermediate": "China",
+  "swap_to": "France",
+  "answer": "Asia",
+  "swap_answer": "Europe",
+  "arms": {
+   "clean": {
+    "continuation": " Asia.\nQuestion: What is the continent where the country that invented paper is located?\nOptions",
+    "entity_probe": " paper.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " Africa.\nQuestion: What is the continent where the country that invented paper is located?\nOptions",
+    "entity_probe": " paper.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " Africa.\nQuestion: What is the continent where the country that invented paper is located?\nOptions",
+    "entity_probe": " paper.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 69,
+  "name": "person-country-napoleon",
+  "category": "person-country",
+  "prompt": "Fact: The country whose army was led by the emperor defeated at Waterloo is",
+  "intermediate": "Napoleon",
+  "swap_to": "Lincoln",
+  "answer": "France",
+  "swap_answer": "America",
+  "arms": {
+   "clean": {
+    "continuation": " France.\nQuestion: What is the country whose army was led by the emperor defeated at Waterloo?",
+    "entity_probe": " the country whose army was led by the"
+   },
+   "J": {
+    "continuation": " the United Kingdom.\nQuestion: What is the country whose army was led by the emperor defeated at",
+    "entity_probe": " the country whose army was led by the"
+   },
+   "R": {
+    "continuation": " the United Kingdom.\nQuestion: What is the country whose army was led by the emperor defeated at",
+    "entity_probe": " the country whose army was led by the"
+   }
+  }
+ },
+ {
+  "index": 71,
+  "name": "person-firstname-darwin",
+  "category": "person-firstname",
+  "prompt": "Fact: The first name of the naturalist who proposed evolution by natural selection was",
+  "intermediate": "Darwin",
+  "swap_to": "Einstein",
+  "answer": "Charles",
+  "swap_answer": "Albert",
+  "arms": {
+   "clean": {
+    "continuation": " Charles.\nQuestion: What is the first name of the naturalist who proposed evolution by natural selection",
+    "entity_probe": " the first name of the naturalist who"
+   },
+   "J": {
+    "continuation": " Charles.\nQuestion: What is the first name of the naturalist who proposed evolution by natural selection",
+    "entity_probe": " a person.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": " Charles.\nQuestion: What is the first name of the naturalist who proposed evolution by natural selection",
+    "entity_probe": " the first name of the naturalist who"
+   }
+  }
+ },
+ {
+  "index": 72,
+  "name": "person-firstname-einstein",
+  "category": "person-firstname",
+  "prompt": "Fact: The first name of the physicist who developed the theory of general relativity was",
+  "intermediate": "Einstein",
+  "swap_to": "Newton",
+  "answer": "Albert",
+  "swap_answer": "Isaac",
+  "arms": {
+   "clean": {
+    "continuation": " Albert.\nQuestion: What is the first name of the physicist who developed the theory of general rel",
+    "entity_probe": " the theory of general relativity.\n"
+   },
+   "J": {
+    "continuation": " Albert.\nQuestion: What is the first name of the physicist who developed the theory of general rel",
+    "entity_probe": " the theory of general relativity.\n"
+   },
+   "R": {
+    "continuation": " Albert.\nQuestion: What is the first name of the physicist who developed the theory of general rel",
+    "entity_probe": " the theory of general relativity.\n"
+   }
+  }
+ },
+ {
+  "index": 73,
+  "name": "person-firstname-mozart",
+  "category": "person-firstname",
+  "prompt": "Fact: The first name of the child-prodigy composer from Salzburg who wrote The Magic Flute was",
+  "intermediate": "Mozart",
+  "swap_to": "Darwin",
+  "answer": "Wolfgang",
+  "swap_answer": "Charles",
+  "arms": {
+   "clean": {
+    "continuation": " Wolfgang.\nHypothesis: The child-prodigy composer from Salzburg who wrote The Magic Fl",
+    "entity_probe": " a musical composition.\nQuestion: What"
+   },
+   "J": {
+    "continuation": " Wolfgang.\nHypothesis: The child-prodigy composer from Salzburg who wrote The Magic Fl",
+    "entity_probe": " a person.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": " Wolfgang.\nHypothesis: The child-prodigy composer from Salzburg who wrote The Magic Fl",
+    "entity_probe": " a person.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 74,
+  "name": "person-firstname-newton",
+  "category": "person-firstname",
+  "prompt": "Fact: The first name of the scientist on whose head an apple is said to have fallen was",
+  "intermediate": "Newton",
+  "swap_to": "Shakespeare",
+  "answer": "Isaac",
+  "swap_answer": "William",
+  "arms": {
+   "clean": {
+    "continuation": " Isaac.\nQuestion: What is the first name of the scientist on whose head an apple is said",
+    "entity_probe": " an apple.\nQuestion: What is"
+   },
+   "J": {
+    "continuation": " Isaac.\nQuestion: What is the first name of the scientist on whose head an apple is said",
+    "entity_probe": " an apple.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": " Isaac.\nQuestion: What is the first name of the scientist on whose head an apple is said",
+    "entity_probe": " an apple.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 75,
+  "name": "person-firstname-shakespeare",
+  "category": "person-firstname",
+  "prompt": "Fact: The first name of the playwright who wrote Romeo and Juliet was",
+  "intermediate": "Shakespeare",
+  "swap_to": "Mozart",
+  "answer": "William",
+  "swap_answer": "Wolfgang",
+  "arms": {
+   "clean": {
+    "continuation": " William.\nQuestion: What is the first name of the playwright who wrote Romeo and Juliet?\n",
+    "entity_probe": " the first name of the playwright who wrote"
+   },
+   "J": {
+    "continuation": " Wolfgang.\nQuestion: What is the first name of the playwright who wrote Romeo and Juliet?\n",
+    "entity_probe": " the first name of the playwright who wrote"
+   },
+   "R": {
+    "continuation": " Wolfgang.\nQuestion: What is the first name of the playwright who wrote Romeo and Juliet?\n",
+    "entity_probe": " the first name of the playwright who wrote"
+   }
+  }
+ },
+ {
+  "index": 76,
+  "name": "planet-3-moons",
+  "category": "multihop",
+  "prompt": "Fact: The number of natural moons orbiting the planet third from the Sun is ",
+  "intermediate": "Earth",
+  "swap_to": "Mars",
+  "answer": "1",
+  "swap_answer": "2",
+  "arms": {
+   "clean": {
+    "continuation": "1.\nQuestion: How many natural moons orbit the planet third from the Sun?\nAnswer:",
+    "entity_probe": " a planet.\nQuestion: What is"
+   },
+   "J": {
+    "continuation": "2.\nQuestion: How many natural moons orbit the planet third from the Sun?\nAnswer:",
+    "entity_probe": " a planet.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": "2.\nQuestion: How many natural moons orbit the planet third from the Sun?\nOptions:",
+    "entity_probe": " a planet.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 77,
+  "name": "planet-rings-saturn2",
+  "category": "planet-feature",
+  "prompt": "Fact: The most famous feature of the sixth planet from the Sun is its",
+  "intermediate": "Saturn",
+  "swap_to": "Jupiter",
+  "answer": "rings",
+  "swap_answer": "spot",
+  "arms": {
+   "clean": {
+    "continuation": " rings.\nQuestion: What is the sixth planet from the Saturn?\nOptions:\n(A).",
+    "entity_probe": " the sixth planet from the Sun.\n"
+   },
+   "J": {
+    "continuation": " rings.\nQuestion: What is the most famous feature of the sixth planet from the Sun?\n",
+    "entity_probe": " the sixth planet from the Sun.\n"
+   },
+   "R": {
+    "continuation": " rings.\nQuestion: What is the most famous feature of the sixth planet from the Sun?\n",
+    "entity_probe": " the sixth planet from the Sun.\n"
+   }
+  }
+ },
+ {
+  "index": 81,
+  "name": "season-next-winter",
+  "category": "season-next",
+  "prompt": "Fact: The season that comes immediately after the coldest season of the year is",
+  "intermediate": "winter",
+  "swap_to": "summer",
+  "answer": "spring",
+  "swap_answer": "autumn",
+  "arms": {
+   "clean": {
+    "continuation": " spring.\nQuestion: What season comes after winter?\nAnswer:\n\n<think>\nThinking Process:",
+    "entity_probe": " the season that comes immediately after the col"
+   },
+   "J": {
+    "continuation": " the season that comes immediately before the hottest season of the year.\nQuestion: What season comes immediately",
+    "entity_probe": " the season that comes immediately after the col"
+   },
+   "R": {
+    "continuation": " spring.\nQuestion: What season comes after the coldest season of the year?\nOptions:",
+    "entity_probe": " the season that comes immediately after the col"
+   }
+  }
+ },
+ {
+  "index": 82,
+  "name": "spaceneedle-border",
+  "category": "multihop",
+  "prompt": "Fact: The US state where the Space Needle is located shares its northern border with",
+  "intermediate": "Seattle",
+  "swap_to": "Philadelphia",
+  "answer": "Canada",
+  "swap_answer": "New",
+  "arms": {
+   "clean": {
+    "continuation": " Canada.\nQuestion: What is the name of the US state where the Space Needle is located?",
+    "entity_probe": " the Space Needle.\nQuestion: What"
+   },
+   "J": {
+    "continuation": " the state where the Empire State Building is located.\nQuestion: What is the name of the US",
+    "entity_probe": " the Space Needle.\nQuestion: What"
+   },
+   "R": {
+    "continuation": " the state where the Empire State Building is located.\nQuestion: What is the name of the US",
+    "entity_probe": " the Space Needle.\nQuestion: What"
+   }
+  }
+ },
+ {
+  "index": 83,
+  "name": "spider-legs",
+  "category": "multihop",
+  "prompt": "Fact: The number of legs on the animal that spins webs is ",
+  "intermediate": "spider",
+  "swap_to": "ant",
+  "answer": "8",
+  "swap_answer": "6",
+  "arms": {
+   "clean": {
+    "continuation": "8.\nQuestion: How many legs does the animal that spins webs have?\nAnswer:\n\n",
+    "entity_probe": " a spider.\nQuestion: How many"
+   },
+   "J": {
+    "continuation": "4.\nQuestion: How many legs does the animal that spins webs have?\nAnswer:\n\n",
+    "entity_probe": " the animal that spins webs.\nQuestion"
+   },
+   "R": {
+    "continuation": "8.\nQuestion: How many legs does the animal that spins webs have?\nAnswer:\n\n",
+    "entity_probe": " a spider.\nQuestion: What is"
+   }
+  }
+ },
+ {
+  "index": 85,
+  "name": "super-populous-capital",
+  "category": "multihop",
+  "prompt": "Fact: The capital city of the most populous country in the world is",
+  "intermediate": "China",
+  "swap_to": "India",
+  "answer": "Beijing",
+  "swap_answer": "Delhi",
+  "arms": {
+   "clean": {
+    "continuation": " Beijing.\nQuestion: What is the capital city of the most populous country in the world?\n",
+    "entity_probe": " Beijing.\nQuestion: What is the"
+   },
+   "J": {
+    "continuation": " New Delhi.\nQuestion: What is the capital city of the most populous country in the world?",
+    "entity_probe": " Beijing.\nQuestion: What is the"
+   },
+   "R": {
+    "continuation": " New Delhi.\nQuestion: What is the capital city of the most populous country in the world?",
+    "entity_probe": " Beijing.\nQuestion: What is the"
+   }
+  }
+ },
+ {
+  "index": 86,
+  "name": "super-smallest-continent",
+  "category": "multihop",
+  "prompt": "Fact: The smallest country in the world is located on the continent of",
+  "intermediate": "Vatican",
+  "swap_to": "Singapore",
+  "answer": "Europe",
+  "swap_answer": "Asia",
+  "arms": {
+   "clean": {
+    "continuation": " Europe.\nQuestion: What is the smallest country in the world?\nAnswer:\n\nVatican",
+    "entity_probe": " the smallest country in the world.\n"
+   },
+   "J": {
+    "continuation": " Europe.\nQuestion: What is the smallest country in the world?\nAnswer:\n\nVatican",
+    "entity_probe": " the smallest country in the world.\n"
+   },
+   "R": {
+    "continuation": " Europe.\nQuestion: What is the smallest country in the world?\nAnswer:\n\nVatican",
+    "entity_probe": " the smallest country in the world.\n"
+   }
+  }
+ },
+ {
+  "index": 88,
+  "name": "vehicle-power-bicycle",
+  "category": "vehicle-power",
+  "prompt": "Fact: The source of power for the two-wheeled vehicle ridden in the Tour de France is the rider's",
+  "intermediate": "bicycle",
+  "swap_to": "train",
+  "answer": "legs",
+  "swap_answer": "engine",
+  "arms": {
+   "clean": {
+    "continuation": " legs.\nQuestion: What is the source of power for the two-wheeled vehicle ridden in",
+    "entity_probe": " the Tour de France.\nQuestion:"
+   },
+   "J": {
+    "continuation": " legs.\nQuestion: What is the source of power for the two-wheeled vehicle ridden in",
+    "entity_probe": " the Tour de France.\nQuestion:"
+   },
+   "R": {
+    "continuation": " legs.\nHypothesis: The Tour de France is a race for two-wheeled vehicles",
+    "entity_probe": " the Tour de France.\nQuestion:"
+   }
+  }
+ },
+ {
+  "index": 89,
+  "name": "violin-strings",
+  "category": "multihop",
+  "prompt": "Fact: The number of strings on the instrument that fiddlers play is ",
+  "intermediate": "violin",
+  "swap_to": "guitar",
+  "answer": "4",
+  "swap_answer": "6",
+  "arms": {
+   "clean": {
+    "continuation": "4.\nQuestion: How many strings does the instrument that fiddlers play have?\nAnswer",
+    "entity_probe": " the number of strings on the instrument that"
+   },
+   "J": {
+    "continuation": "4.\nQuestion: How many strings does the instrument that fiddlers play have?\nAnswer",
+    "entity_probe": " the violin.\nQuestion: What is"
+   },
+   "R": {
+    "continuation": "4.\nQuestion: How many strings does the instrument that fiddlers play have?\nAnswer",
+    "entity_probe": " the number of strings on the instrument that"
+   }
+  }
+ }
+]
