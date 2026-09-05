@@ -1,4 +1,6 @@
-# Draft: upstream issue for TransformerLens `tools.analysis.jacobian_lens` (not filed)
+# Upstream issue for TransformerLens `tools.analysis.jacobian_lens`
+
+Filed as [TransformerLens issue #1746](https://github.com/TransformerLensOrg/TransformerLens/issues/1746), with [PR #1747](https://github.com/TransformerLensOrg/TransformerLens/pull/1747). The text below is the draft the issue was written from.
 
 **Title:** `JacobianLens.swap_hooks` re-reads the lens coordinates from the already-patched activation at each layer, so applying it across an even number of band layers cancels itself (the paper's protocol clamps to clean-pass coordinates)
 
