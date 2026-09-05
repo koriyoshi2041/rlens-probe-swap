@@ -15,8 +15,8 @@ def make() -> None:
     resc = rescued_by_clamp4()
     groups = [
         ("band clamp\nflips", [i for i in r63 if i not in zero], BLUE),
-        ("never flips,\nclamp ×4 rescues", [i for i in r63 if i in zero and i in resc], GRAY_DARK),
-        ("never flips,\nclamp ×4 fails", [i for i in r63 if i in zero and i not in resc], GRAY),
+        ("no band-clamp flip,\nclamp ×4 rescues", [i for i in r63 if i in zero and i in resc], GRAY_DARK),
+        ("no band-clamp flip,\nclamp ×4 fails", [i for i in r63 if i in zero and i not in resc], GRAY),
     ]
     rng = np.random.default_rng(0)
     fig, ax = plt.subplots(figsize=(3.4, 2.7))

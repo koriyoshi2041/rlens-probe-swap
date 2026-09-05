@@ -14,7 +14,7 @@ def make() -> None:
     apply()
     rows = sel(load_jsonl("block46_subspace_ladder/subspace_ladder.jsonl"), donor="relation")
     zero = zero_set_9b()
-    groups = [("all items", lambda i: True, BLUE), ("items the band clamp never flips", lambda i: i in zero, GRAY)]
+    groups = [("all items", lambda i: True, BLUE), ("items the band clamp does not flip", lambda i: i in zero, GRAY)]
     fig, ax = plt.subplots(figsize=(6.2, 2.6))
     w = 0.38
     x = np.arange(len(ARMS))

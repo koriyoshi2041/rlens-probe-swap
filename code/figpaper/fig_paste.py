@@ -15,7 +15,7 @@ def make() -> None:
     rows = sel(load_jsonl("block31_donor_paste/donor_paste.jsonl"), position_set="best")
     foil = sel(load_jsonl("block31_donor_paste_foil/donor_paste.jsonl"), position_set="best", arm="paste_full")
     zero = zero_set_9b()
-    groups = [("all items", lambda i: True, BLUE), ("items the band clamp never flips", lambda i: i in zero, GRAY)]
+    groups = [("all items", lambda i: True, BLUE), ("items the band clamp does not flip", lambda i: i in zero, GRAY)]
     fig, ax = plt.subplots(figsize=(4.4, 2.6))
     w = 0.36
     x = np.arange(len(ARMS))

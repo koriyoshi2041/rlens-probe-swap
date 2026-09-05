@@ -29,8 +29,8 @@ def make() -> None:
     ids = sorted(src["b66"])
     groups = [
         ("band clamp flips", [i for i in ids if i not in zero], BLUE),
-        ("never flips, clamp ×4 rescues", [i for i in ids if i in zero and i in resc], GRAY_DARK),
-        ("never flips, clamp ×4 fails", [i for i in ids if i in zero and i not in resc], GRAY),
+        ("no band-clamp flip, clamp ×4 rescues", [i for i in ids if i in zero and i in resc], GRAY_DARK),
+        ("no band-clamp flip, clamp ×4 fails", [i for i in ids if i in zero and i not in resc], GRAY),
     ]
     fig, ax = plt.subplots(figsize=(6.6, 2.8))
     w = 0.26
